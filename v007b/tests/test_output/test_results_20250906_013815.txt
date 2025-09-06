@@ -1,0 +1,736 @@
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.889769
+Input: La famille bélier
+Expected: La famille bélier
+Got: {
+  "original": "La famille bélier",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "La famille bélier",
+  "clean_title": "La famille bélier",
+  "extras_bits": [],
+  "words": [],
+  "media_type": "unknown",
+  "matched_clues": {},
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.891135
+Input: La.famille.bélier
+Expected: La famille bélier
+Got: {
+  "original": "La.famille.bélier",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "La.famille",
+  "clean_title": "La famille",
+  "extras_bits": [],
+  "words": [
+    ".bélier"
+  ],
+  "media_type": "unknown",
+  "matched_clues": {},
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.892249
+Input: La.famille.bélier
+Expected: La famille bélier
+Got: "Expected 'La famille bélier' but got 'La famille' for input 'La.famille.bélier'\nassert 'la famille' == 'la famille bélier'\n  \n  \u001b[0m\u001b[91m- la famille bélier\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ la famille\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.904416
+Input: Mr. Nobody
+Expected: Mr. Nobody
+Got: {
+  "original": "Mr. Nobody",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "Mr",
+  "clean_title": "Mr",
+  "extras_bits": [],
+  "words": [
+    ". Nobody"
+  ],
+  "media_type": "unknown",
+  "matched_clues": {},
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.904837
+Input: Mr. Nobody
+Expected: Mr. Nobody
+Got: "Expected 'Mr. Nobody' but got 'Mr' for input 'Mr. Nobody'\nassert 'mr' == 'mr. nobody'\n  \n  \u001b[0m\u001b[91m- mr. nobody\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ mr\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.910428
+Input: doctor_who_2005.8x12.death_in_heaven.720p_hdtv_x264-fov
+Expected: doctor who
+Got: {
+  "original": "doctor_who_2005.8x12.death_in_heaven.720p_hdtv_x264-fov",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "2005"
+  ],
+  "possible_title": "doctor_who",
+  "clean_title": "doctor who",
+  "extras_bits": [
+    "720p"
+  ],
+  "words": [
+    ".8x12.death_in_heaven.",
+    "_hdtv_x264-fov"
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "resolution_clues": [
+      "720p",
+      "HD"
+    ],
+    "quality_clues": [
+      "HDTV"
+    ]
+  },
+  "resolution_clues": [
+    "720p",
+    "HD"
+  ],
+  "audio_clues": [],
+  "quality_clues": [
+    "HDTV"
+  ],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.912336
+Input: [GM-Team][国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality Ⅲ][01-26][AVC][GB][1080P]
+Expected: Magical Legend of Rise to immortality Ⅲ
+Got: {
+  "original": "[GM-Team][国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality Ⅲ][01-26][AVC][GB][1080P]",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "[GM-Team][国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality Ⅲ][01-26][AVC][GB",
+  "clean_title": "[国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality III][01 26][AVC][GB",
+  "extras_bits": [
+    "1080p"
+  ],
+  "words": [],
+  "media_type": "unknown",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.912929
+Input: [GM-Team][国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality Ⅲ][01-26][AVC][GB][1080P]
+Expected: Magical Legend of Rise to immortality Ⅲ
+Got: "Expected 'Magical Legend of Rise to immortality Ⅲ' but got '[国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality III][01 26][AVC][GB' for input '[GM-Team][国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality Ⅲ][01-26][AVC][GB][1080P]'\nassert '[国漫][太乙仙魔录 灵...1 26][avc][gb' == 'magical lege...immortality ⅲ'\n  \n  \u001b[0m\u001b[91m- magical legend of rise to immortality ⅲ\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ [国漫][太乙仙魔录 灵飞纪 第3季][magical legend of rise to immortality iii][01 26][avc][gb\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.918719
+Input: 【喵萌奶茶屋】★01月新番★[Rebirth][01][720p][简体][招募翻译]
+Expected: Rebirth
+Got: {
+  "original": "【喵萌奶茶屋】★01月新番★[Rebirth][01][720p][简体][招募翻译]",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "【喵萌奶茶屋】★01月新番★[Rebirth][01",
+  "clean_title": "【喵萌奶茶屋】★01月新番★[Rebirth][01",
+  "extras_bits": [
+    "720p"
+  ],
+  "words": [
+    "][简体][招募翻译]"
+  ],
+  "media_type": "unknown",
+  "matched_clues": {
+    "resolution_clues": [
+      "720p"
+    ]
+  },
+  "resolution_clues": [
+    "720p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.919206
+Input: 【喵萌奶茶屋】★01月新番★[Rebirth][01][720p][简体][招募翻译]
+Expected: Rebirth
+Got: "Expected 'Rebirth' but got '【喵萌奶茶屋】★01月新番★[Rebirth][01' for input '【喵萌奶茶屋】★01月新番★[Rebirth][01][720p][简体][招募翻译]'\nassert '【喵萌奶茶屋】★01月新番★[rebirth][01' == 'rebirth'\n  \n  \u001b[0m\u001b[91m- rebirth\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ 【喵萌奶茶屋】★01月新番★[rebirth][01\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.924561
+Input: 【喵萌奶茶屋】★01月新番★[別對映像研出手！/Eizouken ni wa Te wo Dasu na！/映像研には手を出すな！][01][1080p][繁體]
+Expected: Eizouken ni wa Te wo Dasu na!
+Got: {
+  "original": "【喵萌奶茶屋】★01月新番★[別對映像研出手！/Eizouken ni wa Te wo Dasu na！/映像研には手を出すな！][01][1080p][繁體]",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "【喵萌奶茶屋】★01月新番★[別對映像研出手！/Eizouken ni wa Te wo Dasu na！/映像研には手を出すな！][01",
+  "clean_title": "映像研には手を出すな!][01",
+  "extras_bits": [
+    "1080p"
+  ],
+  "words": [
+    "][繁體]"
+  ],
+  "media_type": "unknown",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.925032
+Input: 【喵萌奶茶屋】★01月新番★[別對映像研出手！/Eizouken ni wa Te wo Dasu na！/映像研には手を出すな！][01][1080p][繁體]
+Expected: Eizouken ni wa Te wo Dasu na!
+Got: "Expected 'Eizouken ni wa Te wo Dasu na!' but got '映像研には手を出すな!][01' for input '【喵萌奶茶屋】★01月新番★[別對映像研出手！/Eizouken ni wa Te wo Dasu na！/映像研には手を出すな！][01][1080p][繁體]'\nassert '映像研には手を出すな!][01' == 'eizouken ni ...e wo dasu na!'\n  \n  \u001b[0m\u001b[91m- eizouken ni wa te wo dasu na!\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ 映像研には手を出すな!][01\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.931729
+Input: 【喵萌奶茶屋】★01月新番★[別對映像研出手！/Eizouken ni wa Te wo Dasu na！/映像研には手を出すな！][01][1080p][繁體]
+Expected: Eizouken ni wa Te wo Dasu na!
+Got: {
+  "original": "【喵萌奶茶屋】★01月新番★[別對映像研出手！/Eizouken ni wa Te wo Dasu na！/映像研には手を出すな！][01][1080p][繁體]",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "【喵萌奶茶屋】★01月新番★[別對映像研出手！/Eizouken ni wa Te wo Dasu na！/映像研には手を出すな！][01",
+  "clean_title": "映像研には手を出すな!][01",
+  "extras_bits": [
+    "1080p"
+  ],
+  "words": [
+    "][繁體]"
+  ],
+  "media_type": "unknown",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.932257
+Input: 【喵萌奶茶屋】★01月新番★[別對映像研出手！/Eizouken ni wa Te wo Dasu na！/映像研には手を出すな！][01][1080p][繁體]
+Expected: Eizouken ni wa Te wo Dasu na!
+Got: "Expected 'Eizouken ni wa Te wo Dasu na!' but got '映像研には手を出すな!][01' for input '【喵萌奶茶屋】★01月新番★[別對映像研出手！/Eizouken ni wa Te wo Dasu na！/映像研には手を出すな！][01][1080p][繁體]'\nassert '映像研には手を出すな!][01' == 'eizouken ni ...e wo dasu na!'\n  \n  \u001b[0m\u001b[91m- eizouken ni wa te wo dasu na!\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ 映像研には手を出すな!][01\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.936860
+Input: [Seed-Raws] 劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC AACx4 [5.1+2.0+2.0+2.0]).mp4
+Expected: Penguin Highway The Movie
+Got: {
+  "original": "[Seed-Raws] 劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC AACx4 [5.1+2.0+2.0+2.0]).mp4",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "[Seed-Raws] 劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC",
+  "clean_title": "劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC",
+  "extras_bits": [
+    "AAC"
+  ],
+  "words": [
+    ".mp4",
+    "x4"
+  ],
+  "media_type": "unknown",
+  "matched_clues": {
+    "audio_clues": [
+      "AAC",
+      "5.1"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [
+    "AAC",
+    "5.1"
+  ],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.937395
+Input: [Seed-Raws] 劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC AACx4 [5.1+2.0+2.0+2.0]).mp4
+Expected: Penguin Highway The Movie
+Got: "Expected 'Penguin Highway The Movie' but got '劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC' for input '[Seed-Raws] 劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC AACx4 [5.1+2.0+2.0+2.0]).mp4'\nassert '劇場版 ペンギン・ハイウ... 1280x720 avc' == 'penguin highway the movie'\n  \n  \u001b[0m\u001b[91m- penguin highway the movie\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ 劇場版 ペンギン・ハイウェイ penguin highway the movie (bd 1280x720 avc\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.944132
+Input: [SweetSub][Mutafukaz / MFKZ][Movie][BDRip][1080P][AVC 8bit][简体内嵌]
+Expected: Mutafukaz / MFKZ
+Got: {
+  "original": "[SweetSub][Mutafukaz / MFKZ][Movie][BDRip][1080P][AVC 8bit][简体内嵌]",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "[SweetSub][Mutafukaz / MFKZ][Movie",
+  "clean_title": "MFKZ][Movie",
+  "extras_bits": [
+    "BluRay",
+    "1080p"
+  ],
+  "words": [
+    "][AVC"
+  ],
+  "media_type": "unknown",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ],
+    "quality_clues": [
+      "BluRay",
+      "BDRip",
+      "TS"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [
+    "BluRay",
+    "BDRip",
+    "TS"
+  ],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.944706
+Input: [SweetSub][Mutafukaz / MFKZ][Movie][BDRip][1080P][AVC 8bit][简体内嵌]
+Expected: Mutafukaz / MFKZ
+Got: "Expected 'Mutafukaz / MFKZ' but got 'MFKZ][Movie' for input '[SweetSub][Mutafukaz / MFKZ][Movie][BDRip][1080P][AVC 8bit][简体内嵌]'\nassert 'mfkz][movie' == 'mutafukaz / mfkz'\n  \n  \u001b[0m\u001b[91m- mutafukaz / mfkz\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ mfkz][movie\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.949064
+Input: [Erai-raws] Kingdom 3rd Season - 02 [1080p].mkv
+Expected: Kingdom
+Got: {
+  "original": "[Erai-raws] Kingdom 3rd Season - 02 [1080p].mkv",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "[Erai-raws] Kingdom 3rd Season - 02",
+  "clean_title": "Kingdom 3rd Season 02",
+  "extras_bits": [
+    "1080p"
+  ],
+  "words": [
+    ".mkv"
+  ],
+  "media_type": "unknown",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ],
+    "release_groups_anime": [
+      "Erai-raws"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.949615
+Input: [Erai-raws] Kingdom 3rd Season - 02 [1080p].mkv
+Expected: Kingdom
+Got: "Expected 'Kingdom' but got 'Kingdom 3rd Season 02' for input '[Erai-raws] Kingdom 3rd Season - 02 [1080p].mkv'\nassert 'kingdom 3rd season 02' == 'kingdom'\n  \n  \u001b[0m\u001b[91m- kingdom\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ kingdom 3rd season 02\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.955743
+Input: Голубая волна / Blue Crush (2002) DVDRip
+Expected: Blue Crush
+Got: {
+  "original": "Голубая волна / Blue Crush (2002) DVDRip",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "2002"
+  ],
+  "possible_title": "Голубая волна / Blue Crush (2002) DVDRip",
+  "clean_title": "Blue Crush (2002) DVDRip",
+  "extras_bits": [],
+  "words": [],
+  "media_type": "movie",
+  "matched_clues": {
+    "quality_clues": [
+      "DVDRip"
+    ],
+    "misc_clues": [
+      "DV"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [
+    "DVDRip"
+  ],
+  "release_groups": [],
+  "misc_clues": [
+    "DV"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.956270
+Input: Голубая волна / Blue Crush (2002) DVDRip
+Expected: Blue Crush
+Got: "Expected 'Blue Crush' but got 'Blue Crush (2002) DVDRip' for input 'Голубая волна / Blue Crush (2002) DVDRip'\nassert 'blue crush (2002) dvdrip' == 'blue crush'\n  \n  \u001b[0m\u001b[91m- blue crush\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ blue crush (2002) dvdrip\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.960716
+Input: Жихарка (2007) DVDRip
+Expected: Жихарка
+Got: {
+  "original": "Жихарка (2007) DVDRip",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "2007"
+  ],
+  "possible_title": "Жихарка (2007) DVDRip",
+  "clean_title": "Жихарка (2007) DVDRip",
+  "extras_bits": [],
+  "words": [],
+  "media_type": "movie",
+  "matched_clues": {
+    "quality_clues": [
+      "DVDRip"
+    ],
+    "misc_clues": [
+      "DV"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [
+    "DVDRip"
+  ],
+  "release_groups": [],
+  "misc_clues": [
+    "DV"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.961227
+Input: Жихарка (2007) DVDRip
+Expected: Жихарка
+Got: "Expected 'Жихарка' but got 'Жихарка (2007) DVDRip' for input 'Жихарка (2007) DVDRip'\nassert 'жихарка (2007) dvdrip' == 'жихарка'\n  \n  \u001b[0m\u001b[91m- жихарка\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ жихарка (2007) dvdrip\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.967944
+Input: 3 Миссия невыполнима 3 2006г. BDRip 1080p.mkv
+Expected: 3 Миссия невыполнима 3
+Got: {
+  "original": "3 Миссия невыполнима 3 2006г. BDRip 1080p.mkv",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "2006"
+  ],
+  "possible_title": "3 Миссия невыполнима 3 2006г. BDRip",
+  "clean_title": "3 Миссия невыполнима 3 2006г BDRip",
+  "extras_bits": [
+    "1080p",
+    "BluRay"
+  ],
+  "words": [
+    ".mkv",
+    "г."
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ],
+    "quality_clues": [
+      "BluRay",
+      "BDRip"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [
+    "BluRay",
+    "BDRip"
+  ],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.968730
+Input: 3 Миссия невыполнима 3 2006г. BDRip 1080p.mkv
+Expected: 3 Миссия невыполнима 3
+Got: "Expected '3 Миссия невыполнима 3' but got '3 Миссия невыполнима 3 2006г BDRip' for input '3 Миссия невыполнима 3 2006г. BDRip 1080p.mkv'\nassert '3 миссия нев...3 2006г bdrip' == '3 миссия невыполнима 3'\n  \n  \u001b[0m\u001b[91m- 3 миссия невыполнима 3\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ 3 миссия невыполнима 3 2006г bdrip\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  ?                       ++++++++++++\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.975800
+Input: 1. Детские игры. 1988. 1080p. HEVC. 10bit..mkv
+Expected: 1. Детские игры
+Got: {
+  "original": "1. Детские игры. 1988. 1080p. HEVC. 10bit..mkv",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "1988"
+  ],
+  "possible_title": "1. Детские игры",
+  "clean_title": "1 Детские игры",
+  "extras_bits": [
+    "1080p"
+  ],
+  "words": [
+    ".mkv"
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.976474
+Input: 1. Детские игры. 1988. 1080p. HEVC. 10bit..mkv
+Expected: 1. Детские игры
+Got: "Expected '1. Детские игры' but got '1 Детские игры' for input '1. Детские игры. 1988. 1080p. HEVC. 10bit..mkv'\nassert '1 детские игры' == '1. детские игры'\n  \n  \u001b[0m\u001b[91m- 1. детские игры\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  ?  -\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ 1 детские игры\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.983601
+Input: 01. 100 девчонок и одна в лифте 2000 WEBRip 1080p.mkv
+Expected: 01. 100 девчонок и одна в лифте
+Got: {
+  "original": "01. 100 девчонок и одна в лифте 2000 WEBRip 1080p.mkv",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "2000"
+  ],
+  "possible_title": "01. 100 девчонок и одна в лифте 2000 WEBRip",
+  "clean_title": "01 100 девчонок и одна в лифте 2000 WEBRip",
+  "extras_bits": [
+    "1080p"
+  ],
+  "words": [
+    ".mkv"
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ],
+    "quality_clues": [
+      "WEBRip"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [
+    "WEBRip"
+  ],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.984361
+Input: 01. 100 девчонок и одна в лифте 2000 WEBRip 1080p.mkv
+Expected: 01. 100 девчонок и одна в лифте
+Got: "Expected '01. 100 девчонок и одна в лифте' but got '01 100 девчонок и одна в лифте 2000 WEBRip' for input '01. 100 девчонок и одна в лифте 2000 WEBRip 1080p.mkv'\nassert '01 100 девчо...е 2000 webrip' == '01. 100 девч... одна в лифте'\n  \n  \u001b[0m\u001b[91m- 01. 100 девчонок и одна в лифте\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  ?   -\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ 01 100 девчонок и одна в лифте 2000 webrip\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  ?                               ++++++++++++\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.991236
+Input: 08.Планета.обезьян.Революция.2014.BDRip-HEVC.1080p.mkv
+Expected: 08 Планета обезьян Революция
+Got: {
+  "original": "08.Планета.обезьян.Революция.2014.BDRip-HEVC.1080p.mkv",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "2014"
+  ],
+  "possible_title": "08.Планета.обезьян.Революция",
+  "clean_title": "08 Планета обезьян Революция",
+  "extras_bits": [
+    "BluRay",
+    "1080p"
+  ],
+  "words": [
+    ".mkv",
+    "-HEVC."
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ],
+    "quality_clues": [
+      "BluRay",
+      "BDRip"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [
+    "BluRay",
+    "BDRip"
+  ],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.993422
+Input: Американские животные / American Animals (Барт Лэйтон / Bart Layton) [2018, Великобритания, США, драма, криминал, BDRip] MVO (СВ Студия)
+Expected: American Animals
+Got: {
+  "original": "Американские животные / American Animals (Барт Лэйтон / Bart Layton) [2018, Великобритания, США, драма, криминал, BDRip] MVO (СВ Студия)",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "2018"
+  ],
+  "possible_title": "Американские животные / American Animals (Барт Лэйтон / Bart Layton) [2018, Великобритания, США, драма, криминал, BDRip] MVO (СВ Студия",
+  "clean_title": "Bart Layton) [2018, Великобритания, США, драма, криминал, BDRip] MVO (СВ Студия",
+  "extras_bits": [
+    "BluRay"
+  ],
+  "words": [],
+  "media_type": "movie",
+  "matched_clues": {
+    "quality_clues": [
+      "BluRay",
+      "BDRip"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [
+    "BluRay",
+    "BDRip"
+  ],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:38:15.994009
+Input: Американские животные / American Animals (Барт Лэйтон / Bart Layton) [2018, Великобритания, США, драма, криминал, BDRip] MVO (СВ Студия)
+Expected: American Animals
+Got: "Expected 'American Animals' but got 'Bart Layton) [2018, Великобритания, США, драма, криминал, BDRip] MVO (СВ Студия' for input 'Американские животные / American Animals (Барт Лэйтон / Bart Layton) [2018, Великобритания, США, драма, криминал, BDRip] MVO (СВ Студия)'\nassert 'bart layton)...vo (св студия' == 'american animals'\n  \n  \u001b[0m\u001b[91m- american animals\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ bart layton) [2018, великобритания, сша, драма, криминал, bdrip] mvo (св студия\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False

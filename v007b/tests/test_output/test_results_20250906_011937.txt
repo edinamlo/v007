@@ -1,0 +1,427 @@
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.127440
+Input: La famille bélier
+Expected: La famille bélier
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.147268
+Input: La.famille.bélier
+Expected: La famille bélier
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.156823
+Input: Mr. Nobody
+Expected: Mr. Nobody
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.167391
+Input: doctor_who_2005.8x12.death_in_heaven.720p_hdtv_x264-fov
+Expected: doctor who
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.176498
+Input: [GM-Team][国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality Ⅲ][01-26][AVC][GB][1080P]
+Expected: Magical Legend of Rise to immortality Ⅲ
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.185874
+Input: 【喵萌奶茶屋】★01月新番★[Rebirth][01][720p][简体][招募翻译]
+Expected: Rebirth
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.195211
+Input: 【喵萌奶茶屋】★01月新番★[別對映像研出手！/Eizouken ni wa Te wo Dasu na！/映像研には手を出すな！][01][1080p][繁體]
+Expected: Eizouken ni wa Te wo Dasu na!
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.204403
+Input: 【喵萌奶茶屋】★01月新番★[別對映像研出手！/Eizouken ni wa Te wo Dasu na！/映像研には手を出すな！][01][1080p][繁體]
+Expected: Eizouken ni wa Te wo Dasu na!
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.216152
+Input: [Seed-Raws] 劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC AACx4 [5.1+2.0+2.0+2.0]).mp4
+Expected: Penguin Highway The Movie
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.230080
+Input: [SweetSub][Mutafukaz / MFKZ][Movie][BDRip][1080P][AVC 8bit][简体内嵌]
+Expected: Mutafukaz / MFKZ
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.239708
+Input: [Erai-raws] Kingdom 3rd Season - 02 [1080p].mkv
+Expected: Kingdom
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.249874
+Input: Голубая волна / Blue Crush (2002) DVDRip
+Expected: Blue Crush
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.260656
+Input: Жихарка (2007) DVDRip
+Expected: Жихарка
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.270658
+Input: 3 Миссия невыполнима 3 2006г. BDRip 1080p.mkv
+Expected: 3 Миссия невыполнима 3
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.280883
+Input: 1. Детские игры. 1988. 1080p. HEVC. 10bit..mkv
+Expected: 1. Детские игры
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.290214
+Input: 01. 100 девчонок и одна в лифте 2000 WEBRip 1080p.mkv
+Expected: 01. 100 девчонок и одна в лифте
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.302042
+Input: 08.Планета.обезьян.Революция.2014.BDRip-HEVC.1080p.mkv
+Expected: 08 Планета обезьян Революция
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.313737
+Input: Американские животные / American Animals (Барт Лэйтон / Bart Layton) [2018, Великобритания, США, драма, криминал, BDRip] MVO (СВ Студия)
+Expected: American Animals
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.325663
+Input: Греческая смоковница / Griechische Feigen / The Fruit Is Ripe (Зиги Ротемунд / Sigi Rothemund (as Siggi Götз)) [1976, Германия (ФРГ), эротика, комедия, приключения, DVDRip] 2 VO
+Expected: Griechische Feigen / The Fruit Is Ripe
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.334750
+Input: Греческая смоковница / The fruit is ripe / Griechische Feigen (Siggi Götз) [1976, Германия, Эротическая комедия, DVDRip]
+Expected: The fruit is ripe / Griechische Feigen
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.345004
+Input: Бастер / Buster (Дэвид Грин / David Green) [1988, Великобритания, Комедия, мелодрама, драма, приключения, криминал, биография, DVDRip]
+Expected: Buster
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.357045
+Input: (2000) Le follie dell'imperatore - The Emperor's New Groove (DvdRip Ita Eng AC3 5.1).avi
+Expected: Le follie dell'imperatore - The Emperor's New Groove
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.366794
+Input: [NC-Raws] 间谍过家家 / SPY×FAMILY - 04 (B-Global 1920x1080 HEVC AAC MKV)
+Expected: SPY×FAMILY
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.378574
+Input: GTO (Great Teacher Onizuka) (Ep. 1-43) Sub 480p lakshay
+Expected: GTO (Great Teacher Onizuka)
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.388451
+Input: Книгоноши / Кнiганошы (1987) TVRip от AND03AND | BLR
+Expected: Кнiганошы
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.397281
+Input: Yurusarezaru_mono2.srt
+Expected: Yurusarezaru mono2
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.406658
+Input: www.1TamilMV.world - Ayalaan (2024) Tamil PreDVD - 1080p - x264 - HQ Clean Aud - 2.5GB.mkv
+Expected: Ayalaan
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.418263
+Input: www.Torrenting.com   -    Anatomy Of A Fall (2023)
+Expected: Anatomy Of A Fall
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.426966
+Input: [www.arabp2p.net]_-_تركي مترجم ومدبلج Last.Call.for.Istanbul.2023.1080p.NF.WEB-DL.DDP5.1.H.264.MKV.torrent
+Expected: Last Call for Istanbul
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.437137
+Input: www,1TamilMV.phd - The Great Indian Suicide (2023) Tamil TRUE WEB-DL - 4K SDR - HEVC - (DD+5.1 - 384Kbps & AAC) - 3.2GB - ESub.mkv
+Expected: The Great Indian Suicide
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.449811
+Input: ww.Tamilblasters.sbs - 8 Bit Christmas (2021) HQ HDRip - x264 - Telugu (Fan Dub) - 400MB].mkv
+Expected: 8 Bit Christmas
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.473982
+Input: www.1TamilMV.pics - 777 Charlie (2022) Tamil HDRip - 720p - x264 - HQ Clean Aud - 1.4GB.mkv
+Expected: 777 Charlie
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.489110
+Input: Despicable.Me.4.2024.D.TELESYNC_14OOMB.avi
+Expected: Despicable Me 4
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.500267
+Input: UFC.247.PPV.Jones.vs.Reyes.HDTV.x264-PUNCH[TGx]
+Expected: UFC 247 Jones vs Reyes
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.511169
+Input: [www.1TamilMV.pics]_The.Great.Indian.Suicide.2023.Tamil.TRUE.WEB-DL.4K.SDR.HEVC.(DD+5.1.384Kbps.&.AAC).3.2GB.ESub.mkv
+Expected: The Great Indian Suicide
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.520964
+Input: Game of Thrones - S02E07 - A Man Without Honor [2160p] [HDR] [5.1, 7.1, 5.1] [ger, eng, eng] [Vio].mkv
+Expected: Game of Thrones
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.533761
+Input: Pawn.Stars.S09E13.1080p.HEVC.x265-MeGusta
+Expected: Pawn Stars
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.545083
+Input: Pawn Stars -- 4x13 -- Broadsiding Lincoln.mkv
+Expected: Pawn Stars
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.554094
+Input: Pawn Stars S04E19 720p WEB H264-BeechyBoy mp4
+Expected: Pawn Stars
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.565039
+Input: Jurassic.World.Dominion.CUSTOM.EXTENDED.2022.2160p.MULTi.VF2.UHD.Blu-ray.REMUX.HDR.DoVi.HEVC.DTS-X.DTS-HDHRA.7.1-MOONLY.mkv
+Expected: Jurassic World Dominion
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.577213
+Input: www.Torrenting.com   -    14.Peaks.Nothing.Is.Impossible.2021.1080p.WEB.h264-RUMOUR
+Expected: 14 Peaks Nothing Is Impossible
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.586379
+Input: Too Many Cooks _ Adult Swim.mp4
+Expected: Too Many Cooks
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.597191
+Input: О мышах и людях (Of Mice and Men) 1992 BDRip 1080p.mkv
+Expected: Of Mice and Men
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.609591
+Input: Wonder Woman 1984 (2020) [UHDRemux 2160p DoVi P8 Es-DTSHD AC3 En-AC3].mkv
+Expected: Wonder Woman 1984
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.619940
+Input: www.TamilBlasters.cam - Titanic (1997)[1080p BDRip - Org Auds - [Tamil + Telugu + Hindi + Eng] - x264 - DD5.1 (448 Kbps) - 4.7GB - ESubs].mkv
+Expected: Titanic
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.629184
+Input: S.W.A.T.2017.S08E01.720p.HDTV.x264-SYNCOPY[TGx]
+Expected: S.W.A.T
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.640854
+Input: Grimm.INTEGRAL.MULTI.COMPLETE.BLURAY-BMTH
+Expected: Grimm
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.651011
+Input: Friends.1994.INTEGRALE.MULTI.1080p.WEB-DL.H265-FTMVHD
+Expected: Friends
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.662516
+Input: STEVE.martin.a.documentary.in.2.pieces.S01.COMPLETE.1080p.WEB.H264-SuccessfulCrab[TGx]
+Expected: STEVE martin a documentary in 2 pieces
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.675025
+Input: The Lockerbie Bombing (2013) Documentary HDTVRIP
+Expected: The Lockerbie Bombing
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.685587
+Input: The French Connection 1971 Remastered BluRay 1080p REMUX AVC DTS-HD MA 5 1-LEGi0N
+Expected: The French Connection
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.695707
+Input: The.Mandalorian.S01E01.Chapter.1.1080p.Web-DL.mkv
+Expected: The Mandalorian
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.708864
+Input: The Mandalorian S02E01 - Chapter 9 (1080p Web-DL).mkv
+Expected: The Mandalorian
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.719008
+Input: TV Show season 1 s01 1080p x265 DVD extr
+Expected: TV Show
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.729731
+Input: 9-1-1.s02
+Expected: 9-1-1
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.742236
+Input: 9-1-1 s02-s03
+Expected: 9-1-1
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.753293
+Input: S.H.I.E.L.D.s01
+Expected: S.H.I.E.L.D.
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.764040
+Input: One-piece-ep.1080-v2-1080p-raws
+Expected: One piece
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.772774
+Input: Naruto Shippuden (001-500) [Complete Series + Movies] (Dual Audio)
+Expected: Naruto Shippuden
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.784285
+Input: One.Piece.S01E1116.Lets.Go.Get.It!.Buggys.Big.Declaration.2160p.B-Global.WEB-DL.JPN.AAC2.0.H.264.MSubs-ToonsHub.mkv
+Expected: One Piece
+Got: "name 'normalize_text' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:19:37.796333
+Input: Stranger Things S04 2160p
+Expected: Stranger Things
+Got: "name 'normalize_text' is not defined"
+Success: False

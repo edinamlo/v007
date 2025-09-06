@@ -5,7 +5,7 @@ Run with: pytest -q
 """
 
 from pathlib import Path
-from src.parser import parse_filename
+from ..src.parser import parse_filename
 
 def test_simple_movie():
     r = parse_filename("1408.2007.DC.1080p.BluRay.H264.AAC.mp4", quiet=True)

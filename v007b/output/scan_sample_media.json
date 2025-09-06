@@ -1,0 +1,2527 @@
+{
+  "scanned_dir": "/workspaces/v007/sample_media",
+  "generated_at": "2025-09-05T23:23:57.144142",
+  "results": {
+    "raw": {
+      "/workspaces/v007/sample_media/The Lord of the Rings The Fellowship of the Ring (2001)": {
+        "original": "The Lord of the Rings The Fellowship of the Ring (2001)",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [
+          "2001"
+        ],
+        "possible_title": "The Lord of the Rings The Fellowship of the Ring",
+        "clean_title": "The Lord Of The Rings The Fellowship Of The Ring",
+        "extras_bits": [],
+        "words": [],
+        "media_type": "movie",
+        "matched_clues": {},
+        "resolution_clues": [],
+        "audio_clues": [],
+        "quality_clues": [],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/The Lord of the Rings The Fellowship of the Ring (2001)"
+      },
+      "/workspaces/v007/sample_media/Game.of.Thrones.S08E01.2160p.WEB-DL.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ": {
+        "original": "Game.of.Thrones.S08E01.2160p.WEB-DL.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ",
+        "tv_clues": [
+          "S08E01"
+        ],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "Game.of.Thrones",
+        "clean_title": "Game Of Thrones",
+        "extras_bits": [
+          "2160p",
+          "x265"
+        ],
+        "words": [
+          ".Atmos-SWTYBLZ",
+          ".WEB-DL.",
+          ".10bit.HDR.DTS-HD.MA.TrueHD.7.1"
+        ],
+        "media_type": "tv",
+        "matched_clues": {
+          "resolution_clues": [
+            "2160p",
+            "HD"
+          ],
+          "audio_clues": [
+            "DTS",
+            "DTS-HD",
+            "TrueHD",
+            "Atmos",
+            "5.1",
+            "7.1"
+          ],
+          "quality_clues": [
+            "WEB-DL",
+            "TS"
+          ],
+          "misc_clues": [
+            "HDR"
+          ]
+        },
+        "resolution_clues": [
+          "2160p",
+          "HD"
+        ],
+        "audio_clues": [
+          "DTS",
+          "DTS-HD",
+          "TrueHD",
+          "Atmos",
+          "5.1",
+          "7.1"
+        ],
+        "quality_clues": [
+          "WEB-DL",
+          "TS"
+        ],
+        "release_groups": [],
+        "misc_clues": [
+          "HDR"
+        ],
+        "path": "/workspaces/v007/sample_media/Game.of.Thrones.S08E01.2160p.WEB-DL.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ"
+      },
+      "/workspaces/v007/sample_media/One.Piece.S01E02.1080p.WEB-DL.x265.10bit-SUBSPLEASE": {
+        "original": "One.Piece.S01E02.1080p.WEB-DL.x265.10bit-SUBSPLEASE",
+        "tv_clues": [
+          "S01E02"
+        ],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "One.Piece",
+        "clean_title": "One Piece",
+        "extras_bits": [
+          "1080p",
+          "x265"
+        ],
+        "words": [
+          ".10bit-SUBSPLEASE",
+          ".WEB-DL."
+        ],
+        "media_type": "tv",
+        "matched_clues": {
+          "resolution_clues": [
+            "1080p"
+          ],
+          "audio_clues": [
+            "5.1"
+          ],
+          "quality_clues": [
+            "WEB-DL"
+          ],
+          "release_groups_anime": [
+            "SubsPlease"
+          ]
+        },
+        "resolution_clues": [
+          "1080p"
+        ],
+        "audio_clues": [
+          "5.1"
+        ],
+        "quality_clues": [
+          "WEB-DL"
+        ],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/One.Piece.S01E02.1080p.WEB-DL.x265.10bit-SUBSPLEASE"
+      },
+      "/workspaces/v007/sample_media/Game.of.Thrones.S08E02.2160p.WEB-DL.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ": {
+        "original": "Game.of.Thrones.S08E02.2160p.WEB-DL.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ",
+        "tv_clues": [
+          "S08E02"
+        ],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "Game.of.Thrones",
+        "clean_title": "Game Of Thrones",
+        "extras_bits": [
+          "2160p",
+          "x265"
+        ],
+        "words": [
+          ".Atmos-SWTYBLZ",
+          ".WEB-DL.",
+          ".10bit.HDR.DTS-HD.MA.TrueHD.7.1"
+        ],
+        "media_type": "tv",
+        "matched_clues": {
+          "resolution_clues": [
+            "2160p",
+            "HD"
+          ],
+          "audio_clues": [
+            "DTS",
+            "DTS-HD",
+            "TrueHD",
+            "Atmos",
+            "5.1",
+            "7.1"
+          ],
+          "quality_clues": [
+            "WEB-DL",
+            "TS"
+          ],
+          "misc_clues": [
+            "HDR"
+          ]
+        },
+        "resolution_clues": [
+          "2160p",
+          "HD"
+        ],
+        "audio_clues": [
+          "DTS",
+          "DTS-HD",
+          "TrueHD",
+          "Atmos",
+          "5.1",
+          "7.1"
+        ],
+        "quality_clues": [
+          "WEB-DL",
+          "TS"
+        ],
+        "release_groups": [],
+        "misc_clues": [
+          "HDR"
+        ],
+        "path": "/workspaces/v007/sample_media/Game.of.Thrones.S08E02.2160p.WEB-DL.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ"
+      },
+      "/workspaces/v007/sample_media/Some.Movie.2020.1080p.WEB-DL.x264-ASDF": {
+        "original": "Some.Movie.2020.1080p.WEB-DL.x264-ASDF",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [
+          "2020"
+        ],
+        "possible_title": "Some.Movie",
+        "clean_title": "Some Movie",
+        "extras_bits": [
+          "1080p"
+        ],
+        "words": [
+          ".x264-ASDF",
+          ".WEB-DL"
+        ],
+        "media_type": "movie",
+        "matched_clues": {
+          "resolution_clues": [
+            "1080p",
+            "SD"
+          ],
+          "quality_clues": [
+            "WEB-DL"
+          ]
+        },
+        "resolution_clues": [
+          "1080p",
+          "SD"
+        ],
+        "audio_clues": [],
+        "quality_clues": [
+          "WEB-DL"
+        ],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Some.Movie.2020.1080p.WEB-DL.x264-ASDF"
+      },
+      "/workspaces/v007/sample_media/Pulp Fiction (1994)": {
+        "original": "Pulp Fiction (1994)",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [
+          "1994"
+        ],
+        "possible_title": "Pulp Fiction",
+        "clean_title": "Pulp Fiction",
+        "extras_bits": [],
+        "words": [],
+        "media_type": "movie",
+        "matched_clues": {},
+        "resolution_clues": [],
+        "audio_clues": [],
+        "quality_clues": [],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Pulp Fiction (1994)"
+      },
+      "/workspaces/v007/sample_media/Naruto.S01E01.720p.WEB-DL.x264-ERAI": {
+        "original": "Naruto.S01E01.720p.WEB-DL.x264-ERAI",
+        "tv_clues": [
+          "S01E01"
+        ],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "Naruto",
+        "clean_title": "Naruto",
+        "extras_bits": [
+          "720p"
+        ],
+        "words": [
+          ".x264-ERAI",
+          ".WEB-DL"
+        ],
+        "media_type": "tv",
+        "matched_clues": {
+          "resolution_clues": [
+            "720p"
+          ],
+          "quality_clues": [
+            "WEB-DL"
+          ]
+        },
+        "resolution_clues": [
+          "720p"
+        ],
+        "audio_clues": [],
+        "quality_clues": [
+          "WEB-DL"
+        ],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Naruto.S01E01.720p.WEB-DL.x264-ERAI"
+      },
+      "/workspaces/v007/sample_media/The.Matrix.1999.4K.BluRay.x265.10bit-HDR.5.1-PSYPHER": {
+        "original": "The.Matrix.1999.4K.BluRay.x265.10bit-HDR.5.1-PSYPHER",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [
+          "1999"
+        ],
+        "possible_title": "The.Matrix",
+        "clean_title": "The Matrix",
+        "extras_bits": [
+          "BluRay",
+          "x265"
+        ],
+        "words": [
+          ".1-PSYPHER",
+          ".4K.",
+          ".10bit-HDR.5"
+        ],
+        "media_type": "movie",
+        "matched_clues": {
+          "resolution_clues": [
+            "4K",
+            "HD"
+          ],
+          "audio_clues": [
+            "5.1"
+          ],
+          "quality_clues": [
+            "BluRay"
+          ],
+          "misc_clues": [
+            "HDR"
+          ]
+        },
+        "resolution_clues": [
+          "4K",
+          "HD"
+        ],
+        "audio_clues": [
+          "5.1"
+        ],
+        "quality_clues": [
+          "BluRay"
+        ],
+        "release_groups": [],
+        "misc_clues": [
+          "HDR"
+        ],
+        "path": "/workspaces/v007/sample_media/The.Matrix.1999.4K.BluRay.x265.10bit-HDR.5.1-PSYPHER"
+      },
+      "/workspaces/v007/sample_media/Naruto.S01E02.720p.WEB-DL.x264-ERAI": {
+        "original": "Naruto.S01E02.720p.WEB-DL.x264-ERAI",
+        "tv_clues": [
+          "S01E02"
+        ],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "Naruto",
+        "clean_title": "Naruto",
+        "extras_bits": [
+          "720p"
+        ],
+        "words": [
+          ".x264-ERAI",
+          ".WEB-DL"
+        ],
+        "media_type": "tv",
+        "matched_clues": {
+          "resolution_clues": [
+            "720p"
+          ],
+          "quality_clues": [
+            "WEB-DL"
+          ]
+        },
+        "resolution_clues": [
+          "720p"
+        ],
+        "audio_clues": [],
+        "quality_clues": [
+          "WEB-DL"
+        ],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Naruto.S01E02.720p.WEB-DL.x264-ERAI"
+      },
+      "/workspaces/v007/sample_media/Inception (2010)": {
+        "original": "Inception (2010)",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [
+          "2010"
+        ],
+        "possible_title": "Inception",
+        "clean_title": "Inception",
+        "extras_bits": [],
+        "words": [],
+        "media_type": "movie",
+        "matched_clues": {},
+        "resolution_clues": [],
+        "audio_clues": [],
+        "quality_clues": [],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Inception (2010)"
+      },
+      "/workspaces/v007/sample_media/Game.of.Thrones.S01E01.1080p.BluRay.x264-REWARD": {
+        "original": "Game.of.Thrones.S01E01.1080p.BluRay.x264-REWARD",
+        "tv_clues": [
+          "S01E01"
+        ],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "Game.of.Thrones",
+        "clean_title": "Game Of Thrones",
+        "extras_bits": [
+          "1080p",
+          "BluRay"
+        ],
+        "words": [
+          ".x264-REWARD"
+        ],
+        "media_type": "tv",
+        "matched_clues": {
+          "resolution_clues": [
+            "1080p"
+          ],
+          "quality_clues": [
+            "BluRay"
+          ]
+        },
+        "resolution_clues": [
+          "1080p"
+        ],
+        "audio_clues": [],
+        "quality_clues": [
+          "BluRay"
+        ],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Game.of.Thrones.S01E01.1080p.BluRay.x264-REWARD"
+      },
+      "/workspaces/v007/sample_media/Breaking.Bad.S02E02.720p.BluRay.x264-DIMENSION": {
+        "original": "Breaking.Bad.S02E02.720p.BluRay.x264-DIMENSION",
+        "tv_clues": [
+          "S02E02"
+        ],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "Breaking.Bad",
+        "clean_title": "Breaking Bad",
+        "extras_bits": [
+          "720p",
+          "BluRay"
+        ],
+        "words": [
+          ".x264-DIMENSION"
+        ],
+        "media_type": "tv",
+        "matched_clues": {
+          "resolution_clues": [
+            "720p"
+          ],
+          "quality_clues": [
+            "BluRay"
+          ]
+        },
+        "resolution_clues": [
+          "720p"
+        ],
+        "audio_clues": [],
+        "quality_clues": [
+          "BluRay"
+        ],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Breaking.Bad.S02E02.720p.BluRay.x264-DIMENSION"
+      },
+      "/workspaces/v007/sample_media/The.Office.US.S01E01.720p.WEB-DL.x264-AMZN": {
+        "original": "The.Office.US.S01E01.720p.WEB-DL.x264-AMZN",
+        "tv_clues": [
+          "S01E01"
+        ],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "The.Office.US",
+        "clean_title": "The Office US",
+        "extras_bits": [
+          "720p"
+        ],
+        "words": [
+          ".x264-AMZN",
+          ".WEB-DL"
+        ],
+        "media_type": "tv",
+        "matched_clues": {
+          "resolution_clues": [
+            "720p"
+          ],
+          "quality_clues": [
+            "WEB-DL"
+          ],
+          "release_groups": [
+            "AMZN"
+          ]
+        },
+        "resolution_clues": [
+          "720p"
+        ],
+        "audio_clues": [],
+        "quality_clues": [
+          "WEB-DL"
+        ],
+        "release_groups": [
+          "AMZN"
+        ],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/The.Office.US.S01E01.720p.WEB-DL.x264-AMZN"
+      },
+      "/workspaces/v007/sample_media/Stranger Things": {
+        "original": "Stranger Things",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "Stranger Things",
+        "clean_title": "Stranger Things",
+        "extras_bits": [],
+        "words": [],
+        "media_type": "unknown",
+        "matched_clues": {},
+        "resolution_clues": [],
+        "audio_clues": [],
+        "quality_clues": [],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Stranger Things"
+      },
+      "/workspaces/v007/sample_media/The Mandalorian": {
+        "original": "The Mandalorian",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "The Mandalorian",
+        "clean_title": "The Mandalorian",
+        "extras_bits": [],
+        "words": [],
+        "media_type": "unknown",
+        "matched_clues": {},
+        "resolution_clues": [],
+        "audio_clues": [],
+        "quality_clues": [],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/The Mandalorian"
+      },
+      "/workspaces/v007/sample_media/The Matrix (1999)": {
+        "original": "The Matrix (1999)",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [
+          "1999"
+        ],
+        "possible_title": "The Matrix",
+        "clean_title": "The Matrix",
+        "extras_bits": [],
+        "words": [],
+        "media_type": "movie",
+        "matched_clues": {},
+        "resolution_clues": [],
+        "audio_clues": [],
+        "quality_clues": [],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/The Matrix (1999)"
+      },
+      "/workspaces/v007/sample_media/Inception.2010.1080p.BluRay.x264.YIFY.torrent": {
+        "original": "Inception.2010.1080p.BluRay.x264.YIFY.torrent",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [
+          "2010"
+        ],
+        "possible_title": "Inception",
+        "clean_title": "Inception",
+        "extras_bits": [
+          "1080p",
+          "BluRay"
+        ],
+        "words": [
+          ".torrent",
+          ".x264.YIFY"
+        ],
+        "media_type": "movie",
+        "matched_clues": {
+          "resolution_clues": [
+            "1080p"
+          ],
+          "quality_clues": [
+            "BluRay"
+          ],
+          "release_groups": [
+            "YIFY"
+          ]
+        },
+        "resolution_clues": [
+          "1080p"
+        ],
+        "audio_clues": [],
+        "quality_clues": [
+          "BluRay"
+        ],
+        "release_groups": [
+          "YIFY"
+        ],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Inception.2010.1080p.BluRay.x264.YIFY.torrent"
+      },
+      "/workspaces/v007/sample_media/Game.of.Thrones.S01E01.1080p.BluRay.x264-REWARD.eng": {
+        "original": "Game.of.Thrones.S01E01.1080p.BluRay.x264-REWARD.eng",
+        "tv_clues": [
+          "S01E01"
+        ],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "Game.of.Thrones",
+        "clean_title": "Game Of Thrones",
+        "extras_bits": [
+          "1080p",
+          "BluRay"
+        ],
+        "words": [
+          ".eng",
+          ".x264-REWARD"
+        ],
+        "media_type": "tv",
+        "matched_clues": {
+          "resolution_clues": [
+            "1080p"
+          ],
+          "quality_clues": [
+            "BluRay"
+          ]
+        },
+        "resolution_clues": [
+          "1080p"
+        ],
+        "audio_clues": [],
+        "quality_clues": [
+          "BluRay"
+        ],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Game.of.Thrones.S01E01.1080p.BluRay.x264-REWARD.eng"
+      },
+      "/workspaces/v007/sample_media/Attack.on.Titan.S01E01.1080p.BluRay.x264-HORRIBLESUBS": {
+        "original": "Attack.on.Titan.S01E01.1080p.BluRay.x264-HORRIBLESUBS",
+        "tv_clues": [
+          "S01E01"
+        ],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "Attack.on.Titan",
+        "clean_title": "Attack On Titan",
+        "extras_bits": [
+          "1080p",
+          "BluRay"
+        ],
+        "words": [
+          ".x264-HORRIBLESUBS"
+        ],
+        "media_type": "tv",
+        "matched_clues": {
+          "resolution_clues": [
+            "1080p"
+          ],
+          "quality_clues": [
+            "BluRay"
+          ],
+          "release_groups_anime": [
+            "HorribleSubs"
+          ]
+        },
+        "resolution_clues": [
+          "1080p"
+        ],
+        "audio_clues": [],
+        "quality_clues": [
+          "BluRay"
+        ],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Attack.on.Titan.S01E01.1080p.BluRay.x264-HORRIBLESUBS"
+      },
+      "/workspaces/v007/sample_media/Another.Movie.2019.720p.BluRay.x264-QWER": {
+        "original": "Another.Movie.2019.720p.BluRay.x264-QWER",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [
+          "2019"
+        ],
+        "possible_title": "Another.Movie",
+        "clean_title": "Another Movie",
+        "extras_bits": [
+          "720p",
+          "BluRay"
+        ],
+        "words": [
+          ".x264-QWER"
+        ],
+        "media_type": "movie",
+        "matched_clues": {
+          "resolution_clues": [
+            "720p"
+          ],
+          "quality_clues": [
+            "BluRay"
+          ]
+        },
+        "resolution_clues": [
+          "720p"
+        ],
+        "audio_clues": [],
+        "quality_clues": [
+          "BluRay"
+        ],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Another.Movie.2019.720p.BluRay.x264-QWER"
+      },
+      "/workspaces/v007/sample_media/Naruto": {
+        "original": "Naruto",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "Naruto",
+        "clean_title": "Naruto",
+        "extras_bits": [],
+        "words": [],
+        "media_type": "unknown",
+        "matched_clues": {},
+        "resolution_clues": [],
+        "audio_clues": [],
+        "quality_clues": [],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Naruto"
+      },
+      "/workspaces/v007/sample_media/The.Witcher.S01E02.1080p.NF.WEB-DL.DDP5.1.H.264-NTb": {
+        "original": "The.Witcher.S01E02.1080p.NF.WEB-DL.DDP5.1.H.264-NTb",
+        "tv_clues": [
+          "S01E02"
+        ],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "The.Witcher",
+        "clean_title": "The Witcher",
+        "extras_bits": [
+          "1080p"
+        ],
+        "words": [
+          ".264-NTb",
+          ".NF.WEB-DL.DDP5.1.H"
+        ],
+        "media_type": "tv",
+        "matched_clues": {
+          "resolution_clues": [
+            "1080p"
+          ],
+          "audio_clues": [
+            "DD",
+            "5.1"
+          ],
+          "quality_clues": [
+            "WEB-DL",
+            "TC"
+          ],
+          "release_groups": [
+            "NF"
+          ]
+        },
+        "resolution_clues": [
+          "1080p"
+        ],
+        "audio_clues": [
+          "DD",
+          "5.1"
+        ],
+        "quality_clues": [
+          "WEB-DL",
+          "TC"
+        ],
+        "release_groups": [
+          "NF"
+        ],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/The.Witcher.S01E02.1080p.NF.WEB-DL.DDP5.1.H.264-NTb"
+      },
+      "/workspaces/v007/sample_media/Interstellar.2014.IMAX.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT": {
+        "original": "Interstellar.2014.IMAX.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [
+          "2014"
+        ],
+        "possible_title": "Interstellar",
+        "clean_title": "Interstellar",
+        "extras_bits": [
+          "1080p",
+          "BluRay"
+        ],
+        "words": [
+          ".1-FGT",
+          ".IMAX.",
+          ".x264.DTS-HD.MA.5"
+        ],
+        "media_type": "movie",
+        "matched_clues": {
+          "resolution_clues": [
+            "1080p",
+            "HD"
+          ],
+          "audio_clues": [
+            "DTS",
+            "DTS-HD",
+            "5.1"
+          ],
+          "quality_clues": [
+            "BluRay",
+            "TS"
+          ],
+          "release_groups": [
+            "FGT",
+            "MAX"
+          ],
+          "misc_clues": [
+            "IMAX"
+          ]
+        },
+        "resolution_clues": [
+          "1080p",
+          "HD"
+        ],
+        "audio_clues": [
+          "DTS",
+          "DTS-HD",
+          "5.1"
+        ],
+        "quality_clues": [
+          "BluRay",
+          "TS"
+        ],
+        "release_groups": [
+          "FGT",
+          "MAX"
+        ],
+        "misc_clues": [
+          "IMAX"
+        ],
+        "path": "/workspaces/v007/sample_media/Interstellar.2014.IMAX.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT"
+      },
+      "/workspaces/v007/sample_media/Breaking.Bad.S01E03.720p.BluRay.x264-DIMENSION": {
+        "original": "Breaking.Bad.S01E03.720p.BluRay.x264-DIMENSION",
+        "tv_clues": [
+          "S01E03"
+        ],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "Breaking.Bad",
+        "clean_title": "Breaking Bad",
+        "extras_bits": [
+          "720p",
+          "BluRay"
+        ],
+        "words": [
+          ".x264-DIMENSION"
+        ],
+        "media_type": "tv",
+        "matched_clues": {
+          "resolution_clues": [
+            "720p"
+          ],
+          "quality_clues": [
+            "BluRay"
+          ]
+        },
+        "resolution_clues": [
+          "720p"
+        ],
+        "audio_clues": [],
+        "quality_clues": [
+          "BluRay"
+        ],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Breaking.Bad.S01E03.720p.BluRay.x264-DIMENSION"
+      },
+      "/workspaces/v007/sample_media/Avatar (2009)": {
+        "original": "Avatar (2009)",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [
+          "2009"
+        ],
+        "possible_title": "Avatar",
+        "clean_title": "Avatar",
+        "extras_bits": [],
+        "words": [],
+        "media_type": "movie",
+        "matched_clues": {},
+        "resolution_clues": [],
+        "audio_clues": [],
+        "quality_clues": [],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Avatar (2009)"
+      },
+      "/workspaces/v007/sample_media/The Office (US)": {
+        "original": "The Office (US)",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "The Office (US)",
+        "clean_title": "The Office (us)",
+        "extras_bits": [],
+        "words": [],
+        "media_type": "unknown",
+        "matched_clues": {},
+        "resolution_clues": [],
+        "audio_clues": [],
+        "quality_clues": [],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/The Office (US)"
+      },
+      "/workspaces/v007/sample_media/Game of Thrones": {
+        "original": "Game of Thrones",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "Game of Thrones",
+        "clean_title": "Game Of Thrones",
+        "extras_bits": [],
+        "words": [],
+        "media_type": "unknown",
+        "matched_clues": {},
+        "resolution_clues": [],
+        "audio_clues": [],
+        "quality_clues": [],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Game of Thrones"
+      },
+      "/workspaces/v007/sample_media/Inception.2010.1080p.BluRay.x264.YIFY": {
+        "original": "Inception.2010.1080p.BluRay.x264.YIFY",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [
+          "2010"
+        ],
+        "possible_title": "Inception",
+        "clean_title": "Inception",
+        "extras_bits": [
+          "1080p",
+          "BluRay"
+        ],
+        "words": [
+          ".YIFY",
+          ".x264"
+        ],
+        "media_type": "movie",
+        "matched_clues": {
+          "resolution_clues": [
+            "1080p"
+          ],
+          "quality_clues": [
+            "BluRay"
+          ],
+          "release_groups": [
+            "YIFY"
+          ]
+        },
+        "resolution_clues": [
+          "1080p"
+        ],
+        "audio_clues": [],
+        "quality_clues": [
+          "BluRay"
+        ],
+        "release_groups": [
+          "YIFY"
+        ],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Inception.2010.1080p.BluRay.x264.YIFY"
+      },
+      "/workspaces/v007/sample_media/The.Mandalorian.S01E01.2160p.DSNP.WEB-DL.DDP5.1.HDR.HEVC-CMRG": {
+        "original": "The.Mandalorian.S01E01.2160p.DSNP.WEB-DL.DDP5.1.HDR.HEVC-CMRG",
+        "tv_clues": [
+          "S01E01"
+        ],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "The.Mandalorian",
+        "clean_title": "The Mandalorian",
+        "extras_bits": [
+          "2160p"
+        ],
+        "words": [
+          ".HEVC-CMRG",
+          ".DSNP.WEB-DL.DDP5.1.HDR"
+        ],
+        "media_type": "tv",
+        "matched_clues": {
+          "resolution_clues": [
+            "2160p",
+            "HD"
+          ],
+          "audio_clues": [
+            "DD",
+            "5.1"
+          ],
+          "quality_clues": [
+            "WEB-DL"
+          ],
+          "release_groups": [
+            "DSNP",
+            "CMRG"
+          ],
+          "misc_clues": [
+            "HDR"
+          ]
+        },
+        "resolution_clues": [
+          "2160p",
+          "HD"
+        ],
+        "audio_clues": [
+          "DD",
+          "5.1"
+        ],
+        "quality_clues": [
+          "WEB-DL"
+        ],
+        "release_groups": [
+          "DSNP",
+          "CMRG"
+        ],
+        "misc_clues": [
+          "HDR"
+        ],
+        "path": "/workspaces/v007/sample_media/The.Mandalorian.S01E01.2160p.DSNP.WEB-DL.DDP5.1.HDR.HEVC-CMRG"
+      },
+      "/workspaces/v007/sample_media/Blade Runner 2049 (2017)": {
+        "original": "Blade Runner 2049 (2017)",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [
+          "2017",
+          "2049"
+        ],
+        "possible_title": "Blade Runner",
+        "clean_title": "Blade Runner",
+        "extras_bits": [],
+        "words": [],
+        "media_type": "movie",
+        "matched_clues": {},
+        "resolution_clues": [],
+        "audio_clues": [],
+        "quality_clues": [],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Blade Runner 2049 (2017)"
+      },
+      "/workspaces/v007/sample_media/Breaking.Bad.S01E02.720p.BluRay.x264-DIMENSION": {
+        "original": "Breaking.Bad.S01E02.720p.BluRay.x264-DIMENSION",
+        "tv_clues": [
+          "S01E02"
+        ],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "Breaking.Bad",
+        "clean_title": "Breaking Bad",
+        "extras_bits": [
+          "720p",
+          "BluRay"
+        ],
+        "words": [
+          ".x264-DIMENSION"
+        ],
+        "media_type": "tv",
+        "matched_clues": {
+          "resolution_clues": [
+            "720p"
+          ],
+          "quality_clues": [
+            "BluRay"
+          ]
+        },
+        "resolution_clues": [
+          "720p"
+        ],
+        "audio_clues": [],
+        "quality_clues": [
+          "BluRay"
+        ],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Breaking.Bad.S01E02.720p.BluRay.x264-DIMENSION"
+      },
+      "/workspaces/v007/sample_media/Pulp.Fiction.1994.1080p.BluRay.x264-DIMENSION": {
+        "original": "Pulp.Fiction.1994.1080p.BluRay.x264-DIMENSION",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [
+          "1994"
+        ],
+        "possible_title": "Pulp.Fiction",
+        "clean_title": "Pulp Fiction",
+        "extras_bits": [
+          "1080p",
+          "BluRay"
+        ],
+        "words": [
+          ".x264-DIMENSION"
+        ],
+        "media_type": "movie",
+        "matched_clues": {
+          "resolution_clues": [
+            "1080p"
+          ],
+          "quality_clues": [
+            "BluRay"
+          ]
+        },
+        "resolution_clues": [
+          "1080p"
+        ],
+        "audio_clues": [],
+        "quality_clues": [
+          "BluRay"
+        ],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Pulp.Fiction.1994.1080p.BluRay.x264-DIMENSION"
+      },
+      "/workspaces/v007/sample_media/One.Piece.S01E01.1080p.WEB-DL.x265.10bit-SUBSPLEASE": {
+        "original": "One.Piece.S01E01.1080p.WEB-DL.x265.10bit-SUBSPLEASE",
+        "tv_clues": [
+          "S01E01"
+        ],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "One.Piece",
+        "clean_title": "One Piece",
+        "extras_bits": [
+          "1080p",
+          "x265"
+        ],
+        "words": [
+          ".10bit-SUBSPLEASE",
+          ".WEB-DL."
+        ],
+        "media_type": "tv",
+        "matched_clues": {
+          "resolution_clues": [
+            "1080p"
+          ],
+          "audio_clues": [
+            "5.1"
+          ],
+          "quality_clues": [
+            "WEB-DL"
+          ],
+          "release_groups_anime": [
+            "SubsPlease"
+          ]
+        },
+        "resolution_clues": [
+          "1080p"
+        ],
+        "audio_clues": [
+          "5.1"
+        ],
+        "quality_clues": [
+          "WEB-DL"
+        ],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/One.Piece.S01E01.1080p.WEB-DL.x265.10bit-SUBSPLEASE"
+      },
+      "/workspaces/v007/sample_media/The.Office.US.S01E02.720p.WEB-DL.x264-AMZN": {
+        "original": "The.Office.US.S01E02.720p.WEB-DL.x264-AMZN",
+        "tv_clues": [
+          "S01E02"
+        ],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "The.Office.US",
+        "clean_title": "The Office US",
+        "extras_bits": [
+          "720p"
+        ],
+        "words": [
+          ".x264-AMZN",
+          ".WEB-DL"
+        ],
+        "media_type": "tv",
+        "matched_clues": {
+          "resolution_clues": [
+            "720p"
+          ],
+          "quality_clues": [
+            "WEB-DL"
+          ],
+          "release_groups": [
+            "AMZN"
+          ]
+        },
+        "resolution_clues": [
+          "720p"
+        ],
+        "audio_clues": [],
+        "quality_clues": [
+          "WEB-DL"
+        ],
+        "release_groups": [
+          "AMZN"
+        ],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/The.Office.US.S01E02.720p.WEB-DL.x264-AMZN"
+      },
+      "/workspaces/v007/sample_media/Dune.2021.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.5.1-SWTYBLZ": {
+        "original": "Dune.2021.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.5.1-SWTYBLZ",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [
+          "2021"
+        ],
+        "possible_title": "Dune",
+        "clean_title": "Dune",
+        "extras_bits": [
+          "2160p",
+          "BluRay",
+          "x265"
+        ],
+        "words": [
+          ".1-SWTYBLZ",
+          ".UHD.",
+          ".10bit.HDR.DTS-HD.MA.5"
+        ],
+        "media_type": "movie",
+        "matched_clues": {
+          "resolution_clues": [
+            "2160p",
+            "HD",
+            "UHD"
+          ],
+          "audio_clues": [
+            "DTS",
+            "DTS-HD",
+            "5.1"
+          ],
+          "quality_clues": [
+            "BluRay",
+            "TS"
+          ],
+          "misc_clues": [
+            "HDR"
+          ]
+        },
+        "resolution_clues": [
+          "2160p",
+          "HD",
+          "UHD"
+        ],
+        "audio_clues": [
+          "DTS",
+          "DTS-HD",
+          "5.1"
+        ],
+        "quality_clues": [
+          "BluRay",
+          "TS"
+        ],
+        "release_groups": [],
+        "misc_clues": [
+          "HDR"
+        ],
+        "path": "/workspaces/v007/sample_media/Dune.2021.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.5.1-SWTYBLZ"
+      },
+      "/workspaces/v007/sample_media/Dune (2021)": {
+        "original": "Dune (2021)",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [
+          "2021"
+        ],
+        "possible_title": "Dune",
+        "clean_title": "Dune",
+        "extras_bits": [],
+        "words": [],
+        "media_type": "movie",
+        "matched_clues": {},
+        "resolution_clues": [],
+        "audio_clues": [],
+        "quality_clues": [],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Dune (2021)"
+      },
+      "/workspaces/v007/sample_media/The.Dark.Knight.2008.720p.BluRay.x264-RARBG": {
+        "original": "The.Dark.Knight.2008.720p.BluRay.x264-RARBG",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [
+          "2008"
+        ],
+        "possible_title": "The.Dark.Knight",
+        "clean_title": "The Dark Knight",
+        "extras_bits": [
+          "720p",
+          "BluRay"
+        ],
+        "words": [
+          ".x264-RARBG"
+        ],
+        "media_type": "movie",
+        "matched_clues": {
+          "resolution_clues": [
+            "720p"
+          ],
+          "quality_clues": [
+            "BluRay"
+          ],
+          "release_groups": [
+            "RARBG"
+          ]
+        },
+        "resolution_clues": [
+          "720p"
+        ],
+        "audio_clues": [],
+        "quality_clues": [
+          "BluRay"
+        ],
+        "release_groups": [
+          "RARBG"
+        ],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/The.Dark.Knight.2008.720p.BluRay.x264-RARBG"
+      },
+      "/workspaces/v007/sample_media/Stranger.Things.S01E02.1080p.NF.WEB-DL.DDP5.1.x264-NTb": {
+        "original": "Stranger.Things.S01E02.1080p.NF.WEB-DL.DDP5.1.x264-NTb",
+        "tv_clues": [
+          "S01E02"
+        ],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "Stranger.Things",
+        "clean_title": "Stranger Things",
+        "extras_bits": [
+          "1080p"
+        ],
+        "words": [
+          ".x264-NTb",
+          ".NF.WEB-DL.DDP5.1"
+        ],
+        "media_type": "tv",
+        "matched_clues": {
+          "resolution_clues": [
+            "1080p"
+          ],
+          "audio_clues": [
+            "DD",
+            "5.1"
+          ],
+          "quality_clues": [
+            "WEB-DL"
+          ],
+          "release_groups": [
+            "NF"
+          ]
+        },
+        "resolution_clues": [
+          "1080p"
+        ],
+        "audio_clues": [
+          "DD",
+          "5.1"
+        ],
+        "quality_clues": [
+          "WEB-DL"
+        ],
+        "release_groups": [
+          "NF"
+        ],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Stranger.Things.S01E02.1080p.NF.WEB-DL.DDP5.1.x264-NTb"
+      },
+      "/workspaces/v007/sample_media/Breaking.Bad.S01E01.720p.BluRay.x264-DIMENSION": {
+        "original": "Breaking.Bad.S01E01.720p.BluRay.x264-DIMENSION",
+        "tv_clues": [
+          "S01E01"
+        ],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "Breaking.Bad",
+        "clean_title": "Breaking Bad",
+        "extras_bits": [
+          "720p",
+          "BluRay"
+        ],
+        "words": [
+          ".x264-DIMENSION"
+        ],
+        "media_type": "tv",
+        "matched_clues": {
+          "resolution_clues": [
+            "720p"
+          ],
+          "quality_clues": [
+            "BluRay"
+          ]
+        },
+        "resolution_clues": [
+          "720p"
+        ],
+        "audio_clues": [],
+        "quality_clues": [
+          "BluRay"
+        ],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Breaking.Bad.S01E01.720p.BluRay.x264-DIMENSION"
+      },
+      "/workspaces/v007/sample_media/Stranger.Things.S01E01.1080p.NF.WEB-DL.DDP5.1.x264-NTb": {
+        "original": "Stranger.Things.S01E01.1080p.NF.WEB-DL.DDP5.1.x264-NTb",
+        "tv_clues": [
+          "S01E01"
+        ],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "Stranger.Things",
+        "clean_title": "Stranger Things",
+        "extras_bits": [
+          "1080p"
+        ],
+        "words": [
+          ".x264-NTb",
+          ".NF.WEB-DL.DDP5.1"
+        ],
+        "media_type": "tv",
+        "matched_clues": {
+          "resolution_clues": [
+            "1080p"
+          ],
+          "audio_clues": [
+            "DD",
+            "5.1"
+          ],
+          "quality_clues": [
+            "WEB-DL"
+          ],
+          "release_groups": [
+            "NF"
+          ]
+        },
+        "resolution_clues": [
+          "1080p"
+        ],
+        "audio_clues": [
+          "DD",
+          "5.1"
+        ],
+        "quality_clues": [
+          "WEB-DL"
+        ],
+        "release_groups": [
+          "NF"
+        ],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Stranger.Things.S01E01.1080p.NF.WEB-DL.DDP5.1.x264-NTb"
+      },
+      "/workspaces/v007/sample_media/Breaking.Bad.S02E01.720p.BluRay.x264-DIMENSION": {
+        "original": "Breaking.Bad.S02E01.720p.BluRay.x264-DIMENSION",
+        "tv_clues": [
+          "S02E01"
+        ],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "Breaking.Bad",
+        "clean_title": "Breaking Bad",
+        "extras_bits": [
+          "720p",
+          "BluRay"
+        ],
+        "words": [
+          ".x264-DIMENSION"
+        ],
+        "media_type": "tv",
+        "matched_clues": {
+          "resolution_clues": [
+            "720p"
+          ],
+          "quality_clues": [
+            "BluRay"
+          ]
+        },
+        "resolution_clues": [
+          "720p"
+        ],
+        "audio_clues": [],
+        "quality_clues": [
+          "BluRay"
+        ],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Breaking.Bad.S02E01.720p.BluRay.x264-DIMENSION"
+      },
+      "/workspaces/v007/sample_media/Game.of.Thrones.S01E01.1080p.BluRay.x264-REWARD.spa": {
+        "original": "Game.of.Thrones.S01E01.1080p.BluRay.x264-REWARD.spa",
+        "tv_clues": [
+          "S01E01"
+        ],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "Game.of.Thrones",
+        "clean_title": "Game Of Thrones",
+        "extras_bits": [
+          "1080p",
+          "BluRay"
+        ],
+        "words": [
+          ".spa",
+          ".x264-REWARD"
+        ],
+        "media_type": "tv",
+        "matched_clues": {
+          "resolution_clues": [
+            "1080p"
+          ],
+          "quality_clues": [
+            "BluRay"
+          ]
+        },
+        "resolution_clues": [
+          "1080p"
+        ],
+        "audio_clues": [],
+        "quality_clues": [
+          "BluRay"
+        ],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Game.of.Thrones.S01E01.1080p.BluRay.x264-REWARD.spa"
+      },
+      "/workspaces/v007/sample_media/Naruto.S01E03.720p.WEB-DL.x264-ERAI": {
+        "original": "Naruto.S01E03.720p.WEB-DL.x264-ERAI",
+        "tv_clues": [
+          "S01E03"
+        ],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "Naruto",
+        "clean_title": "Naruto",
+        "extras_bits": [
+          "720p"
+        ],
+        "words": [
+          ".x264-ERAI",
+          ".WEB-DL"
+        ],
+        "media_type": "tv",
+        "matched_clues": {
+          "resolution_clues": [
+            "720p"
+          ],
+          "quality_clues": [
+            "WEB-DL"
+          ]
+        },
+        "resolution_clues": [
+          "720p"
+        ],
+        "audio_clues": [],
+        "quality_clues": [
+          "WEB-DL"
+        ],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Naruto.S01E03.720p.WEB-DL.x264-ERAI"
+      },
+      "/workspaces/v007/sample_media/The Witcher": {
+        "original": "The Witcher",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "The Witcher",
+        "clean_title": "The Witcher",
+        "extras_bits": [],
+        "words": [],
+        "media_type": "unknown",
+        "matched_clues": {
+          "quality_clues": [
+            "TC"
+          ]
+        },
+        "resolution_clues": [],
+        "audio_clues": [],
+        "quality_clues": [
+          "TC"
+        ],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/The Witcher"
+      },
+      "/workspaces/v007/sample_media/Matrix (1999)": {
+        "original": "Matrix (1999)",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [
+          "1999"
+        ],
+        "possible_title": "Matrix",
+        "clean_title": "Matrix",
+        "extras_bits": [],
+        "words": [],
+        "media_type": "movie",
+        "matched_clues": {},
+        "resolution_clues": [],
+        "audio_clues": [],
+        "quality_clues": [],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Matrix (1999)"
+      },
+      "/workspaces/v007/sample_media/The.Mandalorian.S01E02.2160p.DSNP.WEB-DL.DDP5.1.HDR.HEVC-CMRG": {
+        "original": "The.Mandalorian.S01E02.2160p.DSNP.WEB-DL.DDP5.1.HDR.HEVC-CMRG",
+        "tv_clues": [
+          "S01E02"
+        ],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "The.Mandalorian",
+        "clean_title": "The Mandalorian",
+        "extras_bits": [
+          "2160p"
+        ],
+        "words": [
+          ".HEVC-CMRG",
+          ".DSNP.WEB-DL.DDP5.1.HDR"
+        ],
+        "media_type": "tv",
+        "matched_clues": {
+          "resolution_clues": [
+            "2160p",
+            "HD"
+          ],
+          "audio_clues": [
+            "DD",
+            "5.1"
+          ],
+          "quality_clues": [
+            "WEB-DL"
+          ],
+          "release_groups": [
+            "DSNP",
+            "CMRG"
+          ],
+          "misc_clues": [
+            "HDR"
+          ]
+        },
+        "resolution_clues": [
+          "2160p",
+          "HD"
+        ],
+        "audio_clues": [
+          "DD",
+          "5.1"
+        ],
+        "quality_clues": [
+          "WEB-DL"
+        ],
+        "release_groups": [
+          "DSNP",
+          "CMRG"
+        ],
+        "misc_clues": [
+          "HDR"
+        ],
+        "path": "/workspaces/v007/sample_media/The.Mandalorian.S01E02.2160p.DSNP.WEB-DL.DDP5.1.HDR.HEVC-CMRG"
+      },
+      "/workspaces/v007/sample_media/Blade.Runner.2049.2017.2160p.BluRay.x265.10bit.HDR.TrueHD.7.1.Atmos-SWTYBLZ": {
+        "original": "Blade.Runner.2049.2017.2160p.BluRay.x265.10bit.HDR.TrueHD.7.1.Atmos-SWTYBLZ",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [
+          "2049"
+        ],
+        "possible_title": "Blade.Runner",
+        "clean_title": "Blade Runner",
+        "extras_bits": [
+          "2160p",
+          "BluRay",
+          "x265"
+        ],
+        "words": [
+          ".Atmos-SWTYBLZ",
+          ".10bit.HDR.TrueHD.7.1"
+        ],
+        "media_type": "movie",
+        "matched_clues": {
+          "resolution_clues": [
+            "2160p",
+            "HD"
+          ],
+          "audio_clues": [
+            "TrueHD",
+            "Atmos",
+            "5.1",
+            "7.1"
+          ],
+          "quality_clues": [
+            "BluRay"
+          ],
+          "misc_clues": [
+            "HDR"
+          ]
+        },
+        "resolution_clues": [
+          "2160p",
+          "HD"
+        ],
+        "audio_clues": [
+          "TrueHD",
+          "Atmos",
+          "5.1",
+          "7.1"
+        ],
+        "quality_clues": [
+          "BluRay"
+        ],
+        "release_groups": [],
+        "misc_clues": [
+          "HDR"
+        ],
+        "path": "/workspaces/v007/sample_media/Blade.Runner.2049.2017.2160p.BluRay.x265.10bit.HDR.TrueHD.7.1.Atmos-SWTYBLZ"
+      },
+      "/workspaces/v007/sample_media/The.Lord.of.the.Rings.The.Fellowship.of.the.Ring.2001.EXTENDED.1080p.BluRay.x264.DTS.5.1-HDMaN": {
+        "original": "The.Lord.of.the.Rings.The.Fellowship.of.the.Ring.2001.EXTENDED.1080p.BluRay.x264.DTS.5.1-HDMaN",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [
+          "2001"
+        ],
+        "possible_title": "The.Lord.of.the.Rings.The.Fellowship.of.the.Ring",
+        "clean_title": "The Lord Of The Rings The Fellowship Of The Ring",
+        "extras_bits": [
+          "1080p",
+          "BluRay"
+        ],
+        "words": [
+          ".1-HDMaN",
+          ".EXTENDED.",
+          ".x264.DTS.5"
+        ],
+        "media_type": "movie",
+        "matched_clues": {
+          "resolution_clues": [
+            "1080p",
+            "HD"
+          ],
+          "audio_clues": [
+            "DTS",
+            "5.1"
+          ],
+          "quality_clues": [
+            "BluRay",
+            "TS"
+          ],
+          "misc_clues": [
+            "EXTENDED"
+          ]
+        },
+        "resolution_clues": [
+          "1080p",
+          "HD"
+        ],
+        "audio_clues": [
+          "DTS",
+          "5.1"
+        ],
+        "quality_clues": [
+          "BluRay",
+          "TS"
+        ],
+        "release_groups": [],
+        "misc_clues": [
+          "EXTENDED"
+        ],
+        "path": "/workspaces/v007/sample_media/The.Lord.of.the.Rings.The.Fellowship.of.the.Ring.2001.EXTENDED.1080p.BluRay.x264.DTS.5.1-HDMaN"
+      },
+      "/workspaces/v007/sample_media/Breaking Bad": {
+        "original": "Breaking Bad",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "Breaking Bad",
+        "clean_title": "Breaking Bad",
+        "extras_bits": [],
+        "words": [],
+        "media_type": "unknown",
+        "matched_clues": {},
+        "resolution_clues": [],
+        "audio_clues": [],
+        "quality_clues": [],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Breaking Bad"
+      },
+      "/workspaces/v007/sample_media/Avatar.2009.720p.BluRay.x264.DTS-HD.MA.5.1-FGT": {
+        "original": "Avatar.2009.720p.BluRay.x264.DTS-HD.MA.5.1-FGT",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [
+          "2009"
+        ],
+        "possible_title": "Avatar",
+        "clean_title": "Avatar",
+        "extras_bits": [
+          "720p",
+          "BluRay"
+        ],
+        "words": [
+          ".1-FGT",
+          ".x264.DTS-HD.MA.5"
+        ],
+        "media_type": "movie",
+        "matched_clues": {
+          "resolution_clues": [
+            "720p",
+            "HD"
+          ],
+          "audio_clues": [
+            "DTS",
+            "DTS-HD",
+            "5.1"
+          ],
+          "quality_clues": [
+            "BluRay",
+            "TS"
+          ],
+          "release_groups": [
+            "FGT"
+          ]
+        },
+        "resolution_clues": [
+          "720p",
+          "HD"
+        ],
+        "audio_clues": [
+          "DTS",
+          "DTS-HD",
+          "5.1"
+        ],
+        "quality_clues": [
+          "BluRay",
+          "TS"
+        ],
+        "release_groups": [
+          "FGT"
+        ],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Avatar.2009.720p.BluRay.x264.DTS-HD.MA.5.1-FGT"
+      },
+      "/workspaces/v007/sample_media/Attack on Titan": {
+        "original": "Attack on Titan",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "Attack on Titan",
+        "clean_title": "Attack On Titan",
+        "extras_bits": [],
+        "words": [],
+        "media_type": "unknown",
+        "matched_clues": {},
+        "resolution_clues": [],
+        "audio_clues": [],
+        "quality_clues": [],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Attack on Titan"
+      },
+      "/workspaces/v007/sample_media/The.Witcher.S01E01.1080p.NF.WEB-DL.DDP5.1.H.264-NTb": {
+        "original": "The.Witcher.S01E01.1080p.NF.WEB-DL.DDP5.1.H.264-NTb",
+        "tv_clues": [
+          "S01E01"
+        ],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "The.Witcher",
+        "clean_title": "The Witcher",
+        "extras_bits": [
+          "1080p"
+        ],
+        "words": [
+          ".264-NTb",
+          ".NF.WEB-DL.DDP5.1.H"
+        ],
+        "media_type": "tv",
+        "matched_clues": {
+          "resolution_clues": [
+            "1080p"
+          ],
+          "audio_clues": [
+            "DD",
+            "5.1"
+          ],
+          "quality_clues": [
+            "WEB-DL",
+            "TC"
+          ],
+          "release_groups": [
+            "NF"
+          ]
+        },
+        "resolution_clues": [
+          "1080p"
+        ],
+        "audio_clues": [
+          "DD",
+          "5.1"
+        ],
+        "quality_clues": [
+          "WEB-DL",
+          "TC"
+        ],
+        "release_groups": [
+          "NF"
+        ],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/The.Witcher.S01E01.1080p.NF.WEB-DL.DDP5.1.H.264-NTb"
+      },
+      "/workspaces/v007/sample_media/One Piece": {
+        "original": "One Piece",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "One Piece",
+        "clean_title": "One Piece",
+        "extras_bits": [],
+        "words": [],
+        "media_type": "unknown",
+        "matched_clues": {},
+        "resolution_clues": [],
+        "audio_clues": [],
+        "quality_clues": [],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/One Piece"
+      },
+      "/workspaces/v007/sample_media/Avatar.2009.480p.DVDrip.x264-ETRG": {
+        "original": "Avatar.2009.480p.DVDrip.x264-ETRG",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [
+          "2009"
+        ],
+        "possible_title": "Avatar",
+        "clean_title": "Avatar",
+        "extras_bits": [
+          "480p"
+        ],
+        "words": [
+          ".x264-ETRG",
+          ".DVDrip"
+        ],
+        "media_type": "movie",
+        "matched_clues": {
+          "resolution_clues": [
+            "480p"
+          ],
+          "quality_clues": [
+            "DVDRip"
+          ],
+          "misc_clues": [
+            "DV"
+          ]
+        },
+        "resolution_clues": [
+          "480p"
+        ],
+        "audio_clues": [],
+        "quality_clues": [
+          "DVDRip"
+        ],
+        "release_groups": [],
+        "misc_clues": [
+          "DV"
+        ],
+        "path": "/workspaces/v007/sample_media/Avatar.2009.480p.DVDrip.x264-ETRG"
+      },
+      "/workspaces/v007/sample_media/Interstellar (2014)": {
+        "original": "Interstellar (2014)",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [
+          "2014"
+        ],
+        "possible_title": "Interstellar",
+        "clean_title": "Interstellar",
+        "extras_bits": [],
+        "words": [],
+        "media_type": "movie",
+        "matched_clues": {},
+        "resolution_clues": [],
+        "audio_clues": [],
+        "quality_clues": [],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Interstellar (2014)"
+      },
+      "/workspaces/v007/sample_media/_UNSORTED": {
+        "original": "_UNSORTED",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "_UNSORTED",
+        "clean_title": "Unsorted",
+        "extras_bits": [],
+        "words": [],
+        "media_type": "unknown",
+        "matched_clues": {},
+        "resolution_clues": [],
+        "audio_clues": [],
+        "quality_clues": [],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/_UNSORTED"
+      },
+      "/workspaces/v007/sample_media/Game.of.Thrones.S01E02.1080p.BluRay.x264-REWARD": {
+        "original": "Game.of.Thrones.S01E02.1080p.BluRay.x264-REWARD",
+        "tv_clues": [
+          "S01E02"
+        ],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "Game.of.Thrones",
+        "clean_title": "Game Of Thrones",
+        "extras_bits": [
+          "1080p",
+          "BluRay"
+        ],
+        "words": [
+          ".x264-REWARD"
+        ],
+        "media_type": "tv",
+        "matched_clues": {
+          "resolution_clues": [
+            "1080p"
+          ],
+          "quality_clues": [
+            "BluRay"
+          ]
+        },
+        "resolution_clues": [
+          "1080p"
+        ],
+        "audio_clues": [],
+        "quality_clues": [
+          "BluRay"
+        ],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Game.of.Thrones.S01E02.1080p.BluRay.x264-REWARD"
+      },
+      "/workspaces/v007/sample_media/Breaking.Bad.S01.720p.BluRay.x264-DIMENSION.torrent": {
+        "original": "Breaking.Bad.S01.720p.BluRay.x264-DIMENSION.torrent",
+        "tv_clues": [
+          "S01"
+        ],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "Breaking.Bad",
+        "clean_title": "Breaking Bad",
+        "extras_bits": [
+          "720p",
+          "BluRay"
+        ],
+        "words": [
+          ".torrent",
+          ".x264-DIMENSION"
+        ],
+        "media_type": "tv",
+        "matched_clues": {
+          "resolution_clues": [
+            "720p"
+          ],
+          "quality_clues": [
+            "BluRay"
+          ]
+        },
+        "resolution_clues": [
+          "720p"
+        ],
+        "audio_clues": [],
+        "quality_clues": [
+          "BluRay"
+        ],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Breaking.Bad.S01.720p.BluRay.x264-DIMENSION.torrent"
+      },
+      "/workspaces/v007/sample_media/Torrents": {
+        "original": "Torrents",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "Torrents",
+        "clean_title": "Torrents",
+        "extras_bits": [],
+        "words": [],
+        "media_type": "unknown",
+        "matched_clues": {
+          "quality_clues": [
+            "TS"
+          ]
+        },
+        "resolution_clues": [],
+        "audio_clues": [],
+        "quality_clues": [
+          "TS"
+        ],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Torrents"
+      },
+      "/workspaces/v007/sample_media/The Dark Knight (2008)": {
+        "original": "The Dark Knight (2008)",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [
+          "2008"
+        ],
+        "possible_title": "The Dark Knight",
+        "clean_title": "The Dark Knight",
+        "extras_bits": [],
+        "words": [],
+        "media_type": "movie",
+        "matched_clues": {},
+        "resolution_clues": [],
+        "audio_clues": [],
+        "quality_clues": [],
+        "release_groups": [],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/The Dark Knight (2008)"
+      },
+      "/workspaces/v007/sample_media/Avatar.2009.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT": {
+        "original": "Avatar.2009.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT",
+        "tv_clues": [],
+        "anime_clues": [],
+        "movie_clues": [
+          "2009"
+        ],
+        "possible_title": "Avatar",
+        "clean_title": "Avatar",
+        "extras_bits": [
+          "1080p",
+          "BluRay"
+        ],
+        "words": [
+          ".1-FGT",
+          ".x264.DTS-HD.MA.5"
+        ],
+        "media_type": "movie",
+        "matched_clues": {
+          "resolution_clues": [
+            "1080p",
+            "HD"
+          ],
+          "audio_clues": [
+            "DTS",
+            "DTS-HD",
+            "5.1"
+          ],
+          "quality_clues": [
+            "BluRay",
+            "TS"
+          ],
+          "release_groups": [
+            "FGT"
+          ]
+        },
+        "resolution_clues": [
+          "1080p",
+          "HD"
+        ],
+        "audio_clues": [
+          "DTS",
+          "DTS-HD",
+          "5.1"
+        ],
+        "quality_clues": [
+          "BluRay",
+          "TS"
+        ],
+        "release_groups": [
+          "FGT"
+        ],
+        "misc_clues": [],
+        "path": "/workspaces/v007/sample_media/Avatar.2009.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT"
+      },
+      "/workspaces/v007/sample_media/Game.of.Thrones.S08.2160p.WEB-DL.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ.torrent": {
+        "original": "Game.of.Thrones.S08.2160p.WEB-DL.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ.torrent",
+        "tv_clues": [
+          "S08"
+        ],
+        "anime_clues": [],
+        "movie_clues": [],
+        "possible_title": "Game.of.Thrones",
+        "clean_title": "Game Of Thrones",
+        "extras_bits": [
+          "2160p",
+          "x265"
+        ],
+        "words": [
+          ".torrent",
+          ".WEB-DL.",
+          ".10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ"
+        ],
+        "media_type": "tv",
+        "matched_clues": {
+          "resolution_clues": [
+            "2160p",
+            "HD"
+          ],
+          "audio_clues": [
+            "DTS",
+            "DTS-HD",
+            "TrueHD",
+            "Atmos",
+            "5.1",
+            "7.1"
+          ],
+          "quality_clues": [
+            "WEB-DL",
+            "TS"
+          ],
+          "misc_clues": [
+            "HDR"
+          ]
+        },
+        "resolution_clues": [
+          "2160p",
+          "HD"
+        ],
+        "audio_clues": [
+          "DTS",
+          "DTS-HD",
+          "TrueHD",
+          "Atmos",
+          "5.1",
+          "7.1"
+        ],
+        "quality_clues": [
+          "WEB-DL",
+          "TS"
+        ],
+        "release_groups": [],
+        "misc_clues": [
+          "HDR"
+        ],
+        "path": "/workspaces/v007/sample_media/Game.of.Thrones.S08.2160p.WEB-DL.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ.torrent"
+      }
+    },
+    "grouped": {
+      "('The Lord Of The Rings The Fellowship Of The Ring', 'movie', '2001')": {
+        "paths": [
+          "/workspaces/v007/sample_media/The Lord of the Rings The Fellowship of the Ring (2001)",
+          "/workspaces/v007/sample_media/The.Lord.of.the.Rings.The.Fellowship.of.the.Ring.2001.EXTENDED.1080p.BluRay.x264.DTS.5.1-HDMaN"
+        ],
+        "media_type": "movie",
+        "year": "2001"
+      },
+      "('Game Of Thrones', 'tv', None)": {
+        "paths": [
+          "/workspaces/v007/sample_media/Game.of.Thrones.S08E01.2160p.WEB-DL.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ",
+          "/workspaces/v007/sample_media/Game.of.Thrones.S08E02.2160p.WEB-DL.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ",
+          "/workspaces/v007/sample_media/Game.of.Thrones.S01E01.1080p.BluRay.x264-REWARD",
+          "/workspaces/v007/sample_media/Game.of.Thrones.S01E01.1080p.BluRay.x264-REWARD.eng",
+          "/workspaces/v007/sample_media/Game.of.Thrones.S01E01.1080p.BluRay.x264-REWARD.spa",
+          "/workspaces/v007/sample_media/Game.of.Thrones.S01E02.1080p.BluRay.x264-REWARD",
+          "/workspaces/v007/sample_media/Game.of.Thrones.S08.2160p.WEB-DL.x265.10bit.HDR.DTS-HD.MA.TrueHD.7.1.Atmos-SWTYBLZ.torrent"
+        ],
+        "media_type": "tv",
+        "year": null
+      },
+      "('One Piece', 'tv', None)": {
+        "paths": [
+          "/workspaces/v007/sample_media/One.Piece.S01E02.1080p.WEB-DL.x265.10bit-SUBSPLEASE",
+          "/workspaces/v007/sample_media/One.Piece.S01E01.1080p.WEB-DL.x265.10bit-SUBSPLEASE"
+        ],
+        "media_type": "tv",
+        "year": null
+      },
+      "('Some Movie', 'movie', '2020')": {
+        "paths": [
+          "/workspaces/v007/sample_media/Some.Movie.2020.1080p.WEB-DL.x264-ASDF"
+        ],
+        "media_type": "movie",
+        "year": "2020"
+      },
+      "('Pulp Fiction', 'movie', '1994')": {
+        "paths": [
+          "/workspaces/v007/sample_media/Pulp Fiction (1994)",
+          "/workspaces/v007/sample_media/Pulp.Fiction.1994.1080p.BluRay.x264-DIMENSION"
+        ],
+        "media_type": "movie",
+        "year": "1994"
+      },
+      "('Naruto', 'tv', None)": {
+        "paths": [
+          "/workspaces/v007/sample_media/Naruto.S01E01.720p.WEB-DL.x264-ERAI",
+          "/workspaces/v007/sample_media/Naruto.S01E02.720p.WEB-DL.x264-ERAI",
+          "/workspaces/v007/sample_media/Naruto.S01E03.720p.WEB-DL.x264-ERAI"
+        ],
+        "media_type": "tv",
+        "year": null
+      },
+      "('The Matrix', 'movie', '1999')": {
+        "paths": [
+          "/workspaces/v007/sample_media/The.Matrix.1999.4K.BluRay.x265.10bit-HDR.5.1-PSYPHER",
+          "/workspaces/v007/sample_media/The Matrix (1999)"
+        ],
+        "media_type": "movie",
+        "year": "1999"
+      },
+      "('Inception', 'movie', '2010')": {
+        "paths": [
+          "/workspaces/v007/sample_media/Inception (2010)",
+          "/workspaces/v007/sample_media/Inception.2010.1080p.BluRay.x264.YIFY.torrent",
+          "/workspaces/v007/sample_media/Inception.2010.1080p.BluRay.x264.YIFY"
+        ],
+        "media_type": "movie",
+        "year": "2010"
+      },
+      "('Breaking Bad', 'tv', None)": {
+        "paths": [
+          "/workspaces/v007/sample_media/Breaking.Bad.S02E02.720p.BluRay.x264-DIMENSION",
+          "/workspaces/v007/sample_media/Breaking.Bad.S01E03.720p.BluRay.x264-DIMENSION",
+          "/workspaces/v007/sample_media/Breaking.Bad.S01E02.720p.BluRay.x264-DIMENSION",
+          "/workspaces/v007/sample_media/Breaking.Bad.S01E01.720p.BluRay.x264-DIMENSION",
+          "/workspaces/v007/sample_media/Breaking.Bad.S02E01.720p.BluRay.x264-DIMENSION",
+          "/workspaces/v007/sample_media/Breaking.Bad.S01.720p.BluRay.x264-DIMENSION.torrent"
+        ],
+        "media_type": "tv",
+        "year": null
+      },
+      "('The Office US', 'tv', None)": {
+        "paths": [
+          "/workspaces/v007/sample_media/The.Office.US.S01E01.720p.WEB-DL.x264-AMZN",
+          "/workspaces/v007/sample_media/The.Office.US.S01E02.720p.WEB-DL.x264-AMZN"
+        ],
+        "media_type": "tv",
+        "year": null
+      },
+      "('Stranger Things', 'unknown', None)": {
+        "paths": [
+          "/workspaces/v007/sample_media/Stranger Things"
+        ],
+        "media_type": "unknown",
+        "year": null
+      },
+      "('The Mandalorian', 'unknown', None)": {
+        "paths": [
+          "/workspaces/v007/sample_media/The Mandalorian"
+        ],
+        "media_type": "unknown",
+        "year": null
+      },
+      "('Attack On Titan', 'tv', None)": {
+        "paths": [
+          "/workspaces/v007/sample_media/Attack.on.Titan.S01E01.1080p.BluRay.x264-HORRIBLESUBS"
+        ],
+        "media_type": "tv",
+        "year": null
+      },
+      "('Another Movie', 'movie', '2019')": {
+        "paths": [
+          "/workspaces/v007/sample_media/Another.Movie.2019.720p.BluRay.x264-QWER"
+        ],
+        "media_type": "movie",
+        "year": "2019"
+      },
+      "('Naruto', 'unknown', None)": {
+        "paths": [
+          "/workspaces/v007/sample_media/Naruto"
+        ],
+        "media_type": "unknown",
+        "year": null
+      },
+      "('The Witcher', 'tv', None)": {
+        "paths": [
+          "/workspaces/v007/sample_media/The.Witcher.S01E02.1080p.NF.WEB-DL.DDP5.1.H.264-NTb",
+          "/workspaces/v007/sample_media/The.Witcher.S01E01.1080p.NF.WEB-DL.DDP5.1.H.264-NTb"
+        ],
+        "media_type": "tv",
+        "year": null
+      },
+      "('Interstellar', 'movie', '2014')": {
+        "paths": [
+          "/workspaces/v007/sample_media/Interstellar.2014.IMAX.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT",
+          "/workspaces/v007/sample_media/Interstellar (2014)"
+        ],
+        "media_type": "movie",
+        "year": "2014"
+      },
+      "('Avatar', 'movie', '2009')": {
+        "paths": [
+          "/workspaces/v007/sample_media/Avatar (2009)",
+          "/workspaces/v007/sample_media/Avatar.2009.720p.BluRay.x264.DTS-HD.MA.5.1-FGT",
+          "/workspaces/v007/sample_media/Avatar.2009.480p.DVDrip.x264-ETRG",
+          "/workspaces/v007/sample_media/Avatar.2009.1080p.BluRay.x264.DTS-HD.MA.5.1-FGT"
+        ],
+        "media_type": "movie",
+        "year": "2009"
+      },
+      "('The Office (us)', 'unknown', None)": {
+        "paths": [
+          "/workspaces/v007/sample_media/The Office (US)"
+        ],
+        "media_type": "unknown",
+        "year": null
+      },
+      "('Game Of Thrones', 'unknown', None)": {
+        "paths": [
+          "/workspaces/v007/sample_media/Game of Thrones"
+        ],
+        "media_type": "unknown",
+        "year": null
+      },
+      "('The Mandalorian', 'tv', None)": {
+        "paths": [
+          "/workspaces/v007/sample_media/The.Mandalorian.S01E01.2160p.DSNP.WEB-DL.DDP5.1.HDR.HEVC-CMRG",
+          "/workspaces/v007/sample_media/The.Mandalorian.S01E02.2160p.DSNP.WEB-DL.DDP5.1.HDR.HEVC-CMRG"
+        ],
+        "media_type": "tv",
+        "year": null
+      },
+      "('Blade Runner', 'movie', '2017')": {
+        "paths": [
+          "/workspaces/v007/sample_media/Blade Runner 2049 (2017)"
+        ],
+        "media_type": "movie",
+        "year": "2017"
+      },
+      "('Dune', 'movie', '2021')": {
+        "paths": [
+          "/workspaces/v007/sample_media/Dune.2021.2160p.UHD.BluRay.x265.10bit.HDR.DTS-HD.MA.5.1-SWTYBLZ",
+          "/workspaces/v007/sample_media/Dune (2021)"
+        ],
+        "media_type": "movie",
+        "year": "2021"
+      },
+      "('The Dark Knight', 'movie', '2008')": {
+        "paths": [
+          "/workspaces/v007/sample_media/The.Dark.Knight.2008.720p.BluRay.x264-RARBG",
+          "/workspaces/v007/sample_media/The Dark Knight (2008)"
+        ],
+        "media_type": "movie",
+        "year": "2008"
+      },
+      "('Stranger Things', 'tv', None)": {
+        "paths": [
+          "/workspaces/v007/sample_media/Stranger.Things.S01E02.1080p.NF.WEB-DL.DDP5.1.x264-NTb",
+          "/workspaces/v007/sample_media/Stranger.Things.S01E01.1080p.NF.WEB-DL.DDP5.1.x264-NTb"
+        ],
+        "media_type": "tv",
+        "year": null
+      },
+      "('The Witcher', 'unknown', None)": {
+        "paths": [
+          "/workspaces/v007/sample_media/The Witcher"
+        ],
+        "media_type": "unknown",
+        "year": null
+      },
+      "('Matrix', 'movie', '1999')": {
+        "paths": [
+          "/workspaces/v007/sample_media/Matrix (1999)"
+        ],
+        "media_type": "movie",
+        "year": "1999"
+      },
+      "('Blade Runner', 'movie', '2049')": {
+        "paths": [
+          "/workspaces/v007/sample_media/Blade.Runner.2049.2017.2160p.BluRay.x265.10bit.HDR.TrueHD.7.1.Atmos-SWTYBLZ"
+        ],
+        "media_type": "movie",
+        "year": "2049"
+      },
+      "('Breaking Bad', 'unknown', None)": {
+        "paths": [
+          "/workspaces/v007/sample_media/Breaking Bad"
+        ],
+        "media_type": "unknown",
+        "year": null
+      },
+      "('Attack On Titan', 'unknown', None)": {
+        "paths": [
+          "/workspaces/v007/sample_media/Attack on Titan"
+        ],
+        "media_type": "unknown",
+        "year": null
+      },
+      "('One Piece', 'unknown', None)": {
+        "paths": [
+          "/workspaces/v007/sample_media/One Piece"
+        ],
+        "media_type": "unknown",
+        "year": null
+      },
+      "('Unsorted', 'unknown', None)": {
+        "paths": [
+          "/workspaces/v007/sample_media/_UNSORTED"
+        ],
+        "media_type": "unknown",
+        "year": null
+      },
+      "('Torrents', 'unknown', None)": {
+        "paths": [
+          "/workspaces/v007/sample_media/Torrents"
+        ],
+        "media_type": "unknown",
+        "year": null
+      }
+    }
+  }
+}

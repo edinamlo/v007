@@ -1,18 +1,26 @@
 #!/usr/bin/env bash
-set -e
-mkdir -p sample_media/Movies/"Inception (2010)"
-mkdir -p sample_media/Movies/"Matrix (1999)"
-mkdir -p sample_media/Movies/"1917 (2019)"
-mkdir -p "sample_media/TV/9-1-1 - Lone Star (2020) S01-S02"
-mkdir -p "sample_media/TV/The Mandalorian S01"
-mkdir -p "sample_media/Anime/Naruto Shippuden"
-mkdir -p "sample_media/Anime/One Piece"
+# Create folders in /workspaces/v007/sample_media and put a sample file inside each
+set -euo pipefail
 
-touch "sample_media/Movies/Inception (2010)/Inception.2010.1080p.BluRay.x264.YIFY.mkv"
-touch "sample_media/Movies/Matrix (1999)/Matrix.1999.720p.HDTV.x265.NF.mp4"
-touch "sample_media/Movies/1917 (2019)/1917 BluRay 1080pxH264 Ita Eng AC3 5.1 Sub Ita Eng.mkv"
-touch "sample_media/TV/9-1-1 - Lone Star (2020) S01-S02/README.txt"
-touch "sample_media/TV/The Mandalorian S01/Chapter1.mkv"
-touch "sample_media/Anime/Naruto Shippuden/Naruto.Shippuden.(001-500).mkv"
-touch "sample_media/Anime/One Piece/One.Piece.S01E1116.Lets.Go.Get.It!.2160p.mkv"
-echo "Sample media created."
+BASE="/workspaces/v007/sample_media"
+mkdir -p "$BASE"
+cd "$BASE"
+
+names=(
+"Sword.Art.Online.Alternative.S01.v2.1080p.Blu-Ray.10-Bit.Dual-Audio.LPCM.x265-iAHD"
+"[SubsPlease] Tearmoon Teikoku Monogatari - 01 (1080p) [15ADAE00].mkv"
+"[SubsPlease] Fairy Tail - 100 Years Quest - 05 (1080p) [1107F3A9].mkv"
+"[Erai-raws] Tearmoon Teikoku Monogatari - 01 [1080p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]"
+"Hunter x Hunter (2011) - 01 [1080p][Multiple Subtitle] [ENG][POR-BR][SPA-LA][SPA][ARA][FRE][GER][ITA][RUS]"
+"Naruto Shippuden (001-500) [Complete Series + Movies] (Dual Audio)"
+"[Erai-raws] Sword Art Online Alternative - Gun Gale Online - 10 [720p][Multiple Subtitle].mkv"
+"One.Piece.S01E1116.Lets.Go.Get.It!.Buggys.Big.Declaration.2160p.B-Global.WEB-DL.JPN.AAC2.0.H.264.MSubs-ToonsHub.mkv"
+"[Erai-raws] 2-5 Jigen no Ririsa - 08 [480p][Multiple Subtitle][972D0669].mkv"
+"[Exiled-Destiny]_Tokyo_Underground_Ep02v2_(41858470).mkv"
+)
+
+for name in "${names[@]}"; do
+  mkdir -p -- "$name"
+  # create a sample file inside each folder with the exact same base name
+  touch -- "$name/$name.sample"
+done

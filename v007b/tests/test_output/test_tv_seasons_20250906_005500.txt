@@ -1,0 +1,678 @@
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.616844
+Input: 2 сезон 24 серия.avi
+Expected Seasons: [2]
+Got: {
+  "original": "2 сезон 24 серия.avi",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "2 сезон 24 серия",
+  "clean_title": "2 сезон 24 серия",
+  "extras_bits": [],
+  "words": [
+    ".avi"
+  ],
+  "media_type": "unknown",
+  "matched_clues": {},
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.641013
+Input: 2 сезон 24 серия.avi
+Expected Seasons: [2]
+Got: "Expected seasons [2] but got [] for '2 сезон 24 серия.avi'\nassert [] == [2]\n  \n  Right contains one more item: \u001b[0m\u001b[94m2\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  Use -v to get more diff"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.651203
+Input: 2-06. Девичья сила.mkv
+Expected Seasons: [2]
+Got: {
+  "original": "2-06. Девичья сила.mkv",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "2-06. Девичья сила",
+  "clean_title": "2 06 Девичья сила",
+  "extras_bits": [],
+  "words": [
+    ".mkv"
+  ],
+  "media_type": "unknown",
+  "matched_clues": {},
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.651684
+Input: 2-06. Девичья сила.mkv
+Expected Seasons: [2]
+Got: "Expected seasons [2] but got [] for '2-06. Девичья сила.mkv'\nassert [] == [2]\n  \n  Right contains one more item: \u001b[0m\u001b[94m2\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  Use -v to get more diff"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.655163
+Input: 2. Discovery-Kak_ustroena_Vselennaya.(2.sezon_8.serii.iz.8).2012.XviD.HDTVRip.Krasnodarka
+Expected Seasons: [2]
+Got: {
+  "original": "2. Discovery-Kak_ustroena_Vselennaya.(2.sezon_8.serii.iz.8).2012.XviD.HDTVRip.Krasnodarka",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "2012"
+  ],
+  "possible_title": "2. Discovery-Kak_ustroena_Vselennaya.(2.sezon_8.serii.iz.8",
+  "clean_title": "2 Discovery Kak ustroena Vselennaya (2 sezon 8 serii iz 8",
+  "extras_bits": [],
+  "words": [
+    ".Krasnodarka",
+    ".XviD.HDTVRip"
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "resolution_clues": [
+      "HD"
+    ],
+    "quality_clues": [
+      "HDTV",
+      "TVRIP"
+    ]
+  },
+  "resolution_clues": [
+    "HD"
+  ],
+  "audio_clues": [],
+  "quality_clues": [
+    "HDTV",
+    "TVRIP"
+  ],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.655539
+Input: 2. Discovery-Kak_ustroena_Vselennaya.(2.sezon_8.serii.iz.8).2012.XviD.HDTVRip.Krasnodarka
+Expected Seasons: [2]
+Got: "Expected seasons [2] but got [] for '2. Discovery-Kak_ustroena_Vselennaya.(2.sezon_8.serii.iz.8).2012.XviD.HDTVRip.Krasnodarka'\nassert [] == [2]\n  \n  Right contains one more item: \u001b[0m\u001b[94m2\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  Use -v to get more diff"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.660022
+Input: 3 сезон
+Expected Seasons: [3]
+Got: {
+  "original": "3 сезон",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "3 сезон",
+  "clean_title": "3 сезон",
+  "extras_bits": [],
+  "words": [],
+  "media_type": "unknown",
+  "matched_clues": {},
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.660411
+Input: 3 сезон
+Expected Seasons: [3]
+Got: "Expected seasons [3] but got [] for '3 сезон'\nassert [] == [3]\n  \n  Right contains one more item: \u001b[0m\u001b[94m3\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  Use -v to get more diff"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.663651
+Input: 3Âº Temporada Bob esponja Pt-Br
+Expected Seasons: [3]
+Got: {
+  "original": "3Âº Temporada Bob esponja Pt-Br",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "3Âº Temporada Bob esponja Pt-Br",
+  "clean_title": "3Âo Temporada Bob esponja Pt Br",
+  "extras_bits": [],
+  "words": [],
+  "media_type": "unknown",
+  "matched_clues": {},
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.663989
+Input: 3Âº Temporada Bob esponja Pt-Br
+Expected Seasons: [3]
+Got: "Expected seasons [3] but got [] for '3Âº Temporada Bob esponja Pt-Br'\nassert [] == [3]\n  \n  Right contains one more item: \u001b[0m\u001b[94m3\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  Use -v to get more diff"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.667927
+Input: 4-13 Cursed (HD).m4v
+Expected Seasons: [4]
+Got: {
+  "original": "4-13 Cursed (HD).m4v",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "4-13 Cursed (HD)",
+  "clean_title": "4 13 Cursed (HD)",
+  "extras_bits": [],
+  "words": [
+    ".m4v"
+  ],
+  "media_type": "unknown",
+  "matched_clues": {
+    "resolution_clues": [
+      "HD"
+    ]
+  },
+  "resolution_clues": [
+    "HD"
+  ],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.668365
+Input: 4-13 Cursed (HD).m4v
+Expected Seasons: [4]
+Got: "Expected seasons [4] but got [] for '4-13 Cursed (HD).m4v'\nassert [] == [4]\n  \n  Right contains one more item: \u001b[0m\u001b[94m4\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  Use -v to get more diff"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.672663
+Input: 13-13-13 2013 DVDrip x264 AAC-MiLLENiUM
+Expected Seasons: []
+Got: {
+  "original": "13-13-13 2013 DVDrip x264 AAC-MiLLENiUM",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "2013"
+  ],
+  "possible_title": "13-13-13 2013 DVDrip x264",
+  "clean_title": "13 13 13 2013 DVDrip x264",
+  "extras_bits": [
+    "AAC"
+  ],
+  "words": [
+    "-MiLLENiUM"
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "audio_clues": [
+      "AAC"
+    ],
+    "quality_clues": [
+      "DVDRip"
+    ],
+    "misc_clues": [
+      "DV"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [
+    "AAC"
+  ],
+  "quality_clues": [
+    "DVDRip"
+  ],
+  "release_groups": [],
+  "misc_clues": [
+    "DV"
+  ]
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.673944
+Input: 24 Season 1-8 Complete with Subtitles
+Expected Seasons: [1, 2, 3, 4, 5, 6, 7, 8]
+Got: {
+  "original": "24 Season 1-8 Complete with Subtitles",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "24 Season 1-8 Complete with Subtitles",
+  "clean_title": "24 Season 1 8 Complete with Subtitles",
+  "extras_bits": [],
+  "words": [],
+  "media_type": "unknown",
+  "matched_clues": {
+    "misc_clues": [
+      "COMPLETE",
+      "SUBTITLES"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": [
+    "COMPLETE",
+    "SUBTITLES"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.674362
+Input: 24 Season 1-8 Complete with Subtitles
+Expected Seasons: [1, 2, 3, 4, 5, 6, 7, 8]
+Got: "Expected seasons [1, 2, 3, 4, 5, 6, 7, 8] but got [] for '24 Season 1-8 Complete with Subtitles'\nassert [] == [1, 2, 3, 4, 5, 6, ...]\n  \n  Right contains 8 more items, first extra item: \u001b[0m\u001b[94m1\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  Use -v to get more diff"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.679573
+Input: 30 M0N3D4S ESP T01XE08.mkv
+Expected Seasons: [1]
+Got: {
+  "original": "30 M0N3D4S ESP T01XE08.mkv",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "30 M0N3D4S ESP T01XE08",
+  "clean_title": "30 M0N3D4S ESP T01XE08",
+  "extras_bits": [],
+  "words": [
+    ".mkv"
+  ],
+  "media_type": "unknown",
+  "matched_clues": {
+    "misc_clues": [
+      "3D"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": [
+    "3D"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.679991
+Input: 30 M0N3D4S ESP T01XE08.mkv
+Expected Seasons: [1]
+Got: "Expected seasons [1] but got [] for '30 M0N3D4S ESP T01XE08.mkv'\nassert [] == [1]\n  \n  Right contains one more item: \u001b[0m\u001b[94m1\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  Use -v to get more diff"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.685130
+Input: Ace of the Diamond: 1st Season
+Expected Seasons: [1]
+Got: {
+  "original": "Ace of the Diamond: 1st Season",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "Ace of the Diamond: 1st Season",
+  "clean_title": "Ace of the Diamond: 1st Season",
+  "extras_bits": [],
+  "words": [],
+  "media_type": "unknown",
+  "matched_clues": {},
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.685551
+Input: Ace of the Diamond: 1st Season
+Expected Seasons: [1]
+Got: "Expected seasons [1] but got [] for 'Ace of the Diamond: 1st Season'\nassert [] == [1]\n  \n  Right contains one more item: \u001b[0m\u001b[94m1\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  Use -v to get more diff"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.690171
+Input: Ace of the Diamond: 2nd Season
+Expected Seasons: [2]
+Got: {
+  "original": "Ace of the Diamond: 2nd Season",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "Ace of the Diamond: 2nd Season",
+  "clean_title": "Ace of the Diamond: 2nd Season",
+  "extras_bits": [],
+  "words": [],
+  "media_type": "unknown",
+  "matched_clues": {},
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.690534
+Input: Ace of the Diamond: 2nd Season
+Expected Seasons: [2]
+Got: "Expected seasons [2] but got [] for 'Ace of the Diamond: 2nd Season'\nassert [] == [2]\n  \n  Right contains one more item: \u001b[0m\u001b[94m2\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  Use -v to get more diff"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.693815
+Input: Adventure Time 10 th season
+Expected Seasons: [10]
+Got: {
+  "original": "Adventure Time 10 th season",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "Adventure Time 10 th season",
+  "clean_title": "Adventure Time 10 th season",
+  "extras_bits": [],
+  "words": [],
+  "media_type": "unknown",
+  "matched_clues": {
+    "misc_clues": [
+      "DV"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": [
+    "DV"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.694210
+Input: Adventure Time 10 th season
+Expected Seasons: [10]
+Got: "Expected seasons [10] but got [] for 'Adventure Time 10 th season'\nassert [] == [10]\n  \n  Right contains one more item: \u001b[0m\u001b[94m10\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  Use -v to get more diff"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.699390
+Input: All of Us Are Dead . 2022 . S01 EP #1.2.mkv
+Expected Seasons: [1]
+Got: "name 're' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.703969
+Input: Beavis and Butt-Head - 1a. Temporada
+Expected Seasons: [1]
+Got: {
+  "original": "Beavis and Butt-Head - 1a. Temporada",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "Beavis and Butt-Head - 1a",
+  "clean_title": "Beavis and Butt Head 1a",
+  "extras_bits": [],
+  "words": [
+    ". Temporada"
+  ],
+  "media_type": "unknown",
+  "matched_clues": {},
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.704385
+Input: Beavis and Butt-Head - 1a. Temporada
+Expected Seasons: [1]
+Got: "Expected seasons [1] but got [] for 'Beavis and Butt-Head - 1a. Temporada'\nassert [] == [1]\n  \n  Right contains one more item: \u001b[0m\u001b[94m1\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  Use -v to get more diff"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.709374
+Input: Boondocks, The - Seasons 1 + 2
+Expected Seasons: [1, 2]
+Got: {
+  "original": "Boondocks, The - Seasons 1 + 2",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "Boondocks, The - Seasons 1 + 2",
+  "clean_title": "Boondocks, The Seasons 1 + 2",
+  "extras_bits": [],
+  "words": [],
+  "media_type": "unknown",
+  "matched_clues": {},
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.709814
+Input: Boondocks, The - Seasons 1 + 2
+Expected Seasons: [1, 2]
+Got: "Expected seasons [1, 2] but got [] for 'Boondocks, The - Seasons 1 + 2'\nassert [] == [1, 2]\n  \n  Right contains 2 more items, first extra item: \u001b[0m\u001b[94m1\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  Use -v to get more diff"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.714045
+Input: breaking.bad.s01e01.720p.bluray.x264-reward
+Expected Seasons: [1]
+Got: "name 're' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.718654
+Input: Breaking Bad Complete Season 1 , 2 , 3, 4 ,5 ,1080p HEVC
+Expected Seasons: [1, 2, 3, 4, 5]
+Got: {
+  "original": "Breaking Bad Complete Season 1 , 2 , 3, 4 ,5 ,1080p HEVC",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "Breaking Bad Complete Season 1 , 2 , 3, 4 ,5 ,",
+  "clean_title": "Breaking Bad Complete Season 1 , 2 , 3, 4 ,5 ,",
+  "extras_bits": [
+    "1080p"
+  ],
+  "words": [],
+  "media_type": "unknown",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ],
+    "misc_clues": [
+      "COMPLETE"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": [
+    "COMPLETE"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.719014
+Input: Breaking Bad Complete Season 1 , 2 , 3, 4 ,5 ,1080p HEVC
+Expected Seasons: [1, 2, 3, 4, 5]
+Got: "Expected seasons [1, 2, 3, 4, 5] but got [] for 'Breaking Bad Complete Season 1 , 2 , 3, 4 ,5 ,1080p HEVC'\nassert [] == [1, 2, 3, 4, 5]\n  \n  Right contains 5 more items, first extra item: \u001b[0m\u001b[94m1\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  Use -v to get more diff"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.723534
+Input: Bron - S4 - 720P - SweSub.mp4
+Expected Seasons: [4]
+Got: {
+  "original": "Bron - S4 - 720P - SweSub.mp4",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "Bron - S4 -",
+  "clean_title": "Bron S4",
+  "extras_bits": [
+    "720p"
+  ],
+  "words": [
+    ".mp4"
+  ],
+  "media_type": "unknown",
+  "matched_clues": {
+    "resolution_clues": [
+      "720p"
+    ]
+  },
+  "resolution_clues": [
+    "720p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.723882
+Input: Bron - S4 - 720P - SweSub.mp4
+Expected Seasons: [4]
+Got: "Expected seasons [4] but got [] for 'Bron - S4 - 720P - SweSub.mp4'\nassert [] == [4]\n  \n  Right contains one more item: \u001b[0m\u001b[94m4\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  Use -v to get more diff"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.728096
+Input: clny.3x11m720p.es[www.planetatorrent.com].mkv
+Expected Seasons: [3]
+Got: {
+  "original": "clny.3x11m720p.es[www.planetatorrent.com].mkv",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "clny.3x11m",
+  "clean_title": "clny 3x11m",
+  "extras_bits": [
+    "720p"
+  ],
+  "words": [
+    ".mkv",
+    ".es[www.planetatorrent.com]"
+  ],
+  "media_type": "unknown",
+  "matched_clues": {
+    "resolution_clues": [
+      "720p"
+    ],
+    "release_groups_anime": [
+      "ANE"
+    ]
+  },
+  "resolution_clues": [
+    "720p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.728451
+Input: clny.3x11m720p.es[www.planetatorrent.com].mkv
+Expected Seasons: [3]
+Got: "Expected seasons [3] but got [] for 'clny.3x11m720p.es[www.planetatorrent.com].mkv'\nassert [] == [3]\n  \n  Right contains one more item: \u001b[0m\u001b[94m3\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  Use -v to get more diff"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.731790
+Input: Coupling Season 1 - 4 Complete DVDRip - x264 - MKV by RiddlerA
+Expected Seasons: [1, 2, 3, 4]
+Got: {
+  "original": "Coupling Season 1 - 4 Complete DVDRip - x264 - MKV by RiddlerA",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "Coupling Season 1 - 4 Complete DVDRip - x264 - MKV by RiddlerA",
+  "clean_title": "Coupling Season 1 4 Complete DVDRip x264 MKV by RiddlerA",
+  "extras_bits": [],
+  "words": [],
+  "media_type": "unknown",
+  "matched_clues": {
+    "audio_clues": [
+      "DD"
+    ],
+    "quality_clues": [
+      "DVDRip"
+    ],
+    "misc_clues": [
+      "DV",
+      "COMPLETE"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [
+    "DD"
+  ],
+  "quality_clues": [
+    "DVDRip"
+  ],
+  "release_groups": [],
+  "misc_clues": [
+    "DV",
+    "COMPLETE"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T00:55:00.732144
+Input: Coupling Season 1 - 4 Complete DVDRip - x264 - MKV by RiddlerA
+Expected Seasons: [1, 2, 3, 4]
+Got: "Expected seasons [1, 2, 3, 4] but got [] for 'Coupling Season 1 - 4 Complete DVDRip - x264 - MKV by RiddlerA'\nassert [] == [1, 2, 3, 4]\n  \n  Right contains 4 more items, first extra item: \u001b[0m\u001b[94m1\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  Use -v to get more diff"
+Success: False

@@ -1,0 +1,489 @@
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:30:17.002929
+Input: The French Connection 1971 Remastered BluRay 1080p REMUX AVC DTS-HD MA 5 1-LEGi0N
+Expected: The French Connection
+Got: {
+  "original": "The French Connection 1971 Remastered BluRay 1080p REMUX AVC DTS-HD MA 5 1-LEGi0N",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "1971"
+  ],
+  "possible_title": "The French Connection 1971 Remastered",
+  "clean_title": "The French Connection 1971 Remastered",
+  "extras_bits": [
+    "1080p",
+    "BluRay"
+  ],
+  "words": [],
+  "media_type": "movie",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p",
+      "HD"
+    ],
+    "audio_clues": [
+      "DTS",
+      "DTS-HD"
+    ],
+    "quality_clues": [
+      "BluRay",
+      "TS"
+    ],
+    "misc_clues": [
+      "REMUX",
+      "REMASTERED"
+    ]
+  },
+  "resolution_clues": [
+    "1080p",
+    "HD"
+  ],
+  "audio_clues": [
+    "DTS",
+    "DTS-HD"
+  ],
+  "quality_clues": [
+    "BluRay",
+    "TS"
+  ],
+  "release_groups": [],
+  "misc_clues": [
+    "REMUX",
+    "REMASTERED"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:30:17.003178
+Input: The French Connection 1971 Remastered BluRay 1080p REMUX AVC DTS-HD MA 5 1-LEGi0N
+Expected: The French Connection
+Got: "name 'write_concise_results' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:30:17.017703
+Input: The.Mandalorian.S01E01.Chapter.1.1080p.Web-DL.mkv
+Expected: The Mandalorian
+Got: {
+  "original": "The.Mandalorian.S01E01.Chapter.1.1080p.Web-DL.mkv",
+  "tv_clues": [
+    "S01E01",
+    "CHAPTER.1"
+  ],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "The.Mandalorian",
+  "clean_title": "The Mandalorian",
+  "extras_bits": [
+    "1080p"
+  ],
+  "words": [
+    ".mkv",
+    ".Web-DL"
+  ],
+  "media_type": "tv",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ],
+    "quality_clues": [
+      "WEB-DL"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [
+    "WEB-DL"
+  ],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:30:17.017886
+Input: The.Mandalorian.S01E01.Chapter.1.1080p.Web-DL.mkv
+Expected: The Mandalorian
+Got: "name 'write_concise_results' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:30:17.029956
+Input: The Mandalorian S02E01 - Chapter 9 (1080p Web-DL).mkv
+Expected: The Mandalorian
+Got: {
+  "original": "The Mandalorian S02E01 - Chapter 9 (1080p Web-DL).mkv",
+  "tv_clues": [
+    "S02E01"
+  ],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "The Mandalorian",
+  "clean_title": "The Mandalorian",
+  "extras_bits": [
+    "1080p"
+  ],
+  "words": [
+    ".mkv"
+  ],
+  "media_type": "tv",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ],
+    "quality_clues": [
+      "WEB-DL"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [
+    "WEB-DL"
+  ],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:30:17.030194
+Input: The Mandalorian S02E01 - Chapter 9 (1080p Web-DL).mkv
+Expected: The Mandalorian
+Got: "name 'write_concise_results' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:30:17.044039
+Input: TV Show season 1 s01 1080p x265 DVD extr
+Expected: TV Show
+Got: {
+  "original": "TV Show season 1 s01 1080p x265 DVD extr",
+  "tv_clues": [
+    "S01",
+    "SEASON 1"
+  ],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "TV Show",
+  "clean_title": "TV Show",
+  "extras_bits": [
+    "x265",
+    "1080p"
+  ],
+  "words": [],
+  "media_type": "tv",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ],
+    "misc_clues": [
+      "DV"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": [
+    "DV"
+  ]
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:30:17.044286
+Input: TV Show season 1 s01 1080p x265 DVD extr
+Expected: TV Show
+Got: "name 'write_concise_results' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:30:17.058577
+Input: 9-1-1.s02
+Expected: 9-1-1
+Got: {
+  "original": "9-1-1.s02",
+  "tv_clues": [
+    "S02"
+  ],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "9-1-1",
+  "clean_title": "9-1-1",
+  "extras_bits": [],
+  "words": [],
+  "media_type": "tv",
+  "matched_clues": {},
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:30:17.058737
+Input: 9-1-1.s02
+Expected: 9-1-1
+Got: "name 'write_concise_results' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:30:17.071395
+Input: 9-1-1 s02-s03
+Expected: 9-1-1
+Got: {
+  "original": "9-1-1 s02-s03",
+  "tv_clues": [
+    "S02",
+    "S03"
+  ],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "9-1-1",
+  "clean_title": "9-1-1",
+  "extras_bits": [],
+  "words": [],
+  "media_type": "tv",
+  "matched_clues": {},
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:30:17.071611
+Input: 9-1-1 s02-s03
+Expected: 9-1-1
+Got: "name 'write_concise_results' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:30:17.090603
+Input: S.H.I.E.L.D.s01
+Expected: S.H.I.E.L.D.
+Got: {
+  "original": "S.H.I.E.L.D.s01",
+  "tv_clues": [
+    "S01"
+  ],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "S.H.I.E.L.D",
+  "clean_title": "S.H.I.E.L.D",
+  "extras_bits": [],
+  "words": [],
+  "media_type": "tv",
+  "matched_clues": {},
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:30:17.093517
+Input: S.H.I.E.L.D.s01
+Expected: S.H.I.E.L.D.
+Got: "name 'write_concise_results' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:30:17.119541
+Input: One-piece-ep.1080-v2-1080p-raws
+Expected: One piece
+Got: {
+  "original": "One-piece-ep.1080-v2-1080p-raws",
+  "tv_clues": [],
+  "anime_clues": [
+    "EP.1080"
+  ],
+  "movie_clues": [],
+  "possible_title": "One-piece",
+  "clean_title": "One piece",
+  "extras_bits": [
+    "1080p"
+  ],
+  "words": [
+    "-v2-",
+    "-raws"
+  ],
+  "media_type": "anime",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:30:17.119759
+Input: One-piece-ep.1080-v2-1080p-raws
+Expected: One piece
+Got: "name 'write_concise_results' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:30:17.134447
+Input: Naruto Shippuden (001-500) [Complete Series + Movies] (Dual Audio)
+Expected: Naruto Shippuden
+Got: {
+  "original": "Naruto Shippuden (001-500) [Complete Series + Movies] (Dual Audio)",
+  "tv_clues": [],
+  "anime_clues": [
+    "001-500"
+  ],
+  "movie_clues": [],
+  "possible_title": "Naruto Shippuden",
+  "clean_title": "Naruto Shippuden",
+  "extras_bits": [],
+  "words": [],
+  "media_type": "anime",
+  "matched_clues": {
+    "misc_clues": [
+      "COMPLETE",
+      "DUAL"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": [
+    "COMPLETE",
+    "DUAL"
+  ]
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:30:17.134757
+Input: Naruto Shippuden (001-500) [Complete Series + Movies] (Dual Audio)
+Expected: Naruto Shippuden
+Got: "name 'write_concise_results' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:30:17.146235
+Input: One.Piece.S01E1116.Lets.Go.Get.It!.Buggys.Big.Declaration.2160p.B-Global.WEB-DL.JPN.AAC2.0.H.264.MSubs-ToonsHub.mkv
+Expected: One Piece
+Got: {
+  "original": "One.Piece.S01E1116.Lets.Go.Get.It!.Buggys.Big.Declaration.2160p.B-Global.WEB-DL.JPN.AAC2.0.H.264.MSubs-ToonsHub.mkv",
+  "tv_clues": [
+    "S01E1116"
+  ],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "One.Piece",
+  "clean_title": "One Piece",
+  "extras_bits": [
+    "2160p",
+    "AAC",
+    "h.264"
+  ],
+  "words": [
+    ".mkv",
+    ".Lets.Go.Get.It!.Buggys.Big.Declaration.",
+    ".B-Global.WEB-DL.JPN.",
+    ".MSubs-ToonsHub"
+  ],
+  "media_type": "tv",
+  "matched_clues": {
+    "resolution_clues": [
+      "2160p"
+    ],
+    "audio_clues": [
+      "AAC"
+    ],
+    "quality_clues": [
+      "WEB-DL",
+      "TS"
+    ],
+    "release_groups_anime": [
+      "GG"
+    ]
+  },
+  "resolution_clues": [
+    "2160p"
+  ],
+  "audio_clues": [
+    "AAC"
+  ],
+  "quality_clues": [
+    "WEB-DL",
+    "TS"
+  ],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:30:17.146450
+Input: One.Piece.S01E1116.Lets.Go.Get.It!.Buggys.Big.Declaration.2160p.B-Global.WEB-DL.JPN.AAC2.0.H.264.MSubs-ToonsHub.mkv
+Expected: One Piece
+Got: "name 'write_concise_results' is not defined"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:30:17.165491
+Input: Stranger Things S04 2160p
+Expected: Stranger Things
+Got: {
+  "original": "Stranger Things S04 2160p",
+  "tv_clues": [
+    "S04"
+  ],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "Stranger Things",
+  "clean_title": "Stranger Things",
+  "extras_bits": [
+    "2160p"
+  ],
+  "words": [],
+  "media_type": "tv",
+  "matched_clues": {
+    "resolution_clues": [
+      "2160p"
+    ]
+  },
+  "resolution_clues": [
+    "2160p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T01:30:17.165655
+Input: Stranger Things S04 2160p
+Expected: Stranger Things
+Got: "name 'write_concise_results' is not defined"
+Success: False

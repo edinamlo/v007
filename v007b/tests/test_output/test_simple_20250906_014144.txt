@@ -1,0 +1,24 @@
+IN:La famille bélier|EXP:La famille bélier|TITLE:La famille bélier|CLEAN:La famille bélier|TYPE:unknown|CLUES:
+IN:doctor_who_2005.8x12.death_in_heaven.720p_hdtv_x264-fov|EXP:doctor who|TITLE:doctor_who|CLEAN:doctor who|TYPE:movie|CLUES:MOVIE:2005
+IN:08.Планета.обезьян.Революция.2014.BDRip-HEVC.1080p.mkv|EXP:08 Планета обезьян Революция|TITLE:08.Планета.обезьян.Революция|CLEAN:08 Планета обезьян Революция|TYPE:movie|CLUES:MOVIE:2014
+IN:Yurusarezaru_mono2.srt|EXP:Yurusarezaru mono2|TITLE:Yurusarezaru_mono2|CLEAN:Yurusarezaru mono2|TYPE:unknown|CLUES:
+IN:www.Torrenting.com   -    Anatomy Of A Fall (2023)|EXP:Anatomy Of A Fall|TITLE:www.Torrenting.com   -    Anatomy Of A Fall|CLEAN:Anatomy Of A Fall|TYPE:movie|CLUES:MOVIE:2023
+IN:Despicable.Me.4.2024.D.TELESYNC_14OOMB.avi|EXP:Despicable Me 4|TITLE:Despicable.Me.4|CLEAN:Despicable Me 4|TYPE:movie|CLUES:MOVIE:2024
+IN:[www.1TamilMV.pics]_The.Great.Indian.Suicide.2023.Tamil.TRUE.WEB-DL.4K.SDR.HEVC.(DD+5.1.384Kbps.&.AAC).3.2GB.ESub.mkv|EXP:The Great Indian Suicide|TITLE:[www.1TamilMV.pics]_The.Great.Indian.Suicide|CLEAN:The Great Indian Suicide|TYPE:movie|CLUES:MOVIE:2023
+IN:Game of Thrones - S02E07 - A Man Without Honor [2160p] [HDR] [5.1, 7.1, 5.1] [ger, eng, eng] [Vio].mkv|EXP:Game of Thrones|TITLE:Game of Thrones -|CLEAN:Game of Thrones|TYPE:tv|CLUES:TV:S02E07
+IN:Pawn.Stars.S09E13.1080p.HEVC.x265-MeGusta|EXP:Pawn Stars|TITLE:Pawn.Stars|CLEAN:Pawn Stars|TYPE:tv|CLUES:TV:S09E13
+IN:Pawn Stars S04E19 720p WEB H264-BeechyBoy mp4|EXP:Pawn Stars|TITLE:Pawn Stars|CLEAN:Pawn Stars|TYPE:tv|CLUES:TV:S04E19
+IN:www.Torrenting.com   -    14.Peaks.Nothing.Is.Impossible.2021.1080p.WEB.h264-RUMOUR|EXP:14 Peaks Nothing Is Impossible|TITLE:www.Torrenting.com - 14.Peaks.Nothing.Is.Impossible|CLEAN:14 Peaks Nothing Is Impossible|TYPE:movie|CLUES:MOVIE:2021
+IN:www.TamilBlasters.cam - Titanic (1997)[1080p BDRip - Org Auds - [Tamil + Telugu + Hindi + Eng] - x264 - DD5.1 (448 Kbps) - 4.7GB - ESubs].mkv|EXP:Titanic|TITLE:www.TamilBlasters.cam - Titanic|CLEAN:Titanic|TYPE:movie|CLUES:MOVIE:1997
+IN:S.W.A.T.2017.S08E01.720p.HDTV.x264-SYNCOPY[TGx]|EXP:S.W.A.T|TITLE:S.W.A.T|CLEAN:S.W.A.T|TYPE:tv|CLUES:TV:S08E01;MOVIE:2017
+IN:Friends.1994.INTEGRALE.MULTI.1080p.WEB-DL.H265-FTMVHD|EXP:Friends|TITLE:Friends|CLEAN:Friends|TYPE:movie|CLUES:MOVIE:1994
+IN:STEVE.martin.a.documentary.in.2.pieces.S01.COMPLETE.1080p.WEB.H264-SuccessfulCrab[TGx]|EXP:STEVE martin a documentary in 2 pieces|TITLE:STEVE.martin.a.documentary.in.2.pieces|CLEAN:STEVE martin a documentary in 2 pieces|TYPE:tv|CLUES:TV:S01
+IN:The.Mandalorian.S01E01.Chapter.1.1080p.Web-DL.mkv|EXP:The Mandalorian|TITLE:The.Mandalorian|CLEAN:The Mandalorian|TYPE:tv|CLUES:TV:S01E01,CHAPTER.1
+IN:The Mandalorian S02E01 - Chapter 9 (1080p Web-DL).mkv|EXP:The Mandalorian|TITLE:The Mandalorian|CLEAN:The Mandalorian|TYPE:tv|CLUES:TV:S02E01
+IN:TV Show season 1 s01 1080p x265 DVD extr|EXP:TV Show|TITLE:TV Show|CLEAN:TV Show|TYPE:tv|CLUES:TV:S01,SEASON 1
+IN:9-1-1.s02|EXP:9-1-1|TITLE:9-1-1|CLEAN:9-1-1|TYPE:tv|CLUES:TV:S02
+IN:9-1-1 s02-s03|EXP:9-1-1|TITLE:9-1-1|CLEAN:9-1-1|TYPE:tv|CLUES:TV:S02,S03
+IN:One-piece-ep.1080-v2-1080p-raws|EXP:One piece|TITLE:One-piece|CLEAN:One piece|TYPE:anime|CLUES:ANIME:EP.1080
+IN:Naruto Shippuden (001-500) [Complete Series + Movies] (Dual Audio)|EXP:Naruto Shippuden|TITLE:Naruto Shippuden|CLEAN:Naruto Shippuden|TYPE:anime|CLUES:ANIME:001-500
+IN:One.Piece.S01E1116.Lets.Go.Get.It!.Buggys.Big.Declaration.2160p.B-Global.WEB-DL.JPN.AAC2.0.H.264.MSubs-ToonsHub.mkv|EXP:One Piece|TITLE:One.Piece|CLEAN:One Piece|TYPE:tv|CLUES:TV:S01E1116
+IN:Stranger Things S04 2160p|EXP:Stranger Things|TITLE:Stranger Things|CLEAN:Stranger Things|TYPE:tv|CLUES:TV:S04

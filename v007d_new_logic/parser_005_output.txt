@@ -1,0 +1,87 @@
+
+============================================================
+TESTING MEDIA FILENAME PARSER - FIRST TWO STAGES
+============================================================
+
+==================================================
+Processing filename: '[Funi] My Hero Academia [Season 4] [01] [1080p].mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: '[Funi] My Hero Academia [Season 4] [01] [1080p].mkv'
+  Found FIRST bracket at start: '[Funi] '
+  Not a website: 'Funi' - keeping in filename
+  Anime release group found: 'Funi'
+  Anime clue: True
+  Clue: Funi
+  Removed: None
+  Output: '[Funi] My Hero Academia [Season 4] [01] [1080p].mkv'
+
+=== Stage 2: Processing ALL square brackets ===
+Input: '[Funi] My Hero Academia [Season 4] [01] [1080p].mkv'
+  Found brackets: Funi, Season 4, 01, 1080p
+  Replaced: [Funi] -> 'Funi', [Season 4] -> 'Season 4', [01] -> '01', [1080p] -> '1080p'
+  Output: 'Funi My Hero Academia Season 4 01 1080p .mkv'
+
+==================================================
+Final results for '[Funi] My Hero Academia [Season 4] [01] [1080p].mkv':
+  Cleaned filename: 'Funi My Hero Academia Season 4 01 1080p .mkv'
+  Is anime: True
+==================================================
+
+
+
+==================================================
+Processing filename: '[HorribleSubs] Attack on Titan - 01 [1080p].mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: '[HorribleSubs] Attack on Titan - 01 [1080p].mkv'
+  Found FIRST bracket at start: '[HorribleSubs] '
+  Not a website: 'HorribleSubs' - keeping in filename
+  Anime release group found: 'HorribleSubs'
+  Anime clue: True
+  Clue: HorribleSubs
+  Removed: None
+  Output: '[HorribleSubs] Attack on Titan - 01 [1080p].mkv'
+
+=== Stage 2: Processing ALL square brackets ===
+Input: '[HorribleSubs] Attack on Titan - 01 [1080p].mkv'
+  Found brackets: HorribleSubs, 1080p
+  Replaced: [HorribleSubs] -> 'HorribleSubs', [1080p] -> '1080p'
+  Output: 'HorribleSubs Attack on Titan - 01 1080p .mkv'
+
+==================================================
+Final results for '[HorribleSubs] Attack on Titan - 01 [1080p].mkv':
+  Cleaned filename: 'HorribleSubs Attack on Titan - 01 1080p .mkv'
+  Is anime: True
+==================================================
+
+
+
+==================================================
+Processing filename: '[www.example.co.uk] Another Anime - 03 [HorribleSubs].mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: '[www.example.co.uk] Another Anime - 03 [HorribleSubs].mkv'
+  Found FIRST bracket at start: '[www.example.co.uk] '
+  Detected website: 'www.example.co.uk'
+  Anime release group found: 'HorribleSubs'
+  Anime clue: True
+  Clue: HorribleSubs
+  Removed: [www.example.co.uk] 
+  Output: 'Another Anime - 03 [HorribleSubs].mkv'
+
+=== Stage 2: Processing ALL square brackets ===
+Input: 'Another Anime - 03 [HorribleSubs].mkv'
+  Found brackets: HorribleSubs
+  Replaced: [HorribleSubs] -> 'HorribleSubs'
+  Output: 'Another Anime - 03 HorribleSubs .mkv'
+
+==================================================
+Final results for '[www.example.co.uk] Another Anime - 03 [HorribleSubs].mkv':
+  Cleaned filename: 'Another Anime - 03 HorribleSubs .mkv'
+  Is anime: True
+==================================================
+

@@ -1,0 +1,434 @@
+
+============================================================
+TESTING MEDIA FILENAME PARSER - FIRST TWO STAGES
+============================================================
+
+==================================================
+Processing filename: '[HorribleSubs] Attack on Titan - 01 [1080p].mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: '[HorribleSubs] Attack on Titan - 01 [1080p].mkv'
+  Found FIRST bracket at start: '[HorribleSubs] '
+  Not a website: 'HorribleSubs'
+  Anime clue: False
+  Anime clues found: None
+  Removed: [HorribleSubs] 
+  Output: 'Attack on Titan - 01 [1080p].mkv'
+
+=== Stage 2: Processing square brackets at end ===
+Input: 'Attack on Titan - 01 [1080p].mkv'
+  Found brackets at end: '[1080p]'
+  Found: 1080p
+  Replaced: [1080p] -> removed
+  Output: 'Attack on Titan - 01 .mkv'
+
+==================================================
+Final results for '[HorribleSubs] Attack on Titan - 01 [1080p].mkv':
+  Cleaned filename: 'Attack on Titan - 01 .mkv'
+  Is anime: False
+==================================================
+
+
+
+==================================================
+Processing filename: '[www.torrentsite.com] Naruto Shippuden - 05 [Crunchyroll].mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: '[www.torrentsite.com] Naruto Shippuden - 05 [Crunchyroll].mkv'
+  Found FIRST bracket at start: '[www.torrentsite.com] '
+  Detected website: 'www.torrentsite.com'
+  Anime release group found in filename: 'Crunchyroll'
+  Anime clue: True
+  Clue: Crunchyroll
+  Anime clues found: Crunchyroll
+  Removed: [www.torrentsite.com] , [Crunchyroll]
+  Output: 'Naruto Shippuden - 05 .mkv'
+
+=== Stage 2: Processing square brackets at end ===
+Input: 'Naruto Shippuden - 05 .mkv'
+  Found: None
+  Replaced: None
+  Output: 'Naruto Shippuden - 05 .mkv'
+
+==================================================
+Final results for '[www.torrentsite.com] Naruto Shippuden - 05 [Crunchyroll].mkv':
+  Cleaned filename: 'Naruto Shippuden - 05 .mkv'
+  Is anime: True
+==================================================
+
+
+
+==================================================
+Processing filename: '[Erai-raws] Re:Zero - 12 [1080p].mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: '[Erai-raws] Re:Zero - 12 [1080p].mkv'
+  Found FIRST bracket at start: '[Erai-raws] '
+  Not a website: 'Erai-raws'
+  Anime clue: False
+  Anime clues found: None
+  Removed: [Erai-raws] 
+  Output: 'Re:Zero - 12 [1080p].mkv'
+
+=== Stage 2: Processing square brackets at end ===
+Input: 'Re:Zero - 12 [1080p].mkv'
+  Found brackets at end: '[1080p]'
+  Found: 1080p
+  Replaced: [1080p] -> removed
+  Output: 'Re:Zero - 12 .mkv'
+
+==================================================
+Final results for '[Erai-raws] Re:Zero - 12 [1080p].mkv':
+  Cleaned filename: 'Re:Zero - 12 .mkv'
+  Is anime: False
+==================================================
+
+
+
+==================================================
+Processing filename: '[Nyaa] One Piece - 950 [720p].mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: '[Nyaa] One Piece - 950 [720p].mkv'
+  Found FIRST bracket at start: '[Nyaa] '
+  Not a website: 'Nyaa'
+  Anime clue: False
+  Anime clues found: None
+  Removed: [Nyaa] 
+  Output: 'One Piece - 950 [720p].mkv'
+
+=== Stage 2: Processing square brackets at end ===
+Input: 'One Piece - 950 [720p].mkv'
+  Found brackets at end: '[720p]'
+  Found: 720p
+  Replaced: [720p] -> removed
+  Output: 'One Piece - 950 .mkv'
+
+==================================================
+Final results for '[Nyaa] One Piece - 950 [720p].mkv':
+  Cleaned filename: 'One Piece - 950 .mkv'
+  Is anime: False
+==================================================
+
+
+
+==================================================
+Processing filename: 'Anime Title [01] [1080p].mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: 'Anime Title [01] [1080p].mkv'
+  Anime clue: False
+  Anime clues found: None
+  Removed: None
+  Output: 'Anime Title [01] [1080p].mkv'
+
+=== Stage 2: Processing square brackets at end ===
+Input: 'Anime Title [01] [1080p].mkv'
+  Found brackets at end: '[1080p]'
+  Found additional brackets at end: '[01]'
+  Found: 1080p, 01
+  Replaced: [1080p] -> removed, [01] -> '01'
+  Output: 'Anime Title 01 .mkv'
+
+==================================================
+Final results for 'Anime Title [01] [1080p].mkv':
+  Cleaned filename: 'Anime Title 01 .mkv'
+  Is anime: False
+==================================================
+
+
+
+==================================================
+Processing filename: '[Punished] Demon Slayer - 07 [WEB-DL 1080p].mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: '[Punished] Demon Slayer - 07 [WEB-DL 1080p].mkv'
+  Found FIRST bracket at start: '[Punished] '
+  Not a website: 'Punished'
+  Anime clue: False
+  Anime clues found: None
+  Removed: [Punished] 
+  Output: 'Demon Slayer - 07 [WEB-DL 1080p].mkv'
+
+=== Stage 2: Processing square brackets at end ===
+Input: 'Demon Slayer - 07 [WEB-DL 1080p].mkv'
+  Found brackets at end: '[WEB-DL 1080p]'
+  Found: WEB-DL 1080p
+  Replaced: [WEB-DL 1080p] -> space
+  Output: 'Demon Slayer - 07 .mkv'
+
+==================================================
+Final results for '[Punished] Demon Slayer - 07 [WEB-DL 1080p].mkv':
+  Cleaned filename: 'Demon Slayer - 07 .mkv'
+  Is anime: False
+==================================================
+
+
+
+==================================================
+Processing filename: '[Funi] My Hero Academia [Season 4] [01] [1080p].mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: '[Funi] My Hero Academia [Season 4] [01] [1080p].mkv'
+  Found FIRST bracket at start: '[Funi] '
+  Not a website: 'Funi'
+  Anime clue: False
+  Anime clues found: None
+  Removed: [Funi] 
+  Output: 'My Hero Academia [Season 4] [01] [1080p].mkv'
+
+=== Stage 2: Processing square brackets at end ===
+Input: 'My Hero Academia [Season 4] [01] [1080p].mkv'
+  Found brackets at end: '[1080p]'
+  Found additional brackets at end: '[01]'
+  Found additional brackets at end: '[Season 4]'
+  Found: 1080p, 01, Season 4
+  Replaced: [1080p] -> removed, [01] -> '01', [Season 4] -> space
+  Output: 'My Hero Academia 01 .mkv'
+
+==================================================
+Final results for '[Funi] My Hero Academia [Season 4] [01] [1080p].mkv':
+  Cleaned filename: 'My Hero Academia 01 .mkv'
+  Is anime: False
+==================================================
+
+
+
+==================================================
+Processing filename: 'Regular Movie (2022) [1080p].mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: 'Regular Movie (2022) [1080p].mkv'
+  Anime clue: False
+  Anime clues found: None
+  Removed: None
+  Output: 'Regular Movie (2022) [1080p].mkv'
+
+=== Stage 2: Processing square brackets at end ===
+Input: 'Regular Movie (2022) [1080p].mkv'
+  Found brackets at end: '[1080p]'
+  Found: 1080p
+  Replaced: [1080p] -> removed
+  Output: 'Regular Movie (2022) .mkv'
+
+==================================================
+Final results for 'Regular Movie (2022) [1080p].mkv':
+  Cleaned filename: 'Regular Movie (2022) .mkv'
+  Is anime: False
+==================================================
+
+
+
+==================================================
+Processing filename: '[Unknown] Some Anime - 24 [720p].mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: '[Unknown] Some Anime - 24 [720p].mkv'
+  Found FIRST bracket at start: '[Unknown] '
+  Not a website: 'Unknown'
+  Anime clue: False
+  Anime clues found: None
+  Removed: [Unknown] 
+  Output: 'Some Anime - 24 [720p].mkv'
+
+=== Stage 2: Processing square brackets at end ===
+Input: 'Some Anime - 24 [720p].mkv'
+  Found brackets at end: '[720p]'
+  Found: 720p
+  Replaced: [720p] -> removed
+  Output: 'Some Anime - 24 .mkv'
+
+==================================================
+Final results for '[Unknown] Some Anime - 24 [720p].mkv':
+  Cleaned filename: 'Some Anime - 24 .mkv'
+  Is anime: False
+==================================================
+
+
+
+==================================================
+Processing filename: '[www.example.co.uk] Another Anime - 03 [HorribleSubs].mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: '[www.example.co.uk] Another Anime - 03 [HorribleSubs].mkv'
+  Found FIRST bracket at start: '[www.example.co.uk] '
+  Detected website: 'www.example.co.uk'
+  Anime release group found in filename: 'HorribleSubs'
+  Anime clue: True
+  Clue: HorribleSubs
+  Anime clues found: HorribleSubs
+  Removed: [www.example.co.uk] , [HorribleSubs]
+  Output: 'Another Anime - 03 .mkv'
+
+=== Stage 2: Processing square brackets at end ===
+Input: 'Another Anime - 03 .mkv'
+  Found: None
+  Replaced: None
+  Output: 'Another Anime - 03 .mkv'
+
+==================================================
+Final results for '[www.example.co.uk] Another Anime - 03 [HorribleSubs].mkv':
+  Cleaned filename: 'Another Anime - 03 .mkv'
+  Is anime: True
+==================================================
+
+
+
+==================================================
+Processing filename: '[GM-Team][国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality Ⅲ][01-26][AVC][GB][1080P]'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: '[GM-Team][国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality Ⅲ][01-26][AVC][GB][1080P]'
+  Found FIRST bracket at start: '[GM-Team]'
+  Not a website: 'GM-Team'
+  Anime clue: False
+  Anime clues found: None
+  Removed: [GM-Team]
+  Output: '[国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality Ⅲ][01-26][AVC][GB][1080P]'
+
+=== Stage 2: Processing square brackets at end ===
+Input: '[国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality Ⅲ][01-26][AVC][GB][1080P]'
+  Found brackets at end: '[1080P]'
+  Found additional brackets at end: '[GB]'
+  Found additional brackets at end: '[AVC]'
+  Found additional brackets at end: '[01-26]'
+  Found additional brackets at end: '[Magical Legend of Rise to immortality Ⅲ]'
+  Found additional brackets at end: '[太乙仙魔录 灵飞纪 第3季]'
+  Found additional brackets at end: '[国漫]'
+  Found: 1080P, GB, AVC, 01-26, Magical Legend of Rise to immortality Ⅲ, 太乙仙魔录 灵飞纪 第3季, 国漫
+  Replaced: [1080P] -> removed, [GB] -> space, [AVC] -> space, [01-26] -> space, [Magical Legend of Rise to immortality Ⅲ] -> space, [太乙仙魔录 灵飞纪 第3季] -> space, [国漫] -> space
+  Output: ''
+
+==================================================
+Final results for '[GM-Team][国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality Ⅲ][01-26][AVC][GB][1080P]':
+  Cleaned filename: ''
+  Is anime: False
+==================================================
+
+
+
+==================================================
+Processing filename: '[SweetSub][Mutafukaz / MFKZ][Movie][BDRip][1080P][AVC 8bit][简体内嵌]'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: '[SweetSub][Mutafukaz / MFKZ][Movie][BDRip][1080P][AVC 8bit][简体内嵌]'
+  Found FIRST bracket at start: '[SweetSub]'
+  Not a website: 'SweetSub'
+  Anime clue: False
+  Anime clues found: None
+  Removed: [SweetSub]
+  Output: '[Mutafukaz / MFKZ][Movie][BDRip][1080P][AVC 8bit][简体内嵌]'
+
+=== Stage 2: Processing square brackets at end ===
+Input: '[Mutafukaz / MFKZ][Movie][BDRip][1080P][AVC 8bit][简体内嵌]'
+  Found brackets at end: '[简体内嵌]'
+  Found additional brackets at end: '[AVC 8bit]'
+  Found additional brackets at end: '[1080P]'
+  Found additional brackets at end: '[BDRip]'
+  Found additional brackets at end: '[Movie]'
+  Found additional brackets at end: '[Mutafukaz / MFKZ]'
+  Found: 简体内嵌, AVC 8bit, 1080P, BDRip, Movie, Mutafukaz / MFKZ
+  Replaced: [简体内嵌] -> space, [AVC 8bit] -> space, [1080P] -> removed, [BDRip] -> space, [Movie] -> space, [Mutafukaz / MFKZ] -> space
+  Output: ''
+
+==================================================
+Final results for '[SweetSub][Mutafukaz / MFKZ][Movie][BDRip][1080P][AVC 8bit][简体内嵌]':
+  Cleaned filename: ''
+  Is anime: False
+==================================================
+
+
+
+==================================================
+Processing filename: '[Erai-raws] Kingdom 3rd Season - 02 [1080p].mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: '[Erai-raws] Kingdom 3rd Season - 02 [1080p].mkv'
+  Found FIRST bracket at start: '[Erai-raws] '
+  Not a website: 'Erai-raws'
+  Anime clue: False
+  Anime clues found: None
+  Removed: [Erai-raws] 
+  Output: 'Kingdom 3rd Season - 02 [1080p].mkv'
+
+=== Stage 2: Processing square brackets at end ===
+Input: 'Kingdom 3rd Season - 02 [1080p].mkv'
+  Found brackets at end: '[1080p]'
+  Found: 1080p
+  Replaced: [1080p] -> removed
+  Output: 'Kingdom 3rd Season - 02 .mkv'
+
+==================================================
+Final results for '[Erai-raws] Kingdom 3rd Season - 02 [1080p].mkv':
+  Cleaned filename: 'Kingdom 3rd Season - 02 .mkv'
+  Is anime: False
+==================================================
+
+
+
+==================================================
+Processing filename: '[NC-Raws] 间谍过家家 / SPY×FAMILY - 04 (B-Global 1920x1080 HEVC AAC MKV)'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: '[NC-Raws] 间谍过家家 / SPY×FAMILY - 04 (B-Global 1920x1080 HEVC AAC MKV)'
+  Found FIRST bracket at start: '[NC-Raws] '
+  Not a website: 'NC-Raws'
+  Anime clue: False
+  Anime clues found: None
+  Removed: [NC-Raws] 
+  Output: '间谍过家家 / SPY×FAMILY - 04 (B-Global 1920x1080 HEVC AAC MKV)'
+
+=== Stage 2: Processing square brackets at end ===
+Input: '间谍过家家 / SPY×FAMILY - 04 (B-Global 1920x1080 HEVC AAC MKV)'
+  Found: None
+  Replaced: None
+  Output: '间谍过家家 / SPY×FAMILY - 04 (B-Global 1920x1080 HEVC AAC MKV)'
+
+==================================================
+Final results for '[NC-Raws] 间谍过家家 / SPY×FAMILY - 04 (B-Global 1920x1080 HEVC AAC MKV)':
+  Cleaned filename: '间谍过家家 / SPY×FAMILY - 04 (B-Global 1920x1080 HEVC AAC MKV)'
+  Is anime: False
+==================================================
+
+
+
+==================================================
+Processing filename: '[Seed-Raws] 劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC AACx4 [5.1+2.0+2.0+2.0]).mp4'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: '[Seed-Raws] 劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC AACx4 [5.1+2.0+2.0+2.0]).mp4'
+  Found FIRST bracket at start: '[Seed-Raws] '
+  Not a website: 'Seed-Raws'
+  Anime clue: False
+  Anime clues found: None
+  Removed: [Seed-Raws] 
+  Output: '劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC AACx4 [5.1+2.0+2.0+2.0]).mp4'
+
+=== Stage 2: Processing square brackets at end ===
+Input: '劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC AACx4 [5.1+2.0+2.0+2.0]).mp4'
+  Found brackets at end: '[5.1+2.0+2.0+2.0]'
+  Found: 5.1+2.0+2.0+2.0
+  Replaced: [5.1+2.0+2.0+2.0] -> space
+  Output: '劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC AACx4 ).mp4'
+
+==================================================
+Final results for '[Seed-Raws] 劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC AACx4 [5.1+2.0+2.0+2.0]).mp4':
+  Cleaned filename: '劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC AACx4 ).mp4'
+  Is anime: False
+==================================================
+

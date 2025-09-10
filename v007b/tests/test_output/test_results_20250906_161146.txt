@@ -1,0 +1,466 @@
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:11:46.001831
+Input: The Lockerbie Bombing (2013) Documentary HDTVRIP
+Expected: The Lockerbie Bombing
+Got: {
+  "original": "The Lockerbie Bombing (2013) Documentary HDTVRIP",
+  "possible_title": "The Lockerbie Bombing (2013",
+  "clean_title": "The Lockerbie Bombing (2013",
+  "media_type": "movie",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "2013"
+  ],
+  "extras_bits": [],
+  "extras_bits_unknown": [
+    "The",
+    "Lockerbie",
+    "Bombing",
+    "()",
+    "Documentary",
+    "HDTVRIP"
+  ],
+  "words": [
+    "The",
+    "Lockerbie",
+    "Bombing"
+  ],
+  "matched_clues": {
+    "quality_clues": [
+      "HDTVRIP"
+    ],
+    "release_groups": [],
+    "release_groups_anime": [],
+    "audio_clues": [],
+    "resolution_clues": [
+      "HDTVRIP"
+    ],
+    "network_clues": [],
+    "misc_clues": [
+      "The"
+    ]
+  },
+  "resolution_clues": [
+    "HDTVRIP"
+  ],
+  "audio_clues": [],
+  "quality_clues": [
+    "HDTVRIP"
+  ],
+  "release_groups": [],
+  "release_groups_anime": [],
+  "misc_clues": [
+    "The"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:11:46.002344
+Input: The Lockerbie Bombing (2013) Documentary HDTVRIP
+Expected: The Lockerbie Bombing
+Got: "Expected 'The Lockerbie Bombing' but got 'The Lockerbie Bombing (2013' for input 'The Lockerbie Bombing (2013) Documentary HDTVRIP'\nassert 'the lockerbie bombing (2013' == 'the lockerbie bombing'\n  \n  \u001b[0m\u001b[91m- the lockerbie bombing\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ the lockerbie bombing (2013\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  ?                      ++++++\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:11:46.008204
+Input: The French Connection 1971 Remastered BluRay 1080p REMUX AVC DTS-HD MA 5 1-LEGi0N
+Expected: The French Connection
+Got: {
+  "original": "The French Connection 1971 Remastered BluRay 1080p REMUX AVC DTS-HD MA 5 1-LEGi0N",
+  "possible_title": "The French Connection 1971",
+  "clean_title": "The French Connection 1971",
+  "media_type": "movie",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "1971"
+  ],
+  "extras_bits": [
+    "1080p",
+    "bluray"
+  ],
+  "extras_bits_unknown": [
+    "The",
+    "French",
+    "Connection",
+    "AVC",
+    "MA",
+    "LEGi0N"
+  ],
+  "words": [
+    "The",
+    "French",
+    "Connection"
+  ],
+  "matched_clues": {
+    "quality_clues": [
+      "BluRay",
+      "DTS",
+      "HD"
+    ],
+    "release_groups": [
+      "MA"
+    ],
+    "release_groups_anime": [
+      "MA"
+    ],
+    "audio_clues": [
+      "DTS",
+      "HD",
+      "MA"
+    ],
+    "resolution_clues": [
+      "1080p",
+      "HD"
+    ],
+    "network_clues": [
+      "Remastered",
+      "MA"
+    ],
+    "misc_clues": [
+      "The",
+      "Remastered",
+      "REMUX",
+      "HD",
+      "MA"
+    ]
+  },
+  "resolution_clues": [
+    "1080p",
+    "HD"
+  ],
+  "audio_clues": [
+    "DTS",
+    "HD",
+    "MA"
+  ],
+  "quality_clues": [
+    "BluRay",
+    "DTS",
+    "HD"
+  ],
+  "release_groups": [
+    "MA"
+  ],
+  "release_groups_anime": [
+    "MA"
+  ],
+  "misc_clues": [
+    "The",
+    "Remastered",
+    "REMUX",
+    "HD",
+    "MA"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:11:46.008859
+Input: The French Connection 1971 Remastered BluRay 1080p REMUX AVC DTS-HD MA 5 1-LEGi0N
+Expected: The French Connection
+Got: "Expected 'The French Connection' but got 'The French Connection 1971' for input 'The French Connection 1971 Remastered BluRay 1080p REMUX AVC DTS-HD MA 5 1-LEGi0N'\nassert 'the french connection 1971' == 'the french connection'\n  \n  \u001b[0m\u001b[91m- the french connection\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ the french connection 1971\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  ?                      +++++\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:11:46.019909
+Input: The.Mandalorian.S01E01.Chapter.1.1080p.Web-DL.mkv
+Expected: The Mandalorian
+Got: "'tv_clues'"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:11:46.044649
+Input: The Mandalorian S02E01 - Chapter 9 (1080p Web-DL).mkv
+Expected: The Mandalorian
+Got: {
+  "original": "The Mandalorian S02E01 - Chapter 9 (1080p Web-DL).mkv",
+  "possible_title": "The Mandalorian S02E01 - Chapter 9",
+  "clean_title": "The Mandalorian S02E01 Chapter 9",
+  "media_type": "tv",
+  "tv_clues": [
+    "CHAPTER 9"
+  ],
+  "anime_clues": [],
+  "movie_clues": [],
+  "extras_bits": [],
+  "extras_bits_unknown": [
+    "The",
+    "Mandalorian"
+  ],
+  "words": [
+    "The",
+    "Mandalorian",
+    "Chapter"
+  ],
+  "matched_clues": {
+    "quality_clues": [],
+    "release_groups": [],
+    "release_groups_anime": [],
+    "audio_clues": [],
+    "resolution_clues": [],
+    "network_clues": [],
+    "misc_clues": [
+      "The"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "release_groups_anime": [],
+  "misc_clues": [
+    "The"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:11:46.046197
+Input: The Mandalorian S02E01 - Chapter 9 (1080p Web-DL).mkv
+Expected: The Mandalorian
+Got: "Expected 'The Mandalorian' but got 'The Mandalorian S02E01 Chapter 9' for input 'The Mandalorian S02E01 - Chapter 9 (1080p Web-DL).mkv'\nassert 'the mandalor...e01 chapter 9' == 'the mandalorian'\n  \n  \u001b[0m\u001b[91m- the mandalorian\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ the mandalorian s02e01 chapter 9\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:11:46.058575
+Input: TV Show season 1 s01 1080p x265 DVD extr
+Expected: TV Show
+Got: {
+  "original": "TV Show season 1 s01 1080p x265 DVD extr",
+  "possible_title": "TV Show season 1 s01",
+  "clean_title": "TV Show season 1 s01",
+  "media_type": "tv",
+  "tv_clues": [
+    "S01"
+  ],
+  "anime_clues": [],
+  "movie_clues": [],
+  "extras_bits": [
+    "x265",
+    "1080p"
+  ],
+  "extras_bits_unknown": [
+    "TV",
+    "Show",
+    "DVD",
+    "extr"
+  ],
+  "words": [
+    "TV",
+    "Show",
+    "season"
+  ],
+  "matched_clues": {
+    "quality_clues": [
+      "TV",
+      "DVD"
+    ],
+    "release_groups": [
+      "TV"
+    ],
+    "release_groups_anime": [],
+    "audio_clues": [],
+    "resolution_clues": [
+      "1080p"
+    ],
+    "network_clues": [
+      "TV"
+    ],
+    "misc_clues": [
+      "DVD"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [
+    "TV",
+    "DVD"
+  ],
+  "release_groups": [
+    "TV"
+  ],
+  "release_groups_anime": [],
+  "misc_clues": [
+    "DVD"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:11:46.059157
+Input: TV Show season 1 s01 1080p x265 DVD extr
+Expected: TV Show
+Got: "Expected 'TV Show' but got 'TV Show season 1 s01' for input 'TV Show season 1 s01 1080p x265 DVD extr'\nassert 'tv show season 1 s01' == 'tv show'\n  \n  \u001b[0m\u001b[91m- tv show\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ tv show season 1 s01\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:11:46.067395
+Input: 9-1-1.s02
+Expected: 9-1-1
+Got: "'tv_clues'"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:11:46.087613
+Input: 9-1-1 s02-s03
+Expected: 9-1-1
+Got: {
+  "original": "9-1-1 s02-s03",
+  "possible_title": "9-1-1 s02-s03",
+  "clean_title": "9-1-1 s02 s03",
+  "media_type": "tv",
+  "tv_clues": [
+    "S02-S03"
+  ],
+  "anime_clues": [],
+  "movie_clues": [],
+  "extras_bits": [],
+  "extras_bits_unknown": [],
+  "words": [],
+  "matched_clues": {
+    "quality_clues": [],
+    "release_groups": [],
+    "release_groups_anime": [],
+    "audio_clues": [],
+    "resolution_clues": [],
+    "network_clues": [],
+    "misc_clues": []
+  },
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "release_groups_anime": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:11:46.088041
+Input: 9-1-1 s02-s03
+Expected: 9-1-1
+Got: "Expected '9-1-1' but got '9-1-1 s02 s03' for input '9-1-1 s02-s03'\nassert '9-1-1 s02 s03' == '9-1-1'\n  \n  \u001b[0m\u001b[91m- 9-1-1\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ 9-1-1 s02 s03\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:11:46.095963
+Input: S.H.I.E.L.D.s01
+Expected: S.H.I.E.L.D.
+Got: "'tv_clues'"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:11:46.114007
+Input: One-piece-ep.1080-v2-1080p-raws
+Expected: One piece
+Got: "'tv_clues'"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:11:46.137625
+Input: Naruto Shippuden (001-500) [Complete Series + Movies] (Dual Audio)
+Expected: Naruto Shippuden
+Got: {
+  "original": "Naruto Shippuden (001-500) [Complete Series + Movies] (Dual Audio)",
+  "possible_title": "Naruto Shippuden",
+  "clean_title": "Naruto Shippuden",
+  "media_type": "anime",
+  "tv_clues": [],
+  "anime_clues": [
+    "001-500"
+  ],
+  "movie_clues": [],
+  "extras_bits": [],
+  "extras_bits_unknown": [
+    "Naruto",
+    "Shippuden",
+    "[Complete",
+    "Series",
+    "Movies"
+  ],
+  "words": [
+    "Naruto",
+    "Shippuden"
+  ],
+  "matched_clues": {
+    "quality_clues": [],
+    "release_groups": [],
+    "release_groups_anime": [],
+    "audio_clues": [],
+    "resolution_clues": [],
+    "network_clues": [],
+    "misc_clues": [
+      "[Complete"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "release_groups_anime": [],
+  "misc_clues": [
+    "[Complete"
+  ]
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:11:46.139210
+Input: One.Piece.S01E1116.Lets.Go.Get.It!.Buggys.Big.Declaration.2160p.B-Global.WEB-DL.JPN.AAC2.0.H.264.MSubs-ToonsHub.mkv
+Expected: One Piece
+Got: "'tv_clues'"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:11:46.163727
+Input: Stranger Things S04 2160p
+Expected: Stranger Things
+Got: {
+  "original": "Stranger Things S04 2160p",
+  "possible_title": "Stranger Things S04",
+  "clean_title": "Stranger Things S04",
+  "media_type": "tv",
+  "tv_clues": [
+    "S04"
+  ],
+  "anime_clues": [],
+  "movie_clues": [],
+  "extras_bits": [],
+  "extras_bits_unknown": [
+    "Stranger",
+    "Things"
+  ],
+  "words": [
+    "Stranger",
+    "Things"
+  ],
+  "matched_clues": {
+    "quality_clues": [],
+    "release_groups": [],
+    "release_groups_anime": [],
+    "audio_clues": [],
+    "resolution_clues": [],
+    "network_clues": [],
+    "misc_clues": []
+  },
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "release_groups_anime": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:11:46.164226
+Input: Stranger Things S04 2160p
+Expected: Stranger Things
+Got: "Expected 'Stranger Things' but got 'Stranger Things S04' for input 'Stranger Things S04 2160p'\nassert 'stranger things s04' == 'stranger things'\n  \n  \u001b[0m\u001b[91m- stranger things\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ stranger things s04\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  ?                ++++\u001b[90m\u001b[39;49;00m"
+Success: False

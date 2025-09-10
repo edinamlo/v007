@@ -1,0 +1,3215 @@
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.009526
+Input: La famille bélier
+Expected: La famille bélier
+Got: {
+  "original": "La famille bélier",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "La famille bélier",
+  "clean_title": "La famille bélier",
+  "extras_bits": [],
+  "words": [
+    "La",
+    "famille",
+    "bélier"
+  ],
+  "media_type": "unknown",
+  "matched_clues": {
+    "audio_clues": [
+      "FLAC"
+    ],
+    "release_groups": [
+      "DEFLATE",
+      "TORRENTGALAXY",
+      "GALAXY"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [
+    "FLAC"
+  ],
+  "quality_clues": [],
+  "release_groups": [
+    "DEFLATE",
+    "TORRENTGALAXY",
+    "GALAXY"
+  ],
+  "misc_clues": []
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.011053
+Input: La.famille.bélier
+Expected: La famille bélier
+Got: {
+  "original": "La.famille.bélier",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "La.famille",
+  "clean_title": "La famille",
+  "extras_bits": [],
+  "words": [
+    "La.famille"
+  ],
+  "media_type": "unknown",
+  "matched_clues": {},
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.012345
+Input: La.famille.bélier
+Expected: La famille bélier
+Got: "Expected 'La famille bélier' but got 'La famille' for input 'La.famille.bélier'\nassert 'la famille' == 'la famille bélier'\n  \n  \u001b[0m\u001b[91m- la famille bélier\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ la famille\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.031314
+Input: Mr. Nobody
+Expected: Mr. Nobody
+Got: {
+  "original": "Mr. Nobody",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "Mr",
+  "clean_title": "Mr",
+  "extras_bits": [],
+  "words": [
+    "Mr"
+  ],
+  "media_type": "unknown",
+  "matched_clues": {
+    "quality_clues": [
+      "CAMRip"
+    ],
+    "release_groups": [
+      "CMRG"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [
+    "CAMRip"
+  ],
+  "release_groups": [
+    "CMRG"
+  ],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.031771
+Input: Mr. Nobody
+Expected: Mr. Nobody
+Got: "Expected 'Mr. Nobody' but got 'Mr' for input 'Mr. Nobody'\nassert 'mr' == 'mr. nobody'\n  \n  \u001b[0m\u001b[91m- mr. nobody\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ mr\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.037148
+Input: doctor_who_2005.8x12.death_in_heaven.720p_hdtv_x264-fov
+Expected: doctor who
+Got: {
+  "original": "doctor_who_2005.8x12.death_in_heaven.720p_hdtv_x264-fov",
+  "tv_clues": [
+    "S08E12"
+  ],
+  "anime_clues": [],
+  "movie_clues": [
+    "2005"
+  ],
+  "possible_title": "doctor_who",
+  "clean_title": "doctor who",
+  "extras_bits": [
+    "720p",
+    "h.264"
+  ],
+  "words": [
+    "doctor_who_",
+    ".death_in_heaven.",
+    "_hdtv_x",
+    "-fov"
+  ],
+  "media_type": "tv",
+  "matched_clues": {
+    "resolution_clues": [
+      "720p",
+      "HD"
+    ],
+    "quality_clues": [
+      "HDTV"
+    ]
+  },
+  "resolution_clues": [
+    "720p",
+    "HD"
+  ],
+  "audio_clues": [],
+  "quality_clues": [
+    "HDTV"
+  ],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.040344
+Input: [GM-Team][国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality Ⅲ][01-26][AVC][GB][1080P]
+Expected: Magical Legend of Rise to immortality Ⅲ
+Got: {
+  "original": "[GM-Team][国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality Ⅲ][01-26][AVC][GB][1080P]",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality Ⅲ][01-26][AVC][GB",
+  "clean_title": "太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality III][01 26][AVC][GB",
+  "extras_bits": [
+    "1080p",
+    "[太乙仙魔录",
+    "灵飞纪"
+  ],
+  "words": [
+    "第3季][Magical",
+    "Legend",
+    "of",
+    "Rise",
+    "to",
+    "immortality",
+    "Ⅲ][01-26][AVC][GB]["
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ],
+    "release_groups": [
+      "TORRENTGALAXY",
+      "TOMMY"
+    ],
+    "release_groups_anime": [
+      "Kaitou",
+      "Sakurato"
+    ],
+    "misc_clues": [
+      "DIRECTORS",
+      "RESTORED",
+      "COLLECTORS"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [
+    "TORRENTGALAXY",
+    "TOMMY"
+  ],
+  "misc_clues": [
+    "DIRECTORS",
+    "RESTORED",
+    "COLLECTORS"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.040924
+Input: [GM-Team][国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality Ⅲ][01-26][AVC][GB][1080P]
+Expected: Magical Legend of Rise to immortality Ⅲ
+Got: "Expected 'Magical Legend of Rise to immortality Ⅲ' but got '太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality III][01 26][AVC][GB' for input '[GM-Team][国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality Ⅲ][01-26][AVC][GB][1080P]'\nassert '太乙仙魔录 灵飞纪 第3...1 26][avc][gb' == 'magical lege...immortality ⅲ'\n  \n  \u001b[0m\u001b[91m- magical legend of rise to immortality ⅲ\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ 太乙仙魔录 灵飞纪 第3季][magical legend of rise to immortality iii][01 26][avc][gb\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.047101
+Input: 【喵萌奶茶屋】★01月新番★[Rebirth][01][720p][简体][招募翻译]
+Expected: Rebirth
+Got: {
+  "original": "【喵萌奶茶屋】★01月新番★[Rebirth][01][720p][简体][招募翻译]",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "【喵萌奶茶屋】★01月新番★[Rebirth][01",
+  "clean_title": "【喵萌奶茶屋】★01月新番★[Rebirth][01",
+  "extras_bits": [
+    "720p",
+    "][简体][招募翻译]"
+  ],
+  "words": [
+    "【喵萌奶茶屋】★01月新番★[Rebirth][01]["
+  ],
+  "media_type": "unknown",
+  "matched_clues": {
+    "resolution_clues": [
+      "720p"
+    ]
+  },
+  "resolution_clues": [
+    "720p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.047514
+Input: 【喵萌奶茶屋】★01月新番★[Rebirth][01][720p][简体][招募翻译]
+Expected: Rebirth
+Got: "Expected 'Rebirth' but got '【喵萌奶茶屋】★01月新番★[Rebirth][01' for input '【喵萌奶茶屋】★01月新番★[Rebirth][01][720p][简体][招募翻译]'\nassert '【喵萌奶茶屋】★01月新番★[rebirth][01' == 'rebirth'\n  \n  \u001b[0m\u001b[91m- rebirth\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ 【喵萌奶茶屋】★01月新番★[rebirth][01\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.053853
+Input: 【喵萌奶茶屋】★01月新番★[別對映像研出手！/Eizouken ni wa Te wo Dasu na！/映像研には手を出すな！][01][1080p][繁體]
+Expected: Eizouken ni wa Te wo Dasu na!
+Got: {
+  "original": "【喵萌奶茶屋】★01月新番★[別對映像研出手！/Eizouken ni wa Te wo Dasu na！/映像研には手を出すな！][01][1080p][繁體]",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "【喵萌奶茶屋】★01月新番★[別對映像研出手！/Eizouken ni wa Te wo Dasu na！/映像研には手を出すな！][01",
+  "clean_title": "Eizouken ni wa Te wo Dasu na!",
+  "extras_bits": [
+    "1080p",
+    "][繁體]"
+  ],
+  "words": [
+    "【喵萌奶茶屋】★01月新番★[別對映像研出手！/Eizouken",
+    "ni",
+    "wa",
+    "Te",
+    "wo",
+    "Dasu",
+    "na！/映像研には手を出すな！][01]["
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ],
+    "audio_clues": [
+      "STEREO"
+    ],
+    "quality_clues": [
+      "WORKPRINT"
+    ],
+    "release_groups": [
+      "DEFLATE"
+    ],
+    "release_groups_anime": [
+      "Underwater",
+      "Anime-Kayo",
+      "AnimeRG",
+      "Anime Time"
+    ],
+    "misc_clues": [
+      "EXTENDED",
+      "COMPLETE",
+      "LIMITED",
+      "TEASER",
+      "DELETED",
+      "ALTERNATE",
+      "REMASTERED",
+      "ANNIVERSARY"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [
+    "STEREO"
+  ],
+  "quality_clues": [
+    "WORKPRINT"
+  ],
+  "release_groups": [
+    "DEFLATE"
+  ],
+  "misc_clues": [
+    "EXTENDED",
+    "COMPLETE",
+    "LIMITED",
+    "TEASER",
+    "DELETED",
+    "ALTERNATE",
+    "REMASTERED",
+    "ANNIVERSARY"
+  ]
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.056706
+Input: 【喵萌奶茶屋】★01月新番★[別對映像研出手！/Eizouken ni wa Te wo Dasu na！/映像研には手を出すな！][01][1080p][繁體]
+Expected: Eizouken ni wa Te wo Dasu na!
+Got: {
+  "original": "【喵萌奶茶屋】★01月新番★[別對映像研出手！/Eizouken ni wa Te wo Dasu na！/映像研には手を出すな！][01][1080p][繁體]",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "【喵萌奶茶屋】★01月新番★[別對映像研出手！/Eizouken ni wa Te wo Dasu na！/映像研には手を出すな！][01",
+  "clean_title": "Eizouken ni wa Te wo Dasu na!",
+  "extras_bits": [
+    "1080p",
+    "][繁體]"
+  ],
+  "words": [
+    "【喵萌奶茶屋】★01月新番★[別對映像研出手！/Eizouken",
+    "ni",
+    "wa",
+    "Te",
+    "wo",
+    "Dasu",
+    "na！/映像研には手を出すな！][01]["
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ],
+    "audio_clues": [
+      "STEREO"
+    ],
+    "quality_clues": [
+      "WORKPRINT"
+    ],
+    "release_groups": [
+      "DEFLATE"
+    ],
+    "release_groups_anime": [
+      "Underwater",
+      "Anime-Kayo",
+      "AnimeRG",
+      "Anime Time"
+    ],
+    "misc_clues": [
+      "EXTENDED",
+      "COMPLETE",
+      "LIMITED",
+      "TEASER",
+      "DELETED",
+      "ALTERNATE",
+      "REMASTERED",
+      "ANNIVERSARY"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [
+    "STEREO"
+  ],
+  "quality_clues": [
+    "WORKPRINT"
+  ],
+  "release_groups": [
+    "DEFLATE"
+  ],
+  "misc_clues": [
+    "EXTENDED",
+    "COMPLETE",
+    "LIMITED",
+    "TEASER",
+    "DELETED",
+    "ALTERNATE",
+    "REMASTERED",
+    "ANNIVERSARY"
+  ]
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.059441
+Input: [Seed-Raws] 劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC AACx4 [5.1+2.0+2.0+2.0]).mp4
+Expected: Penguin Highway The Movie
+Got: {
+  "original": "[Seed-Raws] 劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC AACx4 [5.1+2.0+2.0+2.0]).mp4",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC",
+  "clean_title": "劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC",
+  "extras_bits": [
+    "aac",
+    "劇場版",
+    "ペンギン・ハイウェイ",
+    "(bd",
+    "[5.1+2.0+2.0+2.0])"
+  ],
+  "words": [
+    "Penguin",
+    "Highway",
+    "The",
+    "Movie",
+    "1280x720",
+    "AVC",
+    "x4"
+  ],
+  "media_type": "anime",
+  "matched_clues": {
+    "audio_clues": [
+      "AAC",
+      "5.1"
+    ],
+    "misc_clues": [
+      "THEATRICAL"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [
+    "AAC",
+    "5.1"
+  ],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": [
+    "THEATRICAL"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.060027
+Input: [Seed-Raws] 劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC AACx4 [5.1+2.0+2.0+2.0]).mp4
+Expected: Penguin Highway The Movie
+Got: "Expected 'Penguin Highway The Movie' but got '劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC' for input '[Seed-Raws] 劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC AACx4 [5.1+2.0+2.0+2.0]).mp4'\nassert '劇場版 ペンギン・ハイウ... 1280x720 avc' == 'penguin highway the movie'\n  \n  \u001b[0m\u001b[91m- penguin highway the movie\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ 劇場版 ペンギン・ハイウェイ penguin highway the movie (bd 1280x720 avc\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.068422
+Input: [SweetSub][Mutafukaz / MFKZ][Movie][BDRip][1080P][AVC 8bit][简体内嵌]
+Expected: Mutafukaz / MFKZ
+Got: {
+  "original": "[SweetSub][Mutafukaz / MFKZ][Movie][BDRip][1080P][AVC 8bit][简体内嵌]",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "Movie",
+  "clean_title": "Movie",
+  "extras_bits": [
+    "bluray",
+    "1080p",
+    "]["
+  ],
+  "words": [
+    "[Movie][",
+    "][AVC",
+    "8bit][简体内嵌]"
+  ],
+  "media_type": "anime",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ],
+    "quality_clues": [
+      "BluRay",
+      "BDRip",
+      "TS"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [
+    "BluRay",
+    "BDRip",
+    "TS"
+  ],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.068945
+Input: [SweetSub][Mutafukaz / MFKZ][Movie][BDRip][1080P][AVC 8bit][简体内嵌]
+Expected: Mutafukaz / MFKZ
+Got: "Expected 'Mutafukaz / MFKZ' but got 'Movie' for input '[SweetSub][Mutafukaz / MFKZ][Movie][BDRip][1080P][AVC 8bit][简体内嵌]'\nassert 'movie' == 'mutafukaz / mfkz'\n  \n  \u001b[0m\u001b[91m- mutafukaz / mfkz\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ movie\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.076168
+Input: [Erai-raws] Kingdom 3rd Season - 02 [1080p].mkv
+Expected: Kingdom
+Got: {
+  "original": "[Erai-raws] Kingdom 3rd Season - 02 [1080p].mkv",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "Kingdom 3rd Season - 02",
+  "clean_title": "Kingdom 3rd Season",
+  "extras_bits": [
+    "1080p",
+    "02"
+  ],
+  "words": [
+    "Kingdom",
+    "3rd",
+    "Season"
+  ],
+  "media_type": "anime",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ],
+    "release_groups_anime": [
+      "Erai-raws"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.076712
+Input: [Erai-raws] Kingdom 3rd Season - 02 [1080p].mkv
+Expected: Kingdom
+Got: "Expected 'Kingdom' but got 'Kingdom 3rd Season' for input '[Erai-raws] Kingdom 3rd Season - 02 [1080p].mkv'\nassert 'kingdom 3rd season' == 'kingdom'\n  \n  \u001b[0m\u001b[91m- kingdom\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ kingdom 3rd season\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.083856
+Input: Голубая волна / Blue Crush (2002) DVDRip
+Expected: Blue Crush
+Got: {
+  "original": "Голубая волна / Blue Crush (2002) DVDRip",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "2002"
+  ],
+  "possible_title": "Голубая волна / Blue Crush",
+  "clean_title": "Blue Crush",
+  "extras_bits": [
+    "голубая",
+    "волна",
+    "dvdrip"
+  ],
+  "words": [
+    "Blue",
+    "Crush"
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "quality_clues": [
+      "DVDRip"
+    ],
+    "misc_clues": [
+      "DV"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [
+    "DVDRip"
+  ],
+  "release_groups": [],
+  "misc_clues": [
+    "DV"
+  ]
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.085273
+Input: Жихарка (2007) DVDRip
+Expected: Жихарка
+Got: {
+  "original": "Жихарка (2007) DVDRip",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "2007"
+  ],
+  "possible_title": "Жихарка",
+  "clean_title": "Жихарка",
+  "extras_bits": [
+    "жихарка",
+    "dvdrip"
+  ],
+  "words": [],
+  "media_type": "movie",
+  "matched_clues": {
+    "quality_clues": [
+      "DVDRip"
+    ],
+    "misc_clues": [
+      "DV"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [
+    "DVDRip"
+  ],
+  "release_groups": [],
+  "misc_clues": [
+    "DV"
+  ]
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.086826
+Input: 3 Миссия невыполнима 3 2006г. BDRip 1080p.mkv
+Expected: 3 Миссия невыполнима 3
+Got: {
+  "original": "3 Миссия невыполнима 3 2006г. BDRip 1080p.mkv",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "2006"
+  ],
+  "possible_title": "3 Миссия невыполнима 3 2006г",
+  "clean_title": "3 Миссия невыполнима 3 2006г",
+  "extras_bits": [
+    "bluray",
+    "1080p",
+    "миссия",
+    "невыполнима",
+    "г."
+  ],
+  "words": [],
+  "media_type": "movie",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ],
+    "quality_clues": [
+      "BluRay",
+      "BDRip"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [
+    "BluRay",
+    "BDRip"
+  ],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.087430
+Input: 3 Миссия невыполнима 3 2006г. BDRip 1080p.mkv
+Expected: 3 Миссия невыполнима 3
+Got: "Expected '3 Миссия невыполнима 3' but got '3 Миссия невыполнима 3 2006г' for input '3 Миссия невыполнима 3 2006г. BDRip 1080p.mkv'\nassert '3 миссия невыполнима 3 2006г' == '3 миссия невыполнима 3'\n  \n  \u001b[0m\u001b[91m- 3 миссия невыполнима 3\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ 3 миссия невыполнима 3 2006г\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  ?                       ++++++\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.093609
+Input: 1. Детские игры. 1988. 1080p. HEVC. 10bit..mkv
+Expected: 1. Детские игры
+Got: {
+  "original": "1. Детские игры. 1988. 1080p. HEVC. 10bit..mkv",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "1988"
+  ],
+  "possible_title": "1. Детские игры",
+  "clean_title": "Детские игры",
+  "extras_bits": [
+    "1080p",
+    "x265",
+    "1.",
+    "детские",
+    "игры."
+  ],
+  "words": [
+    "10bit."
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.094067
+Input: 1. Детские игры. 1988. 1080p. HEVC. 10bit..mkv
+Expected: 1. Детские игры
+Got: "Expected '1. Детские игры' but got 'Детские игры' for input '1. Детские игры. 1988. 1080p. HEVC. 10bit..mkv'\nassert 'детские игры' == '1. детские игры'\n  \n  \u001b[0m\u001b[91m- 1. детские игры\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  ? ---\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ детские игры\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.101185
+Input: 01. 100 девчонок и одна в лифте 2000 WEBRip 1080p.mkv
+Expected: 01. 100 девчонок и одна в лифте
+Got: {
+  "original": "01. 100 девчонок и одна в лифте 2000 WEBRip 1080p.mkv",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "2000"
+  ],
+  "possible_title": "01. 100 девчонок и одна в лифте 2000 WEBRip",
+  "clean_title": "100 девчонок и одна в лифте 2000 WEBRip",
+  "extras_bits": [
+    "1080p",
+    "01.",
+    "100",
+    "девчонок",
+    "одна",
+    "лифте",
+    "webrip"
+  ],
+  "words": [],
+  "media_type": "movie",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ],
+    "quality_clues": [
+      "WEBRip"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [
+    "WEBRip"
+  ],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.101884
+Input: 01. 100 девчонок и одна в лифте 2000 WEBRip 1080p.mkv
+Expected: 01. 100 девчонок и одна в лифте
+Got: "Expected '01. 100 девчонок и одна в лифте' but got '100 девчонок и одна в лифте 2000 WEBRip' for input '01. 100 девчонок и одна в лифте 2000 WEBRip 1080p.mkv'\nassert '100 девчонок...е 2000 webrip' == '01. 100 девч... одна в лифте'\n  \n  \u001b[0m\u001b[91m- 01. 100 девчонок и одна в лифте\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  ? ----\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ 100 девчонок и одна в лифте 2000 webrip\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  ?                            ++++++++++++\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.110616
+Input: 08.Планета.обезьян.Революция.2014.BDRip-HEVC.1080p.mkv
+Expected: 08 Планета обезьян Революция
+Got: {
+  "original": "08.Планета.обезьян.Революция.2014.BDRip-HEVC.1080p.mkv",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "2014"
+  ],
+  "possible_title": "08.Планета.обезьян.Революция",
+  "clean_title": "Планета обезьян Революция",
+  "extras_bits": [
+    "bluray",
+    "x265",
+    "1080p",
+    "08.планета.обезьян.революция."
+  ],
+  "words": [],
+  "media_type": "movie",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ],
+    "quality_clues": [
+      "BluRay",
+      "BDRip"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [
+    "BluRay",
+    "BDRip"
+  ],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.111269
+Input: 08.Планета.обезьян.Революция.2014.BDRip-HEVC.1080p.mkv
+Expected: 08 Планета обезьян Революция
+Got: "Expected '08 Планета обезьян Революция' but got 'Планета обезьян Революция' for input '08.Планета.обезьян.Революция.2014.BDRip-HEVC.1080p.mkv'\nassert 'планета обезьян революция' == '08 планета обезьян революция'\n  \n  \u001b[0m\u001b[91m- 08 планета обезьян революция\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  ? ---\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ планета обезьян революция\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.121275
+Input: Американские животные / American Animals (Барт Лэйтон / Bart Layton) [2018, Великобритания, США, драма, криминал, BDRip] MVO (СВ Студия)
+Expected: American Animals
+Got: {
+  "original": "Американские животные / American Animals (Барт Лэйтон / Bart Layton) [2018, Великобритания, США, драма, криминал, BDRip] MVO (СВ Студия)",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "2018"
+  ],
+  "possible_title": "Американские животные / American Animals (Барт Лэйтон / Bart Layton) [2018, Великобритания, США, драма, криминал,",
+  "clean_title": "Bart Layton) [2018, Великобритания, США, драма, криминал,",
+  "extras_bits": [
+    "bluray",
+    "американские",
+    "животные",
+    "(барт",
+    "лэйтон",
+    "великобритания,",
+    "сша,",
+    "драма,",
+    "криминал,",
+    "(св",
+    "студия)"
+  ],
+  "words": [
+    "American",
+    "Animals",
+    "Bart",
+    "Layton)",
+    "MVO"
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "quality_clues": [
+      "BluRay",
+      "BDRip"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [
+    "BluRay",
+    "BDRip"
+  ],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.121865
+Input: Американские животные / American Animals (Барт Лэйтон / Bart Layton) [2018, Великобритания, США, драма, криминал, BDRip] MVO (СВ Студия)
+Expected: American Animals
+Got: "Expected 'American Animals' but got 'Bart Layton) [2018, Великобритания, США, драма, криминал,' for input 'Американские животные / American Animals (Барт Лэйтон / Bart Layton) [2018, Великобритания, США, драма, криминал, BDRip] MVO (СВ Студия)'\nassert 'bart layton)...ма, криминал,' == 'american animals'\n  \n  \u001b[0m\u001b[91m- american animals\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ bart layton) [2018, великобритания, сша, драма, криминал,\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.132625
+Input: Греческая смоковница / Griechische Feigen / The Fruit Is Ripe (Зиги Ротемунд / Sigi Rothemund (as Siggi Götз)) [1976, Германия (ФРГ), эротика, комедия, приключения, DVDRip] 2 VO
+Expected: Griechische Feigen / The Fruit Is Ripe
+Got: {
+  "original": "Греческая смоковница / Griechische Feigen / The Fruit Is Ripe (Зиги Ротемунд / Sigi Rothemund (as Siggi Götз)) [1976, Германия (ФРГ), эротика, комедия, приключения, DVDRip] 2 VO",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "1976"
+  ],
+  "possible_title": "Греческая смоковница / Griechische Feigen / The Fruit Is Ripe (Зиги Ротемунд / Sigi Rothemund (as Siggi Götз)) [1976, Германия (ФРГ), эротика, комедия, приключения,",
+  "clean_title": "Sigi Rothemund (as Siggi Götз)) [1976, Германия (ФРГ), эротика, комедия, приключения,",
+  "extras_bits": [
+    "греческая",
+    "смоковница",
+    "(зиги",
+    "ротемунд",
+    "германия",
+    "(фрг),",
+    "эротика,",
+    "комедия,",
+    "приключения,"
+  ],
+  "words": [
+    "Griechische",
+    "Feigen",
+    "The",
+    "Fruit",
+    "Is",
+    "Ripe",
+    "Sigi",
+    "Rothemund",
+    "(as",
+    "Siggi",
+    "Götз))",
+    "DVDRip]",
+    "VO"
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "quality_clues": [
+      "DVDRip",
+      "VODRIP"
+    ],
+    "release_groups_anime": [
+      "GG"
+    ],
+    "misc_clues": [
+      "THEATRICAL",
+      "DV",
+      "VISION"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [
+    "DVDRip",
+    "VODRIP"
+  ],
+  "release_groups": [],
+  "misc_clues": [
+    "THEATRICAL",
+    "DV",
+    "VISION"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.133252
+Input: Греческая смоковница / Griechische Feigen / The Fruit Is Ripe (Зиги Ротемунд / Sigi Rothemund (as Siggi Götз)) [1976, Германия (ФРГ), эротика, комедия, приключения, DVDRip] 2 VO
+Expected: Griechische Feigen / The Fruit Is Ripe
+Got: "Expected 'Griechische Feigen / The Fruit Is Ripe' but got 'Sigi Rothemund (as Siggi Götз)) [1976, Германия (ФРГ), эротика, комедия, приключения,' for input 'Греческая смоковница / Griechische Feigen / The Fruit Is Ripe (Зиги Ротемунд / Sigi Rothemund (as Siggi Götз)) [1976, Германия (ФРГ), эротика, комедия, приключения, DVDRip] 2 VO'\nassert 'sigi rothemu... приключения,' == 'griechische ...fruit is ripe'\n  \n  \u001b[0m\u001b[91m- griechische feigen / the fruit is ripe\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ sigi rothemund (as siggi götз)) [1976, германия (фрг), эротика, комедия, приключения,\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.143232
+Input: Греческая смоковница / The fruit is ripe / Griechische Feigen (Siggi Götз) [1976, Германия, Эротическая комедия, DVDRip]
+Expected: The fruit is ripe / Griechische Feigen
+Got: {
+  "original": "Греческая смоковница / The fruit is ripe / Griechische Feigen (Siggi Götз) [1976, Германия, Эротическая комедия, DVDRip]",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "1976"
+  ],
+  "possible_title": "Греческая смоковница / The fruit is ripe / Griechische Feigen (Siggi Götз) [1976, Германия, Эротическая комедия,",
+  "clean_title": "Griechische Feigen (Siggi Götз) [1976, Германия, Эротическая комедия,",
+  "extras_bits": [
+    "греческая",
+    "смоковница",
+    "германия,",
+    "эротическая",
+    "комедия,"
+  ],
+  "words": [
+    "The",
+    "fruit",
+    "is",
+    "ripe",
+    "Griechische",
+    "Feigen",
+    "(Siggi",
+    "Götз)",
+    "DVDRip]"
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "quality_clues": [
+      "DVDRip"
+    ],
+    "release_groups_anime": [
+      "GG"
+    ],
+    "misc_clues": [
+      "THEATRICAL",
+      "DV",
+      "VISION"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [
+    "DVDRip"
+  ],
+  "release_groups": [],
+  "misc_clues": [
+    "THEATRICAL",
+    "DV",
+    "VISION"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.143859
+Input: Греческая смоковница / The fruit is ripe / Griechische Feigen (Siggi Götз) [1976, Германия, Эротическая комедия, DVDRip]
+Expected: The fruit is ripe / Griechische Feigen
+Got: "Expected 'The fruit is ripe / Griechische Feigen' but got 'Griechische Feigen (Siggi Götз) [1976, Германия, Эротическая комедия,' for input 'Греческая смоковница / The fruit is ripe / Griechische Feigen (Siggi Götз) [1976, Германия, Эротическая комедия, DVDRip]'\nassert 'griechische ...ская комедия,' == 'the fruit is...hische feigen'\n  \n  \u001b[0m\u001b[91m- the fruit is ripe / griechische feigen\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ griechische feigen (siggi götз) [1976, германия, эротическая комедия,\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.151994
+Input: Бастер / Buster (Дэвид Грин / David Green) [1988, Великобритания, Комедия, мелодрама, драма, приключения, криминал, биография, DVDRip]
+Expected: Buster
+Got: {
+  "original": "Бастер / Buster (Дэвид Грин / David Green) [1988, Великобритания, Комедия, мелодрама, драма, приключения, криминал, биография, DVDRip]",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "1988"
+  ],
+  "possible_title": "Бастер / Buster (Дэвид Грин / David Green) [1988, Великобритания, Комедия, мелодрама, драма, приключения, криминал, биография,",
+  "clean_title": "David Green) [1988, Великобритания, Комедия, мелодрама, драма, приключения, криминал, биография,",
+  "extras_bits": [
+    "бастер",
+    "(дэвид",
+    "грин",
+    "великобритания,",
+    "комедия,",
+    "мелодрама,",
+    "драма,",
+    "приключения,",
+    "криминал,",
+    "биография,"
+  ],
+  "words": [
+    "Buster",
+    "David",
+    "Green)",
+    "DVDRip]"
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "quality_clues": [
+      "DVDRip"
+    ],
+    "misc_clues": [
+      "DV"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [
+    "DVDRip"
+  ],
+  "release_groups": [],
+  "misc_clues": [
+    "DV"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.152455
+Input: Бастер / Buster (Дэвид Грин / David Green) [1988, Великобритания, Комедия, мелодрама, драма, приключения, криминал, биография, DVDRip]
+Expected: Buster
+Got: "Expected 'Buster' but got 'David Green) [1988, Великобритания, Комедия, мелодрама, драма, приключения, криминал, биография,' for input 'Бастер / Buster (Дэвид Грин / David Green) [1988, Великобритания, Комедия, мелодрама, драма, приключения, криминал, биография, DVDRip]'\nassert 'david green)...л, биография,' == 'buster'\n  \n  \u001b[0m\u001b[91m- buster\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ david green) [1988, великобритания, комедия, мелодрама, драма, приключения, криминал, биография,\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.158454
+Input: (2000) Le follie dell'imperatore - The Emperor's New Groove (DvdRip Ita Eng AC3 5.1).avi
+Expected: Le follie dell'imperatore - The Emperor's New Groove
+Got: {
+  "original": "(2000) Le follie dell'imperatore - The Emperor's New Groove (DvdRip Ita Eng AC3 5.1).avi",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "2000"
+  ],
+  "possible_title": "2000) Le follie dell'imperatore - The Emperor's New Groove",
+  "clean_title": "2000) Le follie dell'imperatore The Emperor's New Groove",
+  "extras_bits": [
+    "ac3",
+    "5.1)"
+  ],
+  "words": [
+    "Le",
+    "follie",
+    "dell'imperatore",
+    "The",
+    "Emperor's",
+    "New",
+    "Groove",
+    "(DvdRip",
+    "Ita",
+    "Eng"
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "audio_clues": [
+      "AC3",
+      "EAC3",
+      "5.1"
+    ],
+    "quality_clues": [
+      "DVDRip"
+    ],
+    "release_groups_anime": [
+      "HorribleSubs",
+      "SubsPlease",
+      "Leopard-Raws"
+    ],
+    "misc_clues": [
+      "THEATRICAL",
+      "DV",
+      "COMPLETE",
+      "TRAILER",
+      "DELETED",
+      "SUBTITLES",
+      "COLLECTORS"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [
+    "AC3",
+    "EAC3",
+    "5.1"
+  ],
+  "quality_clues": [
+    "DVDRip"
+  ],
+  "release_groups": [],
+  "misc_clues": [
+    "THEATRICAL",
+    "DV",
+    "COMPLETE",
+    "TRAILER",
+    "DELETED",
+    "SUBTITLES",
+    "COLLECTORS"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.159251
+Input: (2000) Le follie dell'imperatore - The Emperor's New Groove (DvdRip Ita Eng AC3 5.1).avi
+Expected: Le follie dell'imperatore - The Emperor's New Groove
+Got: "Expected \"Le follie dell'imperatore - The Emperor's New Groove\" but got \"2000) Le follie dell'imperatore The Emperor's New Groove\" for input \"(2000) Le follie dell'imperatore - The Emperor's New Groove (DvdRip Ita Eng AC3 5.1).avi\"\nassert \"2000) le fol...'s new groove\" == \"le follie de...'s new groove\"\n  \n  \u001b[0m\u001b[91m- le follie dell'imperatore - the emperor's new groove\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  ?                           --\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ 2000) le follie dell'imperatore the emperor's new groove\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  ? ++++++\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.166303
+Input: [NC-Raws] 间谍过家家 / SPY×FAMILY - 04 (B-Global 1920x1080 HEVC AAC MKV)
+Expected: SPY×FAMILY
+Got: {
+  "original": "[NC-Raws] 间谍过家家 / SPY×FAMILY - 04 (B-Global 1920x1080 HEVC AAC MKV)",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "间谍过家家 / SPY×FAMILY - 04 (B-Global 1920x1080 HEVC",
+  "clean_title": "SPY×FAMILY 04 (B Global 1920x1080 HEVC",
+  "extras_bits": [
+    "x265",
+    "aac",
+    "间谍过家家",
+    "04",
+    "1920x1080"
+  ],
+  "words": [
+    "SPY×FAMILY",
+    "(B-Global",
+    "MKV)"
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "audio_clues": [
+      "AAC"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [
+    "AAC"
+  ],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.166809
+Input: [NC-Raws] 间谍过家家 / SPY×FAMILY - 04 (B-Global 1920x1080 HEVC AAC MKV)
+Expected: SPY×FAMILY
+Got: "Expected 'SPY×FAMILY' but got 'SPY×FAMILY 04 (B Global 1920x1080 HEVC' for input '[NC-Raws] 间谍过家家 / SPY×FAMILY - 04 (B-Global 1920x1080 HEVC AAC MKV)'\nassert 'spy×family 0...920x1080 hevc' == 'spy×family'\n  \n  \u001b[0m\u001b[91m- spy×family\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ spy×family 04 (b global 1920x1080 hevc\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.173483
+Input: GTO (Great Teacher Onizuka) (Ep. 1-43) Sub 480p lakshay
+Expected: GTO (Great Teacher Onizuka)
+Got: {
+  "original": "GTO (Great Teacher Onizuka) (Ep. 1-43) Sub 480p lakshay",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "GTO (Great Teacher Onizuka) (Ep. 1-43) Sub 480p lakshay",
+  "clean_title": "GTO (Great Teacher Onizuka) (Ep 43) Sub 480p lakshay",
+  "extras_bits": [
+    "480p",
+    "1-43)"
+  ],
+  "words": [
+    "GTO",
+    "(Great",
+    "Teacher",
+    "Onizuka)",
+    "(Ep.",
+    "Sub",
+    "lakshay"
+  ],
+  "media_type": "unknown",
+  "matched_clues": {
+    "resolution_clues": [
+      "480p"
+    ],
+    "release_groups_anime": [
+      "HorribleSubs",
+      "SubsPlease"
+    ],
+    "misc_clues": [
+      "SUBTITLES",
+      "SUBBED"
+    ]
+  },
+  "resolution_clues": [
+    "480p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": [
+    "SUBTITLES",
+    "SUBBED"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.174028
+Input: GTO (Great Teacher Onizuka) (Ep. 1-43) Sub 480p lakshay
+Expected: GTO (Great Teacher Onizuka)
+Got: "Expected 'GTO (Great Teacher Onizuka)' but got 'GTO (Great Teacher Onizuka) (Ep 43) Sub 480p lakshay' for input 'GTO (Great Teacher Onizuka) (Ep. 1-43) Sub 480p lakshay'\nassert 'gto (great t... 480p lakshay' == 'gto (great teacher onizuka)'\n  \n  \u001b[0m\u001b[91m- gto (great teacher onizuka)\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ gto (great teacher onizuka) (ep 43) sub 480p lakshay\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.183176
+Input: Книгоноши / Кнiганошы (1987) TVRip от AND03AND | BLR
+Expected: Кнiганошы
+Got: {
+  "original": "Книгоноши / Кнiганошы (1987) TVRip от AND03AND | BLR",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "1987"
+  ],
+  "possible_title": "Книгоноши / Кнiганошы (1987) TVRip от AND03AND | BLR",
+  "clean_title": "Кнiганошы (1987) TVRip от AND03AND | BLR",
+  "extras_bits": [
+    "книгоноши",
+    "tvrip",
+    "от"
+  ],
+  "words": [
+    "Кнiганошы",
+    "AND03AND",
+    "BLR"
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "quality_clues": [
+      "TVRIP"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [
+    "TVRIP"
+  ],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.183722
+Input: Книгоноши / Кнiганошы (1987) TVRip от AND03AND | BLR
+Expected: Кнiганошы
+Got: "Expected 'Кнiганошы' but got 'Кнiганошы (1987) TVRip от AND03AND | BLR' for input 'Книгоноши / Кнiганошы (1987) TVRip от AND03AND | BLR'\nassert 'кнiганошы (1...nd03and | blr' == 'кнiганошы'\n  \n  \u001b[0m\u001b[91m- кнiганошы\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ кнiганошы (1987) tvrip от and03and | blr\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.192574
+Input: Yurusarezaru_mono2.srt
+Expected: Yurusarezaru mono2
+Got: {
+  "original": "Yurusarezaru_mono2.srt",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "Yurusarezaru_mono2",
+  "clean_title": "Yurusarezaru mono2",
+  "extras_bits": [],
+  "words": [
+    "Yurusarezaru_mono2"
+  ],
+  "media_type": "unknown",
+  "matched_clues": {
+    "audio_clues": [
+      "MONO"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [
+    "MONO"
+  ],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.194755
+Input: www.1TamilMV.world - Ayalaan (2024) Tamil PreDVD - 1080p - x264 - HQ Clean Aud - 2.5GB.mkv
+Expected: Ayalaan
+Got: {
+  "original": "www.1TamilMV.world - Ayalaan (2024) Tamil PreDVD - 1080p - x264 - HQ Clean Aud - 2.5GB.mkv",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "2024"
+  ],
+  "possible_title": "Ayalaan (2024) Tamil PreDVD",
+  "clean_title": "Ayalaan (2024) Tamil PreDVD",
+  "extras_bits": [
+    "1080p",
+    "h.264"
+  ],
+  "words": [
+    "Ayalaan",
+    "Tamil",
+    "PreDVD",
+    "HQ",
+    "Clean",
+    "Aud",
+    "2.5GB"
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ],
+    "misc_clues": [
+      "DV"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": [
+    "DV"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.195322
+Input: www.1TamilMV.world - Ayalaan (2024) Tamil PreDVD - 1080p - x264 - HQ Clean Aud - 2.5GB.mkv
+Expected: Ayalaan
+Got: "Expected 'Ayalaan' but got 'Ayalaan (2024) Tamil PreDVD' for input 'www.1TamilMV.world - Ayalaan (2024) Tamil PreDVD - 1080p - x264 - HQ Clean Aud - 2.5GB.mkv'\nassert 'ayalaan (2024) tamil predvd' == 'ayalaan'\n  \n  \u001b[0m\u001b[91m- ayalaan\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ ayalaan (2024) tamil predvd\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.203955
+Input: www.Torrenting.com   -    Anatomy Of A Fall (2023)
+Expected: Anatomy Of A Fall
+Got: {
+  "original": "www.Torrenting.com   -    Anatomy Of A Fall (2023)",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "2023"
+  ],
+  "possible_title": "com   -    Anatomy Of A Fall",
+  "clean_title": "com Anatomy Of A Fall",
+  "extras_bits": [],
+  "words": [
+    ".com",
+    "Anatomy",
+    "Of",
+    "Fall"
+  ],
+  "media_type": "movie",
+  "matched_clues": {},
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.204573
+Input: www.Torrenting.com   -    Anatomy Of A Fall (2023)
+Expected: Anatomy Of A Fall
+Got: "Expected 'Anatomy Of A Fall' but got 'com Anatomy Of A Fall' for input 'www.Torrenting.com   -    Anatomy Of A Fall (2023)'\nassert 'com anatomy of a fall' == 'anatomy of a fall'\n  \n  \u001b[0m\u001b[91m- anatomy of a fall\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ com anatomy of a fall\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  ? ++++\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.217827
+Input: [www.arabp2p.net]_-_تركي مترجم ومدبلج Last.Call.for.Istanbul.2023.1080p.NF.WEB-DL.DDP5.1.H.264.MKV.torrent
+Expected: Last Call for Istanbul
+Got: {
+  "original": "[www.arabp2p.net]_-_تركي مترجم ومدبلج Last.Call.for.Istanbul.2023.1080p.NF.WEB-DL.DDP5.1.H.264.MKV.torrent",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "2023"
+  ],
+  "possible_title": "تركي مترجم ومدبلج Last.Call.for.Istanbul",
+  "clean_title": "تركي مترجم ومدبلج Last Call for Istanbul",
+  "extras_bits": [
+    "1080p",
+    "h.264",
+    "تركي",
+    "مترجم",
+    "ومدبلج"
+  ],
+  "words": [
+    "Last.Call.for.Istanbul.",
+    ".NF.WEB-DL.DDP5.1.",
+    ".MKV"
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ],
+    "audio_clues": [
+      "DD",
+      "5.1"
+    ],
+    "quality_clues": [
+      "WEB-DL"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [
+    "DD",
+    "5.1"
+  ],
+  "quality_clues": [
+    "WEB-DL"
+  ],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.218808
+Input: [www.arabp2p.net]_-_تركي مترجم ومدبلج Last.Call.for.Istanbul.2023.1080p.NF.WEB-DL.DDP5.1.H.264.MKV.torrent
+Expected: Last Call for Istanbul
+Got: "Expected 'Last Call for Istanbul' but got 'تركي مترجم ومدبلج Last Call for Istanbul' for input '[www.arabp2p.net]_-_تركي مترجم ومدبلج Last.Call.for.Istanbul.2023.1080p.NF.WEB-DL.DDP5.1.H.264.MKV.torrent'\nassert 'تركي مترجم و... for istanbul' == 'last call for istanbul'\n  \n  \u001b[0m\u001b[91m- last call for istanbul\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ تركي مترجم ومدبلج last call for istanbul\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.236014
+Input: www,1TamilMV.phd - The Great Indian Suicide (2023) Tamil TRUE WEB-DL - 4K SDR - HEVC - (DD+5.1 - 384Kbps & AAC) - 3.2GB - ESub.mkv
+Expected: The Great Indian Suicide
+Got: {
+  "original": "www,1TamilMV.phd - The Great Indian Suicide (2023) Tamil TRUE WEB-DL - 4K SDR - HEVC - (DD+5.1 - 384Kbps & AAC) - 3.2GB - ESub.mkv",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "2023"
+  ],
+  "possible_title": "www,1TamilMV.phd - The Great Indian Suicide (2023) Tamil TRUE",
+  "clean_title": "www,1TamilMV phd The Great Indian Suicide (2023) Tamil TRUE",
+  "extras_bits": [
+    "x265",
+    "aac",
+    "web-dl",
+    "4k"
+  ],
+  "words": [
+    "www,1TamilMV.phd",
+    "The",
+    "Great",
+    "Indian",
+    "Suicide",
+    "Tamil",
+    "TRUE",
+    "SDR",
+    "(DD+5.1",
+    "384Kbps",
+    "3.2GB",
+    "ESub"
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "resolution_clues": [
+      "4K",
+      "SD",
+      "HD"
+    ],
+    "audio_clues": [
+      "AAC",
+      "TrueHD",
+      "DD",
+      "DD+",
+      "5.1"
+    ],
+    "quality_clues": [
+      "WEB-DL"
+    ],
+    "release_groups_anime": [
+      "HorribleSubs"
+    ],
+    "misc_clues": [
+      "THEATRICAL"
+    ]
+  },
+  "resolution_clues": [
+    "4K",
+    "SD",
+    "HD"
+  ],
+  "audio_clues": [
+    "AAC",
+    "TrueHD",
+    "DD",
+    "DD+",
+    "5.1"
+  ],
+  "quality_clues": [
+    "WEB-DL"
+  ],
+  "release_groups": [],
+  "misc_clues": [
+    "THEATRICAL"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.236692
+Input: www,1TamilMV.phd - The Great Indian Suicide (2023) Tamil TRUE WEB-DL - 4K SDR - HEVC - (DD+5.1 - 384Kbps & AAC) - 3.2GB - ESub.mkv
+Expected: The Great Indian Suicide
+Got: "Expected 'The Great Indian Suicide' but got 'www,1TamilMV phd The Great Indian Suicide (2023) Tamil TRUE' for input 'www,1TamilMV.phd - The Great Indian Suicide (2023) Tamil TRUE WEB-DL - 4K SDR - HEVC - (DD+5.1 - 384Kbps & AAC) - 3.2GB - ESub.mkv'\nassert 'www,1tamilmv...3) tamil true' == 'the great indian suicide'\n  \n  \u001b[0m\u001b[91m- the great indian suicide\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ www,1tamilmv phd the great indian suicide (2023) tamil true\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.249356
+Input: ww.Tamilblasters.sbs - 8 Bit Christmas (2021) HQ HDRip - x264 - Telugu (Fan Dub) - 400MB].mkv
+Expected: 8 Bit Christmas
+Got: {
+  "original": "ww.Tamilblasters.sbs - 8 Bit Christmas (2021) HQ HDRip - x264 - Telugu (Fan Dub) - 400MB].mkv",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "2021"
+  ],
+  "possible_title": "ww.Tamilblasters.sbs - 8 Bit Christmas (2021) HQ HDRip x264 - Telugu (Fan Dub) - 400MB",
+  "clean_title": "ww Tamilblasters sbs 8 Bit Christmas (2021) HQ HDRip x264 Telugu (Fan Dub) 400MB",
+  "extras_bits": [
+    "h.264",
+    "hdrip"
+  ],
+  "words": [
+    "ww.Tamilblasters.sbs",
+    "Bit",
+    "Christmas",
+    "HQ",
+    "Telugu",
+    "(Fan",
+    "Dub)",
+    "400MB]"
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "resolution_clues": [
+      "HD"
+    ],
+    "quality_clues": [
+      "HDRIP"
+    ],
+    "misc_clues": [
+      "HDR"
+    ]
+  },
+  "resolution_clues": [
+    "HD"
+  ],
+  "audio_clues": [],
+  "quality_clues": [
+    "HDRIP"
+  ],
+  "release_groups": [],
+  "misc_clues": [
+    "HDR"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.253570
+Input: ww.Tamilblasters.sbs - 8 Bit Christmas (2021) HQ HDRip - x264 - Telugu (Fan Dub) - 400MB].mkv
+Expected: 8 Bit Christmas
+Got: "Expected '8 Bit Christmas' but got 'ww Tamilblasters sbs 8 Bit Christmas (2021) HQ HDRip x264 Telugu (Fan Dub) 400MB' for input 'ww.Tamilblasters.sbs - 8 Bit Christmas (2021) HQ HDRip - x264 - Telugu (Fan Dub) - 400MB].mkv'\nassert 'ww tamilblas...an dub) 400mb' == '8 bit christmas'\n  \n  \u001b[0m\u001b[91m- 8 bit christmas\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ ww tamilblasters sbs 8 bit christmas (2021) hq hdrip x264 telugu (fan dub) 400mb\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.264782
+Input: www.1TamilMV.pics - 777 Charlie (2022) Tamil HDRip - 720p - x264 - HQ Clean Aud - 1.4GB.mkv
+Expected: 777 Charlie
+Got: {
+  "original": "www.1TamilMV.pics - 777 Charlie (2022) Tamil HDRip - 720p - x264 - HQ Clean Aud - 1.4GB.mkv",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "2022"
+  ],
+  "possible_title": "777 Charlie (2022) Tamil HDRip",
+  "clean_title": "777 Charlie (2022) Tamil HDRip",
+  "extras_bits": [
+    "720p",
+    "h.264",
+    "777",
+    "hdrip"
+  ],
+  "words": [
+    "Charlie",
+    "Tamil",
+    "HQ",
+    "Clean",
+    "Aud",
+    "1.4GB"
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "resolution_clues": [
+      "720p",
+      "HD"
+    ],
+    "quality_clues": [
+      "HDRIP"
+    ],
+    "misc_clues": [
+      "HDR"
+    ]
+  },
+  "resolution_clues": [
+    "720p",
+    "HD"
+  ],
+  "audio_clues": [],
+  "quality_clues": [
+    "HDRIP"
+  ],
+  "release_groups": [],
+  "misc_clues": [
+    "HDR"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.265401
+Input: www.1TamilMV.pics - 777 Charlie (2022) Tamil HDRip - 720p - x264 - HQ Clean Aud - 1.4GB.mkv
+Expected: 777 Charlie
+Got: "Expected '777 Charlie' but got '777 Charlie (2022) Tamil HDRip' for input 'www.1TamilMV.pics - 777 Charlie (2022) Tamil HDRip - 720p - x264 - HQ Clean Aud - 1.4GB.mkv'\nassert '777 charlie ...) tamil hdrip' == '777 charlie'\n  \n  \u001b[0m\u001b[91m- 777 charlie\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ 777 charlie (2022) tamil hdrip\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.271883
+Input: Despicable.Me.4.2024.D.TELESYNC_14OOMB.avi
+Expected: Despicable Me 4
+Got: {
+  "original": "Despicable.Me.4.2024.D.TELESYNC_14OOMB.avi",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "2024"
+  ],
+  "possible_title": "Despicable.Me.4.2024.D.TELESYNC_14OOMB",
+  "clean_title": "Despicable Me TELESYNC 14OOMB",
+  "extras_bits": [],
+  "words": [
+    "Despicable.Me.4.",
+    ".D.TELESYNC_14OOMB"
+  ],
+  "media_type": "movie",
+  "matched_clues": {},
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.272303
+Input: Despicable.Me.4.2024.D.TELESYNC_14OOMB.avi
+Expected: Despicable Me 4
+Got: "Expected 'Despicable Me 4' but got 'Despicable Me TELESYNC 14OOMB' for input 'Despicable.Me.4.2024.D.TELESYNC_14OOMB.avi'\nassert 'despicable m...lesync 14oomb' == 'despicable me 4'\n  \n  \u001b[0m\u001b[91m- despicable me 4\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ despicable me telesync 14oomb\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.278075
+Input: UFC.247.PPV.Jones.vs.Reyes.HDTV.x264-PUNCH[TGx]
+Expected: UFC 247 Jones vs Reyes
+Got: {
+  "original": "UFC.247.PPV.Jones.vs.Reyes.HDTV.x264-PUNCH[TGx]",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "UFC.247.PPV.Jones.vs.Reyes",
+  "clean_title": "UFC PPV Jones vs Reyes",
+  "extras_bits": [
+    "h.264"
+  ],
+  "words": [
+    "UFC.247.PPV.Jones.vs.Reyes.HDTV.x",
+    "-PUNCH[TGx]"
+  ],
+  "media_type": "unknown",
+  "matched_clues": {
+    "resolution_clues": [
+      "HD"
+    ],
+    "quality_clues": [
+      "HDTV"
+    ],
+    "release_groups": [
+      "TGx"
+    ]
+  },
+  "resolution_clues": [
+    "HD"
+  ],
+  "audio_clues": [],
+  "quality_clues": [
+    "HDTV"
+  ],
+  "release_groups": [
+    "TGx"
+  ],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.278716
+Input: UFC.247.PPV.Jones.vs.Reyes.HDTV.x264-PUNCH[TGx]
+Expected: UFC 247 Jones vs Reyes
+Got: "Expected 'UFC 247 Jones vs Reyes' but got 'UFC PPV Jones vs Reyes' for input 'UFC.247.PPV.Jones.vs.Reyes.HDTV.x264-PUNCH[TGx]'\nassert 'ufc ppv jones vs reyes' == 'ufc 247 jones vs reyes'\n  \n  \u001b[0m\u001b[91m- ufc 247 jones vs reyes\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  ?     ^^^\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ ufc ppv jones vs reyes\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  ?     ^^^\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.284086
+Input: [www.1TamilMV.pics]_The.Great.Indian.Suicide.2023.Tamil.TRUE.WEB-DL.4K.SDR.HEVC.(DD+5.1.384Kbps.&.AAC).3.2GB.ESub.mkv
+Expected: The Great Indian Suicide
+Got: {
+  "original": "[www.1TamilMV.pics]_The.Great.Indian.Suicide.2023.Tamil.TRUE.WEB-DL.4K.SDR.HEVC.(DD+5.1.384Kbps.&.AAC).3.2GB.ESub.mkv",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "2023"
+  ],
+  "possible_title": "The.Great.Indian.Suicide.2023.Tamil.TRUE",
+  "clean_title": "The Great Indian Suicide Tamil TRUE",
+  "extras_bits": [
+    "x265",
+    "aac"
+  ],
+  "words": [
+    "The.Great.Indian.Suicide.",
+    ".Tamil.TRUE.WEB-DL.4K.SDR.",
+    ".(DD+5.1.384Kbps.&.",
+    ").3.2GB.ESub"
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "resolution_clues": [
+      "4K",
+      "SD"
+    ],
+    "audio_clues": [
+      "AAC",
+      "DD",
+      "DD+",
+      "5.1"
+    ],
+    "quality_clues": [
+      "WEB-DL"
+    ]
+  },
+  "resolution_clues": [
+    "4K",
+    "SD"
+  ],
+  "audio_clues": [
+    "AAC",
+    "DD",
+    "DD+",
+    "5.1"
+  ],
+  "quality_clues": [
+    "WEB-DL"
+  ],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.284789
+Input: [www.1TamilMV.pics]_The.Great.Indian.Suicide.2023.Tamil.TRUE.WEB-DL.4K.SDR.HEVC.(DD+5.1.384Kbps.&.AAC).3.2GB.ESub.mkv
+Expected: The Great Indian Suicide
+Got: "Expected 'The Great Indian Suicide' but got 'The Great Indian Suicide Tamil TRUE' for input '[www.1TamilMV.pics]_The.Great.Indian.Suicide.2023.Tamil.TRUE.WEB-DL.4K.SDR.HEVC.(DD+5.1.384Kbps.&.AAC).3.2GB.ESub.mkv'\nassert 'the great in...de tamil true' == 'the great indian suicide'\n  \n  \u001b[0m\u001b[91m- the great indian suicide\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ the great indian suicide tamil true\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  ?                         +++++++++++\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.293919
+Input: Game of Thrones - S02E07 - A Man Without Honor [2160p] [HDR] [5.1, 7.1, 5.1] [ger, eng, eng] [Vio].mkv
+Expected: Game of Thrones
+Got: {
+  "original": "Game of Thrones - S02E07 - A Man Without Honor [2160p] [HDR] [5.1, 7.1, 5.1] [ger, eng, eng] [Vio].mkv",
+  "tv_clues": [
+    "S02E07"
+  ],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "Game of Thrones",
+  "clean_title": "Game of Thrones",
+  "extras_bits": [
+    "2160p",
+    "[5.1,",
+    "7.1,",
+    "5.1]"
+  ],
+  "words": [
+    "Game",
+    "of",
+    "Thrones",
+    "Man",
+    "Without",
+    "Honor",
+    "[HDR]",
+    "[ger,",
+    "eng,",
+    "eng]",
+    "[Vio]"
+  ],
+  "media_type": "tv",
+  "matched_clues": {
+    "resolution_clues": [
+      "2160p",
+      "HD"
+    ],
+    "audio_clues": [
+      "5.1",
+      "7.1"
+    ],
+    "misc_clues": [
+      "HDR"
+    ]
+  },
+  "resolution_clues": [
+    "2160p",
+    "HD"
+  ],
+  "audio_clues": [
+    "5.1",
+    "7.1"
+  ],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": [
+    "HDR"
+  ]
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.295277
+Input: Pawn.Stars.S09E13.1080p.HEVC.x265-MeGusta
+Expected: Pawn Stars
+Got: {
+  "original": "Pawn.Stars.S09E13.1080p.HEVC.x265-MeGusta",
+  "tv_clues": [
+    "S09E13"
+  ],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "Pawn.Stars",
+  "clean_title": "Pawn Stars",
+  "extras_bits": [
+    "1080p",
+    "x265"
+  ],
+  "words": [
+    "Pawn.Stars.",
+    "-MeGusta"
+  ],
+  "media_type": "tv",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ],
+    "release_groups": [
+      "MeGusta"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [
+    "MeGusta"
+  ],
+  "misc_clues": []
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.296653
+Input: Pawn Stars -- 4x13 -- Broadsiding Lincoln.mkv
+Expected: Pawn Stars
+Got: {
+  "original": "Pawn Stars -- 4x13 -- Broadsiding Lincoln.mkv",
+  "tv_clues": [
+    "S04E13"
+  ],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "Pawn Stars",
+  "clean_title": "Pawn Stars",
+  "extras_bits": [
+    "--"
+  ],
+  "words": [
+    "Pawn",
+    "Stars",
+    "Broadsiding",
+    "Lincoln"
+  ],
+  "media_type": "tv",
+  "matched_clues": {},
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.297998
+Input: Pawn Stars S04E19 720p WEB H264-BeechyBoy mp4
+Expected: Pawn Stars
+Got: {
+  "original": "Pawn Stars S04E19 720p WEB H264-BeechyBoy mp4",
+  "tv_clues": [
+    "S04E19"
+  ],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "Pawn Stars",
+  "clean_title": "Pawn Stars",
+  "extras_bits": [
+    "720p",
+    "h.264",
+    "web"
+  ],
+  "words": [
+    "Pawn",
+    "Stars",
+    "-BeechyBoy",
+    "mp4"
+  ],
+  "media_type": "tv",
+  "matched_clues": {
+    "resolution_clues": [
+      "720p"
+    ],
+    "quality_clues": [
+      "WEB-DL",
+      "WEBRip"
+    ]
+  },
+  "resolution_clues": [
+    "720p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [
+    "WEB-DL",
+    "WEBRip"
+  ],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.299736
+Input: Jurassic.World.Dominion.CUSTOM.EXTENDED.2022.2160p.MULTi.VF2.UHD.Blu-ray.REMUX.HDR.DoVi.HEVC.DTS-X.DTS-HDHRA.7.1-MOONLY.mkv
+Expected: Jurassic World Dominion
+Got: {
+  "original": "Jurassic.World.Dominion.CUSTOM.EXTENDED.2022.2160p.MULTi.VF2.UHD.Blu-ray.REMUX.HDR.DoVi.HEVC.DTS-X.DTS-HDHRA.7.1-MOONLY.mkv",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "2022"
+  ],
+  "possible_title": "Jurassic.World.Dominion.CUSTOM.EXTENDED",
+  "clean_title": "Jurassic World Dominion CUSTOM EXTENDED",
+  "extras_bits": [
+    "2160p",
+    "bluray",
+    "x265"
+  ],
+  "words": [
+    "Jurassic.World.Dominion.CUSTOM.EXTENDED.",
+    ".MULTi.VF2.UHD.",
+    ".REMUX.HDR.DoVi.",
+    ".DTS-X.DTS-HDHRA.7.1-MOONLY"
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "resolution_clues": [
+      "2160p",
+      "HD",
+      "UHD"
+    ],
+    "audio_clues": [
+      "DTS",
+      "DTS-HD",
+      "DTS-X",
+      "7.1"
+    ],
+    "quality_clues": [
+      "BluRay",
+      "TS"
+    ],
+    "misc_clues": [
+      "EXTENDED",
+      "HDR",
+      "REMUX",
+      "MULTI"
+    ]
+  },
+  "resolution_clues": [
+    "2160p",
+    "HD",
+    "UHD"
+  ],
+  "audio_clues": [
+    "DTS",
+    "DTS-HD",
+    "DTS-X",
+    "7.1"
+  ],
+  "quality_clues": [
+    "BluRay",
+    "TS"
+  ],
+  "release_groups": [],
+  "misc_clues": [
+    "EXTENDED",
+    "HDR",
+    "REMUX",
+    "MULTI"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.300386
+Input: Jurassic.World.Dominion.CUSTOM.EXTENDED.2022.2160p.MULTi.VF2.UHD.Blu-ray.REMUX.HDR.DoVi.HEVC.DTS-X.DTS-HDHRA.7.1-MOONLY.mkv
+Expected: Jurassic World Dominion
+Got: "Expected 'Jurassic World Dominion' but got 'Jurassic World Dominion CUSTOM EXTENDED' for input 'Jurassic.World.Dominion.CUSTOM.EXTENDED.2022.2160p.MULTi.VF2.UHD.Blu-ray.REMUX.HDR.DoVi.HEVC.DTS-X.DTS-HDHRA.7.1-MOONLY.mkv'\nassert 'jurassic wor...stom extended' == 'jurassic world dominion'\n  \n  \u001b[0m\u001b[91m- jurassic world dominion\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ jurassic world dominion custom extended\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.309052
+Input: www.Torrenting.com   -    14.Peaks.Nothing.Is.Impossible.2021.1080p.WEB.h264-RUMOUR
+Expected: 14 Peaks Nothing Is Impossible
+Got: {
+  "original": "www.Torrenting.com   -    14.Peaks.Nothing.Is.Impossible.2021.1080p.WEB.h264-RUMOUR",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "2021"
+  ],
+  "possible_title": "14.Peaks.Nothing.Is.Impossible",
+  "clean_title": "Peaks Nothing Is Impossible",
+  "extras_bits": [
+    "1080p",
+    "h.264",
+    ".web."
+  ],
+  "words": [
+    "14.Peaks.Nothing.Is.Impossible.",
+    "-RUMOUR"
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.309746
+Input: www.Torrenting.com   -    14.Peaks.Nothing.Is.Impossible.2021.1080p.WEB.h264-RUMOUR
+Expected: 14 Peaks Nothing Is Impossible
+Got: "Expected '14 Peaks Nothing Is Impossible' but got 'Peaks Nothing Is Impossible' for input 'www.Torrenting.com   -    14.Peaks.Nothing.Is.Impossible.2021.1080p.WEB.h264-RUMOUR'\nassert 'peaks nothing is impossible' == '14 peaks not...is impossible'\n  \n  \u001b[0m\u001b[91m- 14 peaks nothing is impossible\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  ? ---\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ peaks nothing is impossible\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.318128
+Input: Too Many Cooks _ Adult Swim.mp4
+Expected: Too Many Cooks
+Got: {
+  "original": "Too Many Cooks _ Adult Swim.mp4",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "Too Many Cooks _ Adult Swim",
+  "clean_title": "Too Many Cooks Adult Swim",
+  "extras_bits": [],
+  "words": [
+    "Too",
+    "Many",
+    "Cooks",
+    "Adult",
+    "Swim"
+  ],
+  "media_type": "unknown",
+  "matched_clues": {},
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.318650
+Input: Too Many Cooks _ Adult Swim.mp4
+Expected: Too Many Cooks
+Got: "Expected 'Too Many Cooks' but got 'Too Many Cooks Adult Swim' for input 'Too Many Cooks _ Adult Swim.mp4'\nassert 'too many cooks adult swim' == 'too many cooks'\n  \n  \u001b[0m\u001b[91m- too many cooks\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ too many cooks adult swim\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.326379
+Input: О мышах и людях (Of Mice and Men) 1992 BDRip 1080p.mkv
+Expected: Of Mice and Men
+Got: {
+  "original": "О мышах и людях (Of Mice and Men) 1992 BDRip 1080p.mkv",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "1992"
+  ],
+  "possible_title": "О мышах и людях (Of Mice and Men",
+  "clean_title": "О мышах и людях (Of Mice and Men",
+  "extras_bits": [
+    "bluray",
+    "1080p",
+    "мышах",
+    "людях"
+  ],
+  "words": [
+    "(Of",
+    "Mice",
+    "and",
+    "Men)"
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ],
+    "quality_clues": [
+      "BluRay",
+      "BDRip"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [
+    "BluRay",
+    "BDRip"
+  ],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.326838
+Input: О мышах и людях (Of Mice and Men) 1992 BDRip 1080p.mkv
+Expected: Of Mice and Men
+Got: "Expected 'Of Mice and Men' but got 'О мышах и людях (Of Mice and Men' for input 'О мышах и людях (Of Mice and Men) 1992 BDRip 1080p.mkv'\nassert 'о мышах и лю... mice and men' == 'of mice and men'\n  \n  \u001b[0m\u001b[91m- of mice and men\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ о мышах и людях (of mice and men\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.332821
+Input: Wonder Woman 1984 (2020) [UHDRemux 2160p DoVi P8 Es-DTSHD AC3 En-AC3].mkv
+Expected: Wonder Woman 1984
+Got: {
+  "original": "Wonder Woman 1984 (2020) [UHDRemux 2160p DoVi P8 Es-DTSHD AC3 En-AC3].mkv",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "1984"
+  ],
+  "possible_title": "Wonder Woman 1984 (2020) [UHDRemux",
+  "clean_title": "Wonder Woman 1984 (2020) [UHDRemux",
+  "extras_bits": [
+    "2160p",
+    "ac3"
+  ],
+  "words": [
+    "Wonder",
+    "Woman",
+    "[UHDRemux",
+    "DoVi",
+    "P8",
+    "Es-DTSHD",
+    "En-AC3]"
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "resolution_clues": [
+      "2160p",
+      "HD",
+      "UHD"
+    ],
+    "audio_clues": [
+      "DTS",
+      "AC3",
+      "EAC3"
+    ],
+    "quality_clues": [
+      "TS"
+    ],
+    "misc_clues": [
+      "HDR",
+      "REMUX"
+    ]
+  },
+  "resolution_clues": [
+    "2160p",
+    "HD",
+    "UHD"
+  ],
+  "audio_clues": [
+    "DTS",
+    "AC3",
+    "EAC3"
+  ],
+  "quality_clues": [
+    "TS"
+  ],
+  "release_groups": [],
+  "misc_clues": [
+    "HDR",
+    "REMUX"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.333393
+Input: Wonder Woman 1984 (2020) [UHDRemux 2160p DoVi P8 Es-DTSHD AC3 En-AC3].mkv
+Expected: Wonder Woman 1984
+Got: "Expected 'Wonder Woman 1984' but got 'Wonder Woman 1984 (2020) [UHDRemux' for input 'Wonder Woman 1984 (2020) [UHDRemux 2160p DoVi P8 Es-DTSHD AC3 En-AC3].mkv'\nassert 'wonder woman...20) [uhdremux' == 'wonder woman 1984'\n  \n  \u001b[0m\u001b[91m- wonder woman 1984\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ wonder woman 1984 (2020) [uhdremux\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.342687
+Input: www.TamilBlasters.cam - Titanic (1997)[1080p BDRip - Org Auds - [Tamil + Telugu + Hindi + Eng] - x264 - DD5.1 (448 Kbps) - 4.7GB - ESubs].mkv
+Expected: Titanic
+Got: {
+  "original": "www.TamilBlasters.cam - Titanic (1997)[1080p BDRip - Org Auds - [Tamil + Telugu + Hindi + Eng] - x264 - DD5.1 (448 Kbps) - 4.7GB - ESubs].mkv",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "1997"
+  ],
+  "possible_title": "Titanic",
+  "clean_title": "Titanic",
+  "extras_bits": [
+    "1080p",
+    "bluray",
+    "h.264",
+    ")[",
+    "(448"
+  ],
+  "words": [
+    "Titanic",
+    "Org",
+    "Auds",
+    "[Tamil",
+    "Telugu",
+    "Hindi",
+    "Eng]",
+    "DD5.1",
+    "Kbps)",
+    "4.7GB",
+    "ESubs]"
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ],
+    "audio_clues": [
+      "DD",
+      "5.1"
+    ],
+    "quality_clues": [
+      "BluRay",
+      "BDRip"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [
+    "DD",
+    "5.1"
+  ],
+  "quality_clues": [
+    "BluRay",
+    "BDRip"
+  ],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.344682
+Input: S.W.A.T.2017.S08E01.720p.HDTV.x264-SYNCOPY[TGx]
+Expected: S.W.A.T
+Got: {
+  "original": "S.W.A.T.2017.S08E01.720p.HDTV.x264-SYNCOPY[TGx]",
+  "tv_clues": [
+    "S08E01"
+  ],
+  "anime_clues": [],
+  "movie_clues": [
+    "2017"
+  ],
+  "possible_title": "S.W.A.T",
+  "clean_title": "S.W.A.T",
+  "extras_bits": [
+    "2017",
+    "720p",
+    "h.264"
+  ],
+  "words": [
+    "S.W.A.T.",
+    ".HDTV.x",
+    "-SYNCOPY[TGx]"
+  ],
+  "media_type": "tv",
+  "matched_clues": {
+    "resolution_clues": [
+      "720p",
+      "HD"
+    ],
+    "quality_clues": [
+      "HDTV"
+    ],
+    "release_groups": [
+      "TGx"
+    ]
+  },
+  "resolution_clues": [
+    "720p",
+    "HD"
+  ],
+  "audio_clues": [],
+  "quality_clues": [
+    "HDTV"
+  ],
+  "release_groups": [
+    "TGx"
+  ],
+  "misc_clues": []
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.346585
+Input: Grimm.INTEGRAL.MULTI.COMPLETE.BLURAY-BMTH
+Expected: Grimm
+Got: {
+  "original": "Grimm.INTEGRAL.MULTI.COMPLETE.BLURAY-BMTH",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "Grimm.INTEGRAL.MULTI.COMPLETE",
+  "clean_title": "Grimm INTEGRAL MULTI COMPLETE",
+  "extras_bits": [
+    "bluray"
+  ],
+  "words": [
+    "Grimm.INTEGRAL.MULTI.COMPLETE.",
+    "-BMTH"
+  ],
+  "media_type": "unknown",
+  "matched_clues": {
+    "quality_clues": [
+      "BluRay"
+    ],
+    "misc_clues": [
+      "COMPLETE",
+      "MULTI"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [
+    "BluRay"
+  ],
+  "release_groups": [],
+  "misc_clues": [
+    "COMPLETE",
+    "MULTI"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.347058
+Input: Grimm.INTEGRAL.MULTI.COMPLETE.BLURAY-BMTH
+Expected: Grimm
+Got: "Expected 'Grimm' but got 'Grimm INTEGRAL MULTI COMPLETE' for input 'Grimm.INTEGRAL.MULTI.COMPLETE.BLURAY-BMTH'\nassert 'grimm integr...ulti complete' == 'grimm'\n  \n  \u001b[0m\u001b[91m- grimm\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ grimm integral multi complete\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.354940
+Input: Friends.1994.INTEGRALE.MULTI.1080p.WEB-DL.H265-FTMVHD
+Expected: Friends
+Got: {
+  "original": "Friends.1994.INTEGRALE.MULTI.1080p.WEB-DL.H265-FTMVHD",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "1994"
+  ],
+  "possible_title": "Friends.1994.INTEGRALE.MULTI",
+  "clean_title": "Friends INTEGRALE MULTI",
+  "extras_bits": [
+    "1080p"
+  ],
+  "words": [
+    "Friends.",
+    ".INTEGRALE.MULTI.",
+    ".WEB-DL"
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p",
+      "HD"
+    ],
+    "quality_clues": [
+      "WEB-DL"
+    ],
+    "misc_clues": [
+      "MULTI"
+    ]
+  },
+  "resolution_clues": [
+    "1080p",
+    "HD"
+  ],
+  "audio_clues": [],
+  "quality_clues": [
+    "WEB-DL"
+  ],
+  "release_groups": [],
+  "misc_clues": [
+    "MULTI"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.355333
+Input: Friends.1994.INTEGRALE.MULTI.1080p.WEB-DL.H265-FTMVHD
+Expected: Friends
+Got: "Expected 'Friends' but got 'Friends INTEGRALE MULTI' for input 'Friends.1994.INTEGRALE.MULTI.1080p.WEB-DL.H265-FTMVHD'\nassert 'friends integrale multi' == 'friends'\n  \n  \u001b[0m\u001b[91m- friends\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ friends integrale multi\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.362820
+Input: STEVE.martin.a.documentary.in.2.pieces.S01.COMPLETE.1080p.WEB.H264-SuccessfulCrab[TGx]
+Expected: STEVE martin a documentary in 2 pieces
+Got: {
+  "original": "STEVE.martin.a.documentary.in.2.pieces.S01.COMPLETE.1080p.WEB.H264-SuccessfulCrab[TGx]",
+  "tv_clues": [
+    "S01"
+  ],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "STEVE.martin.a.documentary.in.2.pieces",
+  "clean_title": "STEVE martin documentary in pieces",
+  "extras_bits": [
+    "1080p",
+    "h.264",
+    ".web."
+  ],
+  "words": [
+    "STEVE.martin.a.documentary.in.2.pieces.",
+    ".COMPLETE.",
+    "-SuccessfulCrab[TGx]"
+  ],
+  "media_type": "tv",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ],
+    "release_groups": [
+      "TGx"
+    ],
+    "misc_clues": [
+      "COMPLETE"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [
+    "TGx"
+  ],
+  "misc_clues": [
+    "COMPLETE"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.363533
+Input: STEVE.martin.a.documentary.in.2.pieces.S01.COMPLETE.1080p.WEB.H264-SuccessfulCrab[TGx]
+Expected: STEVE martin a documentary in 2 pieces
+Got: "Expected 'STEVE martin a documentary in 2 pieces' but got 'STEVE martin documentary in pieces' for input 'STEVE.martin.a.documentary.in.2.pieces.S01.COMPLETE.1080p.WEB.H264-SuccessfulCrab[TGx]'\nassert 'steve martin...ary in pieces' == 'steve martin...y in 2 pieces'\n  \n  \u001b[0m\u001b[91m- steve martin a documentary in 2 pieces\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  ?             --               --\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ steve martin documentary in pieces\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.369461
+Input: The Lockerbie Bombing (2013) Documentary HDTVRIP
+Expected: The Lockerbie Bombing
+Got: {
+  "original": "The Lockerbie Bombing (2013) Documentary HDTVRIP",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "2013"
+  ],
+  "possible_title": "The Lockerbie Bombing (2013) Documentary",
+  "clean_title": "The Lockerbie Bombing (2013) Documentary",
+  "extras_bits": [],
+  "words": [
+    "The",
+    "Lockerbie",
+    "Bombing",
+    "Documentary",
+    "HDTVRIP"
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "resolution_clues": [
+      "HD"
+    ],
+    "quality_clues": [
+      "HDTV",
+      "TVRIP"
+    ],
+    "misc_clues": [
+      "THEATRICAL"
+    ]
+  },
+  "resolution_clues": [
+    "HD"
+  ],
+  "audio_clues": [],
+  "quality_clues": [
+    "HDTV",
+    "TVRIP"
+  ],
+  "release_groups": [],
+  "misc_clues": [
+    "THEATRICAL"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.370007
+Input: The Lockerbie Bombing (2013) Documentary HDTVRIP
+Expected: The Lockerbie Bombing
+Got: "Expected 'The Lockerbie Bombing' but got 'The Lockerbie Bombing (2013) Documentary' for input 'The Lockerbie Bombing (2013) Documentary HDTVRIP'\nassert 'the lockerbi...) documentary' == 'the lockerbie bombing'\n  \n  \u001b[0m\u001b[91m- the lockerbie bombing\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ the lockerbie bombing (2013) documentary\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.378333
+Input: The French Connection 1971 Remastered BluRay 1080p REMUX AVC DTS-HD MA 5 1-LEGi0N
+Expected: The French Connection
+Got: {
+  "original": "The French Connection 1971 Remastered BluRay 1080p REMUX AVC DTS-HD MA 5 1-LEGi0N",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [
+    "1971"
+  ],
+  "possible_title": "The French Connection 1971 Remastered",
+  "clean_title": "The French Connection 1971 Remastered",
+  "extras_bits": [
+    "bluray",
+    "1080p",
+    "remastered",
+    "remux",
+    "dts-hd"
+  ],
+  "words": [
+    "The",
+    "French",
+    "Connection",
+    "AVC",
+    "MA",
+    "1-LEGi0N"
+  ],
+  "media_type": "movie",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p",
+      "HD"
+    ],
+    "audio_clues": [
+      "DTS",
+      "WMA",
+      "DTS-HD"
+    ],
+    "quality_clues": [
+      "BluRay",
+      "TS"
+    ],
+    "release_groups": [
+      "SIGMA"
+    ],
+    "release_groups_anime": [
+      "Mazui"
+    ],
+    "misc_clues": [
+      "THEATRICAL",
+      "IMAX",
+      "REMUX",
+      "REMASTERED"
+    ]
+  },
+  "resolution_clues": [
+    "1080p",
+    "HD"
+  ],
+  "audio_clues": [
+    "DTS",
+    "WMA",
+    "DTS-HD"
+  ],
+  "quality_clues": [
+    "BluRay",
+    "TS"
+  ],
+  "release_groups": [
+    "SIGMA"
+  ],
+  "misc_clues": [
+    "THEATRICAL",
+    "IMAX",
+    "REMUX",
+    "REMASTERED"
+  ]
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.378775
+Input: The French Connection 1971 Remastered BluRay 1080p REMUX AVC DTS-HD MA 5 1-LEGi0N
+Expected: The French Connection
+Got: "Expected 'The French Connection' but got 'The French Connection 1971 Remastered' for input 'The French Connection 1971 Remastered BluRay 1080p REMUX AVC DTS-HD MA 5 1-LEGi0N'\nassert 'the french c...71 remastered' == 'the french connection'\n  \n  \u001b[0m\u001b[91m- the french connection\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ the french connection 1971 remastered\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.385654
+Input: The.Mandalorian.S01E01.Chapter.1.1080p.Web-DL.mkv
+Expected: The Mandalorian
+Got: {
+  "original": "The.Mandalorian.S01E01.Chapter.1.1080p.Web-DL.mkv",
+  "tv_clues": [
+    "S01E01",
+    "CHAPTER.1"
+  ],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "The.Mandalorian",
+  "clean_title": "The Mandalorian",
+  "extras_bits": [
+    "1080p"
+  ],
+  "words": [
+    "The.Mandalorian.",
+    ".Web-DL"
+  ],
+  "media_type": "tv",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ],
+    "quality_clues": [
+      "WEB-DL"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [
+    "WEB-DL"
+  ],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.387529
+Input: The Mandalorian S02E01 - Chapter 9 (1080p Web-DL).mkv
+Expected: The Mandalorian
+Got: {
+  "original": "The Mandalorian S02E01 - Chapter 9 (1080p Web-DL).mkv",
+  "tv_clues": [
+    "S02E01",
+    "CHAPTER 9"
+  ],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "The Mandalorian",
+  "clean_title": "The Mandalorian",
+  "extras_bits": [
+    "1080p"
+  ],
+  "words": [
+    "The",
+    "Mandalorian",
+    "Web-DL)"
+  ],
+  "media_type": "tv",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ],
+    "quality_clues": [
+      "WEB-DL"
+    ],
+    "misc_clues": [
+      "THEATRICAL"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [
+    "WEB-DL"
+  ],
+  "release_groups": [],
+  "misc_clues": [
+    "THEATRICAL"
+  ]
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.389214
+Input: TV Show season 1 s01 1080p x265 DVD extr
+Expected: TV Show
+Got: {
+  "original": "TV Show season 1 s01 1080p x265 DVD extr",
+  "tv_clues": [
+    "SEASON 1",
+    "S01"
+  ],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "TV Show",
+  "clean_title": "TV Show",
+  "extras_bits": [
+    "1080p",
+    "x265"
+  ],
+  "words": [
+    "TV",
+    "Show",
+    "DVD",
+    "extr"
+  ],
+  "media_type": "tv",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ],
+    "quality_clues": [
+      "HDTV",
+      "DVDRip",
+      "DVDSCR",
+      "PDTV",
+      "TVRIP"
+    ],
+    "release_groups": [
+      "EZTV",
+      "ETTV"
+    ],
+    "misc_clues": [
+      "DV"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [
+    "HDTV",
+    "DVDRip",
+    "DVDSCR",
+    "PDTV",
+    "TVRIP"
+  ],
+  "release_groups": [
+    "EZTV",
+    "ETTV"
+  ],
+  "misc_clues": [
+    "DV"
+  ]
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.390793
+Input: 9-1-1.s02
+Expected: 9-1-1
+Got: {
+  "original": "9-1-1.s02",
+  "tv_clues": [
+    "S02"
+  ],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "9-1-1",
+  "clean_title": "9-1-1",
+  "extras_bits": [
+    "9-1-1."
+  ],
+  "words": [],
+  "media_type": "tv",
+  "matched_clues": {},
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.392345
+Input: 9-1-1 s02-s03
+Expected: 9-1-1
+Got: {
+  "original": "9-1-1 s02-s03",
+  "tv_clues": [
+    "S02-S03"
+  ],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "9-1-1",
+  "clean_title": "9-1-1",
+  "extras_bits": [
+    "9-1-1"
+  ],
+  "words": [],
+  "media_type": "tv",
+  "matched_clues": {},
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.393981
+Input: S.H.I.E.L.D.s01
+Expected: S.H.I.E.L.D.
+Got: {
+  "original": "S.H.I.E.L.D.s01",
+  "tv_clues": [
+    "S01"
+  ],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "S.H.I.E.L.D",
+  "clean_title": "S.H.I.E.L.D",
+  "extras_bits": [],
+  "words": [
+    "S.H.I.E.L.D."
+  ],
+  "media_type": "tv",
+  "matched_clues": {},
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.394583
+Input: S.H.I.E.L.D.s01
+Expected: S.H.I.E.L.D.
+Got: "Expected 'S.H.I.E.L.D.' but got 'S.H.I.E.L.D' for input 'S.H.I.E.L.D.s01'\nassert 's.h.i.e.l.d' == 's.h.i.e.l.d.'\n  \n  \u001b[0m\u001b[91m- s.h.i.e.l.d.\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  ?            -\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ s.h.i.e.l.d\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.400729
+Input: One-piece-ep.1080-v2-1080p-raws
+Expected: One piece
+Got: {
+  "original": "One-piece-ep.1080-v2-1080p-raws",
+  "tv_clues": [],
+  "anime_clues": [
+    "EP.1080"
+  ],
+  "movie_clues": [],
+  "possible_title": "One-piece",
+  "clean_title": "One piece",
+  "extras_bits": [
+    "1080p"
+  ],
+  "words": [
+    "One-piece-",
+    "-v2-",
+    "-raws"
+  ],
+  "media_type": "anime",
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ],
+    "release_groups_anime": [
+      "Erai-raws",
+      "Leopard-Raws",
+      "Ohys-Raws",
+      "Tsundere-Raws",
+      "Zero-Raws",
+      "Beatrice-Raws"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.402209
+Input: Naruto Shippuden (001-500) [Complete Series + Movies] (Dual Audio)
+Expected: Naruto Shippuden
+Got: {
+  "original": "Naruto Shippuden (001-500) [Complete Series + Movies] (Dual Audio)",
+  "tv_clues": [],
+  "anime_clues": [
+    "001-500"
+  ],
+  "movie_clues": [],
+  "possible_title": "Naruto Shippuden",
+  "clean_title": "Naruto Shippuden",
+  "extras_bits": [],
+  "words": [
+    "Naruto",
+    "Shippuden",
+    "[Complete",
+    "Series",
+    "Movies]",
+    "(Dual",
+    "Audio)"
+  ],
+  "media_type": "anime",
+  "matched_clues": {
+    "misc_clues": [
+      "COMPLETE",
+      "DUAL"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": [
+    "COMPLETE",
+    "DUAL"
+  ]
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.403798
+Input: One.Piece.S01E1116.Lets.Go.Get.It!.Buggys.Big.Declaration.2160p.B-Global.WEB-DL.JPN.AAC2.0.H.264.MSubs-ToonsHub.mkv
+Expected: One Piece
+Got: {
+  "original": "One.Piece.S01E1116.Lets.Go.Get.It!.Buggys.Big.Declaration.2160p.B-Global.WEB-DL.JPN.AAC2.0.H.264.MSubs-ToonsHub.mkv",
+  "tv_clues": [],
+  "anime_clues": [
+    "S01E1116"
+  ],
+  "movie_clues": [],
+  "possible_title": "One.Piece",
+  "clean_title": "One Piece",
+  "extras_bits": [
+    "2160p",
+    "aac",
+    "h.264"
+  ],
+  "words": [
+    "One.Piece.",
+    ".Lets.Go.Get.It!.Buggys.Big.Declaration.",
+    ".B-Global.WEB-DL.JPN.",
+    ".MSubs-ToonsHub"
+  ],
+  "media_type": "anime",
+  "matched_clues": {
+    "resolution_clues": [
+      "2160p"
+    ],
+    "audio_clues": [
+      "AAC"
+    ],
+    "quality_clues": [
+      "WEB-DL",
+      "TS"
+    ],
+    "release_groups_anime": [
+      "GG"
+    ]
+  },
+  "resolution_clues": [
+    "2160p"
+  ],
+  "audio_clues": [
+    "AAC"
+  ],
+  "quality_clues": [
+    "WEB-DL",
+    "TS"
+  ],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T11:18:03.405648
+Input: Stranger Things S04 2160p
+Expected: Stranger Things
+Got: {
+  "original": "Stranger Things S04 2160p",
+  "tv_clues": [
+    "S04"
+  ],
+  "anime_clues": [],
+  "movie_clues": [],
+  "possible_title": "Stranger Things",
+  "clean_title": "Stranger Things",
+  "extras_bits": [
+    "2160p"
+  ],
+  "words": [
+    "Stranger",
+    "Things"
+  ],
+  "media_type": "tv",
+  "matched_clues": {
+    "resolution_clues": [
+      "2160p"
+    ]
+  },
+  "resolution_clues": [
+    "2160p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "misc_clues": []
+}
+Success: True

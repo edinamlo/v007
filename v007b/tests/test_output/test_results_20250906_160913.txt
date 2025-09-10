@@ -1,0 +1,303 @@
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:09:13.004428
+Input: The Mandalorian S02E01 - Chapter 9 (1080p Web-DL).mkv
+Expected: The Mandalorian
+Got: {
+  "original": "The Mandalorian S02E01 - Chapter 9 (1080p Web-DL).mkv",
+  "possible_title": "The Mandalorian S02E01 - Chapter 9",
+  "clean_title": "The Mandalorian S02E01 Chapter 9",
+  "media_type": "tv",
+  "tv_clues": [
+    "CHAPTER 9"
+  ],
+  "anime_clues": [],
+  "movie_clues": [],
+  "extras_bits": [],
+  "extras_bits_unknown": [
+    "The",
+    "Mandalorian"
+  ],
+  "words": [
+    "The",
+    "Mandalorian",
+    "Chapter"
+  ],
+  "matched_clues": {
+    "quality_clues": [],
+    "release_groups": [],
+    "release_groups_anime": [],
+    "audio_clues": [],
+    "resolution_clues": [],
+    "network_clues": [],
+    "misc_clues": [
+      "The"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "release_groups_anime": [],
+  "misc_clues": [
+    "The"
+  ],
+  "removed_prefixes": [],
+  "media_type_hint": null
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:09:13.005053
+Input: The Mandalorian S02E01 - Chapter 9 (1080p Web-DL).mkv
+Expected: The Mandalorian
+Got: "Expected 'The Mandalorian' but got 'The Mandalorian S02E01 Chapter 9' for input 'The Mandalorian S02E01 - Chapter 9 (1080p Web-DL).mkv'\nassert 'the mandalor...e01 chapter 9' == 'the mandalorian'\n  \n  \u001b[0m\u001b[91m- the mandalorian\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ the mandalorian s02e01 chapter 9\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:09:13.013233
+Input: TV Show season 1 s01 1080p x265 DVD extr
+Expected: TV Show
+Got: {
+  "original": "TV Show season 1 s01 1080p x265 DVD extr",
+  "possible_title": "TV Show season 1 s01",
+  "clean_title": "TV Show season 1 s01",
+  "media_type": "tv",
+  "tv_clues": [
+    "S01"
+  ],
+  "anime_clues": [],
+  "movie_clues": [],
+  "extras_bits": [
+    "x265",
+    "1080p"
+  ],
+  "extras_bits_unknown": [
+    "TV",
+    "Show",
+    "DVD",
+    "extr"
+  ],
+  "words": [
+    "TV",
+    "Show",
+    "season"
+  ],
+  "matched_clues": {
+    "quality_clues": [
+      "TV",
+      "DVD"
+    ],
+    "release_groups": [
+      "TV"
+    ],
+    "release_groups_anime": [],
+    "audio_clues": [],
+    "resolution_clues": [
+      "1080p"
+    ],
+    "network_clues": [
+      "TV"
+    ],
+    "misc_clues": [
+      "DVD"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [
+    "TV",
+    "DVD"
+  ],
+  "release_groups": [
+    "TV"
+  ],
+  "release_groups_anime": [],
+  "misc_clues": [
+    "DVD"
+  ],
+  "removed_prefixes": [],
+  "media_type_hint": null
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:09:13.013855
+Input: TV Show season 1 s01 1080p x265 DVD extr
+Expected: TV Show
+Got: "Expected 'TV Show' but got 'TV Show season 1 s01' for input 'TV Show season 1 s01 1080p x265 DVD extr'\nassert 'tv show season 1 s01' == 'tv show'\n  \n  \u001b[0m\u001b[91m- tv show\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ tv show season 1 s01\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:09:13.021237
+Input: 9-1-1.s02
+Expected: 9-1-1
+Got: "'tv_clues'"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:09:13.047221
+Input: 9-1-1 s02-s03
+Expected: 9-1-1
+Got: {
+  "original": "9-1-1 s02-s03",
+  "possible_title": "9-1-1 s02-s03",
+  "clean_title": "9-1-1 s02 s03",
+  "media_type": "tv",
+  "tv_clues": [
+    "S02-S03"
+  ],
+  "anime_clues": [],
+  "movie_clues": [],
+  "extras_bits": [],
+  "extras_bits_unknown": [],
+  "words": [],
+  "matched_clues": {
+    "quality_clues": [],
+    "release_groups": [],
+    "release_groups_anime": [],
+    "audio_clues": [],
+    "resolution_clues": [],
+    "network_clues": [],
+    "misc_clues": []
+  },
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "release_groups_anime": [],
+  "misc_clues": [],
+  "removed_prefixes": [],
+  "media_type_hint": null
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:09:13.047696
+Input: 9-1-1 s02-s03
+Expected: 9-1-1
+Got: "Expected '9-1-1' but got '9-1-1 s02 s03' for input '9-1-1 s02-s03'\nassert '9-1-1 s02 s03' == '9-1-1'\n  \n  \u001b[0m\u001b[91m- 9-1-1\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ 9-1-1 s02 s03\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:09:13.053152
+Input: S.H.I.E.L.D.s01
+Expected: S.H.I.E.L.D.
+Got: "'tv_clues'"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:09:13.075024
+Input: One-piece-ep.1080-v2-1080p-raws
+Expected: One piece
+Got: "'tv_clues'"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:09:13.101612
+Input: Naruto Shippuden (001-500) [Complete Series + Movies] (Dual Audio)
+Expected: Naruto Shippuden
+Got: {
+  "original": "Naruto Shippuden (001-500) [Complete Series + Movies] (Dual Audio)",
+  "possible_title": "Naruto Shippuden",
+  "clean_title": "Naruto Shippuden",
+  "media_type": "anime",
+  "tv_clues": [],
+  "anime_clues": [
+    "001-500"
+  ],
+  "movie_clues": [],
+  "extras_bits": [],
+  "extras_bits_unknown": [
+    "Naruto",
+    "Shippuden",
+    "[Complete",
+    "Series",
+    "Movies"
+  ],
+  "words": [
+    "Naruto",
+    "Shippuden"
+  ],
+  "matched_clues": {
+    "quality_clues": [],
+    "release_groups": [],
+    "release_groups_anime": [],
+    "audio_clues": [],
+    "resolution_clues": [],
+    "network_clues": [],
+    "misc_clues": [
+      "[Complete"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "release_groups_anime": [],
+  "misc_clues": [
+    "[Complete"
+  ],
+  "removed_prefixes": [],
+  "media_type_hint": null
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:09:13.103099
+Input: One.Piece.S01E1116.Lets.Go.Get.It!.Buggys.Big.Declaration.2160p.B-Global.WEB-DL.JPN.AAC2.0.H.264.MSubs-ToonsHub.mkv
+Expected: One Piece
+Got: "'tv_clues'"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:09:13.144528
+Input: Stranger Things S04 2160p
+Expected: Stranger Things
+Got: {
+  "original": "Stranger Things S04 2160p",
+  "possible_title": "Stranger Things S04",
+  "clean_title": "Stranger Things S04",
+  "media_type": "tv",
+  "tv_clues": [
+    "S04"
+  ],
+  "anime_clues": [],
+  "movie_clues": [],
+  "extras_bits": [],
+  "extras_bits_unknown": [
+    "Stranger",
+    "Things"
+  ],
+  "words": [
+    "Stranger",
+    "Things"
+  ],
+  "matched_clues": {
+    "quality_clues": [],
+    "release_groups": [],
+    "release_groups_anime": [],
+    "audio_clues": [],
+    "resolution_clues": [],
+    "network_clues": [],
+    "misc_clues": []
+  },
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "release_groups_anime": [],
+  "misc_clues": [],
+  "removed_prefixes": [],
+  "media_type_hint": null
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T16:09:13.145324
+Input: Stranger Things S04 2160p
+Expected: Stranger Things
+Got: "Expected 'Stranger Things' but got 'Stranger Things S04' for input 'Stranger Things S04 2160p'\nassert 'stranger things s04' == 'stranger things'\n  \n  \u001b[0m\u001b[91m- stranger things\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ stranger things s04\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  ?                ++++\u001b[90m\u001b[39;49;00m"
+Success: False

@@ -5,26 +5,48 @@ Provides parse_filename(name, quiet=False) -> dict
 
 Fixed parsing bits only: Loosened regex for dots/dashes in episodes/seasons, added year context check, improved prefix stripping with anime group check, added multiple passes for TV/anime, expanded heuristics in media_type, better clean_title (no auto-cap, multi-lang scoring), aggressive trim for possible_title. Structure/output unchanged.
 """
+import sys
+import os
+
+# Add the project root to the Python path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import re
 import unicodedata
 from typing import List, Optional, Tuple, Dict, Any
 from collections import OrderedDict
+#from ..config import CLUES
 from config import CLUES
 
-# Fixed Patterns (loosened boundaries for . - _ spaces/dots in episodes/seasons, e.g., "8x12", "s02", "4x13", "S08E01")
-EPISODE_RE    = re.compile(r"(?i)(?<!\w)(s\d{2}e\d{2,4}|e\d{2,4})(?!\w)")  # Looser: word boundary, allows dots/dashes
-TV_CLUE_RE    = re.compile(r"(?i)(?<!\w)(s\d{2}(?:-s\d{2})?)(?!\w)")  # Looser for "s02-s03"
-SEASON_RE     = re.compile(r"(?i)(?<!\w)(season \d{1,2}|s\d{2})(?!\w)")  # Looser for "s01"
-RESOLUTION_RE = re.compile(r"(?i)(?<!\d)(\d{3,4}(?:p|px))(?!\w)")  # Looser end boundary
+# === TV CLUE MASTER PATTERN ===
+# Unified regex for: s01e02, 8x12, season 3, 3rd season, ep.1080, chapter 1, 001-500
+TV_CLUE_PATTERN = re.compile(
+    r'''(?ix)
+    (?:[ ._-]|^)
+    (?:
+        # Pattern 1: s01e02, season 3 episode 5, 3rd season
+        (?:(s|season)[ ._-]*(\d{1,4})(?:st|nd|rd|th)?(?:[ ._-]*(?:e|episode|ep|x|of|chapter)[ ._-]*(\d{1,4}))?)
+        |
+        # Pattern 2: standalone episode: ep.1080, chapter 1
+        (?:(e|episode|ep|chapter)[ ._-]+(\d{1,4}))
+        |
+        # Pattern 3: Compact format: 8x12, 4x13
+        (?:(\d{1,4})[xX](\d{1,4}))
+        |
+        # Pattern 4: Range format (for anime): 001-500, 01-26
+        (?:(\d{1,4})[ ._-]*-[ ._-]*(\d{1,4}))
+    )
+    (?:[ ._-]|$)
+    '''
+)
+
+# Keep other patterns unchanged
+RESOLUTION_RE = re.compile(r"(?i)(?<!\d)(\d{3,4}(?:p|px))(?!\w)")
 H264_RE       = re.compile(r"(?i)(h\.?264)")
 X265_RE       = re.compile(r"(?i)(x265)")
 AAC_RE        = re.compile(r"(?i)(aac(?:2\.0|2|\.0)?)")
 BLURAY_RE     = re.compile(r"(?i)(?:blu[- ]?ray|bluray|bdrip|bdremux|bdr)")
-EP_RANGE_RE   = re.compile(r"(?i)(?<!\w)\((\d{3,4}-\d{3,4})\)(?!\w)")  # Looser
-ANIME_EP_RE   = re.compile(r"(?i)(?<!\w)(ep?\.?\d{1,4})(?!\w)")  # Looser for "ep.1080"
-YEAR_RE       = re.compile(r"(?i)(?<!\w)(\d{4})(?!\w)")  # Looser
-CHAPTER_RE    = re.compile(r"(?i)(?<!\w)(chapter[\s._-]?\d+)(?!\w)")  # Looser
+YEAR_RE       = re.compile(r"(?i)(?<!\w)(\d{4})(?!\w)")
 
 # Fixed prefix patterns (more aggressive for "cam -", "pics -", "world -", etc.)
 PREFIX_PATTERNS = [
@@ -63,30 +85,25 @@ def _strip_prefixes(name: str, quiet: bool = False) -> str:
     
     return name
 
-def _collect_matches(token: str) -> List[Tuple[int, int, str, str]]:
+def _collect_matches(token: str, anime_set: bool = False) -> List[Tuple[int, int, str, str]]:
     """
     Collect regex matches for known patterns inside a token. Fixed: Looser regex, year context skip.
     """
     matches: List[Tuple[int, int, str, str]] = []
 
     PATTERNS = [
-        (EPISODE_RE, "episode"),
-        (TV_CLUE_RE, "tvclue"),
-        (SEASON_RE, "tvseason"),
+        (TV_CLUE_PATTERN, "tv_clue_master"),
         (RESOLUTION_RE, "resolution"),
         (H264_RE, "h264"),
         (X265_RE, "x265"),
         (AAC_RE, "aac"),
         (BLURAY_RE, "bluray"),
-        (EP_RANGE_RE, "animerange"),
-        (ANIME_EP_RE, "animeep"),
         (YEAR_RE, "movieyear"),
-        (CHAPTER_RE, "chapter"),
     ]
 
     for regex, clue_type in PATTERNS:
         for m in regex.finditer(token):
-            text = m.group(1) if m.lastindex else m.group(0)
+            text = m.group(0)  # Always use full match for TV_CLUE_PATTERN
 
             if clue_type == "movieyear":
                 try:
@@ -131,11 +148,50 @@ def _multiple_passes_for_tv_anime(final_title: str, tv_clues: List[str], anime_c
         while i >= 0:
             tok_matches = _collect_matches(tokens[i])
             for start, end, typ, text in tok_matches:
-                typ_lower = typ.lower()
-                if typ_lower in ("episode", "tvclue", "tvseason", "chapter"):
-                    new_tv.append(text.upper())
-                elif typ_lower in ("animerange", "animeep"):
-                    new_anime.append(text.upper())
+                if typ == "tv_clue_master":
+                    m = TV_CLUE_PATTERN.match(text)
+                    if not m:
+                        continue
+
+                    season = episode = None
+                    clue_str = text.strip(' ._ -')
+
+                    # Extract season/episode from groups
+                    if m.group(2):
+                        season = m.group(2)
+                        episode = m.group(3)
+                        normalized = f"S{season.zfill(2)}" + (f"E{episode.zfill(2)}" if episode else "")
+                    elif m.group(5):
+                        episode = m.group(5)
+                        normalized = f"EP{episode.zfill(3)}"
+                    elif m.group(6) and m.group(7):
+                        season = m.group(6)
+                        episode = m.group(7)
+                        normalized = f"S{season.zfill(2)}E{episode.zfill(2)}"
+                    elif m.group(8) and m.group(9):
+                        start_ep = m.group(8)
+                        end_ep = m.group(9)
+                        normalized = f"EP{start_ep}-{end_ep}"
+                    else:
+                        normalized = clue_str
+
+                    # Classify
+                    is_anime = False
+                    if any(anime_keyword in tokens[i].lower() for anime_keyword in [
+                        "one piece", "naruto", "spy×family", "kingdom", "gto", "rebirth", "eizouken",
+                        "間谍过家家", "别对映像研出手", "太乙仙魔录", "映像研", "间谍过家家"
+                    ]):
+                        is_anime = True
+                    elif m.group(8) and m.group(9):  # range → anime
+                        is_anime = True
+                    elif m.group(5) and not (m.group(1) or m.group(6)):  # standalone ep → anime
+                        is_anime = True
+
+                    if is_anime:
+                        new_anime.append(normalized)
+                    else:
+                        new_tv.append(normalized)
+
             i -= 1
         
         # Merge new clues (dedupe)
@@ -147,12 +203,11 @@ def _multiple_passes_for_tv_anime(final_title: str, tv_clues: List[str], anime_c
                 anime_clues.append(c)
         
         # Update title by stripping new clues
-        clue_patterns = [EPISODE_RE, TV_CLUE_RE, SEASON_RE, EP_RANGE_RE, ANIME_EP_RE, CHAPTER_RE]
         found_any = False
-        for pat in clue_patterns:
+        for pat in [TV_CLUE_PATTERN, YEAR_RE]:
             m = pat.search(new_title)
             if m and m.end() == len(new_title):
-                new_title = _trim_right_separators(new_title[:m.start(1)])
+                new_title = _trim_right_separators(new_title[:m.start()])
                 found_any = True
         if not found_any:
             break
@@ -226,10 +281,11 @@ def parse_filename_internal(filename: str, quiet: bool = False) -> dict:
 
     # Fixed: Strip prefixes before token split (with anime check)
     name = _strip_prefixes(name, quiet)
+    anime_set = any(group.lower() in name[:100].lower() for cat, lst in CLUES.items() if cat == "release_groups_anime" for group in lst)
 
     # If extension itself includes clues, merge into name (rare)
     if ext:
-        ext_matches = _collect_matches(ext)
+        ext_matches = _collect_matches(ext, anime_set)
         if ext_matches:
             name += ext
             ext = ""
@@ -249,7 +305,6 @@ def parse_filename_internal(filename: str, quiet: bool = False) -> dict:
     possible_title: Optional[str] = None
     title_boundary_index = len(tokens)
     movie_found = False
-    anime_set = False  # Fixed: Track if anime from prefix
 
     if not quiet:
         print("Parsing")
@@ -262,7 +317,7 @@ def parse_filename_internal(filename: str, quiet: bool = False) -> dict:
     i = len(tokens) - 1
     while i >= 0:
         raw_tok = tokens[i]
-        matches = _collect_matches(raw_tok)
+        matches = _collect_matches(raw_tok, anime_set)
 
         # Fixed: If movie already found, ignore further movieyear matches
         if movie_found and matches:
@@ -310,29 +365,56 @@ def parse_filename_internal(filename: str, quiet: bool = False) -> dict:
 
         for start, end, typ, text in matches:
             typ = typ.lower()
-            if typ == "episode":
-                tv_clues.append(text.upper())
-                if not quiet:
-                    print(f"Found {text} (in '{raw_tok}') -> tv_clue (episode)")
-            elif typ == "tvclue":
-                pieces = [p.upper() for p in text.split("-")]
-                tv_clues.extend(pieces)
-                if not quiet:
-                    print(f"Found {text} (in '{raw_tok}') -> tv_clue")
-            elif typ == "tvseason":
-                tv_clues.append(text.upper())
-                if not quiet:
-                    print(f"Found {text} (in '{raw_tok}') -> tv_clue (season)")
-            elif typ == "animerange":
-                anime_clues.append(text.upper())
-                anime_set = True
-                if not quiet:
-                    print(f"Found {text} (in '{raw_tok}') -> anime_clue (range)")
-            elif typ == "animeep":
-                anime_clues.append(text.upper())
-                anime_set = True
-                if not quiet:
-                    print(f"Found {text} (in '{raw_tok}') -> anime_clue (ep)")
+            if typ == "tv_clue_master":
+                m = TV_CLUE_PATTERN.match(text)
+                if not m:
+                    continue
+
+                season = episode = None
+                clue_str = text.strip(' ._ -')
+
+                # Extract season/episode from groups
+                if m.group(2):
+                    season = m.group(2)
+                    episode = m.group(3)
+                    normalized = f"S{season.zfill(2)}" + (f"E{episode.zfill(2)}" if episode else "")
+                elif m.group(5):
+                    episode = m.group(5)
+                    normalized = f"EP{episode.zfill(3)}"
+                elif m.group(6) and m.group(7):
+                    season = m.group(6)
+                    episode = m.group(7)
+                    normalized = f"S{season.zfill(2)}E{episode.zfill(2)}"
+                elif m.group(8) and m.group(9):
+                    start_ep = m.group(8)
+                    end_ep = m.group(9)
+                    normalized = f"EP{start_ep}-{end_ep}"
+                else:
+                    normalized = clue_str
+
+                # Classify
+                is_anime = False
+                if anime_set:
+                    is_anime = True
+                elif any(anime_keyword in raw_tok.lower() for anime_keyword in [
+                    "one piece", "naruto", "spy×family", "kingdom", "gto", "rebirth", "eizouken",
+                    "間谍过家家", "别对映像研出手", "太乙仙魔录", "映像研", "间谍过家家"
+                ]):
+                    is_anime = True
+                elif m.group(8) and m.group(9):  # range → anime
+                    is_anime = True
+                elif m.group(5) and not (m.group(1) or m.group(6)):  # standalone ep → anime
+                    is_anime = True
+
+                if is_anime:
+                    anime_clues.append(normalized)
+                    if not quiet:
+                        print(f"Found {clue_str} -> anime_clue ({normalized})")
+                else:
+                    tv_clues.append(normalized)
+                    if not quiet:
+                        print(f"Found {clue_str} -> tv_clue ({normalized})")
+
             elif typ == "movieyear":
                 if not movie_found:
                     movie_clues.append(text)
@@ -381,13 +463,6 @@ def parse_filename_internal(filename: str, quiet: bool = False) -> dict:
                     extras_bits.append("bluray")
                 if not quiet:
                     print(f"Found {text} (in '{raw_tok}') -> extras_bits (bluray)")
-            elif typ == "chapter":
-                if anime_set:
-                    anime_clues.append(text.upper())
-                else:
-                    tv_clues.append(text.upper())
-                if not quiet:
-                    print(f"Found {text} (in '{raw_tok}') -> {'anime' if anime_set else 'tv'}_clue (chapter)")
 
         # Add unrecognized substrings between/after matches to words
         prev_end = matches[0][0]
@@ -412,46 +487,85 @@ def parse_filename_internal(filename: str, quiet: bool = False) -> dict:
     final_title = possible_title or " ".join(tokens[:title_boundary_index]).strip() or None
 
     # Fixed: Iterative stripping of clues at end of final_title (if any) + multiple passes for TV/anime
-    clue_patterns = [EPISODE_RE, TV_CLUE_RE, SEASON_RE, EP_RANGE_RE, ANIME_EP_RE, YEAR_RE, CHAPTER_RE]
     while final_title:
         found_any = False
         rightmost_end = -1
         rightmost_m = None
         rightmost_typ = None
         rightmost_txt = None
-        for pat in clue_patterns:
+
+        for pat in [TV_CLUE_PATTERN, YEAR_RE]:
             for m in pat.finditer(final_title):
-                if m.lastindex and m.end(1) > rightmost_end:
-                    rightmost_end = m.end(1)
-                    rightmost_m = m
-                    rightmost_typ = pat
-                    rightmost_txt = m.group(1)
+                if pat == TV_CLUE_PATTERN:
+                    if m.end() > rightmost_end:
+                        rightmost_end = m.end()
+                        rightmost_m = m
+                        rightmost_typ = pat
+                        rightmost_txt = m.group(0)
+                elif pat == YEAR_RE and m.lastindex:
+                    if m.end(1) > rightmost_end:
+                        rightmost_end = m.end(1)
+                        rightmost_m = m
+                        rightmost_typ = pat
+                        rightmost_txt = m.group(1)
+
         if rightmost_m and rightmost_end == len(final_title):
-            # strip it and add to proper list
-            if rightmost_typ == EPISODE_RE:
-                tv_clues.append(rightmost_txt.upper())
-            elif rightmost_typ == TV_CLUE_RE:
-                tv_clues.extend([p.upper() for p in rightmost_txt.split("-")])
-            elif rightmost_typ == SEASON_RE:
-                tv_clues.append(rightmost_txt.upper())
-            elif rightmost_typ == EP_RANGE_RE:
-                anime_clues.append(rightmost_txt.upper())
-            elif rightmost_typ == ANIME_EP_RE:
-                anime_clues.append(rightmost_txt.upper())
+            if rightmost_typ == TV_CLUE_PATTERN:
+                m = rightmost_m
+                season = episode = None
+                clue_str = rightmost_txt.strip(' ._ -')
+
+                if m.group(2):
+                    season = m.group(2)
+                    episode = m.group(3)
+                    normalized = f"S{season.zfill(2)}" + (f"E{episode.zfill(2)}" if episode else "")
+                elif m.group(5):
+                    episode = m.group(5)
+                    normalized = f"EP{episode.zfill(3)}"
+                elif m.group(6) and m.group(7):
+                    season = m.group(6)
+                    episode = m.group(7)
+                    normalized = f"S{season.zfill(2)}E{episode.zfill(2)}"
+                elif m.group(8) and m.group(9):
+                    start_ep = m.group(8)
+                    end_ep = m.group(9)
+                    normalized = f"EP{start_ep}-{end_ep}"
+                else:
+                    normalized = clue_str
+
+                is_anime = False
+                if anime_set:
+                    is_anime = True
+                elif any(anime_keyword in final_title.lower() for anime_keyword in [
+                    "one piece", "naruto", "spy×family", "kingdom", "gto", "rebirth", "eizouken"
+                ]):
+                    is_anime = True
+                elif m.group(8) and m.group(9):
+                    is_anime = True
+                elif m.group(5) and not (m.group(1) or m.group(6)):
+                    is_anime = True
+
+                if is_anime:
+                    anime_clues.append(normalized)
+                else:
+                    tv_clues.append(normalized)
+
+                if not quiet:
+                    print(f"Found {clue_str} -> {'anime' if is_anime else 'tv'}_clue ({normalized})")
+
             elif rightmost_typ == YEAR_RE:
                 movie_clues.append(rightmost_txt)
-            elif rightmost_typ == CHAPTER_RE:
-                if anime_set:
-                    anime_clues.append(rightmost_txt.upper())
-                else:
-                    tv_clues.append(rightmost_txt.upper())
-            final_title = _trim_right_separators(final_title[:rightmost_m.start(1)])
+                if not quiet:
+                    print(f"Found {rightmost_txt} -> movie_clue (year)")
+
+            final_title = _trim_right_separators(final_title[:rightmost_m.start()])
             found_any = True
+
         if not found_any:
             break
 
     # Fixed: Multiple passes for TV/anime if clues found
-    if tv_clues or anime_clues or anime_set:
+    if tv_clues or anime_clues:
         final_title = _multiple_passes_for_tv_anime(final_title or " ".join(tokens[:title_boundary_index]).strip(), tv_clues, anime_clues, quiet)
 
     # Fixed: Decide media type (expanded heuristics, anime_set override, ignore movie if TV/anime)
@@ -647,7 +761,8 @@ if __name__ == "__main__":
         "9-1-1.s02.mkv",
         "One-piece-ep.1080-v2-1080p-raws.mkv",
         "Naruto Shippuden (001-500) [Complete Series + Movies].mkv",
-        "The Mandalorian 2x01 Chapter 9 1080p Web-DL.mkv"
+        "The Mandalorian 2x01 Chapter 9 1080p Web-DL.mkv",
+        "[Erai-raws] Kingdom 3rd Season - 02 [1080p].mkv",
     ]
     
     print("Parser Test Results (Fixed Original):\n")

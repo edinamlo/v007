@@ -1,0 +1,959 @@
+================================================================================
+INPUT: www.SceneTime.com - Taken 3 2014 1080p DSNP WEB-DL DDP 5 1 H 264-PiRaTeS
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: www.SceneTime.com - Taken 3 2014
+SPLIT_RIGHT: DSNP WEB-DL DDP 5 1 H 264-PiRaTeS
+[YearExtractor] Matched: 2014
+Title (all matched outputs before this removed): Taken 3
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 2014
+title: Taken 3 year: 2014 media_type: movie
+Right after split: DSNP WEB-DL DDP 5 1 H 264-PiRaTeS
+================================================================================
+================================================================================
+INPUT: [SubsPlease] Tearmoon Teikoku Monogatari - 01 (1080p) [15ADAE00].mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: [SubsPlease] Tearmoon Teikoku Monogatari - 01
+SPLIT_RIGHT: 15ADAE00].mkv
+[AnimeGroupExtractor] Matched: SubsPlease
+SPLIT_LEFT after anime group removal: Tearmoon Teikoku Monogatari - 01
+[AnimeEpisodeExtractor] Matched: 01
+Title (all matched outputs before this removed): Tearmoon Teikoku Monogatari
+Is Anime: True, Anime group: SubsPlease, Anime ep: 01
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: Tearmoon Teikoku Monogatari year: None media_type: anime
+Right after split: 15ADAE00].mkv
+================================================================================
+================================================================================
+INPUT: [SubsPlease] Fairy Tail - 100 Years Quest - 05 (1080p) [1107F3A9].mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: [SubsPlease] Fairy Tail - 100 Years Quest - 05
+SPLIT_RIGHT: 1107F3A9].mkv
+[AnimeGroupExtractor] Matched: SubsPlease
+SPLIT_LEFT after anime group removal: Fairy Tail - 100 Years Quest - 05
+[AnimeEpisodeExtractor] Matched: 05
+Title (all matched outputs before this removed): Fairy Tail - 100 Years Quest
+Is Anime: True, Anime group: SubsPlease, Anime ep: 05
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: Fairy Tail - 100 Years Quest year: None media_type: anime
+Right after split: 1107F3A9].mkv
+================================================================================
+================================================================================
+INPUT: [Erai-raws] Tearmoon Teikoku Monogatari - 01 [1080p][ENG][POR-BR].mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: [Erai-raws] Tearmoon Teikoku Monogatari - 01
+SPLIT_RIGHT: ENG][POR-BR].mkv
+[AnimeGroupExtractor] Matched: Erai-raws
+SPLIT_LEFT after anime group removal: Tearmoon Teikoku Monogatari - 01
+[AnimeEpisodeExtractor] Matched: 01
+Title (all matched outputs before this removed): Tearmoon Teikoku Monogatari
+Is Anime: True, Anime group: Erai-raws, Anime ep: 01
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: Tearmoon Teikoku Monogatari year: None media_type: anime
+Right after split: ENG][POR-BR].mkv
+================================================================================
+================================================================================
+INPUT: Hunter x Hunter (2011) - 01 [1080p][ENG][FRE]
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: Hunter x Hunter (2011) - 01
+SPLIT_RIGHT: ENG][FRE]
+[YearExtractor] Matched: 2011
+Title (all matched outputs before this removed): Hunter x Hunter
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 2011
+title: Hunter x Hunter year: 2011 media_type: movie
+Right after split: ) - 01 ENG][FRE]
+================================================================================
+================================================================================
+INPUT: Naruto Shippuden (001-500) [Complete Series + Movies]
+--------------------------------------------------------------------------------
+SPLIT_LEFT: Naruto Shippuden (001-500) [Complete Series + Movies]
+SPLIT_RIGHT: 
+[AnimeEpisodeExtractor] Matched: 001-500
+Title (all matched outputs before this removed): Naruto Shippuden
+Is Anime: True, Anime group: None, Anime ep: 001-500
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: Naruto Shippuden year: None media_type: anime
+Right after split: ) [Complete Series + Movies]
+================================================================================
+================================================================================
+INPUT: [Erai-raws] Sword Art Online - 10 [720p][Multiple Subtitle].mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 720p
+SPLIT_LEFT: [Erai-raws] Sword Art Online - 10
+SPLIT_RIGHT: Multiple Subtitle].mkv
+[AnimeGroupExtractor] Matched: Erai-raws
+SPLIT_LEFT after anime group removal: Sword Art Online - 10
+[AnimeEpisodeExtractor] Matched: 10
+Title (all matched outputs before this removed): Sword Art Online
+Is Anime: True, Anime group: Erai-raws, Anime ep: 10
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: Sword Art Online year: None media_type: anime
+Right after split: Multiple Subtitle].mkv
+================================================================================
+================================================================================
+INPUT: [Exiled-Destiny]_Tokyo_Underground_Ep02v2_(41858470).mkv
+--------------------------------------------------------------------------------
+SPLIT_LEFT: [Exiled-Destiny]_Tokyo_Underground_Ep02v2_(41858470).mkv
+SPLIT_RIGHT: 
+[AnimeGroupExtractor] Matched: Exiled-Destiny
+SPLIT_LEFT after anime group removal: _Tokyo_Underground_Ep02v2_(41858470).mkv
+[AnimeEpisodeExtractor] Matched: 02v2
+Title (all matched outputs before this removed): Tokyo Underground
+Is Anime: True, Anime group: Exiled-Destiny, Anime ep: 02v2
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: Tokyo Underground year: None media_type: anime
+Right after split: _(41858470).mkv
+================================================================================
+================================================================================
+INPUT: Some.Movie.2023.1920x1080.WEB.mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1920x1080
+SPLIT_LEFT: Some.Movie.2023
+SPLIT_RIGHT: WEB.mkv
+[YearExtractor] Matched: 2023
+Title (all matched outputs before this removed): Some
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 2023
+title: Some year: 2023 media_type: movie
+Right after split: WEB.mkv
+================================================================================
+================================================================================
+INPUT: La famille bélier
+--------------------------------------------------------------------------------
+SPLIT_LEFT: La famille bélier
+SPLIT_RIGHT: 
+Title (all matched outputs before this removed): La famille bélier
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: La famille bélier year: None media_type: unknown
+Right after split: 
+================================================================================
+================================================================================
+INPUT: La.famille.bélier
+--------------------------------------------------------------------------------
+SPLIT_LEFT: La.famille.bélier
+SPLIT_RIGHT: 
+Title (all matched outputs before this removed): La famille bélier
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: La famille bélier year: None media_type: unknown
+Right after split: 
+================================================================================
+================================================================================
+INPUT: Mr. Nobody
+--------------------------------------------------------------------------------
+SPLIT_LEFT: Mr. Nobody
+SPLIT_RIGHT: 
+Title (all matched outputs before this removed): Mr Nobody
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: Mr Nobody year: None media_type: unknown
+Right after split: 
+================================================================================
+================================================================================
+INPUT: doctor_who_2005.8x12.death_in_heaven.720p_hdtv_x264-fov
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 720p
+SPLIT_LEFT: doctor_who_2005.8x12.death_in_heaven
+SPLIT_RIGHT: hdtv_x264-fov
+[YearExtractor] Matched: 2005
+Title (all matched outputs before this removed): doctor who
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 2005
+title: doctor who year: 2005 media_type: movie
+Right after split: .8x12.death_in_heaven hdtv_x264-fov
+================================================================================
+================================================================================
+INPUT: [GM-Team][国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality Ⅲ][01-26][AVC][GB][1080P]
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080P
+SPLIT_LEFT: [GM-Team][国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality Ⅲ][01-26][AVC][GB
+SPLIT_RIGHT: 
+[AnimeGroupExtractor] Matched: GM-Team
+SPLIT_LEFT after anime group removal: [国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality Ⅲ][01-26][AVC][GB
+[AnimeEpisodeExtractor] Matched: 01-26
+Title (all matched outputs before this removed): 国漫太乙仙魔录 灵飞纪 第3季Magical Legend of Rise to immortality Ⅲ
+Is Anime: True, Anime group: GM-Team, Anime ep: 01-26
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: 国漫太乙仙魔录 灵飞纪 第3季Magical Legend of Rise to immortality Ⅲ year: None media_type: anime
+Right after split: ][AVC][GB
+================================================================================
+================================================================================
+INPUT: 【喵萌奶茶屋】★01月新番★[Rebirth][01][720p][简体][招募翻译]
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 720p
+SPLIT_LEFT: 【喵萌奶茶屋】★01月新番★[Rebirth][01
+SPLIT_RIGHT: 简体][招募翻译]
+Title (all matched outputs before this removed): 【喵萌奶茶屋】★01月新番★Rebirth01
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: 【喵萌奶茶屋】★01月新番★Rebirth01 year: None media_type: unknown
+Right after split: 简体][招募翻译]
+================================================================================
+================================================================================
+INPUT: 【喵萌奶茶屋】★01月新番★[別對映像研出手！/Eizouken ni wa Te wo Dasu na！/映像研には手を出すな！][01][1080p][繁體]
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: 【喵萌奶茶屋】★01月新番★[別對映像研出手！/Eizouken ni wa Te wo Dasu na！/映像研には手を出すな！][01
+SPLIT_RIGHT: 繁體]
+Title (all matched outputs before this removed): 【喵萌奶茶屋】★01月新番★別對映像研出手！/Eizouken ni wa Te wo Dasu na！/映像研には手を出すな！01
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: 【喵萌奶茶屋】★01月新番★別對映像研出手！/Eizouken ni wa Te wo Dasu na！/映像研には手を出すな！01 year: None media_type: unknown
+Right after split: 繁體]
+================================================================================
+================================================================================
+INPUT: 【喵萌奶茶屋】★01月新番★[別對映像研出手！/Eizouken ni wa Te wo Dasu na！/映像研には手を出すな！][01][1080p][繁體]
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: 【喵萌奶茶屋】★01月新番★[別對映像研出手！/Eizouken ni wa Te wo Dasu na！/映像研には手を出すな！][01
+SPLIT_RIGHT: 繁體]
+Title (all matched outputs before this removed): 【喵萌奶茶屋】★01月新番★別對映像研出手！/Eizouken ni wa Te wo Dasu na！/映像研には手を出すな！01
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: 【喵萌奶茶屋】★01月新番★別對映像研出手！/Eizouken ni wa Te wo Dasu na！/映像研には手を出すな！01 year: None media_type: unknown
+Right after split: 繁體]
+================================================================================
+================================================================================
+INPUT: [Seed-Raws] 劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC AACx4 [5.1+2.0+2.0+2.0]).mp4
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1280x720
+SPLIT_LEFT: [Seed-Raws] 劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD
+SPLIT_RIGHT: AVC AACx4 [5.1+2.0+2.0+2.0]).mp4
+[AnimeGroupExtractor] Matched: Seed-Raws
+SPLIT_LEFT after anime group removal: 劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD
+Title (all matched outputs before this removed): 劇場版 ペンギン・ハイウェイ Penguin Highway The BD
+Is Anime: True, Anime group: Seed-Raws, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: 劇場版 ペンギン・ハイウェイ Penguin Highway The BD year: None media_type: anime
+Right after split: AVC AACx4 [5.1+2.0+2.0+2.0]).mp4
+================================================================================
+================================================================================
+INPUT: [SweetSub][Mutafukaz / MFKZ][Movie][BDRip][1080P][AVC 8bit][简体内嵌]
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080P
+SPLIT_LEFT: [SweetSub][Mutafukaz / MFKZ][Movie][BDRip
+SPLIT_RIGHT: AVC 8bit][简体内嵌]
+[AnimeGroupExtractor] Matched: SweetSub
+SPLIT_LEFT after anime group removal: [Mutafukaz / MFKZ][Movie][BDRip
+Title (all matched outputs before this removed): Mutafukaz / MFKZBDRip
+Is Anime: True, Anime group: SweetSub, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: Mutafukaz / MFKZBDRip year: None media_type: anime
+Right after split: AVC 8bit][简体内嵌]
+================================================================================
+================================================================================
+INPUT: [Erai-raws] Kingdom 3rd Season - 02 [1080p].mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: [Erai-raws] Kingdom 3rd Season - 02
+SPLIT_RIGHT: mkv
+[AnimeGroupExtractor] Matched: Erai-raws
+SPLIT_LEFT after anime group removal: Kingdom 3rd Season - 02
+[AnimeEpisodeExtractor] Matched: 02
+Title (all matched outputs before this removed): Kingdom 3rd
+Is Anime: True, Anime group: Erai-raws, Anime ep: 02
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: Kingdom 3rd year: None media_type: anime
+Right after split: mkv
+================================================================================
+================================================================================
+INPUT: Голубая волна / Blue Crush (2002) DVDRip
+--------------------------------------------------------------------------------
+SPLIT_LEFT: Голубая волна / Blue Crush (2002) DVDRip
+SPLIT_RIGHT: 
+[YearExtractor] Matched: 2002
+Title (all matched outputs before this removed): Голубая волна / Blue Crush
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 2002
+title: Голубая волна / Blue Crush year: 2002 media_type: movie
+Right after split: ) DVDRip
+================================================================================
+================================================================================
+INPUT: Жихарка (2007) DVDRip
+--------------------------------------------------------------------------------
+SPLIT_LEFT: Жихарка (2007) DVDRip
+SPLIT_RIGHT: 
+[YearExtractor] Matched: 2007
+Title (all matched outputs before this removed): Жихарка
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 2007
+title: Жихарка year: 2007 media_type: movie
+Right after split: ) DVDRip
+================================================================================
+================================================================================
+INPUT: 3 Миссия невыполнима 3 2006г. BDRip 1080p.mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: 3 Миссия невыполнима 3 2006г. BDRip
+SPLIT_RIGHT: mkv
+[YearExtractor] Matched: 2006
+Title (all matched outputs before this removed): 3 Миссия невыполнима 3
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 2006
+title: 3 Миссия невыполнима 3 year: 2006 media_type: movie
+Right after split: г. BDRip mkv
+================================================================================
+================================================================================
+INPUT: 1. Детские игры. 1988. 1080p. HEVC. 10bit..mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: 1. Детские игры. 1988
+SPLIT_RIGHT: HEVC. 10bit..mkv
+[YearExtractor] Matched: 1988
+Title (all matched outputs before this removed): 1 Детские игры
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 1988
+title: 1 Детские игры year: 1988 media_type: movie
+Right after split: HEVC. 10bit..mkv
+================================================================================
+================================================================================
+INPUT: 01. 100 девчонок и одна в лифте 2000 WEBRip 1080p.mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: 01. 100 девчонок и одна в лифте 2000 WEBRip
+SPLIT_RIGHT: mkv
+[YearExtractor] Matched: 2000
+[AnimeEpisodeExtractor] Matched: 100
+Title (all matched outputs before this removed): 01
+Is Anime: True, Anime group: None, Anime ep: 100
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: 2000
+title: 01 year: 2000 media_type: anime
+Right after split: девчонок и одна в лифте WEBRip mkv
+================================================================================
+================================================================================
+INPUT: 08.Планета.обезьян.Революция.2014.BDRip-HEVC.1080p.mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: 08.Планета.обезьян.Революция.2014.BDRip-HEVC
+SPLIT_RIGHT: mkv
+[YearExtractor] Matched: 2014
+Title (all matched outputs before this removed): 08 Планета обезьян Революция
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 2014
+title: 08 Планета обезьян Революция year: 2014 media_type: movie
+Right after split: .BDRip-HEVC mkv
+================================================================================
+================================================================================
+INPUT: Американские животные / American Animals (Барт Лэйтон / Bart Layton) [2018, Великобритания, США, драма, криминал, BDRip] MVO (СВ Студия)
+--------------------------------------------------------------------------------
+SPLIT_LEFT: Американские животные / American Animals (Барт Лэйтон / Bart Layton) [2018, Великобритания, США, драма, криминал, BDRip] MVO (СВ Студия)
+SPLIT_RIGHT: 
+[YearExtractor] Matched: 2018
+Title (all matched outputs before this removed): Американские животные / American Animals Барт Лэйтон / Bart Layton
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 2018
+title: Американские животные / American Animals Барт Лэйтон / Bart Layton year: 2018 media_type: movie
+Right after split: , Великобритания, США, драма, криминал, BDRip] MVO (СВ Студия)
+================================================================================
+================================================================================
+INPUT: Греческая смоковница / Griechische Feigen / The Fruit Is Ripe (Зиги Ротемунд / Sigi Rothemund (as Siggi Götз)) [1976, Германия (ФРГ), эротика, комедия, приключения, DVDRip] 2 VO
+--------------------------------------------------------------------------------
+SPLIT_LEFT: Греческая смоковница / Griechische Feigen / The Fruit Is Ripe (Зиги Ротемунд / Sigi Rothemund (as Siggi Götз)) [1976, Германия (ФРГ), эротика, комедия, приключения, DVDRip] 2 VO
+SPLIT_RIGHT: 
+[YearExtractor] Matched: 1976
+Title (all matched outputs before this removed): Греческая смоковница / Griechische Feigen / The Fruit Is Ripe Зиги Ротемунд / Sigi Rothemund as Siggi Götз
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 1976
+title: Греческая смоковница / Griechische Feigen / The Fruit Is Ripe Зиги Ротемунд / Sigi Rothemund as Siggi Götз year: 1976 media_type: movie
+Right after split: , Германия (ФРГ), эротика, комедия, приключения, DVDRip] 2 VO
+================================================================================
+================================================================================
+INPUT: Греческая смоковница / The fruit is ripe / Griechische Feigen (Siggi Götз) [1976, Германия, Эротическая комедия, DVDRip]
+--------------------------------------------------------------------------------
+SPLIT_LEFT: Греческая смоковница / The fruit is ripe / Griechische Feigen (Siggi Götз) [1976, Германия, Эротическая комедия, DVDRip]
+SPLIT_RIGHT: 
+[YearExtractor] Matched: 1976
+Title (all matched outputs before this removed): Греческая смоковница / The fruit is ripe / Griechische Feigen Siggi Götз
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 1976
+title: Греческая смоковница / The fruit is ripe / Griechische Feigen Siggi Götз year: 1976 media_type: movie
+Right after split: , Германия, Эротическая комедия, DVDRip]
+================================================================================
+================================================================================
+INPUT: Бастер / Buster (Дэвид Грин / David Green) [1988, Великобритания, Комедия, мелодрама, драма, приключения, криминал, биография, DVDRip]
+--------------------------------------------------------------------------------
+SPLIT_LEFT: Бастер / Buster (Дэвид Грин / David Green) [1988, Великобритания, Комедия, мелодрама, драма, приключения, криминал, биография, DVDRip]
+SPLIT_RIGHT: 
+[YearExtractor] Matched: 1988
+Title (all matched outputs before this removed): Бастер / Buster Дэвид Грин / David Green
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 1988
+title: Бастер / Buster Дэвид Грин / David Green year: 1988 media_type: movie
+Right after split: , Великобритания, Комедия, мелодрама, драма, приключения, криминал, биография, DVDRip]
+================================================================================
+================================================================================
+INPUT: (2000) Le follie dell'imperatore - The Emperor's New Groove (DvdRip Ita Eng AC3 5.1).avi
+--------------------------------------------------------------------------------
+SPLIT_LEFT: (2000) Le follie dell'imperatore - The Emperor's New Groove (DvdRip Ita Eng AC3 5.1).avi
+SPLIT_RIGHT: 
+[YearExtractor] Matched: 2000
+Title (all matched outputs before this removed): 
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 2000
+title:  year: 2000 media_type: movie
+Right after split: ) Le follie dell'imperatore - The Emperor's New Groove (DvdRip Ita Eng AC3 5.1).avi
+================================================================================
+================================================================================
+INPUT: [NC-Raws] 间谍过家家 / SPY×FAMILY - 04 (B-Global 1920x1080 HEVC AAC MKV)
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1920x1080
+SPLIT_LEFT: [NC-Raws] 间谍过家家 / SPY×FAMILY - 04 (B-Global
+SPLIT_RIGHT: HEVC AAC MKV)
+[AnimeGroupExtractor] Matched: NC-Raws
+SPLIT_LEFT after anime group removal: 间谍过家家 / SPY×FAMILY - 04 (B-Global
+[AnimeEpisodeExtractor] Matched: 04
+Title (all matched outputs before this removed): 间谍过家家 / SPY×FAMILY -
+Is Anime: True, Anime group: NC-Raws, Anime ep: 04
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: 间谍过家家 / SPY×FAMILY - year: None media_type: anime
+Right after split: (B-Global HEVC AAC MKV)
+================================================================================
+================================================================================
+INPUT: GTO (Great Teacher Onizuka) (Ep. 1-43) Sub 480p lakshay
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 480p
+SPLIT_LEFT: GTO (Great Teacher Onizuka) (Ep. 1-43) Sub
+SPLIT_RIGHT: lakshay
+Title (all matched outputs before this removed): GTO Great Teacher Onizuka Ep 1-43 Sub
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: GTO Great Teacher Onizuka Ep 1-43 Sub year: None media_type: unknown
+Right after split: lakshay
+================================================================================
+================================================================================
+INPUT: Книгоноши / Кнiганошы (1987) TVRip от AND03AND | BLR
+--------------------------------------------------------------------------------
+SPLIT_LEFT: Книгоноши / Кнiганошы (1987) TVRip от AND03AND | BLR
+SPLIT_RIGHT: 
+[YearExtractor] Matched: 1987
+Title (all matched outputs before this removed): Книгоноши / Кнiганошы
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 1987
+title: Книгоноши / Кнiганошы year: 1987 media_type: movie
+Right after split: ) TVRip от AND03AND | BLR
+================================================================================
+================================================================================
+INPUT: Yurusarezaru_mono2.srt
+--------------------------------------------------------------------------------
+SPLIT_LEFT: Yurusarezaru_mono2.srt
+SPLIT_RIGHT: 
+Title (all matched outputs before this removed): Yurusarezaru mono2 srt
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: Yurusarezaru mono2 srt year: None media_type: unknown
+Right after split: 
+================================================================================
+================================================================================
+INPUT: www.1TamilMV.world - Ayalaan (2024) Tamil PreDVD - 1080p - x264 - HQ Clean Aud - 2.5GB.mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: www.1TamilMV.world - Ayalaan (2024) Tamil PreDVD
+SPLIT_RIGHT: x264 - HQ Clean Aud - 2.5GB.mkv
+[YearExtractor] Matched: 2024
+Title (all matched outputs before this removed): Ayalaan
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 2024
+title: Ayalaan year: 2024 media_type: movie
+Right after split: ) Tamil PreDVD x264 - HQ Clean Aud - 2.5GB.mkv
+================================================================================
+================================================================================
+INPUT: www.Torrenting.com   -    Anatomy Of A Fall (2023)
+--------------------------------------------------------------------------------
+SPLIT_LEFT: www.Torrenting.com   -    Anatomy Of A Fall (2023)
+SPLIT_RIGHT: 
+[YearExtractor] Matched: 2023
+Title (all matched outputs before this removed): Anatomy Of A Fall
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 2023
+title: Anatomy Of A Fall year: 2023 media_type: movie
+Right after split: )
+================================================================================
+================================================================================
+INPUT: [www.arabp2p.net]_-_تركي مترجم ومدبلج Last.Call.for.Istanbul.2023.1080p.NF.WEB-DL.DDP5.1.H.264.MKV.torrent
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: [www.arabp2p.net]_-_تركي مترجم ومدبلج Last.Call.for.Istanbul.2023
+SPLIT_RIGHT: NF.WEB-DL.DDP5.1.H.264.MKV.torrent
+[AnimeGroupExtractor] Matched: www.arabp2p.net
+SPLIT_LEFT after anime group removal: _-_تركي مترجم ومدبلج Last.Call.for.Istanbul.2023
+[YearExtractor] Matched: 2023
+Title (all matched outputs before this removed): تركي مترجم ومدبلج Last Call for Istanbul
+Is Anime: True, Anime group: www.arabp2p.net, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: 2023
+title: تركي مترجم ومدبلج Last Call for Istanbul year: 2023 media_type: anime
+Right after split: NF.WEB-DL.DDP5.1.H.264.MKV.torrent
+================================================================================
+================================================================================
+INPUT: www,1TamilMV.phd - The Great Indian Suicide (2023) Tamil TRUE WEB-DL - 4K SDR - HEVC - (DD+5.1 - 384Kbps & AAC) - 3.2GB - ESub.mkv
+--------------------------------------------------------------------------------
+SPLIT_LEFT: www,1TamilMV.phd - The Great Indian Suicide (2023) Tamil TRUE WEB-DL - 4K SDR - HEVC - (DD+5.1 - 384Kbps & AAC) - 3.2GB - ESub.mkv
+SPLIT_RIGHT: 
+[YearExtractor] Matched: 2023
+Title (all matched outputs before this removed): www,1TamilMV phd - The Great Indian Suicide
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 2023
+title: www,1TamilMV phd - The Great Indian Suicide year: 2023 media_type: movie
+Right after split: ) Tamil TRUE WEB-DL - 4K SDR - HEVC - (DD+5.1 - 384Kbps & AAC) - 3.2GB - ESub.mkv
+================================================================================
+================================================================================
+INPUT: ww.Tamilblasters.sbs - 8 Bit Christmas (2021) HQ HDRip - x264 - Telugu (Fan Dub) - 400MB].mkv
+--------------------------------------------------------------------------------
+SPLIT_LEFT: ww.Tamilblasters.sbs - 8 Bit Christmas (2021) HQ HDRip - x264 - Telugu (Fan Dub) - 400MB].mkv
+SPLIT_RIGHT: 
+[YearExtractor] Matched: 2021
+Title (all matched outputs before this removed): ww Tamilblasters sbs - 8 Bit Christmas
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 2021
+title: ww Tamilblasters sbs - 8 Bit Christmas year: 2021 media_type: movie
+Right after split: ) HQ HDRip - x264 - Telugu (Fan Dub) - 400MB].mkv
+================================================================================
+================================================================================
+INPUT: www.1TamilMV.pics - 777 Charlie (2022) Tamil HDRip - 720p - x264 - HQ Clean Aud - 1.4GB.mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 720p
+SPLIT_LEFT: www.1TamilMV.pics - 777 Charlie (2022) Tamil HDRip
+SPLIT_RIGHT: x264 - HQ Clean Aud - 1.4GB.mkv
+[YearExtractor] Matched: 2022
+[AnimeEpisodeExtractor] Matched: 777
+Title (all matched outputs before this removed): 
+Is Anime: True, Anime group: None, Anime ep: 777
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: 2022
+title:  year: 2022 media_type: anime
+Right after split: Charlie ( ) Tamil HDRip x264 - HQ Clean Aud - 1.4GB.mkv
+================================================================================
+================================================================================
+INPUT: Despicable.Me.4.2024.D.TELESYNC_14OOMB.avi
+--------------------------------------------------------------------------------
+SPLIT_LEFT: Despicable.Me.4.2024.D.TELESYNC_14OOMB.avi
+SPLIT_RIGHT: 
+[YearExtractor] Matched: 2024
+Title (all matched outputs before this removed): Despicable Me 4
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 2024
+title: Despicable Me 4 year: 2024 media_type: movie
+Right after split: .D.TELESYNC_14OOMB.avi
+================================================================================
+================================================================================
+INPUT: UFC.247.PPV.Jones.vs.Reyes.HDTV.x264-PUNCH[TGx]
+--------------------------------------------------------------------------------
+SPLIT_LEFT: UFC.247.PPV.Jones.vs.Reyes.HDTV.x264-PUNCH[TGx]
+SPLIT_RIGHT: 
+[AnimeEpisodeExtractor] Matched: 247
+Title (all matched outputs before this removed): UFC
+Is Anime: True, Anime group: None, Anime ep: 247
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: UFC year: None media_type: anime
+Right after split: .PPV.Jones.vs.Reyes.HDTV.x264-PUNCH[TGx]
+================================================================================
+================================================================================
+INPUT: [www.1TamilMV.pics]_The.Great.Indian.Suicide.2023.Tamil.TRUE.WEB-DL.4K.SDR.HEVC.(DD+5.1.384Kbps.&.AAC).3.2GB.ESub.mkv
+--------------------------------------------------------------------------------
+SPLIT_LEFT: [www.1TamilMV.pics]_The.Great.Indian.Suicide.2023.Tamil.TRUE.WEB-DL.4K.SDR.HEVC.(DD+5.1.384Kbps.&.AAC).3.2GB.ESub.mkv
+SPLIT_RIGHT: 
+[AnimeGroupExtractor] Matched: www.1TamilMV.pics
+SPLIT_LEFT after anime group removal: _The.Great.Indian.Suicide.2023.Tamil.TRUE.WEB-DL.4K.SDR.HEVC.(DD+5.1.384Kbps.&.AAC).3.2GB.ESub.mkv
+[YearExtractor] Matched: 2023
+Title (all matched outputs before this removed): The Great Indian Suicide
+Is Anime: True, Anime group: www.1TamilMV.pics, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: 2023
+title: The Great Indian Suicide year: 2023 media_type: anime
+Right after split: .Tamil.TRUE.WEB-DL.4K.SDR.HEVC.(DD+5.1.384Kbps.&.AAC).3.2GB.ESub.mkv
+================================================================================
+================================================================================
+INPUT: Game of Thrones - S02E07 - A Man Without Honor [2160p] [HDR] [5.1, 7.1, 5.1] [ger, eng, eng] [Vio].mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 2160p
+SPLIT_LEFT: Game of Thrones - S02E07 - A Man Without Honor
+SPLIT_RIGHT: HDR] [5.1, 7.1, 5.1] [ger, eng, eng] [Vio].mkv
+[TVExtractor] Matched season 02, episode 07
+Title (all matched outputs before this removed): Game of Thrones -
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: True, TV match: (2, 7)
+Is Movie: False, Movie Year: None
+title: Game of Thrones - year: None media_type: tv_show
+Right after split: - A Man Without Honor HDR] [5.1, 7.1, 5.1] [ger, eng, eng] [Vio].mkv
+================================================================================
+================================================================================
+INPUT: Pawn.Stars.S09E13.1080p.HEVC.x265-MeGusta
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: Pawn.Stars.S09E13
+SPLIT_RIGHT: HEVC.x265-MeGusta
+[TVExtractor] Matched season 09, episode 13
+Title (all matched outputs before this removed): Pawn Stars
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: True, TV match: (9, 13)
+Is Movie: False, Movie Year: None
+title: Pawn Stars year: None media_type: tv_show
+Right after split: HEVC.x265-MeGusta
+================================================================================
+================================================================================
+INPUT: Pawn Stars -- 4x13 -- Broadsiding Lincoln.mkv
+--------------------------------------------------------------------------------
+SPLIT_LEFT: Pawn Stars -- 4x13 -- Broadsiding Lincoln.mkv
+SPLIT_RIGHT: 
+Title (all matched outputs before this removed): Pawn Stars -- 4x13 -- Broadsiding Lincoln mkv
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: Pawn Stars -- 4x13 -- Broadsiding Lincoln mkv year: None media_type: unknown
+Right after split: 
+================================================================================
+================================================================================
+INPUT: Pawn Stars S04E19 720p WEB H264-BeechyBoy mp4
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 720p
+SPLIT_LEFT: Pawn Stars S04E19
+SPLIT_RIGHT: WEB H264-BeechyBoy mp4
+[TVExtractor] Matched season 04, episode 19
+Title (all matched outputs before this removed): Pawn Stars
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: True, TV match: (4, 19)
+Is Movie: False, Movie Year: None
+title: Pawn Stars year: None media_type: tv_show
+Right after split: WEB H264-BeechyBoy mp4
+================================================================================
+================================================================================
+INPUT: Jurassic.World.Dominion.CUSTOM.EXTENDED.2022.2160p.MULTi.VF2.UHD.Blu-ray.REMUX.HDR.DoVi.HEVC.DTS-X.DTS-HDHRA.7.1-MOONLY.mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 2160p
+SPLIT_LEFT: Jurassic.World.Dominion.CUSTOM.EXTENDED.2022
+SPLIT_RIGHT: MULTi.VF2.UHD.Blu-ray.REMUX.HDR.DoVi.HEVC.DTS-X.DTS-HDHRA.7.1-MOONLY.mkv
+[YearExtractor] Matched: 2022
+Title (all matched outputs before this removed): Jurassic World Dominion CUSTOM EXTENDED
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 2022
+title: Jurassic World Dominion CUSTOM EXTENDED year: 2022 media_type: movie
+Right after split: MULTi.VF2.UHD.Blu-ray.REMUX.HDR.DoVi.HEVC.DTS-X.DTS-HDHRA.7.1-MOONLY.mkv
+================================================================================
+================================================================================
+INPUT: www.Torrenting.com   -    14.Peaks.Nothing.Is.Impossible.2021.1080p.WEB.h264-RUMOUR
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: www.Torrenting.com   -    14.Peaks.Nothing.Is.Impossible.2021
+SPLIT_RIGHT: WEB.h264-RUMOUR
+[YearExtractor] Matched: 2021
+[AnimeEpisodeExtractor] Matched: 14
+Title (all matched outputs before this removed): 
+Is Anime: True, Anime group: None, Anime ep: 14
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: 2021
+title:  year: 2021 media_type: anime
+Right after split: .Peaks.Nothing.Is.Impossible.2021 WEB.h264-RUMOUR
+================================================================================
+================================================================================
+INPUT: Too Many Cooks _ Adult Swim.mp4
+--------------------------------------------------------------------------------
+SPLIT_LEFT: Too Many Cooks _ Adult Swim.mp4
+SPLIT_RIGHT: 
+Title (all matched outputs before this removed): Too Many Cooks Adult Swim mp4
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: Too Many Cooks Adult Swim mp4 year: None media_type: unknown
+Right after split: 
+================================================================================
+================================================================================
+INPUT: О мышах и людях (Of Mice and Men) 1992 BDRip 1080p.mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: О мышах и людях (Of Mice and Men) 1992 BDRip
+SPLIT_RIGHT: mkv
+[YearExtractor] Matched: 1992
+Title (all matched outputs before this removed): О мышах и людях Of Mice and Men
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 1992
+title: О мышах и людях Of Mice and Men year: 1992 media_type: movie
+Right after split: BDRip mkv
+================================================================================
+================================================================================
+INPUT: Wonder Woman 1984 (2020) [UHDRemux 2160p DoVi P8 Es-DTSHD AC3 En-AC3].mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 2160p
+SPLIT_LEFT: Wonder Woman 1984 (2020) [UHDRemux
+SPLIT_RIGHT: DoVi P8 Es-DTSHD AC3 En-AC3].mkv
+[YearExtractor] Matched: 1984
+Title (all matched outputs before this removed): Wonder Woman
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 1984
+title: Wonder Woman year: 1984 media_type: movie
+Right after split: (2020) [UHDRemux DoVi P8 Es-DTSHD AC3 En-AC3].mkv
+================================================================================
+================================================================================
+INPUT: www.TamilBlasters.cam - Titanic (1997)[1080p BDRip - Org Auds - [Tamil + Telugu + Hindi + Eng] - x264 - DD5.1 (448 Kbps) - 4.7GB - ESubs].mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: www.TamilBlasters.cam - Titanic (1997
+SPLIT_RIGHT: BDRip - Org Auds - [Tamil + Telugu + Hindi + Eng] - x264 - DD5.1 (448 Kbps) - 4.7GB - ESubs].mkv
+[YearExtractor] Matched: 1997
+Title (all matched outputs before this removed): Titanic
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 1997
+title: Titanic year: 1997 media_type: movie
+Right after split: BDRip - Org Auds - [Tamil + Telugu + Hindi + Eng] - x264 - DD5.1 (448 Kbps) - 4.7GB - ESubs].mkv
+================================================================================
+================================================================================
+INPUT: S.W.A.T.2017.S08E01.720p.HDTV.x264-SYNCOPY[TGx]
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 720p
+SPLIT_LEFT: S.W.A.T.2017.S08E01
+SPLIT_RIGHT: HDTV.x264-SYNCOPY[TGx]
+[YearExtractor] Matched: 2017
+Title (all matched outputs before this removed): S W A T
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 2017
+title: S W A T year: 2017 media_type: movie
+Right after split: .S08E01 HDTV.x264-SYNCOPY[TGx]
+================================================================================
+================================================================================
+INPUT: Grimm.INTEGRAL.MULTI.COMPLETE.BLURAY-BMTH
+--------------------------------------------------------------------------------
+SPLIT_LEFT: Grimm.INTEGRAL.MULTI.COMPLETE.BLURAY-BMTH
+SPLIT_RIGHT: 
+Title (all matched outputs before this removed): Grimm INTEGRAL MULTI COMPLETE BLURAY-BMTH
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: Grimm INTEGRAL MULTI COMPLETE BLURAY-BMTH year: None media_type: unknown
+Right after split: 
+================================================================================
+================================================================================
+INPUT: Friends.1994.INTEGRALE.MULTI.1080p.WEB-DL.H265-FTMVHD
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: Friends.1994.INTEGRALE.MULTI
+SPLIT_RIGHT: WEB-DL.H265-FTMVHD
+[YearExtractor] Matched: 1994
+Title (all matched outputs before this removed): Friends
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 1994
+title: Friends year: 1994 media_type: movie
+Right after split: .INTEGRALE.MULTI WEB-DL.H265-FTMVHD
+================================================================================
+================================================================================
+INPUT: STEVE.martin.a.documentary.in.2.pieces.S01.COMPLETE.1080p.WEB.H264-SuccessfulCrab[TGx]
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: STEVE.martin.a.documentary.in.2.pieces.S01.COMPLETE
+SPLIT_RIGHT: WEB.H264-SuccessfulCrab[TGx]
+Title (all matched outputs before this removed): STEVE martin a documentary in 2 pieces S01 COMPLETE
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: STEVE martin a documentary in 2 pieces S01 COMPLETE year: None media_type: unknown
+Right after split: WEB.H264-SuccessfulCrab[TGx]
+================================================================================
+================================================================================
+INPUT: The Lockerbie Bombing (2013) Documentary HDTVRIP
+--------------------------------------------------------------------------------
+SPLIT_LEFT: The Lockerbie Bombing (2013) Documentary HDTVRIP
+SPLIT_RIGHT: 
+[YearExtractor] Matched: 2013
+Title (all matched outputs before this removed): The Lockerbie Bombing
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 2013
+title: The Lockerbie Bombing year: 2013 media_type: movie
+Right after split: ) Documentary HDTVRIP
+================================================================================
+================================================================================
+INPUT: The French Connection 1971 Remastered BluRay 1080p REMUX AVC DTS-HD MA 5 1-LEGi0N
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: The French Connection 1971 Remastered BluRay
+SPLIT_RIGHT: REMUX AVC DTS-HD MA 5 1-LEGi0N
+[YearExtractor] Matched: 1971
+Title (all matched outputs before this removed): The French Connection
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 1971
+title: The French Connection year: 1971 media_type: movie
+Right after split: Remastered BluRay REMUX AVC DTS-HD MA 5 1-LEGi0N
+================================================================================
+================================================================================
+INPUT: The.Mandalorian.S01E01.Chapter.1.1080p.Web-DL.mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: The.Mandalorian.S01E01.Chapter.1
+SPLIT_RIGHT: Web-DL.mkv
+[TVExtractor] Matched season 01, episode 01
+Title (all matched outputs before this removed): The Mandalorian
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: True, TV match: (1, 1)
+Is Movie: False, Movie Year: None
+title: The Mandalorian year: None media_type: tv_show
+Right after split: .Chapter.1 Web-DL.mkv
+================================================================================
+================================================================================
+INPUT: The Mandalorian S02E01 - Chapter 9 (1080p Web-DL).mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: The Mandalorian S02E01 - Chapter 9
+SPLIT_RIGHT: Web-DL).mkv
+[TVExtractor] Matched season 02, episode 01
+Title (all matched outputs before this removed): The Mandalorian
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: True, TV match: (2, 1)
+Is Movie: False, Movie Year: None
+title: The Mandalorian year: None media_type: tv_show
+Right after split: - Chapter 9 Web-DL).mkv
+================================================================================
+================================================================================
+INPUT: TV Show season 1 s01 1080p x265 DVD extr
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: TV Show season 1 s01
+SPLIT_RIGHT: x265 DVD extr
+Title (all matched outputs before this removed): TV Show 1 s01
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: TV Show 1 s01 year: None media_type: unknown
+Right after split: x265 DVD extr
+================================================================================
+================================================================================
+INPUT: 9-1-1.s02
+--------------------------------------------------------------------------------
+SPLIT_LEFT: 9-1-1.s02
+SPLIT_RIGHT: 
+Title (all matched outputs before this removed): 9-1-1 s02
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: 9-1-1 s02 year: None media_type: unknown
+Right after split: 
+================================================================================
+================================================================================
+INPUT: 9-1-1 s02-s03
+--------------------------------------------------------------------------------
+SPLIT_LEFT: 9-1-1 s02-s03
+SPLIT_RIGHT: 
+Title (all matched outputs before this removed): 9-1-1 s02-s03
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: 9-1-1 s02-s03 year: None media_type: unknown
+Right after split: 
+================================================================================
+================================================================================
+INPUT: S.H.I.E.L.D.s01
+--------------------------------------------------------------------------------
+SPLIT_LEFT: S.H.I.E.L.D.s01
+SPLIT_RIGHT: 
+Title (all matched outputs before this removed): S H I E L D s01
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: S H I E L D s01 year: None media_type: unknown
+Right after split: 
+================================================================================
+================================================================================
+INPUT: One-piece-ep.1080-v2-1080p-raws
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: One-piece-ep.1080-v2
+SPLIT_RIGHT: raws
+Title (all matched outputs before this removed): One-piece-ep 1080-v2
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: One-piece-ep 1080-v2 year: None media_type: unknown
+Right after split: raws
+================================================================================
+================================================================================
+INPUT: Naruto Shippuden (001-500) [Complete Series + Movies] (Dual Audio)
+--------------------------------------------------------------------------------
+SPLIT_LEFT: Naruto Shippuden (001-500) [Complete Series + Movies] (Dual Audio)
+SPLIT_RIGHT: 
+[AnimeEpisodeExtractor] Matched: 001-500
+Title (all matched outputs before this removed): Naruto Shippuden
+Is Anime: True, Anime group: None, Anime ep: 001-500
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: Naruto Shippuden year: None media_type: anime
+Right after split: ) [Complete Series + Movies] (Dual Audio)
+================================================================================
+================================================================================
+INPUT: One.Piece.S01E1116.Lets.Go.Get.It!.Buggys.Big.Declaration.2160p.B-Global.WEB-DL.JPN.AAC2.0.H.264.MSubs-ToonsHub.mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 2160p
+SPLIT_LEFT: One.Piece.S01E1116.Lets.Go.Get.It!.Buggys.Big.Declaration
+SPLIT_RIGHT: B-Global.WEB-DL.JPN.AAC2.0.H.264.MSubs-ToonsHub.mkv
+[TVExtractor] Matched season 01, episode 11
+Title (all matched outputs before this removed): One Piece
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: True, TV match: (1, 11)
+Is Movie: False, Movie Year: None
+title: One Piece year: None media_type: tv_show
+Right after split: 16.Lets.Go.Get.It!.Buggys.Big.Declaration B-Global.WEB-DL.JPN.AAC2.0.H.264.MSubs-ToonsHub.mkv
+================================================================================
+================================================================================
+INPUT: Stranger Things S04 2160p
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 2160p
+SPLIT_LEFT: Stranger Things S04
+SPLIT_RIGHT: 
+Title (all matched outputs before this removed): Stranger Things S04
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: Stranger Things S04 year: None media_type: unknown
+Right after split: 
+================================================================================

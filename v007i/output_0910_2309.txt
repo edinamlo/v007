@@ -1,0 +1,260 @@
+================================================================================
+INPUT: One.Piece.S01E1116.Lets.Go.Get.It!.Buggys.Big.Declaration.2160p.B-Global.WEB-DL.JPN.AAC2.0.H.264.MSubs-ToonsHub.mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 2160p
+SPLIT_LEFT: One.Piece.S01E1116.Lets.Go.Get.It!.Buggys.Big.Declaration
+SPLIT_RIGHT: B-Global.WEB-DL.JPN.AAC2.0.H.264.MSubs-ToonsHub.mkv
+[TVExtractor] Matched season 01, episode 111
+Title (all matched outputs before this removed): One Piece
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: True, TV match: (1, 111)
+Is Movie: False, Movie Year: None
+title: One Piece year: None media_type: tv_show
+Right after split: 6.Lets.Go.Get.It!.Buggys.Big.Declaration B-Global.WEB-DL.JPN.AAC2.0.H.264.MSubs-ToonsHub.mkv
+================================================================================
+================================================================================
+INPUT: Stranger Things S04 2160p
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 2160p
+SPLIT_LEFT: Stranger Things S04
+SPLIT_RIGHT: 
+[TVExtractor] Matched season 04
+Title (all matched outputs before this removed): Stranger Things
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: True, TV match: (4, None)
+Is Movie: False, Movie Year: None
+title: Stranger Things year: None media_type: tv_show
+Right after split: 
+================================================================================
+================================================================================
+INPUT: One-piece-ep.1080-v2-1080p-raws
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: One-piece-ep.1080-v2
+SPLIT_RIGHT: raws
+[AnimeEpisodeExtractor] Matched: 1080
+Title (all matched outputs before this removed): One-piece-
+Is Anime: True, Anime group: None, Anime ep: 1080
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: One-piece- year: None media_type: anime
+Right after split: -v2 raws
+================================================================================
+================================================================================
+INPUT: S.W.A.T.2017.S08E01.720p.HDTV.x264-SYNCOPY[TGx]
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 720p
+SPLIT_LEFT: S.W.A.T.2017.S08E01
+SPLIT_RIGHT: HDTV.x264-SYNCOPY[TGx]
+[YearExtractor] Matched: 2017
+Title (all matched outputs before this removed): SW AT
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 2017
+title: SW AT year: 2017 media_type: movie
+Right after split: .S08E01 HDTV.x264-SYNCOPY[TGx]
+================================================================================
+================================================================================
+INPUT: S.H.I.E.L.D.s01
+--------------------------------------------------------------------------------
+SPLIT_LEFT: S.H.I.E.L.D.s01
+SPLIT_RIGHT: 
+[TVExtractor] Matched season 01
+Title (all matched outputs before this removed): SH IE LD
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: True, TV match: (1, None)
+Is Movie: False, Movie Year: None
+title: SH IE LD year: None media_type: tv_show
+Right after split: 
+================================================================================
+================================================================================
+INPUT: 9-1-1 s02-s03
+--------------------------------------------------------------------------------
+SPLIT_LEFT: 9-1-1 s02-s03
+SPLIT_RIGHT: 
+[TVExtractor] Matched season 02
+Title (all matched outputs before this removed): 91-1-s03
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: True, TV match: (2, None)
+Is Movie: False, Movie Year: None
+title: 91-1-s03 year: None media_type: tv_show
+Right after split: 
+================================================================================
+================================================================================
+INPUT: TV Show season 1 s01 1080p x265 DVD extr
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: TV Show season 1 s01
+SPLIT_RIGHT: x265 DVD extr
+[TVExtractor] Matched season 1
+Title (all matched outputs before this removed): TV Show
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: True, TV match: (1, None)
+Is Movie: False, Movie Year: None
+title: TV Show year: None media_type: tv_show
+Right after split: x265 DVD extr
+================================================================================
+================================================================================
+INPUT: Pawn Stars -- 4x13 -- Broadsiding Lincoln.mkv
+--------------------------------------------------------------------------------
+SPLIT_LEFT: Pawn Stars -- 4x13 -- Broadsiding Lincoln.mkv
+SPLIT_RIGHT: 
+[TVExtractor] Matched season 4, episode 13 (x format)
+Title (all matched outputs before this removed): Pawn Stars ---- Broadsiding Lincoln mkv
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: True, TV match: (4, 13)
+Is Movie: False, Movie Year: None
+title: Pawn Stars ---- Broadsiding Lincoln mkv year: None media_type: tv_show
+Right after split: 
+================================================================================
+================================================================================
+INPUT: www.Torrenting.com   -    14.Peaks.Nothing.Is.Impossible.2021.1080p.WEB.h264-RUMOUR
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: www.Torrenting.com   -    14.Peaks.Nothing.Is.Impossible.2021
+SPLIT_RIGHT: WEB.h264-RUMOUR
+[YearExtractor] Matched: 2021
+[AnimeEpisodeExtractor] Matched: 2021
+Title (all matched outputs before this removed): 14 Peaks Nothing Is Impossible
+Is Anime: True, Anime group: None, Anime ep: 2021
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: 2021
+title: 14 Peaks Nothing Is Impossible year: 2021 media_type: anime
+Right after split: WEB.h264-RUMOUR
+================================================================================
+================================================================================
+INPUT: www.SceneTime.com - Taken 3 2014 1080p DSNP WEB-DL DDP 5 1 H 264-PiRaTeS
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: www.SceneTime.com - Taken 3 2014
+SPLIT_RIGHT: DSNP WEB-DL DDP 5 1 H 264-PiRaTeS
+[YearExtractor] Matched: 2014
+[AnimeEpisodeExtractor] Matched: 2014
+Title (all matched outputs before this removed): Taken 3
+Is Anime: True, Anime group: None, Anime ep: 2014
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: 2014
+title: Taken 3 year: 2014 media_type: anime
+Right after split: DSNP WEB-DL DDP 5 1 H 264-PiRaTeS
+================================================================================
+================================================================================
+INPUT: [SubsPlease] Tearmoon Teikoku Monogatari - 01 (1080p) [15ADAE00].mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: [SubsPlease] Tearmoon Teikoku Monogatari - 01
+SPLIT_RIGHT: 15ADAE00].mkv
+[AnimeGroupExtractor] Matched: SubsPlease
+SPLIT_LEFT after anime group removal: Tearmoon Teikoku Monogatari - 01
+[AnimeEpisodeExtractor] Matched: 01
+Title (all matched outputs before this removed): Tearmoon Teikoku Monogatari
+Is Anime: True, Anime group: SubsPlease, Anime ep: 01
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: Tearmoon Teikoku Monogatari year: None media_type: anime
+Right after split: 15ADAE00].mkv
+================================================================================
+================================================================================
+INPUT: [SubsPlease] Fairy Tail - 100 Years Quest - 05 (1080p) [1107F3A9].mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: [SubsPlease] Fairy Tail - 100 Years Quest - 05
+SPLIT_RIGHT: 1107F3A9].mkv
+[AnimeGroupExtractor] Matched: SubsPlease
+SPLIT_LEFT after anime group removal: Fairy Tail - 100 Years Quest - 05
+[AnimeEpisodeExtractor] Matched: 05
+Title (all matched outputs before this removed): Fairy Tail - 100 Years Quest
+Is Anime: True, Anime group: SubsPlease, Anime ep: 05
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: Fairy Tail - 100 Years Quest year: None media_type: anime
+Right after split: 1107F3A9].mkv
+================================================================================
+================================================================================
+INPUT: [Erai-raws] Tearmoon Teikoku Monogatari - 01 [1080p][ENG][POR-BR].mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: [Erai-raws] Tearmoon Teikoku Monogatari - 01
+SPLIT_RIGHT: ENG][POR-BR].mkv
+[AnimeGroupExtractor] Matched: Erai-raws
+SPLIT_LEFT after anime group removal: Tearmoon Teikoku Monogatari - 01
+[AnimeEpisodeExtractor] Matched: 01
+Title (all matched outputs before this removed): Tearmoon Teikoku Monogatari
+Is Anime: True, Anime group: Erai-raws, Anime ep: 01
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: Tearmoon Teikoku Monogatari year: None media_type: anime
+Right after split: ENG][POR-BR].mkv
+================================================================================
+================================================================================
+INPUT: Hunter x Hunter (2011) - 01 [1080p][ENG][FRE]
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: Hunter x Hunter (2011) - 01
+SPLIT_RIGHT: ENG][FRE]
+[YearExtractor] Matched: 2011
+Title (all matched outputs before this removed): Hunter x Hunter
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 2011
+title: Hunter x Hunter year: 2011 media_type: movie
+Right after split: ) - 01 ENG][FRE]
+================================================================================
+================================================================================
+INPUT: Naruto Shippuden (001-500) [Complete Series + Movies]
+--------------------------------------------------------------------------------
+SPLIT_LEFT: Naruto Shippuden (001-500) [Complete Series + Movies]
+SPLIT_RIGHT: 
+[AnimeEpisodeExtractor] Matched: 001
+Title (all matched outputs before this removed): Naruto Shippuden
+Is Anime: True, Anime group: None, Anime ep: 001
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: Naruto Shippuden year: None media_type: anime
+Right after split: -500) [Complete Series + Movies]
+================================================================================
+================================================================================
+INPUT: [Erai-raws] Sword Art Online - 10 [720p][Multiple Subtitle].mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 720p
+SPLIT_LEFT: [Erai-raws] Sword Art Online - 10
+SPLIT_RIGHT: Multiple Subtitle].mkv
+[AnimeGroupExtractor] Matched: Erai-raws
+SPLIT_LEFT after anime group removal: Sword Art Online - 10
+[AnimeEpisodeExtractor] Matched: 10
+Title (all matched outputs before this removed): Sword Art Online
+Is Anime: True, Anime group: Erai-raws, Anime ep: 10
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: Sword Art Online year: None media_type: anime
+Right after split: Multiple Subtitle].mkv
+================================================================================
+================================================================================
+INPUT: [Exiled-Destiny]_Tokyo_Underground_Ep02v2_(41858470).mkv
+--------------------------------------------------------------------------------
+SPLIT_LEFT: [Exiled-Destiny]_Tokyo_Underground_Ep02v2_(41858470).mkv
+SPLIT_RIGHT: 
+[AnimeGroupExtractor] Matched: Exiled-Destiny
+SPLIT_LEFT after anime group removal: _Tokyo_Underground_Ep02v2_(41858470).mkv
+[AnimeEpisodeExtractor] Matched: 02v2
+Title (all matched outputs before this removed): Tokyo Underground
+Is Anime: True, Anime group: Exiled-Destiny, Anime ep: 02v2
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: Tokyo Underground year: None media_type: anime
+Right after split: _(41858470).mkv
+================================================================================
+================================================================================
+INPUT: Some.Movie.2023.1920x1080.WEB.mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1920x1080
+SPLIT_LEFT: Some.Movie.2023
+SPLIT_RIGHT: WEB.mkv
+[YearExtractor] Matched: 2023
+[AnimeEpisodeExtractor] Matched: 2023
+Title (all matched outputs before this removed): Some
+Is Anime: True, Anime group: None, Anime ep: 2023
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: 2023
+title: Some year: 2023 media_type: anime
+Right after split: WEB.mkv
+================================================================================

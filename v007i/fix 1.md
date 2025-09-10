@@ -1,3 +1,142 @@
+fixes to implement to v007i/0910_2135.py
+
+INPUT: One.Piece.S01E1116.Lets.Go.Get.It!.Buggys.Big.Declaration.2160p.B-Global.WEB-DL.JPN.AAC2.0.H.264.MSubs-ToonsHub.mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 2160p
+SPLIT_LEFT: One.Piece.S01E1116.Lets.Go.Get.It!.Buggys.Big.Declaration
+SPLIT_RIGHT: B-Global.WEB-DL.JPN.AAC2.0.H.264.MSubs-ToonsHub.mkv
+[TVExtractor] Matched season 01, episode 11
+Title (all matched outputs before this removed): One Piece
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: True, TV match: (1, 11)
+Is Movie: False, Movie Year: None
+title: One Piece year: None media_type: tv_show
+Right after split: 16.Lets.Go.Get.It!.Buggys.Big.Declaration B-Global.WEB-DL.JPN.AAC2.0.H.264.MSubs-ToonsHub.mkv
+================================================================================
+================================================================================
+INPUT: Stranger Things S04 2160p
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 2160p
+SPLIT_LEFT: Stranger Things S04
+SPLIT_RIGHT: 
+Title (all matched outputs before this removed): Stranger Things S04
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: Stranger Things S04 year: None media_type: unknown
+Right after split: 
+================================================================================
+
+INPUT: One-piece-ep.1080-v2-1080p-raws
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: One-piece-ep.1080-v2
+SPLIT_RIGHT: raws
+Title (all matched outputs before this removed): One-piece-ep 1080-v2
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: One-piece-ep 1080-v2 year: None media_type: unknown
+Right after split: raws
+
+
+acronyms should be kept as is S.H.E. and 9-1-1 etc S.W.A.T
+
+Is Movie: True, Movie Year: 2017
+title: S W A T year: 2017 media_type: movie
+
+INPUT: S.H.I.E.L.D.s01
+--------------------------------------------------------------------------------
+SPLIT_LEFT: S.H.I.E.L.D.s01
+SPLIT_RIGHT: 
+Title (all matched outputs before this removed): S H I E L D s01
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: S H I E L D s01 year: None media_type: unknown
+Right after split: 
+
+
+sXX-sXX range not detecting
+================================================================================
+INPUT: 9-1-1 s02-s03
+--------------------------------------------------------------------------------
+SPLIT_LEFT: 9-1-1 s02-s03
+SPLIT_RIGHT: 
+Title (all matched outputs before this removed): 9-1-1 s02-s03
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: 9-1-1 s02-s03 year: None media_type: unknown
+Right after split: 
+
+
+season 1 should be extracted as well as s01
+================================================================================
+INPUT: TV Show season 1 s01 1080p x265 DVD extr
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: TV Show season 1 s01
+SPLIT_RIGHT: x265 DVD extr
+Title (all matched outputs before this removed): TV Show 1 s01
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: TV Show 1 s01 year: None media_type: unknown
+Right after split: x265 DVD extr
+
+tv show spisode pattern XxXX etc .. needs implemented
+INPUT: Pawn Stars -- 4x13 -- Broadsiding Lincoln.mkv
+--------------------------------------------------------------------------------
+SPLIT_LEFT: Pawn Stars -- 4x13 -- Broadsiding Lincoln.mkv
+SPLIT_RIGHT: 
+Title (all matched outputs before this removed): Pawn Stars -- 4x13 -- Broadsiding Lincoln mkv
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: Pawn Stars -- 4x13 -- Broadsiding Lincoln mkv year: None media_type: unknown
+Right after split: 
+
+
+
+this example...
+the anime episode should not be found too far to the left, as we try to match RIGHT TO LEFT...
+what can we do here?
+================================================================================
+INPUT: www.Torrenting.com   -    14.Peaks.Nothing.Is.Impossible.2021.1080p.WEB.h264-RUMOUR
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: www.Torrenting.com   -    14.Peaks.Nothing.Is.Impossible.2021
+SPLIT_RIGHT: WEB.h264-RUMOUR
+[YearExtractor] Matched: 2021
+[AnimeEpisodeExtractor] Matched: 14
+Title (all matched outputs before this removed): 
+Is Anime: True, Anime group: None, Anime ep: 14
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: 2021
+title:  year: 2021 media_type: anime
+Right after split: .Peaks.Nothing.Is.Impossible.2021 WEB.h264-RUMOUR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+below is completed
+
+--------------------------------------------------------------------------------
+
+
 Can you check the outputs ? See like its not finding the correct episode for 
 
 

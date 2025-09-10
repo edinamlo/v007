@@ -1,0 +1,900 @@
+
+============================================================
+TESTING MEDIA FILENAME PARSER - ALL STAGES
+============================================================
+
+==================================================
+Processing filename: '[HorribleSubs] Attack on Titan - 01 [1080p].mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: '[HorribleSubs] Attack on Titan - 01 [1080p].mkv'
+  Removed extension: mkv
+  Found FIRST bracket at start: '[HorribleSubs] '
+  Not a website: 'HorribleSubs' - keeping in filename for now
+  Anime release group found: 'HorribleSubs'
+  Anime clue: True
+  Clue: HorribleSubs
+  Removed: None
+  Output: '[HorribleSubs] Attack on Titan - 01 [1080p]'
+
+=== Stage 2: Processing ALL square brackets ===
+Input: '[HorribleSubs] Attack on Titan - 01 [1080p]'
+  Found brackets: HorribleSubs, 1080p
+  Removing anime release group: '[HorribleSubs]'
+  Replaced: [HorribleSubs] -> removed (anime group), [1080p] -> '1080p'
+  Output: 'Attack on Titan - 01 1080p'
+
+=== Stage 3: Extracting resolution ===
+Input: 'Attack on Titan - 01 1080p'
+  Found standard resolution: '1080p'
+  Resolution: 1080p (standard)
+  Output: 'Attack on Titan - 01 1080p'
+
+=== Stage 4: Extracting episode information ===
+Input: 'Attack on Titan - 01 1080p'
+Content type: Anime
+  Found season - Episode: 1 (Pattern: anime_dash)
+  Output: 'Attack on Titan - 01 1080p'
+
+==================================================
+Final results for '[HorribleSubs] Attack on Titan - 01 [1080p].mkv':
+  Cleaned filename: 'Attack on Titan - 01 1080p'
+  Is anime: True
+  All clues found:
+    - anime_release_group: HorribleSubs
+    - start_bracket: HorribleSubs
+    - anime_group_removed: HorribleSubs
+    - bracket_content: 1080p
+    - resolution: 1080p (standard)
+    - episode: E1 (season)
+==================================================
+
+
+
+==================================================
+Processing filename: '[www.torrentsite.com] Naruto Shippuden - 05 [Crunchyroll].mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: '[www.torrentsite.com] Naruto Shippuden - 05 [Crunchyroll].mkv'
+  Removed extension: mkv
+  Found FIRST bracket at start: '[www.torrentsite.com] '
+  Detected website: 'www.torrentsite.com'
+  Anime release group found: 'Crunchyroll'
+  Anime clue: True
+  Clue: Crunchyroll
+  Removed: [www.torrentsite.com] 
+  Output: 'Naruto Shippuden - 05 [Crunchyroll]'
+
+=== Stage 2: Processing ALL square brackets ===
+Input: 'Naruto Shippuden - 05 [Crunchyroll]'
+  Found brackets: Crunchyroll
+  Removing anime release group: '[Crunchyroll]'
+  Replaced: [Crunchyroll] -> removed (anime group)
+  Output: 'Naruto Shippuden - 05'
+
+=== Stage 3: Extracting resolution ===
+Input: 'Naruto Shippuden - 05'
+  No resolution found
+  Output: 'Naruto Shippuden - 05'
+
+=== Stage 4: Extracting episode information ===
+Input: 'Naruto Shippuden - 05'
+Content type: Anime
+  Found season - Episode: 5 (Pattern: anime_dash_end)
+  Output: 'Naruto Shippuden - 05'
+
+==================================================
+Final results for '[www.torrentsite.com] Naruto Shippuden - 05 [Crunchyroll].mkv':
+  Cleaned filename: 'Naruto Shippuden - 05'
+  Is anime: True
+  All clues found:
+    - anime_release_group: Crunchyroll
+    - start_bracket: www.torrentsite.com
+    - anime_group_removed: Crunchyroll
+    - episode: E5 (season)
+==================================================
+
+
+
+==================================================
+Processing filename: '[Erai-raws] Re:Zero - 12 [1080p].mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: '[Erai-raws] Re:Zero - 12 [1080p].mkv'
+  Removed extension: mkv
+  Found FIRST bracket at start: '[Erai-raws] '
+  Not a website: 'Erai-raws' - keeping in filename for now
+  Anime release group found: 'Erai-raws'
+  Anime clue: True
+  Clue: Erai-raws
+  Removed: None
+  Output: '[Erai-raws] Re:Zero - 12 [1080p]'
+
+=== Stage 2: Processing ALL square brackets ===
+Input: '[Erai-raws] Re:Zero - 12 [1080p]'
+  Found brackets: Erai-raws, 1080p
+  Removing anime release group: '[Erai-raws]'
+  Replaced: [Erai-raws] -> removed (anime group), [1080p] -> '1080p'
+  Output: 'Re:Zero - 12 1080p'
+
+=== Stage 3: Extracting resolution ===
+Input: 'Re:Zero - 12 1080p'
+  Found standard resolution: '1080p'
+  Resolution: 1080p (standard)
+  Output: 'Re:Zero - 12 1080p'
+
+=== Stage 4: Extracting episode information ===
+Input: 'Re:Zero - 12 1080p'
+Content type: Anime
+  Found season - Episode: 12 (Pattern: anime_dash)
+  Output: 'Re:Zero - 12 1080p'
+
+==================================================
+Final results for '[Erai-raws] Re:Zero - 12 [1080p].mkv':
+  Cleaned filename: 'Re:Zero - 12 1080p'
+  Is anime: True
+  All clues found:
+    - anime_release_group: Erai-raws
+    - start_bracket: Erai-raws
+    - anime_group_removed: Erai-raws
+    - bracket_content: 1080p
+    - resolution: 1080p (standard)
+    - episode: E12 (season)
+==================================================
+
+
+
+==================================================
+Processing filename: '[Nyaa] One Piece - 950 [720p].mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: '[Nyaa] One Piece - 950 [720p].mkv'
+  Removed extension: mkv
+  Found FIRST bracket at start: '[Nyaa] '
+  Not a website: 'Nyaa' - keeping in filename for now
+  Anime release group found: 'Nyaa'
+  Anime clue: True
+  Clue: Nyaa
+  Removed: None
+  Output: '[Nyaa] One Piece - 950 [720p]'
+
+=== Stage 2: Processing ALL square brackets ===
+Input: '[Nyaa] One Piece - 950 [720p]'
+  Found brackets: Nyaa, 720p
+  Removing anime release group: '[Nyaa]'
+  Replaced: [Nyaa] -> removed (anime group), [720p] -> '720p'
+  Output: 'One Piece - 950 720p'
+
+=== Stage 3: Extracting resolution ===
+Input: 'One Piece - 950 720p'
+  Found standard resolution: '720p'
+  Resolution: 720p (standard)
+  Output: 'One Piece - 950 720p'
+
+=== Stage 4: Extracting episode information ===
+Input: 'One Piece - 950 720p'
+Content type: Anime
+  Found season - Episode: 950 (Pattern: anime_dash)
+  Output: 'One Piece - 950 720p'
+
+==================================================
+Final results for '[Nyaa] One Piece - 950 [720p].mkv':
+  Cleaned filename: 'One Piece - 950 720p'
+  Is anime: True
+  All clues found:
+    - anime_release_group: Nyaa
+    - start_bracket: Nyaa
+    - anime_group_removed: Nyaa
+    - bracket_content: 720p
+    - resolution: 720p (standard)
+    - episode: E950 (season)
+==================================================
+
+
+
+==================================================
+Processing filename: 'Anime Title [01] [1080p].mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: 'Anime Title [01] [1080p].mkv'
+  Removed extension: mkv
+  Anime clue: False
+  Removed: None
+  Output: 'Anime Title [01] [1080p]'
+
+=== Stage 2: Processing ALL square brackets ===
+Input: 'Anime Title [01] [1080p]'
+  Found brackets: 01, 1080p
+  Replaced: [01] -> '01', [1080p] -> '1080p'
+  Output: 'Anime Title 01 1080p'
+
+=== Stage 3: Extracting resolution ===
+Input: 'Anime Title 01 1080p'
+  Found standard resolution: '1080p'
+  Resolution: 1080p (standard)
+  Output: 'Anime Title 01 1080p'
+
+=== Stage 4: Extracting episode information ===
+Input: 'Anime Title 01 1080p'
+Content type: TV Show
+  No episode found
+  Output: 'Anime Title 01 1080p'
+
+==================================================
+Final results for 'Anime Title [01] [1080p].mkv':
+  Cleaned filename: 'Anime Title 01 1080p'
+  Is anime: False
+  All clues found:
+    - bracket_content: 01
+    - bracket_content: 1080p
+    - resolution: 1080p (standard)
+==================================================
+
+
+
+==================================================
+Processing filename: '[Punished] Demon Slayer - 07 [WEB-DL 1080p].mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: '[Punished] Demon Slayer - 07 [WEB-DL 1080p].mkv'
+  Removed extension: mkv
+  Found FIRST bracket at start: '[Punished] '
+  Not a website: 'Punished' - keeping in filename for now
+  Anime release group found: 'Punished'
+  Anime clue: True
+  Clue: Punished
+  Removed: None
+  Output: '[Punished] Demon Slayer - 07 [WEB-DL 1080p]'
+
+=== Stage 2: Processing ALL square brackets ===
+Input: '[Punished] Demon Slayer - 07 [WEB-DL 1080p]'
+  Found brackets: Punished, WEB-DL 1080p
+  Removing anime release group: '[Punished]'
+  Replaced: [Punished] -> removed (anime group), [WEB-DL 1080p] -> 'WEB-DL 1080p'
+  Output: 'Demon Slayer - 07 WEB-DL 1080p'
+
+=== Stage 3: Extracting resolution ===
+Input: 'Demon Slayer - 07 WEB-DL 1080p'
+  Found standard resolution: '1080p'
+  Resolution: 1080p (standard)
+  Output: 'Demon Slayer - 07 WEB-DL 1080p'
+
+=== Stage 4: Extracting episode information ===
+Input: 'Demon Slayer - 07 WEB-DL 1080p'
+Content type: Anime
+  Found season - Episode: 7 (Pattern: anime_dash)
+  Output: 'Demon Slayer - 07 WEB-DL 1080p'
+
+==================================================
+Final results for '[Punished] Demon Slayer - 07 [WEB-DL 1080p].mkv':
+  Cleaned filename: 'Demon Slayer - 07 WEB-DL 1080p'
+  Is anime: True
+  All clues found:
+    - anime_release_group: Punished
+    - start_bracket: Punished
+    - anime_group_removed: Punished
+    - bracket_content: WEB-DL 1080p
+    - resolution: 1080p (standard)
+    - episode: E7 (season)
+==================================================
+
+
+
+==================================================
+Processing filename: '[Funi] My Hero Academia [Season 4] [01] [1080p].mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: '[Funi] My Hero Academia [Season 4] [01] [1080p].mkv'
+  Removed extension: mkv
+  Found FIRST bracket at start: '[Funi] '
+  Not a website: 'Funi' - keeping in filename for now
+  Anime release group found: 'Funi'
+  Anime clue: True
+  Clue: Funi
+  Removed: None
+  Output: '[Funi] My Hero Academia [Season 4] [01] [1080p]'
+
+=== Stage 2: Processing ALL square brackets ===
+Input: '[Funi] My Hero Academia [Season 4] [01] [1080p]'
+  Found brackets: Funi, Season 4, 01, 1080p
+  Removing anime release group: '[Funi]'
+  Replaced: [Funi] -> removed (anime group), [Season 4] -> 'Season 4', [01] -> '01', [1080p] -> '1080p'
+  Output: 'My Hero Academia Season 4 01 1080p'
+
+=== Stage 3: Extracting resolution ===
+Input: 'My Hero Academia Season 4 01 1080p'
+  Found standard resolution: '1080p'
+  Resolution: 1080p (standard)
+  Output: 'My Hero Academia Season 4 01 1080p'
+
+=== Stage 4: Extracting episode information ===
+Input: 'My Hero Academia Season 4 01 1080p'
+Content type: Anime
+  No episode found
+  Output: 'My Hero Academia Season 4 01 1080p'
+
+==================================================
+Final results for '[Funi] My Hero Academia [Season 4] [01] [1080p].mkv':
+  Cleaned filename: 'My Hero Academia Season 4 01 1080p'
+  Is anime: True
+  All clues found:
+    - anime_release_group: Funi
+    - start_bracket: Funi
+    - anime_group_removed: Funi
+    - bracket_content: Season 4
+    - bracket_content: 01
+    - bracket_content: 1080p
+    - resolution: 1080p (standard)
+==================================================
+
+
+
+==================================================
+Processing filename: 'Regular Movie (2022) [1080p].mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: 'Regular Movie (2022) [1080p].mkv'
+  Removed extension: mkv
+  Anime clue: False
+  Removed: None
+  Output: 'Regular Movie (2022) [1080p]'
+
+=== Stage 2: Processing ALL square brackets ===
+Input: 'Regular Movie (2022) [1080p]'
+  Found brackets: 1080p
+  Replaced: [1080p] -> '1080p'
+  Output: 'Regular Movie (2022) 1080p'
+
+=== Stage 3: Extracting resolution ===
+Input: 'Regular Movie (2022) 1080p'
+  Found standard resolution: '1080p'
+  Resolution: 1080p (standard)
+  Output: 'Regular Movie (2022) 1080p'
+
+=== Stage 4: Extracting episode information ===
+Input: 'Regular Movie (2022) 1080p'
+Content type: TV Show
+  No episode found
+  Output: 'Regular Movie (2022) 1080p'
+
+==================================================
+Final results for 'Regular Movie (2022) [1080p].mkv':
+  Cleaned filename: 'Regular Movie (2022) 1080p'
+  Is anime: False
+  All clues found:
+    - bracket_content: 1080p
+    - resolution: 1080p (standard)
+==================================================
+
+
+
+==================================================
+Processing filename: '[Unknown] Some Anime - 24 [720p].mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: '[Unknown] Some Anime - 24 [720p].mkv'
+  Removed extension: mkv
+  Found FIRST bracket at start: '[Unknown] '
+  Not a website: 'Unknown' - keeping in filename for now
+  Anime clue: False
+  Removed: None
+  Output: '[Unknown] Some Anime - 24 [720p]'
+
+=== Stage 2: Processing ALL square brackets ===
+Input: '[Unknown] Some Anime - 24 [720p]'
+  Found brackets: Unknown, 720p
+  Replaced: [Unknown] -> 'Unknown', [720p] -> '720p'
+  Output: 'Unknown Some Anime - 24 720p'
+
+=== Stage 3: Extracting resolution ===
+Input: 'Unknown Some Anime - 24 720p'
+  Found standard resolution: '720p'
+  Resolution: 720p (standard)
+  Output: 'Unknown Some Anime - 24 720p'
+
+=== Stage 4: Extracting episode information ===
+Input: 'Unknown Some Anime - 24 720p'
+Content type: TV Show
+  No episode found
+  Output: 'Unknown Some Anime - 24 720p'
+
+==================================================
+Final results for '[Unknown] Some Anime - 24 [720p].mkv':
+  Cleaned filename: 'Unknown Some Anime - 24 720p'
+  Is anime: False
+  All clues found:
+    - start_bracket: Unknown
+    - bracket_content: Unknown
+    - bracket_content: 720p
+    - resolution: 720p (standard)
+==================================================
+
+
+
+==================================================
+Processing filename: '[www.example.co.uk] Another Anime - 03 [HorribleSubs].mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: '[www.example.co.uk] Another Anime - 03 [HorribleSubs].mkv'
+  Removed extension: mkv
+  Found FIRST bracket at start: '[www.example.co.uk] '
+  Detected website: 'www.example.co.uk'
+  Anime release group found: 'HorribleSubs'
+  Anime clue: True
+  Clue: HorribleSubs
+  Removed: [www.example.co.uk] 
+  Output: 'Another Anime - 03 [HorribleSubs]'
+
+=== Stage 2: Processing ALL square brackets ===
+Input: 'Another Anime - 03 [HorribleSubs]'
+  Found brackets: HorribleSubs
+  Removing anime release group: '[HorribleSubs]'
+  Replaced: [HorribleSubs] -> removed (anime group)
+  Output: 'Another Anime - 03'
+
+=== Stage 3: Extracting resolution ===
+Input: 'Another Anime - 03'
+  No resolution found
+  Output: 'Another Anime - 03'
+
+=== Stage 4: Extracting episode information ===
+Input: 'Another Anime - 03'
+Content type: Anime
+  Found season - Episode: 3 (Pattern: anime_dash_end)
+  Output: 'Another Anime - 03'
+
+==================================================
+Final results for '[www.example.co.uk] Another Anime - 03 [HorribleSubs].mkv':
+  Cleaned filename: 'Another Anime - 03'
+  Is anime: True
+  All clues found:
+    - anime_release_group: HorribleSubs
+    - start_bracket: www.example.co.uk
+    - anime_group_removed: HorribleSubs
+    - episode: E3 (season)
+==================================================
+
+
+
+==================================================
+Processing filename: '[GM-Team][国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality Ⅲ][01-26][AVC][GB][1080P]'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: '[GM-Team][国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality Ⅲ][01-26][AVC][GB][1080P]'
+  Found FIRST bracket at start: '[GM-Team]'
+  Not a website: 'GM-Team' - keeping in filename for now
+  Anime release group found: 'GM-Team'
+  Anime clue: True
+  Clue: GM-Team
+  Removed: None
+  Output: '[GM-Team][国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality Ⅲ][01-26][AVC][GB][1080P]'
+
+=== Stage 2: Processing ALL square brackets ===
+Input: '[GM-Team][国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality Ⅲ][01-26][AVC][GB][1080P]'
+  Found brackets: GM-Team, 国漫, 太乙仙魔录 灵飞纪 第3季, Magical Legend of Rise to immortality Ⅲ, 01-26, AVC, GB, 1080P
+  Removing anime release group: '[GM-Team]'
+  Replaced: [GM-Team] -> removed (anime group), [国漫] -> '国漫', [太乙仙魔录 灵飞纪 第3季] -> '太乙仙魔录 灵飞纪 第3季', [Magical Legend of Rise to immortality Ⅲ] -> 'Magical Legend of Rise to immortality Ⅲ', [01-26] -> '01-26', [AVC] -> 'AVC', [GB] -> 'GB', [1080P] -> '1080P'
+  Output: '国漫 太乙仙魔录 灵飞纪 第3季 Magical Legend of Rise to immortality Ⅲ 01-26 AVC GB 1080P'
+
+=== Stage 3: Extracting resolution ===
+Input: '国漫 太乙仙魔录 灵飞纪 第3季 Magical Legend of Rise to immortality Ⅲ 01-26 AVC GB 1080P'
+  Found standard resolution: '1080P'
+  Resolution: 1080P (standard)
+  Output: '国漫 太乙仙魔录 灵飞纪 第3季 Magical Legend of Rise to immortality Ⅲ 01-26 AVC GB 1080P'
+
+=== Stage 4: Extracting episode information ===
+Input: '国漫 太乙仙魔录 灵飞纪 第3季 Magical Legend of Rise to immortality Ⅲ 01-26 AVC GB 1080P'
+Content type: Anime
+  No episode found
+  Output: '国漫 太乙仙魔录 灵飞纪 第3季 Magical Legend of Rise to immortality Ⅲ 01-26 AVC GB 1080P'
+
+==================================================
+Final results for '[GM-Team][国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality Ⅲ][01-26][AVC][GB][1080P]':
+  Cleaned filename: '国漫 太乙仙魔录 灵飞纪 第3季 Magical Legend of Rise to immortality Ⅲ 01-26 AVC GB 1080P'
+  Is anime: True
+  All clues found:
+    - anime_release_group: GM-Team
+    - start_bracket: GM-Team
+    - anime_group_removed: GM-Team
+    - bracket_content: 国漫
+    - bracket_content: 太乙仙魔录 灵飞纪 第3季
+    - bracket_content: Magical Legend of Rise to immortality Ⅲ
+    - bracket_content: 01-26
+    - bracket_content: AVC
+    - bracket_content: GB
+    - bracket_content: 1080P
+    - resolution: 1080P (standard)
+==================================================
+
+
+
+==================================================
+Processing filename: '[SweetSub][Mutafukaz / MFKZ][Movie][BDRip][1080P][AVC 8bit][简体内嵌]'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: '[SweetSub][Mutafukaz / MFKZ][Movie][BDRip][1080P][AVC 8bit][简体内嵌]'
+  Found FIRST bracket at start: '[SweetSub]'
+  Not a website: 'SweetSub' - keeping in filename for now
+  Anime release group found: 'SweetSub'
+  Anime clue: True
+  Clue: SweetSub
+  Removed: None
+  Output: '[SweetSub][Mutafukaz / MFKZ][Movie][BDRip][1080P][AVC 8bit][简体内嵌]'
+
+=== Stage 2: Processing ALL square brackets ===
+Input: '[SweetSub][Mutafukaz / MFKZ][Movie][BDRip][1080P][AVC 8bit][简体内嵌]'
+  Found brackets: SweetSub, Mutafukaz / MFKZ, Movie, BDRip, 1080P, AVC 8bit, 简体内嵌
+  Removing anime release group: '[SweetSub]'
+  Replaced: [SweetSub] -> removed (anime group), [Mutafukaz / MFKZ] -> 'Mutafukaz / MFKZ', [Movie] -> 'Movie', [BDRip] -> 'BDRip', [1080P] -> '1080P', [AVC 8bit] -> 'AVC 8bit', [简体内嵌] -> '简体内嵌'
+  Output: 'Mutafukaz / MFKZ Movie BDRip 1080P AVC 8bit 简体内嵌'
+
+=== Stage 3: Extracting resolution ===
+Input: 'Mutafukaz / MFKZ Movie BDRip 1080P AVC 8bit 简体内嵌'
+  Found standard resolution: '1080P'
+  Resolution: 1080P (standard)
+  Output: 'Mutafukaz / MFKZ Movie BDRip 1080P AVC 8bit 简体内嵌'
+
+=== Stage 4: Extracting episode information ===
+Input: 'Mutafukaz / MFKZ Movie BDRip 1080P AVC 8bit 简体内嵌'
+Content type: Anime
+  No episode found
+  Output: 'Mutafukaz / MFKZ Movie BDRip 1080P AVC 8bit 简体内嵌'
+
+==================================================
+Final results for '[SweetSub][Mutafukaz / MFKZ][Movie][BDRip][1080P][AVC 8bit][简体内嵌]':
+  Cleaned filename: 'Mutafukaz / MFKZ Movie BDRip 1080P AVC 8bit 简体内嵌'
+  Is anime: True
+  All clues found:
+    - anime_release_group: SweetSub
+    - start_bracket: SweetSub
+    - anime_group_removed: SweetSub
+    - bracket_content: Mutafukaz / MFKZ
+    - bracket_content: Movie
+    - bracket_content: BDRip
+    - bracket_content: 1080P
+    - bracket_content: AVC 8bit
+    - bracket_content: 简体内嵌
+    - resolution: 1080P (standard)
+==================================================
+
+
+
+==================================================
+Processing filename: '[Erai-raws] Kingdom 3rd Season - 02 [1080p].mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: '[Erai-raws] Kingdom 3rd Season - 02 [1080p].mkv'
+  Removed extension: mkv
+  Found FIRST bracket at start: '[Erai-raws] '
+  Not a website: 'Erai-raws' - keeping in filename for now
+  Anime release group found: 'Erai-raws'
+  Anime clue: True
+  Clue: Erai-raws
+  Removed: None
+  Output: '[Erai-raws] Kingdom 3rd Season - 02 [1080p]'
+
+=== Stage 2: Processing ALL square brackets ===
+Input: '[Erai-raws] Kingdom 3rd Season - 02 [1080p]'
+  Found brackets: Erai-raws, 1080p
+  Removing anime release group: '[Erai-raws]'
+  Replaced: [Erai-raws] -> removed (anime group), [1080p] -> '1080p'
+  Output: 'Kingdom 3rd Season - 02 1080p'
+
+=== Stage 3: Extracting resolution ===
+Input: 'Kingdom 3rd Season - 02 1080p'
+  Found standard resolution: '1080p'
+  Resolution: 1080p (standard)
+  Output: 'Kingdom 3rd Season - 02 1080p'
+
+=== Stage 4: Extracting episode information ===
+Input: 'Kingdom 3rd Season - 02 1080p'
+Content type: Anime
+  Found season - Episode: 2 (Pattern: anime_dash)
+  Output: 'Kingdom 3rd Season - 02 1080p'
+
+==================================================
+Final results for '[Erai-raws] Kingdom 3rd Season - 02 [1080p].mkv':
+  Cleaned filename: 'Kingdom 3rd Season - 02 1080p'
+  Is anime: True
+  All clues found:
+    - anime_release_group: Erai-raws
+    - start_bracket: Erai-raws
+    - anime_group_removed: Erai-raws
+    - bracket_content: 1080p
+    - resolution: 1080p (standard)
+    - episode: E2 (season)
+==================================================
+
+
+
+==================================================
+Processing filename: '[NC-Raws] 间谍过家家 / SPY×FAMILY - 04 (B-Global 1920x1080 HEVC AAC MKV)'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: '[NC-Raws] 间谍过家家 / SPY×FAMILY - 04 (B-Global 1920x1080 HEVC AAC MKV)'
+  Found FIRST bracket at start: '[NC-Raws] '
+  Not a website: 'NC-Raws' - keeping in filename for now
+  Anime release group found: 'NC-Raws'
+  Anime clue: True
+  Clue: NC-Raws
+  Removed: None
+  Output: '[NC-Raws] 间谍过家家 / SPY×FAMILY - 04 (B-Global 1920x1080 HEVC AAC MKV)'
+
+=== Stage 2: Processing ALL square brackets ===
+Input: '[NC-Raws] 间谍过家家 / SPY×FAMILY - 04 (B-Global 1920x1080 HEVC AAC MKV)'
+  Found brackets: NC-Raws
+  Removing anime release group: '[NC-Raws]'
+  Replaced: [NC-Raws] -> removed (anime group)
+  Output: '间谍过家家 / SPY×FAMILY - 04 (B-Global 1920x1080 HEVC AAC MKV)'
+
+=== Stage 3: Extracting resolution ===
+Input: '间谍过家家 / SPY×FAMILY - 04 (B-Global 1920x1080 HEVC AAC MKV)'
+  Found dimensions resolution: '1920x1080'
+  Resolution: 1920x1080 (dimensions)
+  Output: '间谍过家家 / SPY×FAMILY - 04 (B-Global 1920x1080 HEVC AAC MKV)'
+
+=== Stage 4: Extracting episode information ===
+Input: '间谍过家家 / SPY×FAMILY - 04 (B-Global 1920x1080 HEVC AAC MKV)'
+Content type: Anime
+  Found season - Episode: 4 (Pattern: anime_dash)
+  Output: '间谍过家家 / SPY×FAMILY - 04 (B-Global 1920x1080 HEVC AAC MKV)'
+
+==================================================
+Final results for '[NC-Raws] 间谍过家家 / SPY×FAMILY - 04 (B-Global 1920x1080 HEVC AAC MKV)':
+  Cleaned filename: '间谍过家家 / SPY×FAMILY - 04 (B-Global 1920x1080 HEVC AAC MKV)'
+  Is anime: True
+  All clues found:
+    - anime_release_group: NC-Raws
+    - start_bracket: NC-Raws
+    - anime_group_removed: NC-Raws
+    - resolution: 1920x1080 (dimensions)
+    - episode: E4 (season)
+==================================================
+
+
+
+==================================================
+Processing filename: '[Seed-Raws] 劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC AACx4 [5.1+2.0+2.0+2.0]).mp4'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: '[Seed-Raws] 劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC AACx4 [5.1+2.0+2.0+2.0]).mp4'
+  Removed extension: mp4
+  Found FIRST bracket at start: '[Seed-Raws] '
+  Not a website: 'Seed-Raws' - keeping in filename for now
+  Anime release group found: 'Seed-Raws'
+  Anime clue: True
+  Clue: Seed-Raws
+  Removed: None
+  Output: '[Seed-Raws] 劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC AACx4 [5.1+2.0+2.0+2.0])'
+
+=== Stage 2: Processing ALL square brackets ===
+Input: '[Seed-Raws] 劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC AACx4 [5.1+2.0+2.0+2.0])'
+  Found brackets: Seed-Raws, 5.1+2.0+2.0+2.0
+  Removing anime release group: '[Seed-Raws]'
+  Replaced: [Seed-Raws] -> removed (anime group), [5.1+2.0+2.0+2.0] -> '5.1+2.0+2.0+2.0'
+  Output: '劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC AACx4 5.1+2.0+2.0+2.0 )'
+
+=== Stage 3: Extracting resolution ===
+Input: '劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC AACx4 5.1+2.0+2.0+2.0 )'
+  Found dimensions resolution: '1280x720'
+  Resolution: 1280x720 (dimensions)
+  Output: '劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC AACx4 5.1+2.0+2.0+2.0 )'
+
+=== Stage 4: Extracting episode information ===
+Input: '劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC AACx4 5.1+2.0+2.0+2.0 )'
+Content type: Anime
+  No episode found
+  Output: '劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC AACx4 5.1+2.0+2.0+2.0 )'
+
+==================================================
+Final results for '[Seed-Raws] 劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC AACx4 [5.1+2.0+2.0+2.0]).mp4':
+  Cleaned filename: '劇場版 ペンギン・ハイウェイ Penguin Highway The Movie (BD 1280x720 AVC AACx4 5.1+2.0+2.0+2.0 )'
+  Is anime: True
+  All clues found:
+    - anime_release_group: Seed-Raws
+    - start_bracket: Seed-Raws
+    - anime_group_removed: Seed-Raws
+    - bracket_content: 5.1+2.0+2.0+2.0
+    - resolution: 1280x720 (dimensions)
+==================================================
+
+
+
+==================================================
+Processing filename: 'Game of Thrones S01E01 1080p.mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: 'Game of Thrones S01E01 1080p.mkv'
+  Removed extension: mkv
+  Anime clue: False
+  Removed: None
+  Output: 'Game of Thrones S01E01 1080p'
+
+=== Stage 2: Processing ALL square brackets ===
+Input: 'Game of Thrones S01E01 1080p'
+
+=== Stage 3: Extracting resolution ===
+Input: 'Game of Thrones S01E01 1080p'
+  Found standard resolution: '1080p'
+  Resolution: 1080p (standard)
+  Output: 'Game of Thrones S01E01 1080p'
+
+=== Stage 4: Extracting episode information ===
+Input: 'Game of Thrones S01E01 1080p'
+Content type: TV Show
+  Found season - Season: 1, Episode: 1 (Pattern: tv_sxe)
+  Output: 'Game of Thrones S01E01 1080p'
+
+==================================================
+Final results for 'Game of Thrones S01E01 1080p.mkv':
+  Cleaned filename: 'Game of Thrones S01E01 1080p'
+  Is anime: False
+  All clues found:
+    - resolution: 1080p (standard)
+    - episode: S1E1 (season)
+==================================================
+
+
+
+==================================================
+Processing filename: 'Friends S10E12 720p HDTV.mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: 'Friends S10E12 720p HDTV.mkv'
+  Removed extension: mkv
+  Anime clue: False
+  Removed: None
+  Output: 'Friends S10E12 720p HDTV'
+
+=== Stage 2: Processing ALL square brackets ===
+Input: 'Friends S10E12 720p HDTV'
+
+=== Stage 3: Extracting resolution ===
+Input: 'Friends S10E12 720p HDTV'
+  Found standard resolution: '720p'
+  Resolution: 720p (standard)
+  Output: 'Friends S10E12 720p HDTV'
+
+=== Stage 4: Extracting episode information ===
+Input: 'Friends S10E12 720p HDTV'
+Content type: TV Show
+  Found season - Season: 10, Episode: 12 (Pattern: tv_sxe)
+  Output: 'Friends S10E12 720p HDTV'
+
+==================================================
+Final results for 'Friends S10E12 720p HDTV.mkv':
+  Cleaned filename: 'Friends S10E12 720p HDTV'
+  Is anime: False
+  All clues found:
+    - resolution: 720p (standard)
+    - episode: S10E12 (season)
+==================================================
+
+
+
+==================================================
+Processing filename: 'The Office Season 3 Episode 5 1080p.mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: 'The Office Season 3 Episode 5 1080p.mkv'
+  Removed extension: mkv
+  Anime clue: False
+  Removed: None
+  Output: 'The Office Season 3 Episode 5 1080p'
+
+=== Stage 2: Processing ALL square brackets ===
+Input: 'The Office Season 3 Episode 5 1080p'
+
+=== Stage 3: Extracting resolution ===
+Input: 'The Office Season 3 Episode 5 1080p'
+  Found standard resolution: '1080p'
+  Resolution: 1080p (standard)
+  Output: 'The Office Season 3 Episode 5 1080p'
+
+=== Stage 4: Extracting episode information ===
+Input: 'The Office Season 3 Episode 5 1080p'
+Content type: TV Show
+  Found season - Episode: 5 (Pattern: tv_episode_word)
+  Output: 'The Office Season 3 Episode 5 1080p'
+
+==================================================
+Final results for 'The Office Season 3 Episode 5 1080p.mkv':
+  Cleaned filename: 'The Office Season 3 Episode 5 1080p'
+  Is anime: False
+  All clues found:
+    - resolution: 1080p (standard)
+    - episode: E5 (season)
+==================================================
+
+
+
+==================================================
+Processing filename: 'Breaking Bad 1x07 720p.mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: 'Breaking Bad 1x07 720p.mkv'
+  Removed extension: mkv
+  Anime clue: False
+  Removed: None
+  Output: 'Breaking Bad 1x07 720p'
+
+=== Stage 2: Processing ALL square brackets ===
+Input: 'Breaking Bad 1x07 720p'
+
+=== Stage 3: Extracting resolution ===
+Input: 'Breaking Bad 1x07 720p'
+  Found standard resolution: '720p'
+  Resolution: 720p (standard)
+  Output: 'Breaking Bad 1x07 720p'
+
+=== Stage 4: Extracting episode information ===
+Input: 'Breaking Bad 1x07 720p'
+Content type: TV Show
+  Found season - Season: 1, Episode: 7 (Pattern: tv_x)
+  Output: 'Breaking Bad 1x07 720p'
+
+==================================================
+Final results for 'Breaking Bad 1x07 720p.mkv':
+  Cleaned filename: 'Breaking Bad 1x07 720p'
+  Is anime: False
+  All clues found:
+    - resolution: 720p (standard)
+    - episode: S1E7 (season)
+==================================================
+
+
+
+==================================================
+Processing filename: 'Stranger Things S04E08 1080p.mkv'
+==================================================
+
+=== Stage 1: Processing square brackets at start ===
+Input: 'Stranger Things S04E08 1080p.mkv'
+  Removed extension: mkv
+  Anime clue: False
+  Removed: None
+  Output: 'Stranger Things S04E08 1080p'
+
+=== Stage 2: Processing ALL square brackets ===
+Input: 'Stranger Things S04E08 1080p'
+
+=== Stage 3: Extracting resolution ===
+Input: 'Stranger Things S04E08 1080p'
+  Found standard resolution: '1080p'
+  Resolution: 1080p (standard)
+  Output: 'Stranger Things S04E08 1080p'
+
+=== Stage 4: Extracting episode information ===
+Input: 'Stranger Things S04E08 1080p'
+Content type: TV Show
+  Found season - Season: 4, Episode: 8 (Pattern: tv_sxe)
+  Output: 'Stranger Things S04E08 1080p'
+
+==================================================
+Final results for 'Stranger Things S04E08 1080p.mkv':
+  Cleaned filename: 'Stranger Things S04E08 1080p'
+  Is anime: False
+  All clues found:
+    - resolution: 1080p (standard)
+    - episode: S4E8 (season)
+==================================================
+

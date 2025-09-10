@@ -1,3 +1,7 @@
+# titles.py - Test suite for title extraction from filenames
+# This script tests the parse_filename function from the parser module.
+# It uses pytest for structured testing and writes results to timestamped files.    
+# /tests/titles.py
 import sys
 import pytest
 from pathlib import Path
@@ -8,7 +12,7 @@ from datetime import datetime
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-from parser2 import parse_filename  # Import directly from parser module
+from parser import parse_filename  # Import directly from parser module
 
 TEST_CASES = [
     ("La famille bélier", "La famille bélier"),
@@ -62,16 +66,16 @@ TEST_CASES = [
     ("STEVE.martin.a.documentary.in.2.pieces.S01.COMPLETE.1080p.WEB.H264-SuccessfulCrab[TGx]", "STEVE martin a documentary in 2 pieces"),
     ("The Lockerbie Bombing (2013) Documentary HDTVRIP", "The Lockerbie Bombing"),
     ("The French Connection 1971 Remastered BluRay 1080p REMUX AVC DTS-HD MA 5 1-LEGi0N", "The French Connection"),
-("The.Mandalorian.S01E01.Chapter.1.1080p.Web-DL.mkv","The Mandalorian"),
-        ("The Mandalorian S02E01 - Chapter 9 (1080p Web-DL).mkv","The Mandalorian"),
-        ("TV Show season 1 s01 1080p x265 DVD extr","TV Show"),
-        ("9-1-1.s02","9-1-1"),
-        ("9-1-1 s02-s03","9-1-1"),
-        ("S.H.I.E.L.D.s01","S.H.I.E.L.D."),
-        ("One-piece-ep.1080-v2-1080p-raws","One piece"),
-        ("Naruto Shippuden (001-500) [Complete Series + Movies] (Dual Audio)","Naruto Shippuden"),
-        ("One.Piece.S01E1116.Lets.Go.Get.It!.Buggys.Big.Declaration.2160p.B-Global.WEB-DL.JPN.AAC2.0.H.264.MSubs-ToonsHub.mkv","One Piece"),
-        ("Stranger Things S04 2160p","Stranger Things"),
+    ("The.Mandalorian.S01E01.Chapter.1.1080p.Web-DL.mkv","The Mandalorian"),
+    ("The Mandalorian S02E01 - Chapter 9 (1080p Web-DL).mkv","The Mandalorian"),
+    ("TV Show season 1 s01 1080p x265 DVD extr","TV Show"),
+    ("9-1-1.s02","9-1-1"),
+    ("9-1-1 s02-s03","9-1-1"),
+    ("S.H.I.E.L.D.s01","S.H.I.E.L.D."),
+    ("One-piece-ep.1080-v2-1080p-raws","One piece"),
+    ("Naruto Shippuden (001-500) [Complete Series + Movies] (Dual Audio)","Naruto Shippuden"),
+    ("One.Piece.S01E1116.Lets.Go.Get.It!.Buggys.Big.Declaration.2160p.B-Global.WEB-DL.JPN.AAC2.0.H.264.MSubs-ToonsHub.mkv","One Piece"),
+    ("Stranger Things S04 2160p","Stranger Things"),
 ]
 
 def write_results(raw, expected, result, success):
@@ -100,57 +104,98 @@ def write_results(raw, expected, result, success):
 
 def write_simple_results(raw: str, expected: str, result: dict) -> None:
     """
-    Write single-line test results to a fixed file: test_simple_datetime.txt.
+    Write all test results to a timestamped file in the exact format shown in the example.
     Format:
-    Original | Expected | Possible Title | Clean Title | Media Type | Non-null Clues
+    ORIG:input | EXP:expected | POSSIBLE:possible_title | CLEAN:clean_title | TYPE:media_type | CLUES:clues
     """
-    output_dir = Path(__file__).parent / "test_output"
-    output_file = output_dir / "test_simple_datetime.txt"
+    # Generate timestamp filename
+    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+    filename = f'test_simple_results_1845.txt'
+    
+    # Ensure tests directory exists
+    output_dir = Path(__file__).parent / 'test_output'
     output_dir.mkdir(exist_ok=True)
+    
+    # Full path to results file
+    output_file = output_dir / filename
 
-    # Collect non-null clues
-    clues = []
-    if result.get("tv_clues"):
-        clues.append(f"TV:{','.join(result['tv_clues'])}")
-    if result.get("anime_clues"):
-        clues.append(f"ANIME:{','.join(result['anime_clues'])}")
-    if result.get("movie_clues"):
-        clues.append(f"MOVIE:{','.join(result['movie_clues'])}")
-
-    # Build line
+    # Get values from result, with fallbacks
+    possible_title = result.get('possible_title', '') or raw
+    clean_title = result.get('clean_title', '') or possible_title
+    media_type = result.get('media_type', 'unknown')
+    
+    # Collect all clues from different categories
+    all_clues = []
+    
+    # TV clues
+    if result.get("tv_clues") and result["tv_clues"]:
+        tv_clues = ';'.join(result["tv_clues"])
+        all_clues.append(f"TV:{tv_clues}")
+    
+    # Anime clues
+    if result.get("anime_clues") and result["anime_clues"]:
+        anime_clues = ';'.join(result["anime_clues"])
+        all_clues.append(f"ANIME:{anime_clues}")
+    
+    # Movie clues
+    if result.get("movie_clues") and result["movie_clues"]:
+        movie_clues = ';'.join(result["movie_clues"])
+        all_clues.append(f"MOVIE:{movie_clues}")
+    
+    # Other clues (like year from movie_clues or general clues)
+    if result.get("year"):
+        all_clues.append(f"MOVIE:{result['year']}")
+    
+    clues_str = ';'.join(all_clues) if all_clues else ''
+    
+    # Build line in exact format
     line = (
         f"ORIG:{raw} | "
         f"EXP:{expected} | "
-        f"POSSIBLE:{result.get('possible_title')} | "
-        f"CLEAN:{result.get('clean_title')} | "
-        f"TYPE:{result.get('media_type')} | "
-        f"CLUES:{';'.join(clues)}\n"
+        f"POSSIBLE:{possible_title} | "
+        f"CLEAN:{clean_title} | "
+        f"TYPE:{media_type} | "
+        f"CLUES:{clues_str}\n"
     )
 
+    # Write to file (append for multiple tests)
     with open(output_file, "a", encoding="utf-8") as f:
         f.write(line)
 
+    # Print the first few characters to show progress
+    print(f"✓ Wrote test result for: {raw[:50]}...")
 
 
 @pytest.mark.parametrize("raw,expected", TEST_CASES)
 def test_parser_title_extraction(raw, expected):
     try:
         res = parse_filename(raw, quiet=True)
-        title = res.get("clean_title") or res.get("possible_title") or res.get("original")
+        title = res.get("clean_title") or res.get("possible_title") or raw
         success = title and title.strip().lower() == expected.strip().lower()
         output_file = write_results(raw, expected, res, success)
         
         # Print path to results file on first test
         if raw == TEST_CASES[0][0]:
-            print(f"\nTest results written to: {output_file}")
+            print(f"\nDetailed test results written to: {output_file}")
+            simple_file = Path(__file__).parent / 'test_output' / f'test_simple_results_{datetime.now().strftime("%Y%m%d_%H%M%S")}.txt'
+            print(f"Simple formatted results will be written to: {simple_file}")
         
         assert res, f"parse_filename returned nothing for: {raw!r}"
         assert title is not None, f"No title found for: {raw!r}"
         assert title.strip().lower() == expected.strip().lower(), \
             f"Expected {expected!r} but got {title!r} for input {raw!r}"
+            
     except Exception as e:
-        write_results(raw, expected, str(e), False),
+        write_results(raw, expected, str(e), False)
+        write_simple_results(raw, expected, {"error": str(e)})
         raise
 
+    # Write simple results for every test case
     write_simple_results(raw, expected, res)
 
+
+if __name__ == "__main__":
+    # Run all tests and show summary
+    print(f"Running {len(TEST_CASES)} test cases...")
+    pytest.main([__file__, "-v"])
+    print("\nTest execution completed. Check the 'test_output' directory for results.")

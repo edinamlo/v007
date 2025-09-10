@@ -1,0 +1,199 @@
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T17:45:10.971451
+Input: La famille bélier
+Expected: La famille bélier
+Got: {
+  "original": "La famille bélier",
+  "possible_title": "La famille bélier",
+  "clean_title": "La famille bélier",
+  "media_type": "unknown",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "extras_bits": [],
+  "extras_bits_unknown": [],
+  "words": [],
+  "matched_clues": {},
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "release_groups_anime": [],
+  "misc_clues": [],
+  "is_anime_detected": false,
+  "removed_prefixes": []
+}
+Success: True
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T17:45:10.972914
+Input: La.famille.bélier
+Expected: La famille bélier
+Got: {
+  "original": "La.famille.bélier",
+  "possible_title": "La.famille",
+  "clean_title": "La famille",
+  "media_type": "unknown",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "extras_bits": [],
+  "extras_bits_unknown": [],
+  "words": [
+    ".bélier"
+  ],
+  "matched_clues": {},
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "release_groups_anime": [],
+  "misc_clues": [],
+  "is_anime_detected": false,
+  "removed_prefixes": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T17:45:10.974071
+Input: La.famille.bélier
+Expected: La famille bélier
+Got: "Expected 'La famille bélier' but got 'La famille' for input 'La.famille.bélier'\nassert 'la famille' == 'la famille bélier'\n  \n  \u001b[0m\u001b[91m- la famille bélier\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ la famille\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T17:45:10.986052
+Input: Mr. Nobody
+Expected: Mr. Nobody
+Got: {
+  "original": "Mr. Nobody",
+  "possible_title": "Mr",
+  "clean_title": "Mr",
+  "media_type": "unknown",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "extras_bits": [],
+  "extras_bits_unknown": [],
+  "words": [
+    ". Nobody"
+  ],
+  "matched_clues": {
+    "quality_clues": [
+      "CAMRip"
+    ],
+    "release_groups": [
+      "CMRG"
+    ]
+  },
+  "resolution_clues": [],
+  "audio_clues": [],
+  "quality_clues": [
+    "CAMRip"
+  ],
+  "release_groups": [
+    "CMRG"
+  ],
+  "release_groups_anime": [],
+  "misc_clues": [],
+  "is_anime_detected": false,
+  "removed_prefixes": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T17:45:10.986474
+Input: Mr. Nobody
+Expected: Mr. Nobody
+Got: "Expected 'Mr. Nobody' but got 'Mr' for input 'Mr. Nobody'\nassert 'mr' == 'mr. nobody'\n  \n  \u001b[0m\u001b[91m- mr. nobody\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ mr\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T17:45:10.991118
+Input: doctor_who_2005.8x12.death_in_heaven.720p_hdtv_x264-fov
+Expected: doctor who
+Got: {
+  "original": "doctor_who_2005.8x12.death_in_heaven.720p_hdtv_x264-fov",
+  "possible_title": "doctor_who_2005.8x12.death_in_heaven",
+  "clean_title": "doctor who 2005 8x12 death in heaven",
+  "media_type": "unknown",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "extras_bits": [],
+  "extras_bits_unknown": [],
+  "words": [
+    ".720p_hdtv_x264-fov"
+  ],
+  "matched_clues": {
+    "resolution_clues": [
+      "720p",
+      "HD"
+    ],
+    "quality_clues": [
+      "HDTV"
+    ]
+  },
+  "resolution_clues": [
+    "720p",
+    "HD"
+  ],
+  "audio_clues": [],
+  "quality_clues": [
+    "HDTV"
+  ],
+  "release_groups": [],
+  "release_groups_anime": [],
+  "misc_clues": [],
+  "is_anime_detected": false,
+  "removed_prefixes": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T17:45:10.991517
+Input: doctor_who_2005.8x12.death_in_heaven.720p_hdtv_x264-fov
+Expected: doctor who
+Got: "Expected 'doctor who' but got 'doctor who 2005 8x12 death in heaven' for input 'doctor_who_2005.8x12.death_in_heaven.720p_hdtv_x264-fov'\nassert 'doctor who 2...ath in heaven' == 'doctor who'\n  \n  \u001b[0m\u001b[91m- doctor who\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ doctor who 2005 8x12 death in heaven\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T17:45:10.997131
+Input: [GM-Team][国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality Ⅲ][01-26][AVC][GB][1080P]
+Expected: Magical Legend of Rise to immortality Ⅲ
+Got: {
+  "original": "[GM-Team][国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality Ⅲ][01-26][AVC][GB][1080P]",
+  "possible_title": "",
+  "clean_title": null,
+  "media_type": "unknown",
+  "tv_clues": [],
+  "anime_clues": [],
+  "movie_clues": [],
+  "extras_bits": [],
+  "extras_bits_unknown": [],
+  "words": [],
+  "matched_clues": {
+    "resolution_clues": [
+      "1080p"
+    ]
+  },
+  "resolution_clues": [
+    "1080p"
+  ],
+  "audio_clues": [],
+  "quality_clues": [],
+  "release_groups": [],
+  "release_groups_anime": [],
+  "misc_clues": [],
+  "is_anime_detected": false,
+  "removed_prefixes": []
+}
+Success: False
+
+--------------------------------------------------------------------------------
+Test Run: 2025-09-06T17:45:10.997518
+Input: [GM-Team][国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality Ⅲ][01-26][AVC][GB][1080P]
+Expected: Magical Legend of Rise to immortality Ⅲ
+Got: "Expected 'Magical Legend of Rise to immortality Ⅲ' but got '[GM-Team][国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality Ⅲ][01-26][AVC][GB][1080P]' for input '[GM-Team][国漫][太乙仙魔录 灵飞纪 第3季][Magical Legend of Rise to immortality Ⅲ][01-26][AVC][GB][1080P]'\nassert '[gm-team][国漫...c][gb][1080p]' == 'magical lege...immortality ⅲ'\n  \n  \u001b[0m\u001b[91m- magical legend of rise to immortality ⅲ\u001b[39;49;00m\u001b[90m\u001b[39;49;00m\n  \u001b[92m+ [gm-team][国漫][太乙仙魔录 灵飞纪 第3季][magical legend of rise to immortality ⅲ][01-26][avc][gb][1080p]\u001b[39;49;00m\u001b[90m\u001b[39;49;00m"
+Success: False

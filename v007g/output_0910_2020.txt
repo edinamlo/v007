@@ -1,0 +1,129 @@
+================================================================================
+INPUT: www.SceneTime.com - Taken 3 2014 1080p DSNP WEB-DL DDP 5 1 H 264-PiRaTeS
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+[YearExtractor] Matched: 2014
+Title: www SceneTime com - Taken 3 2014
+Resolution: 1080p
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 2014
+Left after split: www.SceneTime.com - Taken 3 2014
+Right after split: DSNP WEB-DL DDP 5 1 H 264-PiRaTeS
+Notes: found resolution; found movie year: 2014
+================================================================================
+================================================================================
+INPUT: [SubsPlease] Tearmoon Teikoku Monogatari - 01 (1080p) [15ADAE00].mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+[AnimeGroupExtractor] Matched: SubsPlease
+[AnimeEpisodeExtractor] Matched: 1
+Title: SubsPlease Tearmoon Teikoku Monogatari - 01
+Resolution: 1080p
+Is Anime: True, Anime group: SubsPlease, Anime ep: 1
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+Left after split: [SubsPlease] Tearmoon Teikoku Monogatari - 01
+Right after split: 15ADAE00].mkv
+Notes: found resolution; found release group: SubsPlease; found anime episode: 1
+================================================================================
+================================================================================
+INPUT: [SubsPlease] Fairy Tail - 100 Years Quest - 05 (1080p) [1107F3A9].mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+[AnimeGroupExtractor] Matched: SubsPlease
+[AnimeEpisodeExtractor] Matched: 100
+Title: SubsPlease Fairy Tail - 100 Years Quest - 05
+Resolution: 1080p
+Is Anime: True, Anime group: SubsPlease, Anime ep: 100
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+Left after split: [SubsPlease] Fairy Tail - 100 Years Quest - 05
+Right after split: 1107F3A9].mkv
+Notes: found resolution; found release group: SubsPlease; found anime episode: 100
+================================================================================
+================================================================================
+INPUT: [Erai-raws] Tearmoon Teikoku Monogatari - 01 [1080p][ENG][POR-BR].mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+[AnimeGroupExtractor] Matched: Erai-raws
+[AnimeEpisodeExtractor] Matched: 1
+Title: Erai-raws Tearmoon Teikoku Monogatari - 01
+Resolution: 1080p
+Is Anime: True, Anime group: Erai-raws, Anime ep: 1
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+Left after split: [Erai-raws] Tearmoon Teikoku Monogatari - 01
+Right after split: ENG][POR-BR].mkv
+Notes: found resolution; found release group: Erai-raws; found anime episode: 1
+================================================================================
+================================================================================
+INPUT: Hunter x Hunter (2011) - 01 [1080p][ENG][FRE]
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+[YearExtractor] Matched: 2011
+[AnimeEpisodeExtractor] Matched: 1
+Title: Hunter x Hunter 2011 - 01
+Resolution: 1080p
+Is Anime: True, Anime group: None, Anime ep: 1
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: 2011
+Left after split: Hunter x Hunter (2011) - 01
+Right after split: ENG][FRE]
+Notes: found resolution; found movie year: 2011; found anime episode: 1
+================================================================================
+================================================================================
+INPUT: Naruto Shippuden (001-500) [Complete Series + Movies]
+--------------------------------------------------------------------------------
+Title: Naruto Shippuden 001-500 Complete Series + Movies
+Resolution: None
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+Left after split: Naruto Shippuden (001-500) [Complete Series + Movies]
+Right after split: 
+Notes: 
+================================================================================
+================================================================================
+INPUT: [Erai-raws] Sword Art Online - 10 [720p][Multiple Subtitle].mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 720p
+[AnimeGroupExtractor] Matched: Erai-raws
+[AnimeEpisodeExtractor] Matched: 10
+Title: Erai-raws Sword Art Online - 10
+Resolution: 720p
+Is Anime: True, Anime group: Erai-raws, Anime ep: 10
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+Left after split: [Erai-raws] Sword Art Online - 10
+Right after split: Multiple Subtitle].mkv
+Notes: found resolution; found release group: Erai-raws; found anime episode: 10
+================================================================================
+================================================================================
+INPUT: [Exiled-Destiny]_Tokyo_Underground_Ep02v2_(41858470).mkv
+--------------------------------------------------------------------------------
+[AnimeGroupExtractor] Matched: Exiled-Destiny
+[AnimeEpisodeExtractor] Matched: 2
+Title: Exiled-Destiny Tokyo Underground Ep02v2 41858470 mkv
+Resolution: None
+Is Anime: True, Anime group: Exiled-Destiny, Anime ep: 2
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+Left after split: [Exiled-Destiny]_Tokyo_Underground_Ep02v2_(41858470).mkv
+Right after split: 
+Notes: found release group: Exiled-Destiny; found anime episode: 2
+================================================================================
+================================================================================
+INPUT: Some.Movie.2023.1920x1080.WEB.mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1920x1080
+[YearExtractor] Matched: 2023
+Title: Some Movie 2023
+Resolution: 1920x1080
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 2023
+Left after split: Some.Movie.2023
+Right after split: WEB.mkv
+Notes: found resolution; found movie year: 2023
+================================================================================

@@ -144,5 +144,23 @@ if __name__ == "__main__":
         "Some.Movie.2023.1920x1080.WEB.mkv",
     ]
 
+    # Create output filename with current date and time
+    from datetime import datetime
+    now = datetime.now()
+    output_filename = f"output_{now.strftime('%m%d_%H%M')}.txt"
+    
+    # Redirect output to file
+    import sys
+    original_stdout = sys.stdout
+    
+    with open(output_filename, 'w', encoding='utf-8') as f:
+        sys.stdout = f
+        for s in samples:
+            parse_filename(s)
+        sys.stdout = original_stdout
+    
+    print(f"Output saved to {output_filename}")
+    
+    # Also print to console
     for s in samples:
         parse_filename(s)

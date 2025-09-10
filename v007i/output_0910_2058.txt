@@ -1,0 +1,134 @@
+================================================================================
+INPUT: www.SceneTime.com - Taken 3 2014 1080p DSNP WEB-DL DDP 5 1 H 264-PiRaTeS
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: www.SceneTime.com - Taken 3 2014
+SPLIT_RIGHT: DSNP WEB-DL DDP 5 1 H 264-PiRaTeS
+[YearExtractor] Matched: 2014
+Title (all matched outputs before this removed): www SceneTime com - Taken 3
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 2014
+title: www SceneTime com - Taken 3 year: 2014 media_type: movie
+Right after split: DSNP WEB-DL DDP 5 1 H 264-PiRaTeS
+================================================================================
+================================================================================
+INPUT: [SubsPlease] Tearmoon Teikoku Monogatari - 01 (1080p) [15ADAE00].mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: [SubsPlease] Tearmoon Teikoku Monogatari - 01
+SPLIT_RIGHT: 15ADAE00].mkv
+[AnimeGroupExtractor] Matched: SubsPlease
+SPLIT_LEFT after anime group removal: Tearmoon Teikoku Monogatari - 01
+[AnimeEpisodeExtractor] Matched: 1
+Title (all matched outputs before this removed): Tearmoon Teikoku Monogatari
+Is Anime: True, Anime group: SubsPlease, Anime ep: 1
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: Tearmoon Teikoku Monogatari year: None media_type: anime
+Right after split: 15ADAE00].mkv
+================================================================================
+================================================================================
+INPUT: [SubsPlease] Fairy Tail - 100 Years Quest - 05 (1080p) [1107F3A9].mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: [SubsPlease] Fairy Tail - 100 Years Quest - 05
+SPLIT_RIGHT: 1107F3A9].mkv
+[AnimeGroupExtractor] Matched: SubsPlease
+SPLIT_LEFT after anime group removal: Fairy Tail - 100 Years Quest - 05
+[AnimeEpisodeExtractor] Matched: 5
+Title (all matched outputs before this removed): Fairy Tail - 100 Years Quest
+Is Anime: True, Anime group: SubsPlease, Anime ep: 5
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: Fairy Tail - 100 Years Quest year: None media_type: anime
+Right after split: 1107F3A9].mkv
+================================================================================
+================================================================================
+INPUT: [Erai-raws] Tearmoon Teikoku Monogatari - 01 [1080p][ENG][POR-BR].mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: [Erai-raws] Tearmoon Teikoku Monogatari - 01
+SPLIT_RIGHT: ENG][POR-BR].mkv
+[AnimeGroupExtractor] Matched: Erai-raws
+SPLIT_LEFT after anime group removal: Tearmoon Teikoku Monogatari - 01
+[AnimeEpisodeExtractor] Matched: 1
+Title (all matched outputs before this removed): Tearmoon Teikoku Monogatari
+Is Anime: True, Anime group: Erai-raws, Anime ep: 1
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: Tearmoon Teikoku Monogatari year: None media_type: anime
+Right after split: ENG][POR-BR].mkv
+================================================================================
+================================================================================
+INPUT: Hunter x Hunter (2011) - 01 [1080p][ENG][FRE]
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1080p
+SPLIT_LEFT: Hunter x Hunter (2011) - 01
+SPLIT_RIGHT: ENG][FRE]
+[AnimeEpisodeExtractor] Matched: 1
+[YearExtractor] Matched: 2011
+Title (all matched outputs before this removed): Hunter x Hunter
+Is Anime: True, Anime group: None, Anime ep: 1
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: 2011
+title: Hunter x Hunter year: 2011 media_type: anime
+Right after split: ENG][FRE]
+================================================================================
+================================================================================
+INPUT: Naruto Shippuden (001-500) [Complete Series + Movies]
+--------------------------------------------------------------------------------
+SPLIT_LEFT: Naruto Shippuden (001-500) [Complete Series + Movies]
+SPLIT_RIGHT: 
+Title (all matched outputs before this removed): Naruto Shippuden 001-500 Complete Series + Movies
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: Naruto Shippuden 001-500 Complete Series + Movies year: None media_type: unknown
+Right after split: 
+================================================================================
+================================================================================
+INPUT: [Erai-raws] Sword Art Online - 10 [720p][Multiple Subtitle].mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 720p
+SPLIT_LEFT: [Erai-raws] Sword Art Online - 10
+SPLIT_RIGHT: Multiple Subtitle].mkv
+[AnimeGroupExtractor] Matched: Erai-raws
+SPLIT_LEFT after anime group removal: Sword Art Online - 10
+[AnimeEpisodeExtractor] Matched: 10
+Title (all matched outputs before this removed): Sword Art Online
+Is Anime: True, Anime group: Erai-raws, Anime ep: 10
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: Sword Art Online year: None media_type: anime
+Right after split: Multiple Subtitle].mkv
+================================================================================
+================================================================================
+INPUT: [Exiled-Destiny]_Tokyo_Underground_Ep02v2_(41858470).mkv
+--------------------------------------------------------------------------------
+SPLIT_LEFT: [Exiled-Destiny]_Tokyo_Underground_Ep02v2_(41858470).mkv
+SPLIT_RIGHT: 
+[AnimeGroupExtractor] Matched: Exiled-Destiny
+SPLIT_LEFT after anime group removal: _Tokyo_Underground_Ep02v2_(41858470).mkv
+[AnimeEpisodeExtractor] Matched: 2
+Title (all matched outputs before this removed): Tokyo Underground v2 41858470 mkv
+Is Anime: True, Anime group: Exiled-Destiny, Anime ep: 2
+Is TV: False, TV match: None
+Is Movie: False, Movie Year: None
+title: Tokyo Underground v2 41858470 mkv year: None media_type: anime
+Right after split: 
+================================================================================
+================================================================================
+INPUT: Some.Movie.2023.1920x1080.WEB.mkv
+--------------------------------------------------------------------------------
+[ResolutionExtractor] Matched: 1920x1080
+SPLIT_LEFT: Some.Movie.2023
+SPLIT_RIGHT: WEB.mkv
+[YearExtractor] Matched: 2023
+Title (all matched outputs before this removed): Some Movie
+Is Anime: False, Anime group: None, Anime ep: None
+Is TV: False, TV match: None
+Is Movie: True, Movie Year: 2023
+title: Some Movie year: 2023 media_type: movie
+Right after split: WEB.mkv
+================================================================================

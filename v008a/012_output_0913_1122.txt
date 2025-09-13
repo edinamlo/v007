@@ -1,0 +1,232 @@
+Initial string: 'www.SceneTime.com - Taken 3 2014 1080p DSNP WEB-DL DDP 5 1 H 264-PiRaTeS'
+
+--- Right-to-Left Parsing and Extraction ---
+Extractor 'website_cleaner' matched 'www.SceneTime.com'
+  left_split: '- Taken 3 2014 1080p DSNP WEB-DL DDP 5 1 H 264-PiRaTeS'
+Extractor 'resolution' matched '1080p'
+  left_split: '- Taken 3 2014'
+Extractor 'anime_episode' matched ' 2014'
+  left_split: '- Taken 3'
+
+--- Final Assembly ---
+  Final Title: '- Taken 3'
+  Final Extra Bits: 'www SceneTime com 1080p  2014'
+
+--- Final Result ---
+--- Parsing: www.SceneTime.com - Taken 3 2014 1080p DSNP WEB-DL DDP 5 1 H 264-PiRaTeS ---
+  folder_path         : www.SceneTime.com - Taken 3 2014 1080p DSNP WEB-DL DDP 5 1 H 264-PiRaTeS
+  folder_title        : - Taken 3
+  folder_media_type   : TV
+  folder_is_anime     : True
+  folder_year         : None
+  folder_resolution   : 1080p
+  folder_anime_group  : None
+  folder_anime_episode: 2014
+  folder_extra_bits   : www SceneTime com 1080p  2014
+
+================================================================================
+
+Initial string: '[SubsPlease] Tearmoon Teikoku Monogatari - 01 (1080p) [15ADAE00].mkv'
+
+--- Right-to-Left Parsing and Extraction ---
+Extractor 'resolution' matched '1080p'
+  left_split: '[SubsPlease] Tearmoon Teikoku Monogatari - 01 ('
+Extractor 'anime_group' matched '[SubsPlease]'
+  left_split: ''
+
+--- Final Assembly ---
+  Final Title: ''
+  Final Extra Bits: '1080p [SubsPlease]'
+
+--- Final Result ---
+--- Parsing: [SubsPlease] Tearmoon Teikoku Monogatari - 01 (1080p) [15ADAE00].mkv ---
+  folder_path         : [SubsPlease] Tearmoon Teikoku Monogatari - 01 (1080p) [15ADAE00].mkv
+  folder_title        : 
+  folder_media_type   : TV
+  folder_is_anime     : True
+  folder_year         : None
+  folder_resolution   : 1080p
+  folder_anime_group  : SubsPlease
+  folder_anime_episode: None
+  folder_extra_bits   : 1080p [SubsPlease]
+
+================================================================================
+
+Initial string: '[SubsPlease] Fairy Tail - 100 Years Quest - 05 (1080p) [1107F3A9].mkv'
+
+--- Right-to-Left Parsing and Extraction ---
+Extractor 'resolution' matched '1080p'
+  left_split: '[SubsPlease] Fairy Tail - 100 Years Quest - 05 ('
+Extractor 'anime_group' matched '[SubsPlease]'
+  left_split: ''
+
+--- Final Assembly ---
+  Final Title: ''
+  Final Extra Bits: '1080p [SubsPlease]'
+
+--- Final Result ---
+--- Parsing: [SubsPlease] Fairy Tail - 100 Years Quest - 05 (1080p) [1107F3A9].mkv ---
+  folder_path         : [SubsPlease] Fairy Tail - 100 Years Quest - 05 (1080p) [1107F3A9].mkv
+  folder_title        : 
+  folder_media_type   : TV
+  folder_is_anime     : True
+  folder_year         : None
+  folder_resolution   : 1080p
+  folder_anime_group  : SubsPlease
+  folder_anime_episode: None
+  folder_extra_bits   : 1080p [SubsPlease]
+
+================================================================================
+
+Initial string: '[Erai-raws] Tearmoon Teikoku Monogatari - 01 [1080p][ENG][POR-BR].mkv'
+
+--- Right-to-Left Parsing and Extraction ---
+Extractor 'resolution' matched '1080p'
+  left_split: '[Erai-raws] Tearmoon Teikoku Monogatari - 01 ['
+Extractor 'anime_group' matched '[Erai-raws]'
+  left_split: ''
+
+--- Final Assembly ---
+  Final Title: ''
+  Final Extra Bits: '1080p [Erai raws]'
+
+--- Final Result ---
+--- Parsing: [Erai-raws] Tearmoon Teikoku Monogatari - 01 [1080p][ENG][POR-BR].mkv ---
+  folder_path         : [Erai-raws] Tearmoon Teikoku Monogatari - 01 [1080p][ENG][POR-BR].mkv
+  folder_title        : 
+  folder_media_type   : TV
+  folder_is_anime     : True
+  folder_year         : None
+  folder_resolution   : 1080p
+  folder_anime_group  : Erai-raws
+  folder_anime_episode: None
+  folder_extra_bits   : 1080p [Erai raws]
+
+================================================================================
+
+Initial string: 'Hunter x Hunter (2011) - 01 [1080p][ENG][FRE]'
+
+--- Right-to-Left Parsing and Extraction ---
+Extractor 'resolution' matched '1080p'
+  left_split: 'Hunter x Hunter (2011) - 01 ['
+Extractor 'anime_episode' matched '01'
+  left_split: 'Hunter x Hunter (2011) -'
+
+--- Final Assembly ---
+  Final Title: 'Hunter x Hunter   -'
+  Final Extra Bits: '1080p 01'
+
+--- Final Result ---
+--- Parsing: Hunter x Hunter (2011) - 01 [1080p][ENG][FRE] ---
+  folder_path         : Hunter x Hunter (2011) - 01 [1080p][ENG][FRE]
+  folder_title        : Hunter x Hunter   -
+  folder_media_type   : TV
+  folder_is_anime     : True
+  folder_year         : None
+  folder_resolution   : 1080p
+  folder_anime_group  : None
+  folder_anime_episode: 01
+  folder_extra_bits   : 1080p 01
+
+================================================================================
+
+Initial string: 'Naruto Shippuden (001-500) [Complete Series + Movies]'
+
+--- Right-to-Left Parsing and Extraction ---
+Extractor 'anime_range' matched '(001-500)'
+  left_split: 'Naruto Shippuden'
+
+--- Final Assembly ---
+  Final Title: 'Naruto Shippuden'
+  Final Extra Bits: '(001 500)'
+
+--- Final Result ---
+--- Parsing: Naruto Shippuden (001-500) [Complete Series + Movies] ---
+  folder_path         : Naruto Shippuden (001-500) [Complete Series + Movies]
+  folder_title        : Naruto Shippuden
+  folder_media_type   : TV
+  folder_is_anime     : True
+  folder_year         : None
+  folder_resolution   : None
+  folder_anime_group  : None
+  folder_anime_episode: 001-500
+  folder_extra_bits   : (001 500)
+
+================================================================================
+
+Initial string: '[Erai-raws] Sword Art Online - 10 [720p][Multiple Subtitle].mkv'
+
+--- Right-to-Left Parsing and Extraction ---
+Extractor 'resolution' matched '720p'
+  left_split: '[Erai-raws] Sword Art Online - 10 ['
+Extractor 'anime_group' matched '[Erai-raws]'
+  left_split: ''
+
+--- Final Assembly ---
+  Final Title: ''
+  Final Extra Bits: '720p [Erai raws]'
+
+--- Final Result ---
+--- Parsing: [Erai-raws] Sword Art Online - 10 [720p][Multiple Subtitle].mkv ---
+  folder_path         : [Erai-raws] Sword Art Online - 10 [720p][Multiple Subtitle].mkv
+  folder_title        : 
+  folder_media_type   : TV
+  folder_is_anime     : True
+  folder_year         : None
+  folder_resolution   : 720p
+  folder_anime_group  : Erai-raws
+  folder_anime_episode: None
+  folder_extra_bits   : 720p [Erai raws]
+
+================================================================================
+
+Initial string: '[Exiled-Destiny]_Tokyo_Underground_Ep02v2_(41858470).mkv'
+
+--- Right-to-Left Parsing and Extraction ---
+Extractor 'anime_group' matched '[Exiled-Destiny]'
+  left_split: ''
+
+--- Final Assembly ---
+  Final Title: ''
+  Final Extra Bits: '[Exiled Destiny]'
+
+--- Final Result ---
+--- Parsing: [Exiled-Destiny]_Tokyo_Underground_Ep02v2_(41858470).mkv ---
+  folder_path         : [Exiled-Destiny]_Tokyo_Underground_Ep02v2_(41858470).mkv
+  folder_title        : 
+  folder_media_type   : TV
+  folder_is_anime     : True
+  folder_year         : None
+  folder_resolution   : None
+  folder_anime_group  : Exiled-Destiny
+  folder_anime_episode: None
+  folder_extra_bits   : [Exiled Destiny]
+
+================================================================================
+
+Initial string: 'Some.Movie.2023.1920x1080.WEB.mkv'
+
+--- Right-to-Left Parsing and Extraction ---
+Extractor 'resolution' matched '1920x1080'
+  left_split: 'Some.Movie.2023.'
+Extractor 'anime_episode' matched '2023'
+  left_split: 'Some.Movie.'
+
+--- Final Assembly ---
+  Final Title: 'Some.Movie.'
+  Final Extra Bits: '1920x1080 2023'
+
+--- Final Result ---
+--- Parsing: Some.Movie.2023.1920x1080.WEB.mkv ---
+  folder_path         : Some.Movie.2023.1920x1080.WEB.mkv
+  folder_title        : Some.Movie.
+  folder_media_type   : TV
+  folder_is_anime     : True
+  folder_year         : None
+  folder_resolution   : 1920x1080
+  folder_anime_group  : None
+  folder_anime_episode: 2023
+  folder_extra_bits   : 1920x1080 2023
+
+================================================================================
+

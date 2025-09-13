@@ -1,0 +1,697 @@
+Initial string: 'www.SceneTime.com - Taken 3 2014 1080p DSNP WEB-DL DDP 5 1 H 264-PiRaTeS'
+
+--- Right-to-Left Parsing and Extraction ---
+Extractor 'website_cleaner' matched 'www.SceneTime.com'
+  left_split: '- Taken 3 2014 1080p DSNP WEB-DL DDP 5 1 H 264-PiRaTeS'
+Checking extractor: 'resolution'
+Extractor 'resolution' found matches: ['1080p']
+Extractor 'resolution' matched '1080p'
+  right_text: 'DSNP WEB-DL DDP 5 1 H 264-PiRaTeS'
+  left_split: '- Taken 3 2014'
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Checking extractor: 'anime_range'
+Checking extractor: 'anime_episode'
+Checking extractor: 'anime_episode_4digit'
+Checking extractor: 'season_only'
+Checking extractor: 'anime_episode_single'
+Checking extractor: 'year'
+Extractor 'year' found matches: ['2014']
+Extractor 'year' matched '2014'
+  right_text: ''
+  left_split: '- Taken 3'
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Checking extractor: 'anime_range'
+Checking extractor: 'anime_episode'
+Checking extractor: 'anime_episode_4digit'
+Checking extractor: 'season_only'
+Checking extractor: 'anime_episode_single'
+Checking extractor: 'year'
+
+--- Final Assembly ---
+  Final Title: '- Taken 3'
+  Final Extra Bits: 'www SceneTime com DSNP WEB DL DDP 5 1 H 264 PiRaTeS'
+
+--- Final Result ---
+--- Parsing: www.SceneTime.com - Taken 3 2014 1080p DSNP WEB-DL DDP 5 1 H 264-PiRaTeS ---
+  folder_path         : www.SceneTime.com - Taken 3 2014 1080p DSNP WEB-DL DDP 5 1 H 264-PiRaTeS
+  folder_title        : - Taken 3
+  folder_media_type   : movie
+  folder_is_anime     : False
+  folder_year         : 2014
+  folder_resolution   : 1080p
+  folder_anime_group  : None
+  folder_anime_episode: None
+  folder_season       : None
+  folder_extra_bits   : www SceneTime com DSNP WEB DL DDP 5 1 H 264 PiRaTeS
+
+================================================================================
+
+Initial string: '[SubsPlease] Tearmoon Teikoku Monogatari - 01 (1080p) [15ADAE00].mkv'
+
+--- Right-to-Left Parsing and Extraction ---
+Checking extractor: 'resolution'
+Extractor 'resolution' found matches: ['1080p']
+Extractor 'resolution' matched '1080p'
+  right_text: ') [15ADAE00].mkv'
+  left_split: '[SubsPlease] Tearmoon Teikoku Monogatari - 01 ('
+Extractor 'anime_group' matched '[SubsPlease]'
+  left_split: 'Tearmoon Teikoku Monogatari - 01 ('
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Checking extractor: 'anime_range'
+Checking extractor: 'anime_episode'
+Checking extractor: 'anime_episode_4digit'
+Checking extractor: 'season_only'
+Checking extractor: 'anime_episode_single'
+Extractor 'anime_episode_single' found matches: [' - 01']
+Extractor 'anime_episode_single' matched ' - 01'
+  right_text: '('
+  left_split: 'Tearmoon Teikoku Monogatari'
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Checking extractor: 'anime_range'
+Checking extractor: 'anime_episode'
+Checking extractor: 'anime_episode_4digit'
+Checking extractor: 'season_only'
+Checking extractor: 'anime_episode_single'
+Checking extractor: 'year'
+
+--- Final Assembly ---
+  Final Title: 'Tearmoon Teikoku Monogatari'
+  Final Extra Bits: ') [15ADAE00] mkv [SubsPlease] (    01'
+
+--- Final Result ---
+--- Parsing: [SubsPlease] Tearmoon Teikoku Monogatari - 01 (1080p) [15ADAE00].mkv ---
+  folder_path         : [SubsPlease] Tearmoon Teikoku Monogatari - 01 (1080p) [15ADAE00].mkv
+  folder_title        : Tearmoon Teikoku Monogatari
+  folder_media_type   : tv_show
+  folder_is_anime     : True
+  folder_year         : None
+  folder_resolution   : 1080p
+  folder_anime_group  : SubsPlease
+  folder_anime_episode: None
+  folder_season       : None
+  folder_extra_bits   : ) [15ADAE00] mkv [SubsPlease] (    01
+
+================================================================================
+
+Initial string: '[SubsPlease] Fairy Tail - 100 Years Quest - 05 (1080p) [1107F3A9].mkv'
+
+--- Right-to-Left Parsing and Extraction ---
+Checking extractor: 'resolution'
+Extractor 'resolution' found matches: ['1080p']
+Extractor 'resolution' matched '1080p'
+  right_text: ') [1107F3A9].mkv'
+  left_split: '[SubsPlease] Fairy Tail - 100 Years Quest - 05 ('
+Extractor 'anime_group' matched '[SubsPlease]'
+  left_split: 'Fairy Tail - 100 Years Quest - 05 ('
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Checking extractor: 'anime_range'
+Checking extractor: 'anime_episode'
+Checking extractor: 'anime_episode_4digit'
+Checking extractor: 'season_only'
+Checking extractor: 'anime_episode_single'
+Extractor 'anime_episode_single' found matches: [' - 100', ' - 05']
+Extractor 'anime_episode_single' matched ' - 05'
+  right_text: '('
+  left_split: 'Fairy Tail - 100 Years Quest'
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Checking extractor: 'anime_range'
+Checking extractor: 'anime_episode'
+Checking extractor: 'anime_episode_4digit'
+Checking extractor: 'season_only'
+Checking extractor: 'anime_episode_single'
+
+## anime episode already set, DONT run again
+
+Extractor 'anime_episode_single' found matches: [' - 100']
+Extractor 'anime_episode_single' matched ' - 100'
+  right_text: 'Years Quest'
+  left_split: 'Fairy Tail'
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Checking extractor: 'anime_range'
+Checking extractor: 'anime_episode'
+Checking extractor: 'anime_episode_4digit'
+Checking extractor: 'season_only'
+Checking extractor: 'anime_episode_single'
+Checking extractor: 'year'
+
+--- Final Assembly ---
+  Final Title: 'Fairy Tail'
+  Final Extra Bits: ') [1107F3A9] mkv [SubsPlease] (    05 Years Quest    100'
+
+--- Final Result ---
+--- Parsing: [SubsPlease] Fairy Tail - 100 Years Quest - 05 (1080p) [1107F3A9].mkv ---
+  folder_path         : [SubsPlease] Fairy Tail - 100 Years Quest - 05 (1080p) [1107F3A9].mkv
+  folder_title        : Fairy Tail
+  folder_media_type   : tv_show
+  folder_is_anime     : True
+  folder_year         : None
+  folder_resolution   : 1080p
+  folder_anime_group  : SubsPlease
+  folder_anime_episode: None
+  folder_season       : None
+  folder_extra_bits   : ) [1107F3A9] mkv [SubsPlease] (    05 Years Quest    100
+
+================================================================================
+
+Initial string: '[Erai-raws] Tearmoon Teikoku Monogatari - 01 [1080p][ENG][POR-BR].mkv'
+
+--- Right-to-Left Parsing and Extraction ---
+Checking extractor: 'resolution'
+Extractor 'resolution' found matches: ['1080p']
+Extractor 'resolution' matched '1080p'
+  right_text: '][ENG][POR-BR].mkv'
+  left_split: '[Erai-raws] Tearmoon Teikoku Monogatari - 01 ['
+Extractor 'anime_group' matched '[Erai-raws]'
+  left_split: 'Tearmoon Teikoku Monogatari - 01 ['
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Checking extractor: 'anime_range'
+Checking extractor: 'anime_episode'
+Checking extractor: 'anime_episode_4digit'
+Checking extractor: 'season_only'
+Checking extractor: 'anime_episode_single'
+Extractor 'anime_episode_single' found matches: [' - 01']
+Extractor 'anime_episode_single' matched ' - 01'
+  right_text: '['
+  left_split: 'Tearmoon Teikoku Monogatari'
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Checking extractor: 'anime_range'
+Checking extractor: 'anime_episode'
+Checking extractor: 'anime_episode_4digit'
+Checking extractor: 'season_only'
+Checking extractor: 'anime_episode_single'
+Checking extractor: 'year'
+
+--- Final Assembly ---
+  Final Title: 'Tearmoon Teikoku Monogatari'
+  Final Extra Bits: '][ENG][POR BR] mkv [Erai raws] [    01'
+
+--- Final Result ---
+--- Parsing: [Erai-raws] Tearmoon Teikoku Monogatari - 01 [1080p][ENG][POR-BR].mkv ---
+  folder_path         : [Erai-raws] Tearmoon Teikoku Monogatari - 01 [1080p][ENG][POR-BR].mkv
+  folder_title        : Tearmoon Teikoku Monogatari
+  folder_media_type   : tv_show
+  folder_is_anime     : True
+  folder_year         : None
+  folder_resolution   : 1080p
+  folder_anime_group  : Erai-raws
+  folder_anime_episode: None
+  folder_season       : None
+  folder_extra_bits   : ][ENG][POR BR] mkv [Erai raws] [    01
+
+================================================================================
+
+Initial string: 'Hunter x Hunter (2011) - 01 [1080p][ENG][FRE]'
+
+--- Right-to-Left Parsing and Extraction ---
+Checking extractor: 'resolution'
+Extractor 'resolution' found matches: ['1080p']
+Extractor 'resolution' matched '1080p'
+  right_text: '][ENG][FRE]'
+  left_split: 'Hunter x Hunter (2011) - 01 ['
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Checking extractor: 'anime_range'
+Checking extractor: 'anime_episode'
+Checking extractor: 'anime_episode_4digit'
+Checking extractor: 'season_only'
+Checking extractor: 'anime_episode_single'
+Extractor 'anime_episode_single' found matches: [' - 01']
+Extractor 'anime_episode_single' matched ' - 01'
+  right_text: '['
+  left_split: 'Hunter x Hunter (2011)'
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Checking extractor: 'anime_range'
+Checking extractor: 'anime_episode'
+Checking extractor: 'anime_episode_4digit'
+Checking extractor: 'season_only'
+Checking extractor: 'anime_episode_single'
+Checking extractor: 'year'
+Extractor 'year' found matches: ['2011']
+Extractor 'year' matched '2011'
+  right_text: ')'
+  left_split: 'Hunter x Hunter ('
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Checking extractor: 'anime_range'
+Checking extractor: 'anime_episode'
+Checking extractor: 'anime_episode_4digit'
+Checking extractor: 'season_only'
+Checking extractor: 'anime_episode_single'
+Checking extractor: 'year'
+
+--- Final Assembly ---
+  Final Title: 'Hunter x Hunter ('
+  Final Extra Bits: '][ENG][FRE] [    01 )'
+
+--- Final Result ---
+--- Parsing: Hunter x Hunter (2011) - 01 [1080p][ENG][FRE] ---
+  folder_path         : Hunter x Hunter (2011) - 01 [1080p][ENG][FRE]
+  folder_title        : Hunter x Hunter (
+  folder_media_type   : movie
+  folder_is_anime     : False
+  folder_year         : 2011
+  folder_resolution   : 1080p
+  folder_anime_group  : None
+  folder_anime_episode: None
+  folder_season       : None
+  folder_extra_bits   : ][ENG][FRE] [    01 )
+
+================================================================================
+
+Initial string: 'Naruto Shippuden (001-500) [Complete Series + Movies]'
+
+--- Right-to-Left Parsing and Extraction ---
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Checking extractor: 'anime_range'
+Extractor 'anime_range' found matches: ['(001-500)']
+Extractor 'anime_range' matched '(001-500)'
+  right_text: '[Complete Series + Movies]'
+  left_split: 'Naruto Shippuden'
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Checking extractor: 'anime_range'
+Checking extractor: 'anime_episode'
+Checking extractor: 'anime_episode_4digit'
+Checking extractor: 'season_only'
+Checking extractor: 'anime_episode_single'
+Checking extractor: 'year'
+
+--- Final Assembly ---
+  Final Title: 'Naruto Shippuden'
+  Final Extra Bits: '[Complete Series + Movies]'
+
+--- Final Result ---
+--- Parsing: Naruto Shippuden (001-500) [Complete Series + Movies] ---
+  folder_path         : Naruto Shippuden (001-500) [Complete Series + Movies]
+  folder_title        : Naruto Shippuden
+  folder_media_type   : tv_show
+  folder_is_anime     : True
+  folder_year         : None
+  folder_resolution   : None
+  folder_anime_group  : None
+  folder_anime_episode: 001-500
+  folder_season       : None
+  folder_extra_bits   : [Complete Series + Movies]
+
+================================================================================
+
+Initial string: '[Erai-raws] Sword Art Online - 10 [720p][Multiple Subtitle].mkv'
+
+--- Right-to-Left Parsing and Extraction ---
+Checking extractor: 'resolution'
+Extractor 'resolution' found matches: ['720p']
+Extractor 'resolution' matched '720p'
+  right_text: '][Multiple Subtitle].mkv'
+  left_split: '[Erai-raws] Sword Art Online - 10 ['
+Extractor 'anime_group' matched '[Erai-raws]'
+  left_split: 'Sword Art Online - 10 ['
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Checking extractor: 'anime_range'
+Checking extractor: 'anime_episode'
+Checking extractor: 'anime_episode_4digit'
+Checking extractor: 'season_only'
+Checking extractor: 'anime_episode_single'
+Extractor 'anime_episode_single' found matches: [' - 10']
+Extractor 'anime_episode_single' matched ' - 10'
+  right_text: '['
+  left_split: 'Sword Art Online'
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Checking extractor: 'anime_range'
+Checking extractor: 'anime_episode'
+Checking extractor: 'anime_episode_4digit'
+Checking extractor: 'season_only'
+Checking extractor: 'anime_episode_single'
+Checking extractor: 'year'
+
+--- Final Assembly ---
+  Final Title: 'Sword Art Online'
+  Final Extra Bits: '][Multiple Subtitle] mkv [Erai raws] [    10'
+
+--- Final Result ---
+--- Parsing: [Erai-raws] Sword Art Online - 10 [720p][Multiple Subtitle].mkv ---
+  folder_path         : [Erai-raws] Sword Art Online - 10 [720p][Multiple Subtitle].mkv
+  folder_title        : Sword Art Online
+  folder_media_type   : tv_show
+  folder_is_anime     : True
+  folder_year         : None
+  folder_resolution   : 720p
+  folder_anime_group  : Erai-raws
+  folder_anime_episode: None
+  folder_season       : None
+  folder_extra_bits   : ][Multiple Subtitle] mkv [Erai raws] [    10
+
+================================================================================
+
+Initial string: '[Exiled-Destiny]_Tokyo_Underground_Ep02v2_(41858470).mkv'
+
+--- Right-to-Left Parsing and Extraction ---
+Extractor 'anime_group' matched '[Exiled-Destiny]'
+  left_split: '_Tokyo_Underground_Ep02v2_(41858470).mkv'
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Checking extractor: 'anime_range'
+Checking extractor: 'anime_episode'
+Checking extractor: 'anime_episode_4digit'
+Checking extractor: 'season_only'
+Checking extractor: 'anime_episode_single'
+Checking extractor: 'year'
+
+--- Final Assembly ---
+  Final Title: 'Tokyo Underground Ep02v2 mkv'
+  Final Extra Bits: '[Exiled Destiny]'
+
+--- Final Result ---
+--- Parsing: [Exiled-Destiny]_Tokyo_Underground_Ep02v2_(41858470).mkv ---
+  folder_path         : [Exiled-Destiny]_Tokyo_Underground_Ep02v2_(41858470).mkv
+  folder_title        : Tokyo Underground Ep02v2 mkv
+  folder_media_type   : tv_show
+  folder_is_anime     : True
+  folder_year         : None
+  folder_resolution   : None
+  folder_anime_group  : Exiled-Destiny
+  folder_anime_episode: None
+  folder_season       : None
+  folder_extra_bits   : [Exiled Destiny]
+
+================================================================================
+
+Initial string: 'Some.Movie.2023.1920x1080.WEB.mkv'
+
+--- Right-to-Left Parsing and Extraction ---
+Checking extractor: 'resolution'
+Extractor 'resolution' found matches: ['1920x1080']
+Extractor 'resolution' matched '1920x1080'
+  right_text: '.WEB.mkv'
+  left_split: 'Some.Movie.2023.'
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Checking extractor: 'anime_range'
+Checking extractor: 'anime_episode'
+Checking extractor: 'anime_episode_4digit'
+Checking extractor: 'season_only'
+Checking extractor: 'anime_episode_single'
+Checking extractor: 'year'
+Extractor 'year' found matches: ['2023']
+Extractor 'year' matched '2023'
+  right_text: '.'
+  left_split: 'Some.Movie.'
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Checking extractor: 'anime_range'
+Checking extractor: 'anime_episode'
+Checking extractor: 'anime_episode_4digit'
+Checking extractor: 'season_only'
+Checking extractor: 'anime_episode_single'
+Checking extractor: 'year'
+
+--- Final Assembly ---
+  Final Title: 'Some Movie'
+  Final Extra Bits: 'WEB mkv'
+
+--- Final Result ---
+--- Parsing: Some.Movie.2023.1920x1080.WEB.mkv ---
+  folder_path         : Some.Movie.2023.1920x1080.WEB.mkv
+  folder_title        : Some Movie
+  folder_media_type   : movie
+  folder_is_anime     : False
+  folder_year         : 2023
+  folder_resolution   : 1920x1080
+  folder_anime_group  : None
+  folder_anime_episode: None
+  folder_season       : None
+  folder_extra_bits   : WEB mkv
+
+================================================================================
+
+Initial string: 'S.W.A.T.2017.S08E05.1080p.WEB.h264-EDITH'
+
+--- Right-to-Left Parsing and Extraction ---
+Checking extractor: 'resolution'
+Extractor 'resolution' found matches: ['1080p']
+Extractor 'resolution' matched '1080p'
+  right_text: '.WEB.h264-EDITH'
+  left_split: 'S.W.A.T.2017.S08E05.'
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Extractor 'season_ep' found matches: ['S08E05']
+Extractor 'season_ep' matched 'S08E05'
+  right_text: '.'
+  left_split: 'S.W.A.T.2017.'
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Checking extractor: 'anime_range'
+Checking extractor: 'anime_episode'
+Checking extractor: 'anime_episode_4digit'
+Checking extractor: 'season_only'
+Checking extractor: 'anime_episode_single'
+Checking extractor: 'year'
+Extractor 'year' found matches: ['2017']
+
+--- Final Assembly ---
+  Final Title: 'S.W.A.T 2017'
+  Final Extra Bits: 'WEB h264 EDITH'
+
+--- Final Result ---
+--- Parsing: S.W.A.T.2017.S08E05.1080p.WEB.h264-EDITH ---
+  folder_path         : S.W.A.T.2017.S08E05.1080p.WEB.h264-EDITH
+  folder_title        : S.W.A.T 2017
+  folder_media_type   : tv_show
+  folder_is_anime     : False
+  folder_year         : None
+  folder_resolution   : 1080p
+  folder_anime_group  : None
+  folder_anime_episode: 05
+  folder_season       : 8
+  folder_extra_bits   : WEB h264 EDITH
+
+================================================================================
+
+Initial string: 'The_Walking_Dead_S11E24_1080p.mkv'
+
+--- Right-to-Left Parsing and Extraction ---
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Checking extractor: 'anime_range'
+Checking extractor: 'anime_episode'
+Checking extractor: 'anime_episode_4digit'
+Checking extractor: 'season_only'
+Checking extractor: 'anime_episode_single'
+Checking extractor: 'year'
+
+--- Final Assembly ---
+  Final Title: 'The Walking Dead S11E24 1080p mkv'
+  Final Extra Bits: ''
+
+--- Final Result ---
+--- Parsing: The_Walking_Dead_S11E24_1080p.mkv ---
+  folder_path         : The_Walking_Dead_S11E24_1080p.mkv
+  folder_title        : The Walking Dead S11E24 1080p mkv
+  folder_media_type   : None
+  folder_is_anime     : False
+  folder_year         : None
+  folder_resolution   : None
+  folder_anime_group  : None
+  folder_anime_episode: None
+  folder_season       : None
+  folder_extra_bits   : 
+
+================================================================================
+
+Initial string: 'one.piece.S1E1093.1080p.WEB-DL'
+
+--- Right-to-Left Parsing and Extraction ---
+Checking extractor: 'resolution'
+Extractor 'resolution' found matches: ['1080p']
+Extractor 'resolution' matched '1080p'
+  right_text: '.WEB-DL'
+  left_split: 'one.piece.S1E1093.'
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Extractor 'season_ep' found matches: ['S1E109']
+Extractor 'season_ep' matched 'S1E109'
+  right_text: '3.'
+  left_split: 'one.piece.'
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Checking extractor: 'anime_range'
+Checking extractor: 'anime_episode'
+Checking extractor: 'anime_episode_4digit'
+Checking extractor: 'season_only'
+Checking extractor: 'anime_episode_single'
+Checking extractor: 'year'
+
+--- Final Assembly ---
+  Final Title: 'one piece'
+  Final Extra Bits: 'WEB DL 3'
+
+--- Final Result ---
+--- Parsing: one.piece.S1E1093.1080p.WEB-DL ---
+  folder_path         : one.piece.S1E1093.1080p.WEB-DL
+  folder_title        : one piece
+  folder_media_type   : tv_show
+  folder_is_anime     : False
+  folder_year         : None
+  folder_resolution   : 1080p
+  folder_anime_group  : None
+  folder_anime_episode: 109
+  folder_season       : 1
+  folder_extra_bits   : WEB DL 3
+
+================================================================================
+
+Initial string: 'Breaking.Bad.S01-S05.Complete.Series.BluRay'
+
+--- Right-to-Left Parsing and Extraction ---
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Extractor 'media_source' found matches: ['BluRay']
+Extractor 'media_source' matched 'BluRay'
+  right_text: ''
+  left_split: 'Breaking.Bad.S01-S05.Complete.Series.'
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Checking extractor: 'anime_range'
+Checking extractor: 'anime_episode'
+Checking extractor: 'anime_episode_4digit'
+Checking extractor: 'season_only'
+Extractor 'season_only' found matches: ['S01', 'S05']
+Extractor 'season_only' matched 'S05'
+  right_text: '.Complete.Series.'
+  left_split: 'Breaking.Bad.S01-'
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Checking extractor: 'anime_range'
+Checking extractor: 'anime_episode'
+Checking extractor: 'anime_episode_4digit'
+Checking extractor: 'season_only'
+Extractor 'season_only' found matches: ['S01']
+Extractor 'season_only' matched 'S01'
+  right_text: '-'
+  left_split: 'Breaking.Bad.'
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Checking extractor: 'anime_range'
+Checking extractor: 'anime_episode'
+Checking extractor: 'anime_episode_4digit'
+Checking extractor: 'season_only'
+Checking extractor: 'anime_episode_single'
+Checking extractor: 'year'
+
+--- Final Assembly ---
+  Final Title: 'Breaking Bad'
+  Final Extra Bits: 'BluRay  Complete Series'
+
+--- Final Result ---
+--- Parsing: Breaking.Bad.S01-S05.Complete.Series.BluRay ---
+  folder_path         : Breaking.Bad.S01-S05.Complete.Series.BluRay
+  folder_title        : Breaking Bad
+  folder_media_type   : tv_show
+  folder_is_anime     : False
+  folder_year         : None
+  folder_resolution   : None
+  folder_anime_group  : None
+  folder_anime_episode: None
+  folder_season       : 1,5
+  folder_extra_bits   : BluRay  Complete Series
+
+================================================================================
+
+Initial string: 'Game.of.Thrones.S01 S08.4K.UHD.BluRay'
+
+--- Right-to-Left Parsing and Extraction ---
+Checking extractor: 'resolution'
+Extractor 'resolution' found matches: ['4K']
+Extractor 'resolution' matched '4K'
+  right_text: '.UHD.BluRay'
+  left_split: 'Game.of.Thrones.S01 S08.'
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Checking extractor: 'anime_range'
+Checking extractor: 'anime_episode'
+Checking extractor: 'anime_episode_4digit'
+Checking extractor: 'season_only'
+Extractor 'season_only' found matches: ['S01', 'S08']
+Extractor 'season_only' matched 'S08'
+  right_text: '.'
+  left_split: 'Game.of.Thrones.S01'
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Checking extractor: 'anime_range'
+Checking extractor: 'anime_episode'
+Checking extractor: 'anime_episode_4digit'
+Checking extractor: 'season_only'
+Extractor 'season_only' found matches: ['S01']
+Extractor 'season_only' matched 'S01'
+  right_text: ''
+  left_split: 'Game.of.Thrones.'
+Checking extractor: 'resolution'
+Checking extractor: 'media_source'
+Checking extractor: 'season_ep'
+Checking extractor: 'anime_range'
+Checking extractor: 'anime_episode'
+Checking extractor: 'anime_episode_4digit'
+Checking extractor: 'season_only'
+Checking extractor: 'anime_episode_single'
+Checking extractor: 'year'
+
+--- Final Assembly ---
+  Final Title: 'Game of Thrones'
+  Final Extra Bits: 'UHD BluRay'
+
+--- Final Result ---
+--- Parsing: Game.of.Thrones.S01 S08.4K.UHD.BluRay ---
+  folder_path         : Game.of.Thrones.S01 S08.4K.UHD.BluRay
+  folder_title        : Game of Thrones
+  folder_media_type   : tv_show
+  folder_is_anime     : False
+  folder_year         : None
+  folder_resolution   : 4K
+  folder_anime_group  : None
+  folder_anime_episode: None
+  folder_season       : 1,8
+  folder_extra_bits   : UHD BluRay
+
+================================================================================
+
